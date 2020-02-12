@@ -586,12 +586,12 @@
 <div id="vcomments"></div>
 <script>
   window.onload = function(){
+      var valine = new Valine();
 	  var GUEST = ['nick','mail','link'];
-      var guest = '{{ theme.valine.guest_info }}';
+      var guest = "nick",
       guest = guest.split(',').filter(function (item) {
         return GUEST.indexOf(item)>-1;
       });
-      var valine = new Valine();
       valine.init({
         el: '#vcomments',
         appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
@@ -601,7 +601,7 @@
         verify: "false",
         notify: "false",
         avatar: "show",
-        guest_info:['nick'] ,  //评论者只需要提供评论的昵称即可
+        guest_info: ['nick'] ,  //评论者只需要提供评论的昵称即可
         pageSize: "10"|| 10,
       });
   }
