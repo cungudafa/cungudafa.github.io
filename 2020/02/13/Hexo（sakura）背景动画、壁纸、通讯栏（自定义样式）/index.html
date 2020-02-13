@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Gitee+Hexo搭建个人博客 | cungudafa</title>
+  <title itemprop="name">Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式） | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -391,11 +391,11 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2275415319,1766856612&amp;fm=26&amp;gp=0.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2275415319,1766856612&amp;fm=26&amp;gp=0.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      Gitee+Hexo搭建个人博客</h1>
+      Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</h1>
       <p class="entry-census">
         <span>
           <a href="">
@@ -407,7 +407,7 @@
         </span>
         <span class="bull">
         ·</span>
-        2020-2-11<span class="bull">
+        2020-2-13<span class="bull">
         ·</span>
       <span id="busuanzi_value_page_pv"></span>次阅读</p>
     </header>
@@ -421,122 +421,116 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <blockquote>
-<p>前言：之前学习云服务器时搭建过个人网站，现在我的云服务器停止维护了，现就博客模块（基于Gitee+Hexo搭建个人博客），之前有很多在github上用Hexo模板或express模板搭建个人博客的教程，但访问速度原因，现就码云进行实操并记录搭建过程。</p>
-</blockquote>
-<h1 id="一、准备"><a href="#一、准备" class="headerlink" title="一、准备"></a>一、准备</h1><blockquote>
-<p>node.js下载，官网：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a><br>Git下载，官网：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a><br>根据提示安装即可。（ps.<a href="https://blog.csdn.net/cungudafa/article/details/98739459" target="_blank" rel="noopener">我的安装记录及cnpm镜像源更换参考</a>）</p>
-</blockquote>
-<p>查看node.js版本<br><img src="https://img-blog.csdnimg.cn/20200211114945614.png" alt="在这里插入图片描述"><br>git版本<br><img src="https://img-blog.csdnimg.cn/20200211115244669.png" alt="在这里插入图片描述"></p>
-<h1 id="二、hexo博客模板"><a href="#二、hexo博客模板" class="headerlink" title="二、hexo博客模板"></a>二、hexo博客模板</h1><blockquote>
-<p>hexo中文官网：<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">https://hexo.io/zh-cn/</a></p>
-</blockquote>
+          <h1 id="一、丰富背景样式"><a href="#一、丰富背景样式" class="headerlink" title="一、丰富背景样式"></a>一、丰富背景样式</h1><h2 id="1-浮层样式集合"><a href="#1-浮层样式集合" class="headerlink" title="1. 浮层样式集合"></a>1. 浮层样式集合</h2><p>（花瓣飘落、文字，爱心，连线，飘动的彩带）<br><img src="https://img-blog.csdnimg.cn/20200213142111202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改<code>\Sakura\layout\_partial</code>目录下的==footer.ejs==<br>    &gt;说明：加在footer而不是header是提高页面加载速度，<br>    &gt;以下cdn都引用于<a href="https://wallleap.cn/" target="_blank" rel="noopener">walllweap</a>大神的<a href="https://github.com/wallleap/cdn" target="_blank" rel="noopener">素材库</a></p>
+<pre><code>    &lt;!--浏览器搞笑标题--&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- 🌸飘落 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- // 文字 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- // 爱心 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js&quot;&gt;&lt;/script&gt;
+     &lt;!-- // 连线 --&gt;
+     &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js&quot;&gt;&lt;/script&gt;
+     &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js&quot;&gt;&lt;/script&gt;
+     &lt;!-- 样式二（飘动的彩带） --&gt;
+     &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+     &lt;!--背景切换--&gt;
+     &lt;script src=&quot;//instant.page/3.0.0&quot; type=&quot;module&quot; defer integrity=&quot;sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1&quot;&gt;&lt;/script&gt;</code></pre><h2 id="2-背景切换和访问量统计"><a href="#2-背景切换和访问量统计" class="headerlink" title="2. 背景切换和访问量统计"></a>2. 背景切换和访问量统计</h2><p>背景切换（pages功能）和访问量统计（不蒜子网页计数）<br><img src="https://img-blog.csdnimg.cn/2020021314425945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>不蒜子网页计数使用教程：<br>    &gt;<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener">http://busuanzi.ibruce.info/</a></p>
+<pre><code>```
+&lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
+&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;
+```</code></pre><pre><code class="html">&lt;footer id=&quot;colophon&quot; class=&quot;site-footer&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;div class=&quot;site-info&quot;&gt;
+    &lt;div class=&quot;footertext&quot;&gt;
+      。。。。。
+    &lt;/div&gt;
+    &lt;div class=&quot;footer-device&quot;&gt;
+    &lt;p style=&quot;font-family: &#39;Ubuntu&#39;, sans-serif;&quot;&gt;
+        &lt;span style=&quot;color: #b9b9b9;&quot;&gt;Theme &lt;a href=&quot;https://github.com/honjun/hexo-theme-sakura&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Sakura&lt;/a&gt; &lt;i class=&quot;iconfont icon-sakura rotating&quot; style=&quot;color: #ffc0cb;display:inline-block&quot;&gt;&lt;/i&gt; by &lt;a href=&quot;https://2heng.xin/&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Mashiro&lt;/a&gt;&amp;&lt;a href=&quot;https://www.hojun.cn/&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Hojun&lt;/a&gt;, Powered by Hexo, Hosted by Coding Pages&lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;i class=&quot;fa fa-fire&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; --&gt;
+    &lt;span style=&quot;color: #ccc;padding-left: 20px;&quot;&gt;
+      &lt;i class=&quot;fa fa-clock-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+      &lt;span id=&quot;time&quot; align=&quot;center&quot;&gt;载入时间中...&lt;/span&gt;
+      &lt;script&gt;
+        var now = new Date(); 
+        function createtime() { 
+          var grt= new Date(&quot;2020-02-11 17:20:00&quot;);//在此处修改你的建站时间
+          now.setTime(now.getTime()+250); 
+          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+          if(String(hnum).length ==1 ){hnum = &quot;0&quot; + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = &quot;0&quot; + mnum;} 
+          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = &quot;0&quot; + snum;} 
+          document.getElementById(&quot;time&quot;).innerHTML = &quot;小站已经苟活 &quot;+ dnum +&quot; 天 &quot;+hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;;      
+       } 
+       setInterval(&quot;createtime()&quot;,250);
+      &lt;/script&gt;
+      &lt;!--不蒜子网页计数器--&gt;
+      &lt;span style=&quot;color:#ccc;padding-left: 20px;&quot;&gt;&lt;i class=&quot;fa fa-eye&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;访问量: &lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;&lt;!-- .site-info --&gt;
+  &lt;!--壁纸切换--&gt;
+  &lt;div class=&quot;skin-menu no-select&quot; id=&quot;mainskin&quot;  style=&quot;position: fixed&quot;&gt;
+      &lt;div class=&quot;theme-controls row-container&quot;&gt;
+          &lt;ul class=&quot;menu-list&quot;&gt;
+              &lt;li id=&quot;white-bg&quot;&gt; &lt;i class=&quot;fa fa-television&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;sakura-bg&quot;&gt; &lt;i class=&quot;iconfont icon-sakura&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;gribs-bg&quot;&gt; &lt;i class=&quot;fa fa-slack&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;KAdots-bg&quot;&gt; &lt;i class=&quot;iconfont icon-dots&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;totem-bg&quot;&gt; &lt;i class=&quot;fa fa-optin-monster&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;pixiv-bg&quot;&gt; &lt;i class=&quot;iconfont icon-pixiv&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;bing-bg&quot;&gt; &lt;i class=&quot;iconfont icon-bing&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;dark-bg&quot;&gt; &lt;i class=&quot;fa fa-moon-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;font-family-controls row-container&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;control-btn-serif selected&quot; data-mode=&quot;serif&quot; onclick=&quot;mashiro_global.font_control.change_font()&quot;&gt;Serif&lt;/button&gt;
+          &lt;button type=&quot;button&quot; class=&quot;control-btn-sans-serif&quot; data-mode=&quot;sans-serif&quot; onclick=&quot;mashiro_global.font_control.change_font()&quot;&gt;Sans Serif&lt;/button&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;   
+  &lt;canvas id=&quot;night-mode-cover&quot;&gt;&lt;/canvas&gt; 
+    &lt;div class=&quot;changeSkin-gear no-select&quot;&gt;
+      &lt;div class=&quot;keys&quot; id=&quot;setbtn&quot;&gt; &lt;span id=&quot;open-skinMenu&quot;&gt; 切换壁纸 | SCHEME TOOL 
+        &amp;nbsp;&lt;i class=&quot;iconfont icon-gear inline-block rotating&quot;&gt;&lt;/i&gt; &lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;!--skin.end--&gt;
+&lt;/footer&gt;</code></pre>
+<h1 id="二、在线通讯"><a href="#二、在线通讯" class="headerlink" title="二、在线通讯"></a>二、在线通讯</h1><p>Hexo+DaoVoice实现网页在线通讯功能</p>
 <ol>
-<li><p>新建一个<code>MyWeb</code>目录，这个目录很重要，将来会存储你所有博客的markdown文件以及生成的html文件，==慎重选择==。</p>
+<li><p>首先在<a href="http://dashboard.daovoice.io/" target="_blank" rel="noopener">DaoVoice</a>官网上注册一个账号</p>
 </li>
-<li><p>选中<code>MyWeb</code>目录，右键点击<code>Git Bsah Here</code><br><img src="https://img-blog.csdnimg.cn/20200211123323253.png" alt="在这里插入图片描述"></p>
+<li><p>在<code>应用设置，安装到网站，仅匿名用户</code>下获得id，我们是采用js语言，选择对应复制<br><img src="https://img-blog.csdnimg.cn/20200213153332765.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改界面样式：<br><img src="https://img-blog.csdnimg.cn/20200213154553189.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
-<li><p>安装hexo</p>
-<pre><code class="c"> npm install hexo-cli -g</code></pre>
-<p> 如果网速慢，可以采取cnpm安装<img src="https://img-blog.csdnimg.cn/2020021112235292.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>初始化hexo模板</p>
-<pre><code class="python"> hexo init</code></pre>
-<p> 目录分析：</p>
-<ul>
-<li>安装完成后的目录：<br><img src="https://img-blog.csdnimg.cn/20200211122806131.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">)<img src="https://img-blog.csdnimg.cn/20200211135536574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-<li>其中，目录<code>MyWeb\source\_posts</code>下存放都为makedown（md）格式文件<br><img src="https://img-blog.csdnimg.cn/20200211123804470.png" alt="在这里插入图片描述"></li>
-</ul>
-</li>
-<li><p>运行hexo<br> 常用hexo三句话：</p>
-<pre><code class="python"> hexo clean # 清空已有hexo网站文件
- hexo generate(or g) # 依据网页文本与新的CSS样式生成新网站文件
- hexo server(or s) # 启动本地服务器，可以在localhost:4000查看网站修改效果</code></pre>
-<p> 在浏览器输入<code>http://localhost:4000</code>就能查看演示样式helloworld页面：<br> <img src="https://img-blog.csdnimg.cn/20200211124716383.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 一般默认的是一个landscape主题，后期当提交新文章或者新的样式修改时，往往都是先从本地查看结果无误后再部署到Gitee Page。</p>
-</li>
-<li><p>主题下载</p>
-<blockquote>
-<p>官网主题：<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a><br>推荐两款：</p>
-<ul>
-<li>Sakura 非常炫，缺点加载慢 <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" rel="noopener">https://github.com/honjun/hexo-theme-sakura</a>    <img src="https://img-blog.csdnimg.cn/20200211131658773.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-<li>Next 功能集成多，简洁<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a><br><img src="https://img-blog.csdnimg.cn/2020021113190964.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-</ul>
+<li><p>在<code>sakura\_config.yml</code>中末尾加上：</p>
+<pre><code> # Online contact ##在线聊天
+ daovoice: true
+ daovoice_app_id: f6b2a0b1 ##这里替换成你DaoVoice上的appid</code></pre></li>
+<li><p>在<code>\sakura\layout\_partial</code>目录下的==footer.ejs==末尾加上：<br>(依然是加快网站访问速度，将head的引用加在了foot中)</p>
+<pre><code>   &lt;% if (theme.daovoice){ %&gt;
+   &lt;script&gt;(function(i,s,o,g,r,a,m){i[&quot;DaoVoiceObject&quot;]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset=&quot;utf-8&quot;;m.parentNode.insertBefore(a,m)})(window,document,&quot;script&quot;,(&#39;https:&#39; == document.location.protocol ? &#39;https:&#39; : &#39;http:&#39;) + &quot;//widget.daovoice.io/widget/f6b2a0b1.js&quot;,&quot;daovoice&quot;)
+     daovoice(&#39;init&#39;, {
+       app_id: &quot;&lt;%= theme.daovoice_app_id%&gt;&quot;
+     });
+     daovoice(&#39;update&#39;);
+   &lt;/script&gt;
+   &lt;% } %&gt;</code></pre><blockquote>
+<p>不同的主题配置格式和位置有所不同，还要注意其中的id数字。</p>
 </blockquote>
-<p> 进入github点击下载zip：<a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" rel="noopener">https://github.com/honjun/hexo-theme-sakura</a><br> 解压文件夹，将<code>hexo-theme-sakura-master\themes</code>中的主题样式复制<code>MyWeb\themes</code>目录下：<br> <img src="https://img-blog.csdnimg.cn/20200211142854559.png" alt="在这里插入图片描述">)<img src="https://img-blog.csdnimg.cn/20200211133706188.png" alt="在这里插入图片描述"></p>
+<p> <img src="https://img-blog.csdnimg.cn/20200213155259279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
-<li><p>主题配置在<code>MyWeb</code>主目录找到：<code>_config.yml</code>，记事本打开并修改默认<code>theme: landscape</code>为</p>
-<pre><code class="c"> theme: sakura # 这里需要注意:后面要有一个空格，名称要和theme下的主题目录名称相同。</code></pre>
+<li><p>三连访问：</p>
+<pre><code> hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p> 发送信息：<img src="https://img-blog.csdnimg.cn/20200213174921168.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 站内查看访问者具体信息：<br> <img src="https://img-blog.csdnimg.cn/20200213175045794.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 绑定的邮箱会接收到相应信息：<img src="https://img-blog.csdnimg.cn/20200213175146254.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
-<li><p>重新测试运行</p>
-<pre><code class="python"> hexo clean
- hexo g
- hexo s</code></pre>
-<p> <img src="https://img-blog.csdnimg.cn/20200211142624967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>绑定微信（在daovoice的右上角）<br><img src="https://img-blog.csdnimg.cn/20200213175634625.png" alt="在这里插入图片描述"><br>关注公众号后打开小程序，就可以实时收发消息，有新的消息也会通过微信通知。</p>
+</li>
+</ol>
 <blockquote>
-<p>细节修改参考：<a href="https://www.jianshu.com/p/25f31fe6182a" target="_blank" rel="noopener">sakura使用教程</a></p>
+<p>演示页面：<a href="https://cungudafa.gitee.io/">https://cungudafa.gitee.io/</a></p>
 </blockquote>
-</li>
-</ol>
-<h1 id="三、码云配置"><a href="#三、码云配置" class="headerlink" title="三、码云配置"></a>三、码云配置</h1><ol>
-<li><p>申请码云账户，新建仓库<br> 注意：<code>仓库名，公开访问权限，语言为JavaScript</code><br><img src="https://img-blog.csdnimg.cn/20200211140208164.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>获得仓库地址：<br><img src="https://img-blog.csdnimg.cn/20200211140438382.png" alt="在这里插入图片描述"></p>
-</li>
-<li><p>修改配置在<code>MyWeb</code>主目录找到：<code>_config.yml</code>，记事本打开并修改默认<br> <img src="https://img-blog.csdnimg.cn/20200211140655137.png" alt="在这里插入图片描述"> -》<img src="https://img-blog.csdnimg.cn/2020021114075642.png" alt="在这里插入图片描述"><br>其中repo后面为你的仓库地址，每个：后都有一个空格。</p>
-<pre><code class="c"> deploy:
-   type: git
-   repo: 你的项目地址
-   branch: master</code></pre>
-</li>
-<li><p>部署博客</p>
-<pre><code class="c"> npm install hexo-deployer-git --save
- hexo g --d  #一键部署</code></pre>
-<p> 此时会弹出一个对话框，提示输入码云的账号密码。部署成功后，登陆码云。此时本地文件夹中出现有一个public文件夹，代表部署成功。<br> <img src="https://img-blog.csdnimg.cn/2020021114351676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 目前，查看码云中文件为：<br> <img src="https://img-blog.csdnimg.cn/20200211143632563.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 本地多个public文件夹：<br> <img src="https://img-blog.csdnimg.cn/20200211143803389.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>开启Page功能<br><img src="https://img-blog.csdnimg.cn/20200211144338149.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>之前我的配置已为https，已勾选。修改位置如下图：<br><img src="https://img-blog.csdnimg.cn/2020021114441652.png" alt="在这里插入图片描述"><br>部署成功后如图：网址为登录网址：<br> <img src="https://img-blog.csdnimg.cn/20200211144625311.png" alt="在这里插入图片描述"></p>
-</li>
-<li><p>访问博客 <a href="https://cungudafa.gitee.io/">https://cungudafa.gitee.io</a></p>
-</li>
-</ol>
-<h1 id="四、博客使用"><a href="#四、博客使用" class="headerlink" title="四、博客使用"></a>四、博客使用</h1><ol>
-<li><p>在博客目录的source文件中的<code>_post</code>文件夹中添加你要写的博客文件，文件命名为<code>file_name.md</code><br>file_name.md的文件开头如下:</p>
-<pre><code class="c"> ---
- title: file_name
- tag: 标签名
- categories: 分类
- comment: 是否允许评论(true or false)
- description: 描述
- ---
- 文档正文编写，请参照markdown语法。</code></pre>
-<p> 示例：<br><img src="https://img-blog.csdnimg.cn/20200211153653323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>发布文章并推送到gitee上<br><img src="https://img-blog.csdnimg.cn/2020021115304144.png" alt="在这里插入图片描述"><br>推送成功：<br><img src="https://img-blog.csdnimg.cn/20200211153104326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>目前的内容是将md格式文件自动生成对应目录，转换成html格式显示。<br><img src="https://img-blog.csdnimg.cn/20200211154229904.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>再点击技术文档时，没有加载index.html<br><img src="https://img-blog.csdnimg.cn/20200211154412182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200211154344757.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>手动更新Gitee端<br>其实运行了<code>hexo deploy(or d)</code>应该就已经将新的网站文件（主要是网站目录下的public目录）上传到了Gitee，然而事实上上步之后直接访问网站URL会发现页面没有改变，原因在于：你、没有、更新！<br><a href="https://gitee.com/cungudafa/cungudafa/pages" target="_blank" rel="noopener">https://gitee.com/cungudafa/cungudafa/pages</a> <code>服务</code>中选择<code>更新</code>：<br><img src="https://img-blog.csdnimg.cn/20200211155033693.png" alt="在这里插入图片描述"> <img src="https://img-blog.csdnimg.cn/2020021115512080.png" alt="在这里插入图片描述"><br>是的，对于免费Gitee用户而言，你会需要手动更新一下Gitee Page，然后才可以将修改真的“部署”到可访问的网站上。</p>
-</li>
-</ol>
-<p>再访问：<br><img src="https://img-blog.csdnimg.cn/20200211155311758.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>总结：</p>
-<ol>
-<li><p>个人博客修改<br>博客目录在source文件中的<code>_post</code>下，文件命名为<code>file_name.md</code><br>file_name.md的文件开头如下:</p>
-<pre><code class="c"> ---
- title: file_name
- tag: 标签名
- categories: 分类 #分类在sakura显示才能查看
- comment: 是否允许评论(true or false)
- description: 描述
- ---
- 文档正文编写，请参照markdown语法。</code></pre>
-</li>
-<li><p>发布：</p>
-<pre><code class="python"> hexo clean # 清空已有hexo网站文件
- hexo g --d# 依据网页文本与新的CSS样式生成新网站文件,并一键发布
- hexo s # 启动本地服务器，可以在localhost:4000查看网站修改效果</code></pre>
-<p> 免费使用gitee还需手动更新page。</p>
-</li>
-<li><p>hexo博客模板样式很多，需要一次详细的修改，能为博文锦上添花！</p>
-</li>
-</ol>
 
         </div>
         <!-- .entry-content -->
@@ -565,36 +559,19 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2020/02/12/Github+jsDelivr%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9cdn/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599780027&di=b8dfe75a2d9a31743cba15f2c98f032d&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D1036027984%2C2620666265%26fm%3D214%26gp%3D0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599780027&di=b8dfe75a2d9a31743cba15f2c98f032d&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D1036027984%2C2620666265%26fm%3D214%26gp%3D0.jpg">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                Github+jsDelivr搭建自己的免费cdn</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2020/02/11/hello-world/" rel="next">
+            <a href="/2020/02/13/Botui%E6%90%AD%E5%BB%BAjs%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599862744&di=b0accfc7b5e92d45e7a5543266962374&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599862744&di=b0accfc7b5e92d45e7a5543266962374&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                Hello World</h3>
+                Botui搭建js聊天机器人</h3>
                 <hr>
               </div>
             </a>
