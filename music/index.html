@@ -144,7 +144,7 @@
       </div>
     </div>
   </figure>
-  <div id="video-container" style="">
+  <div id="video-container">
     <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
     </video>
     <div id="video-btn" class="loadvideo videolive">
@@ -498,7 +498,7 @@
       </div>
 	  <div id="footer-info" class="inner">
       <p style="color: #666666;">
-	      	Blog cungudafa,Copyright &copy; 2020byYuwang All Rights Reserved.
+	      	Blog cungudafa , Copyright &copy; 2020 by 姑 All Rights Reserved.
       </p>
     </div>
     </div>
@@ -523,7 +523,7 @@
           mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
           seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
           snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-          document.getElementById("time").innerHTML = "小站已经苟活 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
+          document.getElementById("time").innerHTML = "小破站在各种灾难中苟活了 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
        } 
        setInterval("createtime()",250);
       </script>
@@ -531,6 +531,7 @@
       <span style="color:#ccc;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
     </span>
   </div><!-- .site-info -->
+  <!-- pages壁纸切换 -->
   <div class="skin-menu no-select" id="mainskin"  style="position: fixed">
       <div class="theme-controls row-container">
           <ul class="menu-list">
@@ -553,8 +554,8 @@
     <div class="changeSkin-gear no-select">
       <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
         &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
-  </div>
-  
+  </div><!-- skin.end -->
+  <!-- 实时聊天 -->
     <div id="mo-nav" class="">
     <div class="m-avatar">
       <!-- 你的头像 -->
@@ -656,6 +657,8 @@ $(document).ready(function() {
 <!--背景切换-->
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
+<!-- 在线聊天功能 -->
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/f6b2a0b1.js","daovoice")</script>
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
         <div class="icon"></div>

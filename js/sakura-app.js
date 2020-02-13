@@ -730,7 +730,7 @@ $.fn.commentPrivate = function () {
 }
 
 function show_date_time () {
-  BirthDay = new Date('06/02/2017 18:00:00')
+  BirthDay = new Date('2020-02-11 18:00:00')
   today = new Date()
   timeold = (today.getTime() - BirthDay.getTime())
   sectimeold = timeold / 1000
