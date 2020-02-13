@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式） | cungudafa</title>
+  <title itemprop="name">Tag: 随笔 | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -385,233 +385,64 @@
   </div>
 </header>
 
-      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+      
 <div class="pattern-center-blank"></div>
-
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="">
-          </a>
-        </span>
-        <span>
-          <a href=""></a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2020-2-13<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
+<div class="pattern-center ">
+  <div class="pattern-attachment-img">
+    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="随笔.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
   </div>
-
+  <header class="pattern-header ">
+    <h1 class="cat-title">随笔</h1>
+  </header>
+</div>
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-        <div class="toc"></div>
-        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
-        
-        <div class="entry-content">
-          <h1 id="一、丰富背景样式"><a href="#一、丰富背景样式" class="headerlink" title="一、丰富背景样式"></a>一、丰富背景样式</h1><h2 id="1-浮层样式集合"><a href="#1-浮层样式集合" class="headerlink" title="1. 浮层样式集合"></a>1. 浮层样式集合</h2><p>（花瓣飘落、文字，爱心，连线，飘动的彩带）<br><img src="https://img-blog.csdnimg.cn/20200213142111202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改<code>\Sakura\layout\_partial</code>目录下的==footer.ejs==<br>    &gt;说明：加在footer而不是header是提高页面加载速度，<br>    &gt;以下cdn都引用于<a href="https://wallleap.cn/" target="_blank" rel="noopener">walllweap</a>大神的<a href="https://github.com/wallleap/cdn" target="_blank" rel="noopener">素材库</a></p>
-<pre><code>    &lt;!--浏览器搞笑标题--&gt;
-    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js&quot;&gt;&lt;/script&gt;
-    &lt;!-- 🌸飘落 --&gt;
-    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js&quot;&gt;&lt;/script&gt;
-    &lt;!-- // 文字 --&gt;
-    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js&quot;&gt;&lt;/script&gt;
-    &lt;!-- // 爱心 --&gt;
-    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js&quot;&gt;&lt;/script&gt;
-     &lt;!-- // 连线 --&gt;
-     &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js&quot;&gt;&lt;/script&gt;
-     &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js&quot;&gt;&lt;/script&gt;
-     &lt;!-- 样式二（飘动的彩带） --&gt;
-     &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-     &lt;!--背景切换--&gt;
-     &lt;script src=&quot;//instant.page/3.0.0&quot; type=&quot;module&quot; defer integrity=&quot;sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1&quot;&gt;&lt;/script&gt;</code></pre><h2 id="2-背景切换和访问量统计"><a href="#2-背景切换和访问量统计" class="headerlink" title="2. 背景切换和访问量统计"></a>2. 背景切换和访问量统计</h2><p>背景切换（pages功能）和访问量统计（不蒜子网页计数）<br><img src="https://img-blog.csdnimg.cn/2020021314425945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>不蒜子网页计数使用教程：<br>    &gt;<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener">http://busuanzi.ibruce.info/</a></p>
-<pre><code>```
-&lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
-&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;
-```</code></pre><pre><code class="html">&lt;footer id=&quot;colophon&quot; class=&quot;site-footer&quot; role=&quot;contentinfo&quot;&gt;
-  &lt;div class=&quot;site-info&quot;&gt;
-    &lt;div class=&quot;footertext&quot;&gt;
-      。。。。。
-    &lt;/div&gt;
-    &lt;div class=&quot;footer-device&quot;&gt;
-    &lt;p style=&quot;font-family: &#39;Ubuntu&#39;, sans-serif;&quot;&gt;
-        &lt;span style=&quot;color: #b9b9b9;&quot;&gt;Theme &lt;a href=&quot;https://github.com/honjun/hexo-theme-sakura&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Sakura&lt;/a&gt; &lt;i class=&quot;iconfont icon-sakura rotating&quot; style=&quot;color: #ffc0cb;display:inline-block&quot;&gt;&lt;/i&gt; by &lt;a href=&quot;https://2heng.xin/&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Mashiro&lt;/a&gt;&amp;&lt;a href=&quot;https://www.hojun.cn/&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Hojun&lt;/a&gt;, Powered by Hexo, Hosted by Coding Pages&lt;/a&gt;
-        &lt;/span&gt;
-      &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;!-- &lt;i class=&quot;fa fa-fire&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; --&gt;
-    &lt;span style=&quot;color: #ccc;padding-left: 20px;&quot;&gt;
-      &lt;i class=&quot;fa fa-clock-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
-      &lt;span id=&quot;time&quot; align=&quot;center&quot;&gt;载入时间中...&lt;/span&gt;
-      &lt;script&gt;
-        var now = new Date(); 
-        function createtime() { 
-          var grt= new Date(&quot;2020-02-11 17:20:00&quot;);//在此处修改你的建站时间
-          now.setTime(now.getTime()+250); 
-          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-          if(String(hnum).length ==1 ){hnum = &quot;0&quot; + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = &quot;0&quot; + mnum;} 
-          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = &quot;0&quot; + snum;} 
-          document.getElementById(&quot;time&quot;).innerHTML = &quot;小站已经苟活 &quot;+ dnum +&quot; 天 &quot;+hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;;      
-       } 
-       setInterval(&quot;createtime()&quot;,250);
-      &lt;/script&gt;
-      &lt;!--不蒜子网页计数器--&gt;
-      &lt;span style=&quot;color:#ccc;padding-left: 20px;&quot;&gt;&lt;i class=&quot;fa fa-eye&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;访问量: &lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;
-    &lt;/span&gt;
-  &lt;/div&gt;&lt;!-- .site-info --&gt;
-  &lt;!--壁纸切换--&gt;
-  &lt;div class=&quot;skin-menu no-select&quot; id=&quot;mainskin&quot;  style=&quot;position: fixed&quot;&gt;
-      &lt;div class=&quot;theme-controls row-container&quot;&gt;
-          &lt;ul class=&quot;menu-list&quot;&gt;
-              &lt;li id=&quot;white-bg&quot;&gt; &lt;i class=&quot;fa fa-television&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;sakura-bg&quot;&gt; &lt;i class=&quot;iconfont icon-sakura&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;gribs-bg&quot;&gt; &lt;i class=&quot;fa fa-slack&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;KAdots-bg&quot;&gt; &lt;i class=&quot;iconfont icon-dots&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;totem-bg&quot;&gt; &lt;i class=&quot;fa fa-optin-monster&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;pixiv-bg&quot;&gt; &lt;i class=&quot;iconfont icon-pixiv&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;bing-bg&quot;&gt; &lt;i class=&quot;iconfont icon-bing&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-              &lt;li id=&quot;dark-bg&quot;&gt; &lt;i class=&quot;fa fa-moon-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;font-family-controls row-container&quot;&gt;
-          &lt;button type=&quot;button&quot; class=&quot;control-btn-serif selected&quot; data-mode=&quot;serif&quot; onclick=&quot;mashiro_global.font_control.change_font()&quot;&gt;Serif&lt;/button&gt;
-          &lt;button type=&quot;button&quot; class=&quot;control-btn-sans-serif&quot; data-mode=&quot;sans-serif&quot; onclick=&quot;mashiro_global.font_control.change_font()&quot;&gt;Sans Serif&lt;/button&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;   
-  &lt;canvas id=&quot;night-mode-cover&quot;&gt;&lt;/canvas&gt; 
-    &lt;div class=&quot;changeSkin-gear no-select&quot;&gt;
-      &lt;div class=&quot;keys&quot; id=&quot;setbtn&quot;&gt; &lt;span id=&quot;open-skinMenu&quot;&gt; 切换壁纸 | SCHEME TOOL 
-        &amp;nbsp;&lt;i class=&quot;iconfont icon-gear inline-block rotating&quot;&gt;&lt;/i&gt; &lt;/span&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;!--skin.end--&gt;
-&lt;/footer&gt;</code></pre>
-<h1 id="二、在线通讯"><a href="#二、在线通讯" class="headerlink" title="二、在线通讯"></a>二、在线通讯</h1><p>Hexo+DaoVoice实现网页在线通讯功能</p>
-<ol>
-<li><p>首先在<a href="http://dashboard.daovoice.io/" target="_blank" rel="noopener">DaoVoice</a>官网上注册一个账号</p>
-</li>
-<li><p>在<code>应用设置，安装到网站，仅匿名用户</code>下获得id，我们是采用js语言，选择对应复制<br><img src="https://img-blog.csdnimg.cn/20200213153332765.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改界面样式：<br><img src="https://img-blog.csdnimg.cn/20200213154553189.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>在<code>sakura\_config.yml</code>中末尾加上：</p>
-<pre><code> # Online contact ##在线聊天
- daovoice: true
- daovoice_app_id: f6b2a0b1 ##这里替换成你DaoVoice上的appid</code></pre></li>
-<li><p>在<code>\sakura\layout\_partial</code>目录下的==footer.ejs==末尾加上：<br>(依然是加快网站访问速度，将head的引用加在了foot中)</p>
-<pre><code>   &lt;% if (theme.daovoice){ %&gt;
-   &lt;script&gt;(function(i,s,o,g,r,a,m){i[&quot;DaoVoiceObject&quot;]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset=&quot;utf-8&quot;;m.parentNode.insertBefore(a,m)})(window,document,&quot;script&quot;,(&#39;https:&#39; == document.location.protocol ? &#39;https:&#39; : &#39;http:&#39;) + &quot;//widget.daovoice.io/widget/f6b2a0b1.js&quot;,&quot;daovoice&quot;)
-     daovoice(&#39;init&#39;, {
-       app_id: &quot;&lt;%= theme.daovoice_app_id%&gt;&quot;
-     });
-     daovoice(&#39;update&#39;);
-   &lt;/script&gt;
-   &lt;% } %&gt;</code></pre><blockquote>
-<p>不同的主题配置格式和位置有所不同，还要注意其中的id数字。</p>
-</blockquote>
-<p> <img src="https://img-blog.csdnimg.cn/20200213155259279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>三连访问：</p>
-<pre><code> hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p> 发送信息：<img src="https://img-blog.csdnimg.cn/20200213174921168.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 站内查看访问者具体信息：<br> <img src="https://img-blog.csdnimg.cn/20200213175045794.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 绑定的邮箱会接收到相应信息：<img src="https://img-blog.csdnimg.cn/20200213175146254.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</li>
-<li><p>绑定微信（在daovoice的右上角）<br><img src="https://img-blog.csdnimg.cn/20200213175634625.png" alt="在这里插入图片描述"><br>关注公众号后打开小程序，就可以实时收发消息，有新的消息也会通过微信通知。</p>
-</li>
-</ol>
-<blockquote>
-<p>演示页面：<a href="https://cungudafa.gitee.io/">https://cungudafa.gitee.io/</a></p>
-</blockquote>
-
-        </div>
-        <!-- .entry-content -->
-        <div class="single-reward">
-          <div class="reward-open">赏
-            <div class="reward-main">
-              <ul class="reward-row">
-                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
-                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-        <footer class="post-footer">
-          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-          <div class="post-tags">
-          </div>
-          <div class="post-share">
-            <div class="social-share sharehidden share-component"></div>
-            <i class="iconfont show-share icon-forward"></i>
-          </div>
-        </footer><!-- .entry-footer -->
-      </article>
-      <!-- #post-## -->
-      <div class="toc" style="background: none;"></div>
-      <section class="post-squares nextprev">
-        
-        
-          
-            <div class="post-nepre full next">
-          
-            <a href="/2020/02/13/2020%E5%B9%B42%E6%9C%884%E6%97%A5%E6%83%85%E4%BA%BA%E8%8A%82%E9%9A%8F%E7%AC%94/" rel="next">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581614436311&di=abb6a6cf26c58fac96ef46f67a30aca9&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581614436311&di=abb6a6cf26c58fac96ef46f67a30aca9&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg">
-              </div>
-              <span class="label">
-              Next Post</span>
-              <div class="info">
-                <h3>
-                2020年2月4日情人节随笔</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-      </section>
       
-<div id="vcomments"></div>
-<script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
-        el: '#vcomments',
-        appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
-        appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
-        path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
-      })
-  }
-</script>
-
-      <section class="author-profile">
-        <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
-          <div class="meta">
-            <span class="title">Author</span>
-            <h3 itemprop="name">
-            <a href="" itemprop="url" rel="author"></a>
-            </h3>
-          </div>
+  <!-- 首页默认取最最新文章集 -->
+  
+    <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div class="post-entry">
+    <div class="feature">
+      <a href="/2020/02/13/2020%E5%B9%B42%E6%9C%884%E6%97%A5%E6%83%85%E4%BA%BA%E8%8A%82%E9%9A%8F%E7%AC%94/">
+        <div class="overlay">
+          <i class="iconfont icon-text">
+          </i>
         </div>
-        <hr>
-        <p><i class="iconfont icon-write"></i></p>
-      </section>
-    </main><!-- #main -->
-  </div><!-- #primary -->
+        <img width="150" height="150" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581614436311&amp;di=abb6a6cf26c58fac96ef46f67a30aca9&amp;imgtype=0&amp;src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+      </a>
+    </div>
+    <h1 class="entry-title">
+    <a href="/2020/02/13/2020%E5%B9%B42%E6%9C%884%E6%97%A5%E6%83%85%E4%BA%BA%E8%8A%82%E9%9A%8F%E7%AC%94/">
+    2020年2月4日情人节随笔</a>
+    </h1>
+    <div class="p-time">
+      <i class="iconfont icon-time">
+      </i>
+    2020-2-13</div>
+    <p>
+    </p>
+    <footer class="entry-footer">
+      <div class="post-more">
+        <a href="/2020/02/13/2020%E5%B9%B42%E6%9C%884%E6%97%A5%E6%83%85%E4%BA%BA%E8%8A%82%E9%9A%8F%E7%AC%94/">
+          <i class="iconfont icon-caidan">
+          </i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <hr>
+</article>
+  
+
+
+      <div class="clearer">
+      </div>
+    </main>
+    <!--  -->
+    
+  </div>
 </div>
-
-
-
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
