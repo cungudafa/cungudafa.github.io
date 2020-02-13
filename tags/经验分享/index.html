@@ -60,7 +60,8 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;background-position:center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 4.2.0"></head>
+  
+<meta name="generator" content="Hexo 4.2.0"></head> 
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -388,7 +389,7 @@
 <div class="pattern-center-blank"></div>
 <div class="pattern-center ">
   <div class="pattern-attachment-img">
-    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="经验分享.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="经验分享.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
   </div>
   <header class="pattern-header ">
     <h1 class="cat-title">经验分享</h1>
@@ -545,19 +546,7 @@
       <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
         &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
   </div><!-- skin.end -->
-  <!-- 实时聊天 -->
-    <div id="mo-nav" class="">
-    <div class="m-avatar">
-      <!-- 你的头像 -->
-      <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@latest/img/custom/avatar.jpg">
-    </div>
-    <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">ルー・ワンwallleap</p>
-    <p style="text-align: center; word-spacing: 20px;">
-      <!-- 你的信息 -->
-      <a href="http://github.com/cungudafa" class="fa fa-github" target="_blank" style="color: #333; margin-left:20px"></a>
-      <a href="https://weibo.com/3829198906/info" class="fa fa-weibo" target="_blank" style="color: #dd4b39; margin-left:20px"></a>
-      <a href="https://wpa.qq.com/msgrd?v=3&uin=2627039020&site=qq&menu=yes" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
-    </p>
+
 </footer>
 
 
@@ -573,7 +562,7 @@
 <script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -647,8 +636,15 @@ $(document).ready(function() {
 <!--背景切换-->
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
-<!-- 在线聊天功能 -->
-<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/f6b2a0b1.js","daovoice")</script>
+
+  <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/f6b2a0b1.js","daovoice")
+    daovoice('init', {
+      app_id: "f6b2a0b1"
+    });
+    daovoice('update');
+  </script>
+
+
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
         <div class="icon"></div>
