@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Tag: 前端 | cungudafa</title>
+  <title itemprop="name">Github+PicGo配置私人图床 | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -390,64 +390,204 @@
   </div>
 </header>
 
-      
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
-<div class="pattern-center ">
-  <div class="pattern-attachment-img">
-    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="前端.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-  </div>
-  <header class="pattern-header ">
-    <h1 class="cat-title">前端</h1>
-  </header>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      Github+PicGo配置私人图床</h1>
+      <p class="entry-census">
+        <span>
+          <a href="https://cungudafa.gitee.io">
+            <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="https://cungudafa.gitee.io">cungudafa</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-2-14<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+      <!-- 开始添加字数统计-->
+      
+        <div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <!-- 安装插件npm install hexo-wordcount --save -->
+        <span class="post-count">633字</span>
+      </span>
+    </span>
+
+    <span class="post-time">
+      &nbsp; | &nbsp;
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">2分</span>
+      </span>
+    </span>
 </div>
+
+      
+      <!-- 添加完成 -->
+    </header>
+  </div>
+
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      
-  <!-- 首页默认取最最新文章集 -->
-  
-    <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/post/771.html">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <p>@[TOC]</p>
+<h1 id="一、什么是图床"><a href="#一、什么是图床" class="headerlink" title="一、什么是图床"></a>一、什么是图床</h1><p>图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p>
+<p>简单来说就是：在文章中引用指定网址显示图片。<br><img src="https://img-blog.csdnimg.cn/20200214204559186.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt=""><code>平常我们都是在网络上复制粘贴网络图片的地址，太out了，如何快速引用本地图片呢？？？</code></p>
+<h1 id="二、配置教程"><a href="#二、配置教程" class="headerlink" title="二、配置教程"></a>二、配置教程</h1><h2 id="1-获取Token"><a href="#1-获取Token" class="headerlink" title="1.获取Token"></a>1.获取Token</h2><blockquote>
+<p>github云端仓库位置： 延续上一次cdn的仓库失败。（建议新建一个仓库，发布过release版本号的仓库会使用异常）</p>
+</blockquote>
+<ol>
+<li>进入设置Setting<br><img src="https://img-blog.csdnimg.cn/2020021419381472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>选择开发者设置Developer setting<br><img src="https://img-blog.csdnimg.cn/20200214193956719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>选择个人数据帧Personal access tokens，生成新的数据帧 Generate new token<br><img src="https://img-blog.csdnimg.cn/20200214194254176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>命名为picgo（图床），赋予仓库权限</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20200214194550612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<ol>
+<li>最后点击Generate token即可看到显示的token页面，==它只会显示一次，关闭页面后再打开这个页面就不会显示了。== <code>复制token值粘贴到文本文档</code>中，先保存下来，后面配置PicGo要用到。<br><img src="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><h2 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h2></li>
+<li>首先下载PicGo，图片上传工具PicGo下载地址:<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo/releases</a><blockquote>
+<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
+</blockquote>
+</li>
+<li>安装配置PicGo<br><img src="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><ul>
+<li>设定仓库名：这个是刚刚第一步所新建仓库的名称，我的为cdn，此处填写格式username/repo。</li>
+<li>设定分支名：master，采用默认分支即可</li>
+<li>设定Token：此处填写上一步得到的Token，添加到输入框即可。</li>
+<li>指定存储路径：自定义，例：<code>images/</code>，相当于在刚刚新建的仓库下新建了一个文件夹。</li>
+<li>设定自定义域名：格式：<code>https://cdn.jsdelivr.net/gh/username/repo</code>，username为GitHub用户名，repo为新建的仓库，用于存储图片</li>
+</ul>
+</li>
+</ol>
+<h1 id="三、上传方法"><a href="#三、上传方法" class="headerlink" title="三、上传方法"></a>三、上传方法</h1><p><img src="https://img-blog.csdnimg.cn/20200214201209951.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="List item"><br>上传后，云端图片显示：<br><img src="https://img-blog.csdnimg.cn/20200214201503971.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>5. 使用方法：选择<code>相册</code>，可<code>复制、修改链接、删除</code>图片（不能删除github上的图片，需要手动删除）：<br><img src="https://img-blog.csdnimg.cn/20200214201720518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>最终在md使用链接时出现错误，原因是我的cdn发布过release版本号，最有效的解决办法就是新建一个仓库，重新配置本地picgo的名称就好，此时相册显示也正常。<br><img src="https://img-blog.csdnimg.cn/20200214203218166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>md显预览也正常。<br>ps.在vscode中点击右上角可分屏查看，快捷键ctrl+shift+v可快速预览Markdown文章。<br><img src="https://img-blog.csdnimg.cn/20200214203623590.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+
         </div>
-        <img width="150" height="150" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/post/771.html">
-    Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-2-13</div>
-    <p>
-    花瓣飘落、文字，爱心，连线，飘动的彩带背景动画，壁纸更换，通讯栏通信。</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/post/771.html">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <!-- 自定义署名方式 -->
+        <footer class="post-footer">
+          <div class="post-lincenses" style="color: #ff9966;">
+            欢迎转载，转载时请注明来源哦！
+            <br>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow">
+            <i class="fa fa-creative-commons" aria-hidden="true"></i>知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+          </div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/post/8c48.html" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581662297493&di=833f8f39d7adb6b08a047d108da1a158&imgtype=0&src=http%3A%2F%2Fwww.longre.cn%2Fuploadfile%2F2017%2F0922%2F20170922022539355.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581662297493&di=833f8f39d7adb6b08a047d108da1a158&imgtype=0&src=http%3A%2F%2Fwww.longre.cn%2Fuploadfile%2F2017%2F0922%2F20170922022539355.jpg">
+              </div>
+              <span class="label">Next Post</span>
+              <div class="info">
+                <h3>Hexo（sakura）文章增添字数统计和阅读时长功能</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+  var notify = 'false' == true ? true : false;
+  var verify = 'true' == true ? true : false;
+  new Valine({
+        el: '#vcomments',
+        appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
+        appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
+        path: window.location.pathname,
+        notify: notify,
+        verify: verify,
+        placeholder: "你是我一生只会遇见一次的惊喜 ...",
+        avatar: 'mm'
+  });
+  document.body.addEventListener('click', function(e) {
+    if (e.target.classList.contains('vsubmit')) {
+        const email = document.querySelector('input[type=email]');
+        const nick = document.querySelector('input[name=nick]');
+        const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+        if (!email.value || !nick.value || !reg.test(email.value)) {
+            const str = `<div class="valert txt-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+            const vmark = document.querySelector('.vmark');
+            vmark.innerHTML = str;
+            vmark.style.display = 'block';
 
+            setTimeout(function() {
+                vmark.style.display = 'none';
+                vmark.innerHTML = '';
+            }, 2500);
+        }
+      }
+    });
+</script>
 
-      <div class="clearer">
-      </div>
-    </main>
-    <!--  -->
-    
-  </div>
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="cungudafa" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">cungudafa</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>姑，一个学习记录者</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
+<!--评论配置-->
+
+
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>

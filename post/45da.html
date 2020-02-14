@@ -39,11 +39,11 @@
   mashiro_option.site_url = "https://cungudafa.gitee.io/";
   mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
   mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";
-  mashiro_option.v_avatar = "mm";
-  mashiro_option.v_placeholder = "";
-  mashiro_option.v_pageSize = "10";
-  mashiro_option.v_notify = "false";
-  mashiro_option.v_verify = "true";//
+  // mashiro_option.v_avatar = "mm";
+  // mashiro_option.v_placeholder = "";
+  // mashiro_option.v_pageSize = "10";
+  // mashiro_option.v_notify = "false";
+  // mashiro_option.v_verify = "true";//
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -553,24 +553,38 @@
       </section>
       
 <div id="vcomments"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
+  var notify = 'false' == true ? true : false;
+  var verify = 'true' == true ? true : false;
+  new Valine({
         el: '#vcomments',
         appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
         appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
-        avatar: "mm",
         path: window.location.pathname,
-        placeholder: "",
-        notify: "false",
-        verify: "true",
-        visitor: "true",
-        avatar: "mm",
-        pageSize: "10",
-        background: "https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/social/comment_bg.png"
-      })
-  }
+        notify: notify,
+        verify: verify,
+        placeholder: "你是我一生只会遇见一次的惊喜 ...",
+        avatar: 'mm'
+  });
+  document.body.addEventListener('click', function(e) {
+    if (e.target.classList.contains('vsubmit')) {
+        const email = document.querySelector('input[type=email]');
+        const nick = document.querySelector('input[name=nick]');
+        const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+        if (!email.value || !nick.value || !reg.test(email.value)) {
+            const str = `<div class="valert txt-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+            const vmark = document.querySelector('.vmark');
+            vmark.innerHTML = str;
+            vmark.style.display = 'block';
+
+            setTimeout(function() {
+                vmark.style.display = 'none';
+                vmark.innerHTML = '';
+            }, 2500);
+        }
+      }
+    });
 </script>
 
       <section class="author-profile">
@@ -589,6 +603,9 @@
     </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+
+<!--评论配置-->
 
 
 
