@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cungudafa</title>
+  
+  <subtitle>Sakura</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://cungudafa.gitee.io/"/>
+  <updated>2020-02-14T12:52:54.112Z</updated>
+  <id>https://cungudafa.gitee.io/</id>
+  
+  <author>
+    <name>cungudafa</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github+PicGo配置私人图床</title>
+    <link href="https://cungudafa.gitee.io/post/2103.html"/>
+    <id>https://cungudafa.gitee.io/post/2103.html</id>
+    <published>2020-02-14T12:50:10.000Z</published>
+    <updated>2020-02-14T12:52:54.112Z</updated>
+    
+    <summary type="html">
+    
+      图床，资源，加速访问github资源。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="私人图床" scheme="https://cungudafa.gitee.io/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）文章增添字数统计和阅读时长功能</title>
+    <link href="https://cungudafa.gitee.io/post/8c48.html"/>
+    <id>https://cungudafa.gitee.io/post/8c48.html</id>
+    <published>2020-02-14T05:14:10.000Z</published>
+    <updated>2020-02-14T08:09:33.802Z</updated>
+    
+    <summary type="html">
+    
+      统计全文字数，分析阅读时长。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="wordcount" scheme="https://cungudafa.gitee.io/tags/wordcount/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020年2月4日情人节随笔</title>
+    <link href="https://cungudafa.gitee.io/post/ff18.html"/>
+    <id>https://cungudafa.gitee.io/post/ff18.html</id>
+    <published>2020-02-13T14:59:10.000Z</published>
+    <updated>2020-02-14T08:09:33.700Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;疫情期间，姑已经在家呆了&lt;code&gt;二十天&lt;/code&gt;了，可是为国家省心的好孩子。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;明天就是2月14号了，如何度过这个西方的浪漫节日呢？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当然，不建议出门聚
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="随笔" scheme="https://cungudafa.gitee.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</title>
+    <link href="https://cungudafa.gitee.io/post/771.html"/>
+    <id>https://cungudafa.gitee.io/post/771.html</id>
+    <published>2020-02-13T10:19:10.000Z</published>
+    <updated>2020-02-14T08:09:33.808Z</updated>
+    
+    <summary type="html">
+    
+      花瓣飘落、文字，爱心，连线，飘动的彩带背景动画，壁纸更换，通讯栏通信。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Botui搭建js聊天机器人</title>
+    <link href="https://cungudafa.gitee.io/post/81c1.html"/>
+    <id>https://cungudafa.gitee.io/post/81c1.html</id>
+    <published>2020-02-13T10:14:10.000Z</published>
+    <updated>2020-02-14T08:09:33.695Z</updated>
+    
+    <summary type="html">
+    
+      一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="自动回复机器人" scheme="https://cungudafa.gitee.io/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）添加live2d看板动画（可对话，换装互动）</title>
+    <link href="https://cungudafa.gitee.io/post/d214.html"/>
+    <id>https://cungudafa.gitee.io/post/d214.html</id>
+    <published>2020-02-12T12:18:10.000Z</published>
+    <updated>2020-02-14T08:09:33.804Z</updated>
+    
+    <summary type="html">
+    
+      Live2D是一种应用于电子游戏的绘图渲染技术，是在网站的老婆吖。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="评论" scheme="https://cungudafa.gitee.io/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Valine - 一款快速、简洁且高效的无后端评论系统</title>
+    <link href="https://cungudafa.gitee.io/post/45da.html"/>
+    <id>https://cungudafa.gitee.io/post/45da.html</id>
+    <published>2020-02-12T09:14:10.000Z</published>
+    <updated>2020-02-14T16:35:11.531Z</updated>
+    
+    <summary type="html">
+    
+      Valine 诞生于2017年8月7日，是一款基于LeanCloud的快速、简洁且高效的无后端评论系统。理论上支持但不限于静态博客，目前已有`Hexo、Jekyll、Typecho、Hugo、Ghost` 等博客程序在使用Valine。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="评论" scheme="https://cungudafa.gitee.io/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github+jsDelivr搭建自己的免费cdn</title>
+    <link href="https://cungudafa.gitee.io/post/2a9.html"/>
+    <id>https://cungudafa.gitee.io/post/2a9.html</id>
+    <published>2020-02-12T02:19:10.000Z</published>
+    <updated>2020-02-14T08:09:33.698Z</updated>
+    
+    <summary type="html">
+    
+      图床，资源，加速访问github资源。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="cdn" scheme="https://cungudafa.gitee.io/tags/cdn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitee+Hexo搭建个人博客</title>
+    <link href="https://cungudafa.gitee.io/post/e27b.html"/>
+    <id>https://cungudafa.gitee.io/post/e27b.html</id>
+    <published>2020-02-11T08:02:11.954Z</published>
+    <updated>2020-02-14T08:09:33.703Z</updated>
+    
+    <summary type="html">
+    
+      个人免费开源博客搭建，小白教程
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="经验分享" scheme="https://cungudafa.gitee.io/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cungudafa.gitee.io/post/3eeb.html"/>
+    <id>https://cungudafa.gitee.io/post/3eeb.html</id>
+    <published>2020-02-11T04:24:09.173Z</published>
+    <updated>2020-02-14T12:50:16.462Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

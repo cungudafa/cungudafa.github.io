@@ -1104,11 +1104,11 @@ var home = location.href,
           el: '#vcomments',
           appId: mashiro_option.v_appId,
           appKey: mashiro_option.v_appKey,
+          notify: false,
           verify: true,
           path: window.location.pathname,
-          placeholder: '你是我一生只会遇见一次的惊喜吖！！',
-          avatar: mashiro_option.v_avatar,
-          background: mashiro_option.v_background
+          placeholder: "祝开开心心！",
+          avatar: 'monsterid'
         })
       }
     },

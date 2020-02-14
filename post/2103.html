@@ -38,12 +38,7 @@
   mashiro_option.author_name = "姑";
   mashiro_option.site_url = "https://cungudafa.gitee.io/";
   mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
-  mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";
-  // mashiro_option.v_avatar = "mm";
-  // mashiro_option.v_placeholder = "";
-  // mashiro_option.v_pageSize = "10";
-  // mashiro_option.v_notify = "false";
-  // mashiro_option.v_verify = "true";//
+  mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";//
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -66,14 +61,15 @@
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;background-position:center;background-attachment:inherit;}
   </style>
   
-<meta name="generator" content="Hexo 4.2.0"></head> 
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
+</head> 
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
   </div>
   <a href="#" class="cd-top faa-float animated"></a>
   <section id="main-container">
-    <div class="headertop filter-dot">
+    <div class="headertop ">
   <div id="banner_wave_1"></div>
   <div id="banner_wave_2"></div>
   <figure id="centerbg" class="centerbg">
@@ -439,6 +435,8 @@
 
       
       <!-- 添加完成 -->
+      <!--人体时钟背景透明-->
+      <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
     </header>
   </div>
 
@@ -532,19 +530,17 @@
       </section>
       
 <div id="vcomments"></div>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <script>
-  var notify = 'false' == true ? true : false;
-  var verify = 'true' == true ? true : false;
-  new Valine({
+    new Valine({
         el: '#vcomments',
         appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
         appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
         path: window.location.pathname,
-        notify: notify,
-        verify: verify,
-        placeholder: "你是我一生只会遇见一次的惊喜 ...",
-        avatar: 'mm'
+        notify: false,
+        verify: true,
+        avatar: 'monsterid',//小怪物头像
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."  
   });
   document.body.addEventListener('click', function(e) {
     if (e.target.classList.contains('vsubmit')) {
@@ -644,7 +640,6 @@
         </span>
       </p>
     </div>
-    <!-- <i class="fa fa-fire" aria-hidden="true"></i> -->
     <span style="color: #ff9999;padding-left: 20px;">
       <i class="fa fa-clock-o" aria-hidden="true"></i>
       <span id="time" align="center">载入时间中...</span>
@@ -665,6 +660,8 @@
       </script>
       <!--不蒜子网页计数器-->
       <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
+      <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire"  aria-hidden="true"></i>总字数统计:
+        <span class="post-count">7.3k</span></span>
     </span>
   </div><!-- .site-info -->
   <!-- pages壁纸切换 -->

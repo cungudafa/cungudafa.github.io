@@ -38,12 +38,7 @@
   mashiro_option.author_name = "姑";
   mashiro_option.site_url = "https://cungudafa.gitee.io/";
   mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
-  mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";
-  // mashiro_option.v_avatar = "mm";
-  // mashiro_option.v_placeholder = "";
-  // mashiro_option.v_pageSize = "10";
-  // mashiro_option.v_notify = "false";
-  // mashiro_option.v_verify = "true";//
+  mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";//
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -66,14 +61,15 @@
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;background-position:center;background-attachment:inherit;}
   </style>
   
-<meta name="generator" content="Hexo 4.2.0"></head> 
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
+</head> 
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
   </div>
   <a href="#" class="cd-top faa-float animated"></a>
   <section id="main-container">
-    <div class="headertop filter-dot">
+    <div class="headertop ">
   <div id="banner_wave_1"></div>
   <div id="banner_wave_2"></div>
   <figure id="centerbg" class="centerbg">
@@ -423,7 +419,7 @@
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
         <!-- 安装插件npm install hexo-wordcount --save -->
-        <span class="post-count">358字</span>
+        <span class="post-count">1k字</span>
       </span>
     </span>
 
@@ -432,13 +428,15 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-hourglass-half"></i>
         <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">1分</span>
+        <span class="post-count">4分</span>
       </span>
     </span>
 </div>
 
       
       <!-- 添加完成 -->
+      <!--人体时钟背景透明-->
+      <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
     </header>
   </div>
 
@@ -483,8 +481,78 @@
    }
  &lt;/script&gt;
  &lt;% } %&gt;</code></pre><p> 可根据需要修改。</p>
+<blockquote>
+<p>valine的原作者暂时还没有对hexo（sakura）主题进行配置，<br> <a href="https://valine.js.org/hexo.html#hexo-theme-yilia" target="_blank" rel="noopener">这里是原作者已更新的Hexo支持的主题</a></p>
+</blockquote>
+<h1 id="三、-sakura配置valine"><a href="#三、-sakura配置valine" class="headerlink" title="三、 sakura配置valine"></a>三、 sakura配置valine</h1><blockquote>
+<p>以下配置全参考于：valine原作者配置<a href="https://github.com/litten/hexo-theme-yilia/pull/646" target="_blank" rel="noopener">hexo-theme-yilia</a>主题</p>
+</blockquote>
 </li>
 </ol>
+<p>在前两步的基础上，<br>修改sakura主题配置：（加了enable标志和其他属性）<br>（之前一直用mm头像，现在改为小怪物）</p>
+<pre><code># Valine ##极简留言功能
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+valine:
+  enable: true ##打开valine评论功能true
+  appId: cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz
+  appKey: 3opMyv2Vyx3mHa0IWitRGSoi
+  notify: false #评论mail回复提醒
+  verify: true #验证码
+  visitor: false #统计阅读量
+  avatar: monsterid # Gravatar style : mp/identicon/monsterid/wavatar/retro/hide
+  guest_info: nick #,mail,link # custom comment header
+  pageSize: 10
+  palaceholder: 你是我一生只会遇见一次的惊喜 # Comment Box placeholder
+</code></pre><p>修改头部的声明：<code>themes\sakura\layout\_partial\head.ejs</code><br>（v_appId改为appId）</p>
+<pre><code>  mashiro_option.v_appId = &quot;&lt;%= theme.valine.appId %&gt;&quot;;//
+  mashiro_option.v_appKey = &quot;&lt;%= theme.valine.appKey %&gt;&quot;;</code></pre><p>修改样式：<code>themes\sakura\layout\_partial\comment.ejs</code><br>（注意判断标准为theme.valine.enable，加入了邮箱审核标准，未填写邮箱不能评论。）</p>
+<pre><code>&lt;% if (theme.valine.enable &amp;&amp; post.comments) { %&gt;
+&lt;div id=&quot;vcomments&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;//unpkg.com/valine/dist/Valine.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    new Valine({
+        el: &#39;#vcomments&#39;,
+        appId: &quot;&lt;%= theme.valine.appId %&gt;&quot;,
+        appKey: &quot;&lt;%= theme.valine.appKey %&gt;&quot;,
+        path: window.location.pathname,
+        notify: false,
+        verify: true,
+        avatar: &#39;monsterid&#39;,//小怪物头像
+        placeholder: &quot;你是我一生只会遇见一次的惊喜 ...&quot;  
+  });
+  document.body.addEventListener(&#39;click&#39;, function(e) {
+    if (e.target.classList.contains(&#39;vsubmit&#39;)) {
+        const email = document.querySelector(&#39;input[type=email]&#39;);
+        const nick = document.querySelector(&#39;input[name=nick]&#39;);
+        const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+        if (!email.value || !nick.value || !reg.test(email.value)) {
+            const str = `&lt;div class=&quot;valert txt-center&quot;&gt;&lt;div class=&quot;vtext&quot;&gt;请填写正确的昵称和邮箱！&lt;/div&gt;&lt;/div&gt;`;
+            const vmark = document.querySelector(&#39;.vmark&#39;);
+            vmark.innerHTML = str;
+            vmark.style.display = &#39;block&#39;;
+
+            setTimeout(function() {
+                vmark.style.display = &#39;none&#39;;
+                vmark.innerHTML = &#39;&#39;;
+            }, 2500);
+        }
+      }
+    });
+&lt;/script&gt;
+&lt;% } %&gt;</code></pre><p>运行效果：<br><img src="https://img-blog.csdnimg.cn/20200215002234755.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>自定义的邮箱审核机制：<br><img src="https://img-blog.csdnimg.cn/20200214182127479.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="四、头像说明"><a href="#四、头像说明" class="headerlink" title="四、头像说明"></a>四、头像说明</h1><p><img src="https://img-blog.csdnimg.cn/20200215003353534.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>其中未知名头像都是小怪物（==avatar: ‘monsterid’==），更多头像选择<code>mp/identicon/monsterid/wavatar/retro/hide</code><br><img src="https://img-blog.csdnimg.cn/20200215003206833.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如何使用自定义头像呢？</p>
+<blockquote>
+<p>Valine 目前使用的是Gravatar 作为评论列表头像。</p>
+<ol>
+<li>请自行登录或<a href="http://cn.gravatar.com/" target="_blank" rel="noopener">注册Gravatar</a>，然后修改自己的头像。</li>
+<li><strong>评论</strong>的时候，<strong>留下</strong>在Gravatar注册时所使用的<strong>邮箱</strong>即可。<br>(任何gravator的网站，留邮箱即显示头像，全球化，很nice哦!)<br><img src="https://img-blog.csdnimg.cn/20200215003130938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ol>
+</blockquote>
+<hr>
+<blockquote>
+<p>附：在sakura主题中，<code>themes\sakura\source\js\sakura-app.js</code>第1100行也有类似部分；在head.ejs中，sakura作者注明过这段sakura-app.js作用于php，这里暂未使用，如果有需要用到时同样修改：<br><img src="https://img-blog.csdnimg.cn/20200214171236689.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</blockquote>
 
         </div>
         <!-- .entry-content -->
@@ -553,19 +621,17 @@
       </section>
       
 <div id="vcomments"></div>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <script>
-  var notify = 'false' == true ? true : false;
-  var verify = 'true' == true ? true : false;
-  new Valine({
+    new Valine({
         el: '#vcomments',
         appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
         appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
         path: window.location.pathname,
-        notify: notify,
-        verify: verify,
-        placeholder: "你是我一生只会遇见一次的惊喜 ...",
-        avatar: 'mm'
+        notify: false,
+        verify: true,
+        avatar: 'monsterid',//小怪物头像
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."  
   });
   document.body.addEventListener('click', function(e) {
     if (e.target.classList.contains('vsubmit')) {
@@ -665,7 +731,6 @@
         </span>
       </p>
     </div>
-    <!-- <i class="fa fa-fire" aria-hidden="true"></i> -->
     <span style="color: #ff9999;padding-left: 20px;">
       <i class="fa fa-clock-o" aria-hidden="true"></i>
       <span id="time" align="center">载入时间中...</span>
@@ -686,6 +751,8 @@
       </script>
       <!--不蒜子网页计数器-->
       <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
+      <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire"  aria-hidden="true"></i>总字数统计:
+        <span class="post-count">7.3k</span></span>
     </span>
   </div><!-- .site-info -->
   <!-- pages壁纸切换 -->
