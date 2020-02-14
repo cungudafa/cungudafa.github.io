@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Hexo增添字数统计和阅读时长功能 | cungudafa</title>
+  <title itemprop="name">Hexo（sakura）文章增添字数统计和阅读时长功能 | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -395,7 +395,7 @@
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      Hexo增添字数统计和阅读时长功能</h1>
+      Hexo（sakura）文章增添字数统计和阅读时长功能</h1>
       <p class="entry-census">
         <span>
           <a href="https://cungudafa.gitee.io">
@@ -418,7 +418,7 @@
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
         <!-- 安装插件npm install hexo-wordcount --save -->
-        <span class="post-count">405字</span>
+        <span class="post-count">476字</span>
       </span>
     </span>
 
@@ -478,7 +478,19 @@
 </ol>
 <h1 id="二、修复作者头像和链接显示问题"><a href="#二、修复作者头像和链接显示问题" class="headerlink" title="二、修复作者头像和链接显示问题"></a>二、修复作者头像和链接显示问题</h1><p><img src="https://img-blog.csdnimg.cn/20200214105912533.png" alt="在这里插入图片描述"><br>在_post目录写md文章时，应该加上作者信息：<br><code>author（名称），authorLink（链接），avatar（头像），authorAbout（简介）</code></p>
 <p>在<code>\themes\sakura\layout\_widget\</code>==common-article.ejs==文章标题中可修改样式：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200214112851943.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200214113033692.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<pre><code>author: 姑
+authorLink: https://cungudafa.gitee.io
+avatar: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg
+authorAbout: 姑，一个学习记录者
+
+title: Hexo增添字数统计和阅读时长功能 
+date: 2020-02-14 13:14:10
+tag: wordcount
+categories: 技术
+comment: true
+description: 统计全文字数，分析阅读时长。
+photos: 
+</code></pre><p><img src="https://img-blog.csdnimg.cn/20200214112851943.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200214113033692.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 
         </div>
         <!-- .entry-content -->
