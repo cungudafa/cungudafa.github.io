@@ -1098,14 +1098,20 @@ var home = location.href,
       }
     },
     VA: function () {
-      if (!valine) {
+      if (!theme.valine.enable) {//注意在enable
         var valine = new Valine()
         valine.init({
           el: '#vcomments',
           appId: mashiro_option.v_appId,
           appKey: mashiro_option.v_appKey,
           path: window.location.pathname,
-          placeholder: '你是我一生只会遇见一次的惊喜 ...'
+          placeholder: mashiro_option.v_placeholder,
+          avatar: mashiro_option.v_avatar,
+          notify: mashiro_option.v_notify,
+          verify: mashiro_option.v_verify,
+          visitor: mashiro_option.v_visitor,
+          pageSize: mashiro_option.v_pageSize,
+          background: mashiro_option.v_background
         })
       }
     },

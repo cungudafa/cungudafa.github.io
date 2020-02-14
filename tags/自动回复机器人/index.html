@@ -37,8 +37,13 @@
   mashiro_option.site_name = "cungudafa姑";
   mashiro_option.author_name = "姑";
   mashiro_option.site_url = "https://cungudafa.gitee.io/";
-  mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";
+  mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
   mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";
+  mashiro_option.v_avatar = "mm";
+  mashiro_option.v_placeholder = "";
+  mashiro_option.v_pageSize = "10";
+  mashiro_option.v_notify = "false";
+  mashiro_option.v_verify = "true";//
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -404,7 +409,7 @@
     <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
   <div class="post-entry">
     <div class="feature">
-      <a href="/2020/02/13/Botui%E6%90%AD%E5%BB%BAjs%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+      <a href="/post/81c1.html">
         <div class="overlay">
           <i class="iconfont icon-text">
           </i>
@@ -413,7 +418,7 @@
       </a>
     </div>
     <h1 class="entry-title">
-    <a href="/2020/02/13/Botui%E6%90%AD%E5%BB%BAjs%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+    <a href="/post/81c1.html">
     Botui搭建js聊天机器人</a>
     </h1>
     <div class="p-time">
@@ -424,7 +429,7 @@
     一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。</p>
     <footer class="entry-footer">
       <div class="post-more">
-        <a href="/2020/02/13/Botui%E6%90%AD%E5%BB%BAjs%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+        <a href="/post/81c1.html">
           <i class="iconfont icon-caidan">
           </i>
         </a>
@@ -500,7 +505,7 @@
       </p>
     </div>
     <!-- <i class="fa fa-fire" aria-hidden="true"></i> -->
-    <span style="color: #ccc;padding-left: 20px;">
+    <span style="color: #ff9999;padding-left: 20px;">
       <i class="fa fa-clock-o" aria-hidden="true"></i>
       <span id="time" align="center">载入时间中...</span>
       <script>
@@ -519,7 +524,7 @@
        setInterval("createtime()",250);
       </script>
       <!--不蒜子网页计数器-->
-      <span style="color:#ccc;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
+      <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
     </span>
   </div><!-- .site-info -->
   <!-- pages壁纸切换 -->
@@ -624,13 +629,21 @@ $(document).ready(function() {
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js"></script>
 <!-- 🌸飘落 -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js"></script>
+<!-- 雪花飘落 -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/snow1.js"></script> -->
 <!-- // 文字 -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js"></script>
+<!-- // 烟花 -->
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/fireworks.js"></script>
+<!-- // 星星跟随坠落 -->
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/cursor.js"></script>
 <!-- // 爱心 -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
 <!-- // 连线 -->
-<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script> -->
 <!-- 样式二（飘动的彩带） -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js" type="text/javascript"></script>
 <!--背景切换-->
@@ -644,7 +657,11 @@ $(document).ready(function() {
     daovoice('update');
   </script>
 
-
+<!-- weather -->
+<script type="text/javascript">
+  WIDGET = {FID: 'yqRrzxwtvs'}
+  </script>
+  <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
         <div class="icon"></div>
@@ -926,5 +943,6 @@ $(document).ready(function() {
     })
   });
 </script>
-</body>
+  
+ </body>
 </html>

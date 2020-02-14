@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Botui搭建js聊天机器人 | cungudafa</title>
+  <title itemprop="name">Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式） | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -37,8 +37,13 @@
   mashiro_option.site_name = "cungudafa姑";
   mashiro_option.author_name = "姑";
   mashiro_option.site_url = "https://cungudafa.gitee.io/";
-  mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";
+  mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
   mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";
+  mashiro_option.v_avatar = "mm";
+  mashiro_option.v_placeholder = "";
+  mashiro_option.v_pageSize = "10";
+  mashiro_option.v_notify = "false";
+  mashiro_option.v_verify = "true";//
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -391,11 +396,11 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599862744&amp;di=b0accfc7b5e92d45e7a5543266962374&amp;imgtype=0&amp;src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599862744&amp;di=b0accfc7b5e92d45e7a5543266962374&amp;imgtype=0&amp;src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599486505&amp;di=ffefe5680becba9f2e3d83594151a2d9&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      Botui搭建js聊天机器人</h1>
+      Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</h1>
       <p class="entry-census">
         <span>
           <a href="https://cungudafa.gitee.io">
@@ -403,7 +408,7 @@
           </a>
         </span>
         <span>
-          <a href="https://cungudafa.gitee.io">姑</a>
+          <a href="https://cungudafa.gitee.io">cungudafa</a>
         </span>
         <span class="bull">
         ·</span>
@@ -418,7 +423,7 @@
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
         <!-- 安装插件npm install hexo-wordcount --save -->
-        <span class="post-count">360字</span>
+        <span class="post-count">1.8k字</span>
       </span>
     </span>
 
@@ -427,7 +432,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-hourglass-half"></i>
         <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">1分</span>
+        <span class="post-count">10分</span>
       </span>
     </span>
 </div>
@@ -445,65 +450,127 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h1 id="一、Botui简介"><a href="#一、Botui简介" class="headerlink" title="一、Botui简介"></a>一、Botui简介</h1><p>一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。<br>可点击查看me？试试看。</p>
+          <h1 id="一、丰富背景样式"><a href="#一、丰富背景样式" class="headerlink" title="一、丰富背景样式"></a>一、丰富背景样式</h1><h2 id="1-浮层样式集合"><a href="#1-浮层样式集合" class="headerlink" title="1. 浮层样式集合"></a>1. 浮层样式集合</h2><p>（花瓣飘落、文字，爱心，连线，飘动的彩带）<br><img src="https://img-blog.csdnimg.cn/20200213142111202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200214155930881.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/2020021416020447.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改<code>\Sakura\layout\_partial</code>目录下的==footer.ejs==</p>
 <blockquote>
-<p>项目地址：<a href="https://botui.org" target="_blank" rel="noopener">https://botui.org</a></p>
+<p>说明：加在footer而不是header是提高页面加载速度，<br>以下cdn都引用于<a href="https://wallleap.cn/" target="_blank" rel="noopener">walllweap</a>大神的<a href="https://github.com/wallleap/cdn" target="_blank" rel="noopener">素材库</a></p>
 </blockquote>
-<h1 id="二、使用教程"><a href="#二、使用教程" class="headerlink" title="二、使用教程"></a>二、使用教程</h1><p>Botui是结合Vue和Botui.js的自动回复界面：<br><img src="https://img-blog.csdnimg.cn/20200213100053619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>模拟对话：<br><img src="https://img-blog.csdnimg.cn/20200213100135244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在html中使用直接引入vue和js即可，<a href="https://github.com/botui/botui" target="_blank" rel="noopener">使用教程</a>；<br>这里我是基于Hexo界面（Sakura）主题，融合vue到botui.js中了：</p>
+<pre><code>    &lt;!--浏览器搞笑标题--&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- 🌸飘落 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- 雪花飘落 --&gt;
+    &lt;!-- &lt;script src=&quot;https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/snow1.js&quot;&gt;&lt;/script&gt; --&gt;
+    &lt;!-- // 文字 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- // 烟花 --&gt;
+    &lt;canvas class=&quot;fireworks&quot; style=&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot; &gt;&lt;/canvas&gt; 
+    &lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/animejs/2.2.0/anime.min.js&quot;&gt;&lt;/script&gt; 
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/fireworks.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- // 星星跟随坠落 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/cursor.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- // 爱心 --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js&quot;&gt;&lt;/script&gt;
+    &lt;!-- // 连线 --&gt;
+    &lt;!-- &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js&quot;&gt;&lt;/script&gt; --&gt;
+    &lt;!-- 样式二（飘动的彩带） --&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+     &lt;!--背景切换--&gt;
+     &lt;script src=&quot;//instant.page/3.0.0&quot; type=&quot;module&quot; defer integrity=&quot;sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1&quot;&gt;&lt;/script&gt;</code></pre><h2 id="2-背景切换和访问量统计"><a href="#2-背景切换和访问量统计" class="headerlink" title="2. 背景切换和访问量统计"></a>2. 背景切换和访问量统计</h2><p>背景切换（pages功能）和访问量统计（不蒜子网页计数）<br><img src="https://img-blog.csdnimg.cn/2020021314425945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>不蒜子网页计数使用教程：<br>    &gt;<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener">http://busuanzi.ibruce.info/</a></p>
+<pre><code>```
+&lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
+&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;
+```</code></pre><pre><code class="html">&lt;footer id=&quot;colophon&quot; class=&quot;site-footer&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;div class=&quot;site-info&quot;&gt;
+    &lt;div class=&quot;footertext&quot;&gt;
+      。。。。。
+    &lt;/div&gt;
+    &lt;div class=&quot;footer-device&quot;&gt;
+    &lt;p style=&quot;font-family: &#39;Ubuntu&#39;, sans-serif;&quot;&gt;
+        &lt;span style=&quot;color: #b9b9b9;&quot;&gt;Theme &lt;a href=&quot;https://github.com/honjun/hexo-theme-sakura&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Sakura&lt;/a&gt; &lt;i class=&quot;iconfont icon-sakura rotating&quot; style=&quot;color: #ffc0cb;display:inline-block&quot;&gt;&lt;/i&gt; by &lt;a href=&quot;https://2heng.xin/&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Mashiro&lt;/a&gt;&amp;&lt;a href=&quot;https://www.hojun.cn/&quot; target=&quot;_blank&quot; style=&quot;color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);&quot;&gt;Hojun&lt;/a&gt;, Powered by Hexo, Hosted by Coding Pages&lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;i class=&quot;fa fa-fire&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; --&gt;
+    &lt;span style=&quot;color: #ccc;padding-left: 20px;&quot;&gt;
+      &lt;i class=&quot;fa fa-clock-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+      &lt;span id=&quot;time&quot; align=&quot;center&quot;&gt;载入时间中...&lt;/span&gt;
+      &lt;script&gt;
+        var now = new Date(); 
+        function createtime() { 
+          var grt= new Date(&quot;2020-02-11 17:20:00&quot;);//在此处修改你的建站时间
+          now.setTime(now.getTime()+250); 
+          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+          if(String(hnum).length ==1 ){hnum = &quot;0&quot; + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = &quot;0&quot; + mnum;} 
+          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = &quot;0&quot; + snum;} 
+          document.getElementById(&quot;time&quot;).innerHTML = &quot;小站已经苟活 &quot;+ dnum +&quot; 天 &quot;+hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;;      
+       } 
+       setInterval(&quot;createtime()&quot;,250);
+      &lt;/script&gt;
+      &lt;!--不蒜子网页计数器--&gt;
+      &lt;span style=&quot;color:#ccc;padding-left: 20px;&quot;&gt;&lt;i class=&quot;fa fa-eye&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;访问量: &lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;&lt;!-- .site-info --&gt;
+  &lt;!--壁纸切换--&gt;
+  &lt;div class=&quot;skin-menu no-select&quot; id=&quot;mainskin&quot;  style=&quot;position: fixed&quot;&gt;
+      &lt;div class=&quot;theme-controls row-container&quot;&gt;
+          &lt;ul class=&quot;menu-list&quot;&gt;
+              &lt;li id=&quot;white-bg&quot;&gt; &lt;i class=&quot;fa fa-television&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;sakura-bg&quot;&gt; &lt;i class=&quot;iconfont icon-sakura&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;gribs-bg&quot;&gt; &lt;i class=&quot;fa fa-slack&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;KAdots-bg&quot;&gt; &lt;i class=&quot;iconfont icon-dots&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;totem-bg&quot;&gt; &lt;i class=&quot;fa fa-optin-monster&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;pixiv-bg&quot;&gt; &lt;i class=&quot;iconfont icon-pixiv&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;bing-bg&quot;&gt; &lt;i class=&quot;iconfont icon-bing&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+              &lt;li id=&quot;dark-bg&quot;&gt; &lt;i class=&quot;fa fa-moon-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;font-family-controls row-container&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;control-btn-serif selected&quot; data-mode=&quot;serif&quot; onclick=&quot;mashiro_global.font_control.change_font()&quot;&gt;Serif&lt;/button&gt;
+          &lt;button type=&quot;button&quot; class=&quot;control-btn-sans-serif&quot; data-mode=&quot;sans-serif&quot; onclick=&quot;mashiro_global.font_control.change_font()&quot;&gt;Sans Serif&lt;/button&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;   
+  &lt;canvas id=&quot;night-mode-cover&quot;&gt;&lt;/canvas&gt; 
+    &lt;div class=&quot;changeSkin-gear no-select&quot;&gt;
+      &lt;div class=&quot;keys&quot; id=&quot;setbtn&quot;&gt; &lt;span id=&quot;open-skinMenu&quot;&gt; 切换壁纸 | SCHEME TOOL 
+        &amp;nbsp;&lt;i class=&quot;iconfont icon-gear inline-block rotating&quot;&gt;&lt;/i&gt; &lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;!--skin.end--&gt;
+&lt;/footer&gt;</code></pre>
+<h1 id="二、在线通讯"><a href="#二、在线通讯" class="headerlink" title="二、在线通讯"></a>二、在线通讯</h1><p>Hexo+DaoVoice实现网页在线通讯功能</p>
 <ol>
-<li><p>在<code>主目录\source\</code>下新建目录<code>about</code>，新建<code>index.md</code><br>（sakura特点是将index.md文件直接转换成about\index.html）<br><img src="https://img-blog.csdnimg.cn/20200213100829183.png" alt="在这里插入图片描述"><br>index.md<br>关键代码是：</p>
-<pre><code> &lt;bot-ui&gt;&lt;/botui&gt;
- &lt;script src=&quot;/js/botui.js&quot;&gt;&lt;/script&gt;
- &lt;script&gt;
- bot_ui_ini()
- &lt;/script&gt;</code></pre></li>
-</ol>
-<p>完整代码：</p>
-<pre><code>---
-title: about
-date: 2020-2-12 22:14:36
-keywords: 关于
-description: 
-comments: false
-photos: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/banner/about.jpg
----
-{% raw %}
-<!-- 因为vue和botui更新导至bug,现将对话移至js下的botui中配置 -->
-<div class="entry-content">
-  <div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[さくら荘のcungudafa]</div>
-  <div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;">
-    <center>
-    <p>
-    </p>
-    <h4>
-    与&nbsp;<ruby>
-    cungudafa&nbsp;<rp>
-    （</rp>
-    <rt>
-    真（ま）白（しろ）</rt>
-    <rp>
-    ）</rp>
-    </ruby>
-    对话中...</h4>
-    <p>
-    </p>
-    </center>
-    <bot-ui></botui>
-  </div>
-</div>
-<script src="/js/botui.js"></script>
-<script>
-bot_ui_ini()
-</script>
-{% endraw %}</code></pre><ol start="2">
-<li><p>修改引入的<code>sakura/js/botui.js</code>即可修改对话</p>
-<blockquote>
-<p>代码片较长，这里直接在gitee仓库中查看： <a href="https://gitee.com/cungudafa/cungudafa/blob/master/js/botui.js" target="_blank" rel="noopener">/js/botui.js</a></p>
+<li><p>首先在<a href="http://dashboard.daovoice.io/" target="_blank" rel="noopener">DaoVoice</a>官网上注册一个账号</p>
+</li>
+<li><p>在<code>应用设置，安装到网站，仅匿名用户</code>下获得id，我们是采用js语言，选择对应复制<br><img src="https://img-blog.csdnimg.cn/20200213153332765.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改界面样式：<br><img src="https://img-blog.csdnimg.cn/20200213154553189.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>在<code>sakura\_config.yml</code>中末尾加上：</p>
+<pre><code> # Online contact ##在线聊天
+ daovoice: true
+ daovoice_app_id: f6b2a0b1 ##这里替换成你DaoVoice上的appid</code></pre></li>
+<li><p>在<code>\sakura\layout\_partial</code>目录下的==footer.ejs==末尾加上：<br>(依然是加快网站访问速度，将head的引用加在了foot中)</p>
+<pre><code>   &lt;% if (theme.daovoice){ %&gt;
+   &lt;script&gt;(function(i,s,o,g,r,a,m){i[&quot;DaoVoiceObject&quot;]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset=&quot;utf-8&quot;;m.parentNode.insertBefore(a,m)})(window,document,&quot;script&quot;,(&#39;https:&#39; == document.location.protocol ? &#39;https:&#39; : &#39;http:&#39;) + &quot;//widget.daovoice.io/widget/f6b2a0b1.js&quot;,&quot;daovoice&quot;)
+     daovoice(&#39;init&#39;, {
+       app_id: &quot;&lt;%= theme.daovoice_app_id%&gt;&quot;
+     });
+     daovoice(&#39;update&#39;);
+   &lt;/script&gt;
+   &lt;% } %&gt;</code></pre><blockquote>
+<p>不同的主题配置格式和位置有所不同，还要注意其中的id数字。</p>
 </blockquote>
-<p> 之前用sakura原版botui.js,出现了编码格式不一致中文乱码的情况，后来修改后手动保存为UTF-8编码格式，已解决问题。</p>
+<p> <img src="https://img-blog.csdnimg.cn/20200213155259279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>三连访问：</p>
+<pre><code> hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p> 发送信息：<img src="https://img-blog.csdnimg.cn/20200213174921168.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 站内查看访问者具体信息：<br> <img src="https://img-blog.csdnimg.cn/20200213175045794.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 绑定的邮箱会接收到相应信息：<img src="https://img-blog.csdnimg.cn/20200213175146254.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>绑定微信（在daovoice的右上角）<br><img src="https://img-blog.csdnimg.cn/20200213175634625.png" alt="在这里插入图片描述"><br>关注公众号后打开小程序，就可以实时收发消息，有新的消息也会通过微信通知。</p>
 </li>
 </ol>
-<h1 id="三、演示效果"><a href="#三、演示效果" class="headerlink" title="三、演示效果"></a>三、演示效果</h1><p><a href="https://cungudafa.gitee.io/about/">https://cungudafa.gitee.io/about/</a></p>
+<blockquote>
+<p>演示页面：<a href="https://cungudafa.gitee.io/">https://cungudafa.gitee.io/</a></p>
+</blockquote>
 
         </div>
         <!-- .entry-content -->
@@ -541,13 +608,13 @@ bot_ui_ini()
           
             <div class="post-nepre half previous">
           
-            <a href="/2020/02/13/Hexo%EF%BC%88sakura%EF%BC%89%E8%83%8C%E6%99%AF%E5%8A%A8%E7%94%BB%E3%80%81%E5%A3%81%E7%BA%B8%E3%80%81%E9%80%9A%E8%AE%AF%E6%A0%8F%EF%BC%88%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%B7%E5%BC%8F%EF%BC%89/" rel="prev">
+            <a href="/post/ff18.html" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599486505&di=ffefe5680becba9f2e3d83594151a2d9&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599486505&di=ffefe5680becba9f2e3d83594151a2d9&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3812f1de4740e309c5caa09deb9d8fe1ff3bc7bc.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581614436311&di=abb6a6cf26c58fac96ef46f67a30aca9&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581614436311&di=abb6a6cf26c58fac96ef46f67a30aca9&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg">
               </div>
               <span class="label">Previous Post</span>
               <div class="info">
-                <h3>Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</h3>
+                <h3>2020年2月4日情人节随笔</h3>
                 <hr>
               </div>
             </a>
@@ -557,13 +624,13 @@ bot_ui_ini()
           
             <div class="post-nepre half next">
           
-            <a href="/2020/02/12/Hexo%EF%BC%88sakura%EF%BC%89%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%8A%A8%E7%94%BB%EF%BC%88%E5%8F%AF%E5%AF%B9%E8%AF%9D%EF%BC%8C%E6%8D%A2%E8%A3%85%E4%BA%92%E5%8A%A8%EF%BC%89/" rel="next">
+            <a href="/post/81c1.html" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599486505&di=17e94cba0deed92629482255b45e4119&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F6ca95ac6f2189d17a0e8ffdb9b5a5ed6e57a4d29.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599486505&di=17e94cba0deed92629482255b45e4119&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F6ca95ac6f2189d17a0e8ffdb9b5a5ed6e57a4d29.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599862744&di=b0accfc7b5e92d45e7a5543266962374&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599862744&di=b0accfc7b5e92d45e7a5543266962374&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg">
               </div>
               <span class="label">Next Post</span>
               <div class="info">
-                <h3>Hexo（sakura）添加live2d看板动画（可对话，换装互动）</h3>
+                <h3>Botui搭建js聊天机器人</h3>
                 <hr>
               </div>
             </a>
@@ -579,19 +646,26 @@ bot_ui_ini()
         el: '#vcomments',
         appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
         appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
+        avatar: "mm",
         path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+        placeholder: "",
+        notify: "false",
+        verify: "true",
+        visitor: "true",
+        avatar: "mm",
+        pageSize: "10",
+        background: "https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/social/comment_bg.png"
       })
   }
 </script>
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="姑" height="70" width="70"></a>
+          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="cungudafa" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">姑</a>
+            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">cungudafa</a>
             </h3>
           </div>
         </div>
@@ -661,7 +735,7 @@ bot_ui_ini()
       </p>
     </div>
     <!-- <i class="fa fa-fire" aria-hidden="true"></i> -->
-    <span style="color: #ccc;padding-left: 20px;">
+    <span style="color: #ff9999;padding-left: 20px;">
       <i class="fa fa-clock-o" aria-hidden="true"></i>
       <span id="time" align="center">载入时间中...</span>
       <script>
@@ -680,7 +754,7 @@ bot_ui_ini()
        setInterval("createtime()",250);
       </script>
       <!--不蒜子网页计数器-->
-      <span style="color:#ccc;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
+      <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
     </span>
   </div><!-- .site-info -->
   <!-- pages壁纸切换 -->
@@ -785,13 +859,21 @@ $(document).ready(function() {
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js"></script>
 <!-- 🌸飘落 -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js"></script>
+<!-- 雪花飘落 -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/snow1.js"></script> -->
 <!-- // 文字 -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js"></script>
+<!-- // 烟花 -->
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/fireworks.js"></script>
+<!-- // 星星跟随坠落 -->
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/cursor.js"></script>
 <!-- // 爱心 -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
 <!-- // 连线 -->
-<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script> -->
 <!-- 样式二（飘动的彩带） -->
 <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js" type="text/javascript"></script>
 <!--背景切换-->
@@ -805,7 +887,11 @@ $(document).ready(function() {
     daovoice('update');
   </script>
 
-
+<!-- weather -->
+<script type="text/javascript">
+  WIDGET = {FID: 'yqRrzxwtvs'}
+  </script>
+  <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
         <div class="icon"></div>
@@ -1087,5 +1173,6 @@ $(document).ready(function() {
     })
   });
 </script>
-</body>
+  
+ </body>
 </html>
