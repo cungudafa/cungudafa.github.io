@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-15T10:31:09.459Z</updated>
+  <updated>2020-02-15T14:48:24.935Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo（sakura）引入fancybox图集和b站视频链接</title>
+    <link href="https://cungudafa.gitee.io/post/61cf.html"/>
+    <id>https://cungudafa.gitee.io/post/61cf.html</id>
+    <published>2020-02-15T14:48:10.000Z</published>
+    <updated>2020-02-15T14:48:24.935Z</updated>
+    
+    <summary type="html">
+    
+      新建中
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
+    
+      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo（sakura）主题Mashiro大佬同款LOGO修改方法</title>
@@ -57,29 +80,6 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
       <category term="web" scheme="https://cungudafa.gitee.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）制作fancybox图册</title>
-    <link href="https://cungudafa.gitee.io/post/61cf.html"/>
-    <id>https://cungudafa.gitee.io/post/61cf.html</id>
-    <published>2020-02-15T04:18:10.000Z</published>
-    <updated>2020-02-15T08:15:12.583Z</updated>
-    
-    <summary type="html">
-    
-      新建中
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
-    
-      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
@@ -138,7 +138,7 @@
       
         
         
-          &lt;!-- build time:Sat Feb 15 2020 20:29:13 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Sat Feb 15 2020 23:35:42 GMT+0800 (GMT+08:00)
         
       
     
@@ -220,7 +220,7 @@
     <link href="https://cungudafa.gitee.io/post/45da.html"/>
     <id>https://cungudafa.gitee.io/post/45da.html</id>
     <published>2020-02-12T09:14:10.000Z</published>
-    <updated>2020-02-14T16:35:11.531Z</updated>
+    <updated>2020-02-15T15:23:53.005Z</updated>
     
     <summary type="html">
     
@@ -291,7 +291,7 @@
       
         
         
-          &lt;!-- build time:Sat Feb 15 2020 20:29:13 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
+          &lt;!-- build time:Sat Feb 15 2020 23:35:42 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
         
       
     
