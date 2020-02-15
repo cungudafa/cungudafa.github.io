@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-14T12:52:54.112Z</updated>
+  <updated>2020-02-15T08:18:30.676Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo-neat插件优化提升访问效率</title>
+    <link href="https://cungudafa.gitee.io/post/733a.html"/>
+    <id>https://cungudafa.gitee.io/post/733a.html</id>
+    <published>2020-02-15T08:06:23.000Z</published>
+    <updated>2020-02-15T08:18:30.676Z</updated>
+    
+    <summary type="html">
+    
+      对于任何一个网站来说，优化页面的访问速度是必须的，个人来说，只要加载页面十秒以上或长时间处于空白或加载状态，我会立刻关掉此页面的，你又能容忍几秒呢？
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="web" scheme="https://cungudafa.gitee.io/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）制作fancybox图册</title>
+    <link href="https://cungudafa.gitee.io/post/61cf.html"/>
+    <id>https://cungudafa.gitee.io/post/61cf.html</id>
+    <published>2020-02-15T04:18:10.000Z</published>
+    <updated>2020-02-15T08:15:12.583Z</updated>
+    
+    <summary type="html">
+    
+      新建中
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
+    
+      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Github+PicGo配置私人图床</title>
@@ -71,11 +117,7 @@
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;疫情期间，姑已经在家呆了&lt;code&gt;二十天&lt;/code&gt;了，可是为国家省心的好孩子。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;明天就是2月14号了，如何度过这个西方的浪漫节日呢？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当然，不建议出门聚
+          &lt;!-- build time:Sat Feb 15 2020 16:18:46 GMT+0800 (GMT+08:00)
         
       
     
@@ -228,8 +270,7 @@
       
         
         
-          &lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;
-&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very
+          &lt;!-- build time:Sat Feb 15 2020 16:18:46 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
         
       
     
