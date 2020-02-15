@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-15T08:38:55.978Z</updated>
+  <updated>2020-02-15T10:31:09.459Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo（sakura）主题Mashiro大佬同款LOGO修改方法</title>
+    <link href="https://cungudafa.gitee.io/post/58d.html"/>
+    <id>https://cungudafa.gitee.io/post/58d.html</id>
+    <published>2020-02-15T10:31:10.000Z</published>
+    <updated>2020-02-15T10:31:09.459Z</updated>
+    
+    <summary type="html">
+    
+      kitty原始猫咪中文智能手机字体
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo-neat插件优化提升访问效率</title>
@@ -117,7 +138,7 @@
       
         
         
-          &lt;!-- build time:Sat Feb 15 2020 16:40:01 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Sat Feb 15 2020 18:31:46 GMT+0800 (GMT+08:00)
         
       
     
@@ -270,7 +291,7 @@
       
         
         
-          &lt;!-- build time:Sat Feb 15 2020 16:40:01 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
+          &lt;!-- build time:Sat Feb 15 2020 18:31:46 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
         
       
     
