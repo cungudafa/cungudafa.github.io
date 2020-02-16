@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-16T10:51:30.601Z</updated>
+  <updated>2020-02-16T14:27:17.062Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hexo设置置顶文章</title>
     <link href="https://cungudafa.gitee.io/post/c43d.html"/>
     <id>https://cungudafa.gitee.io/post/c43d.html</id>
-    <published>2020-02-16T10:54:10.000Z</published>
-    <updated>2020-02-16T10:51:30.601Z</updated>
+    <published>2020-02-16T14:24:10.000Z</published>
+    <updated>2020-02-16T14:27:17.062Z</updated>
     
     <summary type="html">
     
@@ -29,14 +29,14 @@
       
         
         
-          &lt;!-- build time:Sun Feb 16 2020 22:18:55 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qwerty200696/article/details/79010629&quot;
+          &lt;!-- build time:Sun Feb 16 2020 23:11:46 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;首页的置顶没弄好，标题上的评论数也没有显示，愁&lt;/p&gt;&lt;p&gt;&lt;a
         
       
     
     </summary>
     
     
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="转载" scheme="https://cungudafa.gitee.io/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
   </entry>
@@ -184,7 +184,7 @@
       
         
         
-          &lt;!-- build time:Sun Feb 16 2020 22:18:55 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Sun Feb 16 2020 23:11:46 GMT+0800 (GMT+08:00)
         
       
     
@@ -337,7 +337,7 @@
       
         
         
-          &lt;!-- build time:Sun Feb 16 2020 22:18:55 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
+          &lt;!-- build time:Sun Feb 16 2020 23:11:46 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
         
       
     
