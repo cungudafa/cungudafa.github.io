@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-15T14:48:24.935Z</updated>
+  <updated>2020-02-16T10:51:30.601Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo设置置顶文章</title>
+    <link href="https://cungudafa.gitee.io/post/c43d.html"/>
+    <id>https://cungudafa.gitee.io/post/c43d.html</id>
+    <published>2020-02-16T10:54:10.000Z</published>
+    <updated>2020-02-16T10:51:30.601Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Sun Feb 16 2020 22:18:55 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qwerty200696/article/details/79010629&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>程序媛交友</title>
+    <link href="https://cungudafa.gitee.io/post/adab.html"/>
+    <id>https://cungudafa.gitee.io/post/adab.html</id>
+    <published>2020-02-16T09:54:10.000Z</published>
+    <updated>2020-02-16T10:55:16.592Z</updated>
+    
+    <summary type="html">
+    
+      cungudafa:在学习中的小王呀
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="https://cungudafa.gitee.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo（sakura）引入fancybox图集和b站视频链接</title>
@@ -138,7 +184,7 @@
       
         
         
-          &lt;!-- build time:Sun Feb 16 2020 11:45:23 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Sun Feb 16 2020 22:18:55 GMT+0800 (GMT+08:00)
         
       
     
@@ -220,7 +266,7 @@
     <link href="https://cungudafa.gitee.io/post/45da.html"/>
     <id>https://cungudafa.gitee.io/post/45da.html</id>
     <published>2020-02-12T09:14:10.000Z</published>
-    <updated>2020-02-15T15:23:53.005Z</updated>
+    <updated>2020-02-16T09:49:24.654Z</updated>
     
     <summary type="html">
     
@@ -291,7 +337,7 @@
       
         
         
-          &lt;!-- build time:Sun Feb 16 2020 11:45:23 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
+          &lt;!-- build time:Sun Feb 16 2020 22:18:55 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;github-emoji表情支持测试：🌞😍（未保留）&lt;/p&gt;&lt;p&gt;Welcome to &lt;a
         
       
     
