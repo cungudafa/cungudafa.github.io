@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-17T11:25:56.458Z</updated>
+  <updated>2020-02-17T12:30:31.552Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -17,9 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo（sakura）添加RSS订阅</title>
+    <link href="https://cungudafa.gitee.io/2020/02/17/hexosakuratianjiarssdingyue/"/>
+    <id>https://cungudafa.gitee.io/2020/02/17/hexosakuratianjiarssdingyue/</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:30:31.552Z</updated>
+    
+    <summary type="html">
+    
+      简易信息聚合是“Really Simple Syndication”或“Richsite summary”(网站内容摘要)的中文名字。是站点用来和其他站点之间共享内容的一种简易方式。英文缩写为RSS技术。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
+    <link href="https://cungudafa.gitee.io/2020/02/17/hexosakuratianjiatianqixiaochajianxiugaifangwenlujing/"/>
+    <id>https://cungudafa.gitee.io/2020/02/17/hexosakuratianjiatianqixiaochajianxiugaifangwenlujing/</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:29:10.375Z</updated>
+    
+    <summary type="html">
+    
+      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo（sakura）设置文章置顶+私密文章</title>
-    <link href="https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/"/>
-    <id>https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/17/hexosakurashezhiwenzhangzhidingsimiwenzhang/"/>
+    <id>https://cungudafa.gitee.io/2020/02/17/hexosakurashezhiwenzhangzhidingsimiwenzhang/</id>
     <published>2020-02-17T10:57:10.000Z</published>
     <updated>2020-02-17T11:25:56.458Z</updated>
     
@@ -41,8 +85,8 @@
   
   <entry>
     <title>程序媛交友</title>
-    <link href="https://cungudafa.gitee.io/2020/02/16/cheng-xu-yuan-jiao-you/"/>
-    <id>https://cungudafa.gitee.io/2020/02/16/cheng-xu-yuan-jiao-you/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/16/chengxuyuanjiaoyou/"/>
+    <id>https://cungudafa.gitee.io/2020/02/16/chengxuyuanjiaoyou/</id>
     <published>2020-02-16T09:54:10.000Z</published>
     <updated>2020-02-17T03:53:51.961Z</updated>
     
@@ -62,14 +106,14 @@
   
   <entry>
     <title>Hexo（sakura）引入fancybox图集和b站视频链接</title>
-    <link href="https://cungudafa.gitee.io/2020/02/15/hexo-sakura-yin-ru-fancybox-tu-ji-he-b-zhan-shi-pin-lian-jie/"/>
-    <id>https://cungudafa.gitee.io/2020/02/15/hexo-sakura-yin-ru-fancybox-tu-ji-he-b-zhan-shi-pin-lian-jie/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/15/hexosakurayinrufancyboxtujihebzhanshipinlianjie/"/>
+    <id>https://cungudafa.gitee.io/2020/02/15/hexosakurayinrufancyboxtujihebzhanshipinlianjie/</id>
     <published>2020-02-15T14:48:10.000Z</published>
-    <updated>2020-02-17T03:53:58.596Z</updated>
+    <updated>2020-02-17T12:32:58.107Z</updated>
     
     <summary type="html">
     
-      新建中
+      在Hexo博客中添加b站视频和图集查看功能
     
     </summary>
     
@@ -85,8 +129,8 @@
   
   <entry>
     <title>Hexo（sakura）主题Mashiro大佬同款LOGO修改方法</title>
-    <link href="https://cungudafa.gitee.io/2020/02/15/hexo-sakura-zhu-ti-mashiro-da-lao-tong-kuan-logo-xiu-gai-fang-fa/"/>
-    <id>https://cungudafa.gitee.io/2020/02/15/hexo-sakura-zhu-ti-mashiro-da-lao-tong-kuan-logo-xiu-gai-fang-fa/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/15/hexosakurazhutimashirodalaotongkuanlogoxiugaifangfa/"/>
+    <id>https://cungudafa.gitee.io/2020/02/15/hexosakurazhutimashirodalaotongkuanlogoxiugaifangfa/</id>
     <published>2020-02-15T10:31:10.000Z</published>
     <updated>2020-02-17T11:23:16.671Z</updated>
     
@@ -106,8 +150,8 @@
   
   <entry>
     <title>Hexo-neat插件优化提升访问效率</title>
-    <link href="https://cungudafa.gitee.io/2020/02/15/hexo-neat-cha-jian-you-hua-ti-sheng-fang-wen-xiao-lu/"/>
-    <id>https://cungudafa.gitee.io/2020/02/15/hexo-neat-cha-jian-you-hua-ti-sheng-fang-wen-xiao-lu/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/15/hexoneatchajianyouhuatishengfangwenxiaolu/"/>
+    <id>https://cungudafa.gitee.io/2020/02/15/hexoneatchajianyouhuatishengfangwenxiaolu/</id>
     <published>2020-02-15T08:06:23.000Z</published>
     <updated>2020-02-17T03:25:34.384Z</updated>
     
@@ -129,8 +173,8 @@
   
   <entry>
     <title>Github+PicGo配置私人图床</title>
-    <link href="https://cungudafa.gitee.io/2020/02/14/github-picgo-pei-zhi-si-ren-tu-chuang/"/>
-    <id>https://cungudafa.gitee.io/2020/02/14/github-picgo-pei-zhi-si-ren-tu-chuang/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/14/githubpicgopeizhisirentuchuang/"/>
+    <id>https://cungudafa.gitee.io/2020/02/14/githubpicgopeizhisirentuchuang/</id>
     <published>2020-02-14T12:50:10.000Z</published>
     <updated>2020-02-15T08:39:29.524Z</updated>
     
@@ -150,8 +194,8 @@
   
   <entry>
     <title>Hexo（sakura）文章增添字数统计和阅读时长功能</title>
-    <link href="https://cungudafa.gitee.io/2020/02/14/hexo-sakura-zeng-tian-zi-shu-tong-ji-he-yue-du-shi-chang-gong-neng/"/>
-    <id>https://cungudafa.gitee.io/2020/02/14/hexo-sakura-zeng-tian-zi-shu-tong-ji-he-yue-du-shi-chang-gong-neng/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/14/hexosakurazengtianzishutongjiheyuedushichanggongneng/"/>
+    <id>https://cungudafa.gitee.io/2020/02/14/hexosakurazengtianzishutongjiheyuedushichanggongneng/</id>
     <published>2020-02-14T05:14:10.000Z</published>
     <updated>2020-02-17T11:23:34.158Z</updated>
     
@@ -171,8 +215,8 @@
   
   <entry>
     <title>2020年2月4日情人节随笔</title>
-    <link href="https://cungudafa.gitee.io/2020/02/13/2020-nian-2-yue-4-ri-qing-ren-jie-sui-bi/"/>
-    <id>https://cungudafa.gitee.io/2020/02/13/2020-nian-2-yue-4-ri-qing-ren-jie-sui-bi/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/13/2020nian2yue4riqingrenjiesuibi/"/>
+    <id>https://cungudafa.gitee.io/2020/02/13/2020nian2yue4riqingrenjiesuibi/</id>
     <published>2020-02-13T14:59:10.000Z</published>
     <updated>2020-02-17T03:25:10.843Z</updated>
     
@@ -192,8 +236,8 @@
   
   <entry>
     <title>Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</title>
-    <link href="https://cungudafa.gitee.io/2020/02/13/hexo-sakura-bei-jing-dong-hua-bi-zhi-tong-xun-lan-zi-ding-yi-yang-shi/"/>
-    <id>https://cungudafa.gitee.io/2020/02/13/hexo-sakura-bei-jing-dong-hua-bi-zhi-tong-xun-lan-zi-ding-yi-yang-shi/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/13/hexosakurabeijingdonghuabizhitongxunlanzidingyiyangshi/"/>
+    <id>https://cungudafa.gitee.io/2020/02/13/hexosakurabeijingdonghuabizhitongxunlanzidingyiyangshi/</id>
     <published>2020-02-13T10:19:10.000Z</published>
     <updated>2020-02-17T11:24:12.046Z</updated>
     
@@ -215,8 +259,8 @@
   
   <entry>
     <title>Botui搭建js聊天机器人</title>
-    <link href="https://cungudafa.gitee.io/2020/02/13/botui-da-jian-js-liao-tian-ji-qi-ren/"/>
-    <id>https://cungudafa.gitee.io/2020/02/13/botui-da-jian-js-liao-tian-ji-qi-ren/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/13/botuidajianjsliaotianjiqiren/"/>
+    <id>https://cungudafa.gitee.io/2020/02/13/botuidajianjsliaotianjiqiren/</id>
     <published>2020-02-13T10:14:10.000Z</published>
     <updated>2020-02-17T03:25:15.253Z</updated>
     
@@ -236,8 +280,8 @@
   
   <entry>
     <title>Hexo（sakura）添加live2d看板动画（可对话，换装互动）</title>
-    <link href="https://cungudafa.gitee.io/2020/02/12/hexo-sakura-tian-jia-live2d-kan-ban-dong-hua-ke-dui-hua-huan-zhuang-hu-dong/"/>
-    <id>https://cungudafa.gitee.io/2020/02/12/hexo-sakura-tian-jia-live2d-kan-ban-dong-hua-ke-dui-hua-huan-zhuang-hu-dong/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/12/hexosakuratianjialive2dkanbandonghuakeduihuahuanzhuanghudong/"/>
+    <id>https://cungudafa.gitee.io/2020/02/12/hexosakuratianjialive2dkanbandonghuakeduihuahuanzhuanghudong/</id>
     <published>2020-02-12T12:18:10.000Z</published>
     <updated>2020-02-17T11:23:50.326Z</updated>
     
@@ -257,8 +301,8 @@
   
   <entry>
     <title>Valine - 一款快速、简洁且高效的无后端评论系统</title>
-    <link href="https://cungudafa.gitee.io/2020/02/12/valine-yi-kuan-kuai-su-jian-ji-qie-gao-xiao-de-wu-hou-duan-ping-lun-xi-tong/"/>
-    <id>https://cungudafa.gitee.io/2020/02/12/valine-yi-kuan-kuai-su-jian-ji-qie-gao-xiao-de-wu-hou-duan-ping-lun-xi-tong/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/12/valineyikuankuaisujianjiqiegaoxiaodewuhouduanpinglunxitong/"/>
+    <id>https://cungudafa.gitee.io/2020/02/12/valineyikuankuaisujianjiqiegaoxiaodewuhouduanpinglunxitong/</id>
     <published>2020-02-12T09:14:10.000Z</published>
     <updated>2020-02-17T03:26:29.050Z</updated>
     
@@ -278,8 +322,8 @@
   
   <entry>
     <title>Github+jsDelivr搭建自己的免费cdn</title>
-    <link href="https://cungudafa.gitee.io/2020/02/12/github-jsdelivr-da-jian-zi-ji-de-mian-fei-cdn/"/>
-    <id>https://cungudafa.gitee.io/2020/02/12/github-jsdelivr-da-jian-zi-ji-de-mian-fei-cdn/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/12/githubjsdelivrdajianzijidemianfeicdn/"/>
+    <id>https://cungudafa.gitee.io/2020/02/12/githubjsdelivrdajianzijidemianfeicdn/</id>
     <published>2020-02-12T02:19:10.000Z</published>
     <updated>2020-02-17T03:25:20.885Z</updated>
     
@@ -299,8 +343,8 @@
   
   <entry>
     <title>Gitee+Hexo搭建个人博客</title>
-    <link href="https://cungudafa.gitee.io/2020/02/11/ji-yu-gitee-hexo-da-jian-ge-ren-bo-ke/"/>
-    <id>https://cungudafa.gitee.io/2020/02/11/ji-yu-gitee-hexo-da-jian-ge-ren-bo-ke/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/11/jiyugiteehexodajiangerenboke/"/>
+    <id>https://cungudafa.gitee.io/2020/02/11/jiyugiteehexodajiangerenboke/</id>
     <published>2020-02-11T08:02:11.954Z</published>
     <updated>2020-02-17T03:26:36.058Z</updated>
     
@@ -320,8 +364,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://cungudafa.gitee.io/2020/02/11/hello-world/"/>
-    <id>https://cungudafa.gitee.io/2020/02/11/hello-world/</id>
+    <link href="https://cungudafa.gitee.io/2020/02/11/helloworld/"/>
+    <id>https://cungudafa.gitee.io/2020/02/11/helloworld/</id>
     <published>2020-02-11T04:24:09.173Z</published>
     <updated>2020-02-17T09:03:39.879Z</updated>
     
