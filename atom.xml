@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-17T11:04:20.878Z</updated>
+  <updated>2020-02-17T11:25:56.458Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cungudafa.gitee.io/post/73fa.html"/>
     <id>https://cungudafa.gitee.io/post/73fa.html</id>
     <published>2020-02-17T10:57:10.000Z</published>
-    <updated>2020-02-17T11:04:20.878Z</updated>
+    <updated>2020-02-17T11:25:56.458Z</updated>
     
     <summary type="html">
     
@@ -33,26 +33,9 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+      <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
       <category term="加密" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A0%E5%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo设置置顶文章</title>
-    <link href="https://cungudafa.gitee.io/post/c43d.html"/>
-    <id>https://cungudafa.gitee.io/post/c43d.html</id>
-    <published>2020-02-16T14:24:10.000Z</published>
-    <updated>2020-02-17T03:26:21.641Z</updated>
-    
-    <summary type="html">
-    
-      Hexo首页置顶文章设置，用到hexo-generator-index-pin-top插件
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="https://cungudafa.gitee.io/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
     
   </entry>
   
@@ -105,11 +88,11 @@
     <link href="https://cungudafa.gitee.io/post/58d.html"/>
     <id>https://cungudafa.gitee.io/post/58d.html</id>
     <published>2020-02-15T10:31:10.000Z</published>
-    <updated>2020-02-17T03:25:39.881Z</updated>
+    <updated>2020-02-17T11:23:16.671Z</updated>
     
     <summary type="html">
     
-      kitty原始猫咪中文智能手机字体
+      姑的小屋（酷炫LOGO）——kitty原始猫咪中文智能手机字体
     
     </summary>
     
@@ -170,11 +153,11 @@
     <link href="https://cungudafa.gitee.io/post/8c48.html"/>
     <id>https://cungudafa.gitee.io/post/8c48.html</id>
     <published>2020-02-14T05:14:10.000Z</published>
-    <updated>2020-02-17T03:25:44.732Z</updated>
+    <updated>2020-02-17T11:23:34.158Z</updated>
     
     <summary type="html">
     
-      统计全文字数，分析阅读时长。
+      wordcount统计全文字数，分析阅读时长。
     
     </summary>
     
@@ -182,7 +165,7 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="wordcount" scheme="https://cungudafa.gitee.io/tags/wordcount/"/>
+      <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
@@ -212,7 +195,7 @@
     <link href="https://cungudafa.gitee.io/post/771.html"/>
     <id>https://cungudafa.gitee.io/post/771.html</id>
     <published>2020-02-13T10:19:10.000Z</published>
-    <updated>2020-02-17T03:26:15.114Z</updated>
+    <updated>2020-02-17T11:24:12.046Z</updated>
     
     <summary type="html">
     
@@ -225,6 +208,8 @@
     
     
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
@@ -254,7 +239,7 @@
     <link href="https://cungudafa.gitee.io/post/d214.html"/>
     <id>https://cungudafa.gitee.io/post/d214.html</id>
     <published>2020-02-12T12:18:10.000Z</published>
-    <updated>2020-02-17T03:26:05.892Z</updated>
+    <updated>2020-02-17T11:23:50.326Z</updated>
     
     <summary type="html">
     
@@ -266,7 +251,7 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="评论" scheme="https://cungudafa.gitee.io/tags/%E8%AF%84%E8%AE%BA/"/>
+      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
