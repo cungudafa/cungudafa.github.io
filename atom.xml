@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-17T12:30:31.552Z</updated>
+  <updated>2020-02-18T17:15:55.711Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github+Hexo博客增添相册功能</title>
+    <link href="https://cungudafa.gitee.io/2020/02/19/githubhexobokezengtianxiangcegongneng/"/>
+    <id>https://cungudafa.gitee.io/2020/02/19/githubhexobokezengtianxiangcegongneng/</id>
+    <published>2020-02-18T17:14:10.000Z</published>
+    <updated>2020-02-18T17:15:55.711Z</updated>
+    
+    <summary type="html">
+    
+      Hexo博客延展功能——制定个人相册
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo（sakura）添加RSS订阅</title>
