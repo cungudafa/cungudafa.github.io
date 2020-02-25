@@ -6,7 +6,7 @@
   <meta name="baidu-site-verification" content="LukfTcyXmC" />
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Tag: SEO | cungudafa</title>
+  <title itemprop="name">shuoshuo2 | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -405,75 +405,133 @@
   </div>
 </header>
 
+        <div class="pattern-center-blank"></div>
+  
+  <div id="content" class="site-content">
+    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
       
-<div class="pattern-center-blank"></div>
-<div class="pattern-center ">
-  <div class="pattern-attachment-img">
-    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="SEO.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-  </div>
-  <header class="pattern-header ">
-    <h1 class="cat-title">SEO</h1>
-  </header>
-</div>
-<div id="content" class="site-content">
-  <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
+      <!-- .entry-content -->
       
-    <!-- 置顶文章 -->
-    
-      
-    
-    <!-- 首页默认取最最新文章集 -->
-    
-      <!-- 其余文章 -->
-      
-        <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/post/e7a5.html">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
+<div id="vcomments"></div>
+<!-- 先引入样式,从footer提前,jqury -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<!-- 评论框美化 -->
+<style>
+    .v .vwrap{padding: 0 0 44px;}
+    .v .veditor{min-height: 10rem;
+        background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/girls2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255,255,255,0);
+        resize: none;}
+    .v .vwrap .vedit{padding-top:20px;}
+    .v .vwrap .vheader{width: 80%;bottom:0;position: absolute;background: #fff7f7f7;}
+    .v .vinput{padding:10px 15px; text-align: center;}
+    .v .vwrap .vheader .vinput{border-bottom:0px}
+    .v .vwrap .vedit .vctrl{margin-top:-44px;right:0;position:absolute;margin-right:-3px;}
+    .v .vwrap .vcontrol{position:absolute;right:0;bottom:0;width:20%;padding-top:0px;}
+    .v .vwrap .vcontrol .col.col-20,
+    .v .vwrap .vedit .vctrl span.vpreview-btn{display: none}
+    .v .vwrap .vcontrol .col.col-80{width: 100%;}
+    .v .vbtn.vsubmit{border-radius: 0;padding: 0;color: #fff;line-height: 44px;width:100%;border: none;background:#ff9999;}
+    .v .vlist .vcard .vhead .vsys{background: #fff7f7f7;}
+    .v .vlist .vcard .vh .vmeta .vat{font-size: 12px;display: block;margin-left: 15px;float: right;color: #fff;background-color: #ff9999;line-height: 20px;padding: 0 6px;border-radius: 3px;}
+    @media screen and (max-width: 520px){
+    .v .vwrap .vheader .vinput{width: 33.33%;padding:10px 5px;}
+    }
+</style>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
+        appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
+        path: window.location.pathname,
+        comment_count: true,
+        notify: false, // 邮件提醒!使用第三方就不要添加这个!!
+        verify: true, //验证码
+        avatar: 'monsterid',//小怪物头像
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."  
+    });
+    //   自定义邮箱审核规则
+    document.body.addEventListener('click', function(e) {
+        if (e.target.classList.contains('vsubmit')) {
+            const email = document.querySelector('input[type=email]');
+            const nick = document.querySelector('input[name=nick]');
+            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (!email.value || !nick.value || !reg.test(email.value)) {
+                const str = `<div class="valert text-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+                const vmark = document.querySelector('.vmark');
+                vmark.innerHTML = str;
+                vmark.style.display = 'block';
+
+                setTimeout(function() {
+                    vmark.style.display = 'none';
+                    vmark.innerHTML = '';
+                }, 2500);
+            }
+        }
+    });
+    // 点击回复直接评论,官方版本点击回复时都是跳回到页面上方的评论框进行回复，评论框是固定不动的
+    // 参考https://immmmm.com/valine-diy
+    $(document).ready(function(){
+        //$('.vemoji-btn').text('😀');
+        $("#vcomments").on('click', 'span.vat',function(){
+            $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+            $('textarea#veditor').focus();
+        });
+        if(e.target.classList.contains('vsys')) {
+            const chometype = document.getElementById(".vsys");
+            console.log(chometype);
+        };
+    })
+</script>
+<!-- 今日诗词：随机返回一句古诗词名句的接口，宅到用来做 Valine 的 placeholder 显示内容 -->
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+        document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+    })
+</script>
+
+      <div class="single-reward">
+        <div class="reward-open">赏
+          <div class="reward-main">
+            <ul class="reward-row">
+              <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
+              <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
+            </ul>
+          </div>
         </div>
-        <img width="150" height="150" src="https://img-blog.csdnimg.cn/20200219210532911.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title"><a href="/post/e7a5.html">Hexo-SEO搜索引擎优化（sitemap）</a></h1>
-    <div class="p-time"><i class="iconfont icon-time"></i>2020-2-19</div>
-    <!-- 添加浏览数和评论数   未实现
-    <div class="p-time">
-      <div class="post-meta">
-        
-        <span><i class="iconfont icon-attention"></i>
-          <span id="busuanzi_value_page_pv">热度 | </span> 
-        </span>
-        <span><i class="iconfont icon-mark"></i>
-          <a href="/post/e7a5.html#comments"><span class="valine-comment-count" data-xid="pathname"></span> 条评论</a>
-        </span>
       </div>
-    </div> -->
-    <p>sitemap在SEO（Search Engine Optimization：汉译为搜索引擎优化）过程中有着十分重要的地位，同时也能限制蜘蛛对某些特定目录的爬取</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/post/e7a5.html">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-       
-    
-
-
-      <div class="clearer">
-      </div>
-    </main>
-    <!--  -->
-    
-  </div>
+      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+      <footer class="post-footer">
+        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+        <div class="post-tags">
+        </div>
+        <div class="post-share">
+          <div class="social-share sharehidden share-component"></div>
+          <i class="iconfont show-share icon-forward"></i>
+        </div>
+      </footer><!-- .entry-footer -->
+    </article>
+      <!-- #post-## -->
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <a href="/about/" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="姑" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="https://cungudafa.gitee.io/" itemprop="url" rel="author">姑</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>莫三天打鱼两天晒网</p>
+      </section>
+  </div><!-- #primary -->
 </div>
     </div>    
     <div class="ins-search">

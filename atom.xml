@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-02-23T06:14:12.988Z</updated>
+  <updated>2020-02-25T11:53:48.620Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo（sakura）添加说说页面</title>
+    <link href="https://cungudafa.gitee.io/post/ec85.html"/>
+    <id>https://cungudafa.gitee.io/post/ec85.html</id>
+    <published>2020-02-25T11:43:40.996Z</published>
+    <updated>2020-02-25T11:53:48.620Z</updated>
+    
+    <summary type="html">
+    
+      在自己的网站中添加说说页面，类似于qq空间一样：实现操作也比较简单：css处理样式就好了。
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="说说、心情" scheme="https://cungudafa.gitee.io/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）建立标签云hexo-tag-cloud</title>
+    <link href="https://cungudafa.gitee.io/post/2f76.html"/>
+    <id>https://cungudafa.gitee.io/post/2f76.html</id>
+    <published>2020-02-25T11:43:40.993Z</published>
+    <updated>2020-02-25T11:52:55.317Z</updated>
+    
+    <summary type="html">
+    
+      标签云
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="https://cungudafa.gitee.io/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+      <category term="标签云" scheme="https://cungudafa.gitee.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo(sakura)+gitee_github搭建个人博客（总结）</title>
@@ -384,27 +426,6 @@
   </entry>
   
   <entry>
-    <title>Valine - 一款快速、简洁且高效的无后端评论系统</title>
-    <link href="https://cungudafa.gitee.io/post/45da.html"/>
-    <id>https://cungudafa.gitee.io/post/45da.html</id>
-    <published>2020-02-12T09:14:10.000Z</published>
-    <updated>2020-02-17T03:26:29.050Z</updated>
-    
-    <summary type="html">
-    
-      Valine 诞生于2017年8月7日，是一款基于LeanCloud的快速、简洁且高效的无后端评论系统。理论上支持但不限于静态博客，目前已有`Hexo、Jekyll、Typecho、Hugo、Ghost` 等博客程序在使用Valine。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="评论" scheme="https://cungudafa.gitee.io/tags/%E8%AF%84%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Ps抠图（小白教程）</title>
     <link href="https://cungudafa.gitee.io/post/2f1b.html"/>
     <id>https://cungudafa.gitee.io/post/2f1b.html</id>
@@ -422,27 +443,6 @@
     
     
       <category term="Ps" scheme="https://cungudafa.gitee.io/tags/Ps/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Github+jsDelivr搭建自己的免费cdn</title>
-    <link href="https://cungudafa.gitee.io/post/2a9.html"/>
-    <id>https://cungudafa.gitee.io/post/2a9.html</id>
-    <published>2020-02-12T02:19:10.000Z</published>
-    <updated>2020-02-17T03:25:20.885Z</updated>
-    
-    <summary type="html">
-    
-      图床，资源，加速访问github资源。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="cdn" scheme="https://cungudafa.gitee.io/tags/cdn/"/>
     
   </entry>
   

@@ -16,7 +16,7 @@
   z-index: 1500;
   -webkit-text-size-adjust: 100%;
   /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   outline: none; }
   .pswp * {
     -webkit-box-sizing: border-box;
@@ -68,7 +68,7 @@
   opacity: 0;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   will-change: opacity; }
 
 .pswp__scroll-wrap {
@@ -122,7 +122,7 @@
 
 .pswp__container,
 .pswp__zoom-wrap {
-  -webkit-backface-visibility: hidden; }
+  backface-visibility: hidden; }
 
 .pswp__item {
   position: absolute;
@@ -144,7 +144,7 @@
 	style is added to avoid flickering in webkit/blink when layers overlap
 */
 .pswp__img--placeholder {
-  -webkit-backface-visibility: hidden; }
+  backface-visibility: hidden; }
 
 /*
 	div element that matches size of large image
