@@ -101,27 +101,6 @@
   </entry>
   
   <entry>
-    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
-    <link href="https://cungudafa.gitee.io/post/9958.html"/>
-    <id>https://cungudafa.gitee.io/post/9958.html</id>
-    <published>2020-02-17T12:19:10.000Z</published>
-    <updated>2020-02-17T12:29:10.375Z</updated>
-    
-    <summary type="html">
-    
-      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo（sakura）添加RSS订阅</title>
     <link href="https://cungudafa.gitee.io/post/8e37.html"/>
     <id>https://cungudafa.gitee.io/post/8e37.html</id>
@@ -138,7 +117,28 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
       <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
+    <link href="https://cungudafa.gitee.io/post/9958.html"/>
+    <id>https://cungudafa.gitee.io/post/9958.html</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:29:10.375Z</updated>
+    
+    <summary type="html">
+    
+      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
@@ -335,9 +335,9 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
-    
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
@@ -384,27 +384,6 @@
   </entry>
   
   <entry>
-    <title>Ps抠图（小白教程）</title>
-    <link href="https://cungudafa.gitee.io/post/2f1b.html"/>
-    <id>https://cungudafa.gitee.io/post/2f1b.html</id>
-    <published>2020-02-12T09:14:10.000Z</published>
-    <updated>2020-02-23T06:13:06.632Z</updated>
-    
-    <summary type="html">
-    
-      Ps抠图，Pr剪切视频音频处理是很有必要的学习一下哦
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Ps" scheme="https://cungudafa.gitee.io/tags/Ps/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Valine - 一款快速、简洁且高效的无后端评论系统</title>
     <link href="https://cungudafa.gitee.io/post/45da.html"/>
     <id>https://cungudafa.gitee.io/post/45da.html</id>
@@ -422,6 +401,27 @@
     
     
       <category term="评论" scheme="https://cungudafa.gitee.io/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ps抠图（小白教程）</title>
+    <link href="https://cungudafa.gitee.io/post/2f1b.html"/>
+    <id>https://cungudafa.gitee.io/post/2f1b.html</id>
+    <published>2020-02-12T09:14:10.000Z</published>
+    <updated>2020-02-23T06:13:06.632Z</updated>
+    
+    <summary type="html">
+    
+      Ps抠图，Pr剪切视频音频处理是很有必要的学习一下哦
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Ps" scheme="https://cungudafa.gitee.io/tags/Ps/"/>
     
   </entry>
   
