@@ -166,27 +166,6 @@
   </entry>
   
   <entry>
-    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
-    <link href="https://cungudafa.gitee.io/post/9958.html"/>
-    <id>https://cungudafa.gitee.io/post/9958.html</id>
-    <published>2020-02-17T12:19:10.000Z</published>
-    <updated>2020-02-17T12:29:10.375Z</updated>
-    
-    <summary type="html">
-    
-      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo（sakura）添加RSS订阅</title>
     <link href="https://cungudafa.gitee.io/post/8e37.html"/>
     <id>https://cungudafa.gitee.io/post/8e37.html</id>
@@ -206,6 +185,27 @@
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
+    <link href="https://cungudafa.gitee.io/post/9958.html"/>
+    <id>https://cungudafa.gitee.io/post/9958.html</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:29:10.375Z</updated>
+    
+    <summary type="html">
+    
+      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
