@@ -672,7 +672,7 @@
       <section class="comment"  >
         
 <div id="vcomments"></div>
-<!-- 先引入样式,从footer提前,jqury -->
+<!-- 先引入样式,从footer提前 -->
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <!-- 评论框美化 -->
@@ -704,6 +704,8 @@
 <script>
     new Valine({
         el: '#vcomments',
+        lang: 'zh-cn',
+        admin_email: 'cungudafa@163.com',//博主邮箱
         appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
         appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
         path: window.location.pathname,
@@ -711,7 +713,9 @@
         notify: false, // 邮件提醒!使用第三方就不要添加这个!!
         verify: true, //验证码
         avatar: 'monsterid',//小怪物头像
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."  
+        placeholder: "你是我一生只会遇见一次的惊喜 ...",
+        emoticon_url: 'https://cloud.panjunwen.com/alu',//自定义表情
+        emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"]
     });
     //   自定义邮箱审核规则
     document.body.addEventListener('click', function(e) {
