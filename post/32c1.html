@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!-- cungudafa百度收录验证编号 -->
+  <meta name="baidu-site-verification" content="LukfTcyXmC" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】 | cungudafa</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">  
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+  <!-- 自定义logo -->
+  <link rel="stylesheet" type="text/css" href="/css/logo.css">
+  <link rel="stylesheet" type="text/css" href="/fonts/LOGO/logo.css">
+  <!--图片插件样式表-->
+  <link rel="stylesheet" href="/photoswipe/photoswipe.css"> 
+  <link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css"> 
+  <script src="/photoswipe/photoswipe.min.js"></script>
+  <script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+  <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+  " type="text/css" media="all"> -->
+  <script>
+    /*Initial Variables*/
+    var mashiro_option = new Object();
+    var mashiro_global = new Object();
+    mashiro_option.NProgressON = true;
+    /* 
+    * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+    * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+    */
+    mashiro_option.email_domain = "";
+    mashiro_option.email_name = "";
+    mashiro_option.cookie_version_control = "";
+    mashiro_option.qzone_autocomplete = false;
+    mashiro_option.site_name = "cungudafa姑";
+    mashiro_option.author_name = "姑";
+    mashiro_option.site_url = "https://cungudafa.gitee.io/";
+    mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
+    mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";//
+    mashiro_option.mathjax = "0";
+    mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+    mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+    // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+    // mashiro_option.float_player_on = true;
+
+    /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+    var bg = "https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(1).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(2).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(3).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(4).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(5).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(6).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(7).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/cover/(8).jpg.webp".split(",");
+    var bgindex = Math.floor(Math.random()*bg.length);
+    if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+      alert('朋友，IE浏览器未适配哦~');
+    }
+  </script>
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;background-position:center;background-attachment:inherit;}
+  </style>
+  
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
+</head> 
+
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <a href="https://cungudafa.gitee.io/">
+          <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+        </a>
+      </div>
+      <div class="header-info">
+        <p>莫三天打鱼两天晒网</p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="https://blog.csdn.net/cungudafa" target="_blank" class="social-github" title="csdn">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/csdn.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="http://github.com/cungudafa" target="_blank" class="social-github" title="github">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/github.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://gitee.com/cungudafa" target="_blank" class="social-github" title="gitee">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/gitee.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://www.zhihu.com/people/cungudafa" target="_blank" class="social-github" title="zhihu">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/zhihu.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/https://www.jianshu.com/u/9b726a534140" target="_blank" class="social-github" title="jianshu">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/jianshu.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="http://weibo.com/3829198906/info" target="_blank" class="social-github" title="sina">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/sina.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://music.163.com/#/user/home?id=337394988" target="_blank" class="social-github" title="wangyiyun">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/wangyiyun.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li class="wechat">
+                  <a href="/#">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/wechat.png">
+                  </a>
+                  <div class="wechatInner">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/wechat.jpg">
+                  </div>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+    <div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+        <span class="site-title">
+            <span class="logolink logo">
+                <a href="/">
+                    <ruby>
+                    <span class="sakuraso">姑</span>
+                    <span class="no">の</span>
+                    <span class="shironeko">小屋</span>
+                    <rp></rp>
+                    <rt class="logo">cungudafa</rt>
+                    <rp></rp>
+                    </ruby>
+                  </a>
+            </span>
+          </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/tags">
+                          <i class="fa fa-tags" aria-hidden="true"></i>
+                          标签
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E7%94%9F%E6%B4%BB/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          生活
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/photos/">
+                          <i class="fa fa-photo" aria-hidden="true"></i>
+                          相册
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/shuoshuo/">
+                          <i class="fa fa-commenting-o fa-commenting" aria-hidden="true"></i>
+                          说说
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          番组
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/music/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          歌单
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-meetup" aria-hidden="true"></i>
+                          我？
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                          主题
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/lab/">
+                          <i class="fa fa-cogs" aria-hidden="true"></i>
+                          Lab
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/client/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+                    项目
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】</h1>
+      <p class="entry-census">
+          <span class="post-meta-item">
+            <a href="https://cungudafa.gitee.io">
+              <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+            </a>
+          </span>
+          <span class="post-meta-item">
+            <a href="https://cungudafa.gitee.io"> cungudafa </a>
+          </span>
+          <span class="bull">
+            ·</span>
+          <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text"> 2020-3-1 </span>
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 浏览数显示 -->
+          <span class="post-meta-item" >
+              <span class="post-meta-item-icon">
+                <i class="iconfont icon-attention"></i>
+              </span>
+              <span class="post-meta-item-text">本文共<span id="busuanzi_value_page_pv"> </span>次阅读
+              </span>
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 字数统计-->
+          <span class="post-meta-item" >
+          
+          
+            <span class="post-time">
+  <span class="post-meta-item-icon">
+    <i class="fa fa-book"></i>
+    <span class="post-meta-item-text">字数统计: </span>
+    <!-- 安装插件npm install hexo-wordcount --save -->
+    <span class="post-count">2k字</span>
+  </span>
+</span>
+<span class="bull">
+·</span>
+<span class="post-time">
+  <span class="post-meta-item-icon">
+    <i class="fa fa-coffee"></i>
+    <span class="post-meta-item-text">阅读时长≈</span>
+    <span class="post-count">8分钟</span>
+  </span>
+</span>
+          
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 评论数显示 -->
+          <!-- <span class="post-meta-item" >
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              </span class="post-meta-item-text">
+                <span class="valine-comment-count" data-xid="32c1"> </span>
+              </span>
+          </span> -->
+        </p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前用Gitee的Pages对博客进行部署，怎么用也不习惯，今天续费阿里云服务器了，开造~</p>
+<p><code>前期准备：</code></p>
+<ul>
+<li>本地hexo构建可运行发布</li>
+<li>阿里云服务器能访问</li>
+<li>有一个域名（非必须项，可以公网ip查看嘛~）</li>
+</ul>
+<p><code>服务器环境：</code></p>
+<ul>
+<li>Ubantu16.04(我也想换centos，但我的数据库也需要移植，qaq)</li>
+<li>mysql5<code>端口号3306</code> + myphpadmin （hexo是静态页面，用不到的啦；如果是WordPress就需要）</li>
+<li>apache2<code>端口号80</code> （之前的页面）<br>因为我的服务器上正在跑着我的<a href="http://cungudafa.top:82/demo2/" target="_blank" rel="noopener">个人网站</a>，要再加一个网站的话需要做反向代理，于是需要安装nginx，避免80端口冲突，这里先把apache80端口修改为82，这样nginx就可以作为主页面显示。</li>
+</ul>
+<h2 id="修改Apache端口号"><a href="#修改Apache端口号" class="headerlink" title="修改Apache端口号"></a>修改Apache端口号</h2><ol>
+<li><p>修改服务器Apache端口配置文件：</p>
+<pre><code> cd /etc/apache2
+ vi ports.conf</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200229180631128.png" alt="在这里插入图片描述"><br> 将<code>Listen 80改为82</code><br><img src="https://img-blog.csdnimg.cn/20200229180556493.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>在阿里云控制台添加安全组规则：添加82端口<br><img src="https://img-blog.csdnimg.cn/2020022918100541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>重启Apache</p>
+<pre><code> sudo /etc/init.d/apache2 restart</code></pre><p> <img src="https://img-blog.csdnimg.cn/2020022918093429.png" alt="在这里插入图片描述"></p>
+</li>
+</ol>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>回顾一下Hexo发布到gitee（Pages）的流程：</p>
+<ul>
+<li>本地计算机用Hexo构建静态文件public</li>
+<li>关键一步就是<code>git上传</code>github或gitee</li>
+<li><code>发布Pages</code>将仓库目录<code>https://gitee.com/cungudafa/cungudafa/index.html</code>拉取到<code>https://cungudafa.gitee.io/index.html</code><br><img src="https://img-blog.csdnimg.cn/20200301115226557.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>当然我们需要上传的是public文件夹；每次xftp手动上传肯定是不现实且麻烦的，所以我们接下来要在服务器安装git。</li>
+</ul>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="1-服务器创建git用户"><a href="#1-服务器创建git用户" class="headerlink" title="1. 服务器创建git用户"></a>1. 服务器创建git用户</h2><ol>
+<li><p><a href="https://blog.csdn.net/ninnyyan/article/details/88059092" target="_blank" rel="noopener">创建一个git用户</a>，用来运行git服务。（root不安全）</p>
+<pre><code> sudo useradd git -m</code></pre><blockquote>
+<p>注意：Ubantu下必须加上-m，才会自动新建用户目录/home/git/（后面配置和博客文件都放在这里）<br> 在/home/git/非常重要，如果出错，可以删除<code>sudo userdel -r git</code>用户，重新之前的步骤。</p>
+</blockquote>
+</li>
+</ol>
+<ol start="2">
+<li><p>设置密码</p>
+<pre><code> sudo passwd git</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200229181359235.png" alt="在这里插入图片描述"><br> 密码是git用户的密码，简单为上啦。</p>
+</li>
+<li><p>增加git用户执行sudo的权限</p>
+<pre><code> chmod 740 /etc/sudoers
+ vim /etc/sudoers</code></pre><p> 找到以下内容：<code>root    ALL=(ALL)     ALL</code>在下面添加一行</p>
+<pre><code> git     ALL=(ALL)       ALL</code></pre><p> 保存退出后改回权限：</p>
+<pre><code> chmod 400 /etc/sudoers</code></pre><h2 id="2-服务器打开RSA认证"><a href="#2-服务器打开RSA认证" class="headerlink" title="2. 服务器打开RSA认证"></a>2. 服务器打开RSA认证</h2><p>RSA用公钥加密，私钥解密，成为加密通信。<br>用私钥加密，公钥解密，就是认证。（这样就能证明消息是你发出的。）<br>因为：公钥大家都有，私钥就只有一个，在你自己手里。</p>
+<h3 id="2-1-开启认证配置"><a href="#2-1-开启认证配置" class="headerlink" title="2.1 开启认证配置"></a>2.1 开启认证配置</h3></li>
+</ol>
+<p><strong>服务器端：</strong></p>
+<pre><code>vim /etc/ssh/sshd_config</code></pre><p><img src="https://img-blog.csdnimg.cn/20200229194038985.png" alt="在这里插入图片描述"><br>在sshd_config中开启以下几项：(前两项yes，后一项修改为如下)</p>
+<pre><code>RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile  .ssh/authorized_keys</code></pre><p>重启sshd</p>
+<pre><code>systemctl stop sshd.service
+systemctl start sshd.service</code></pre><p><img src="https://img-blog.csdnimg.cn/2020022919413910.png" alt="在这里插入图片描述"></p>
+<h3 id="2-2-建立ssh信任关系"><a href="#2-2-建立ssh信任关系" class="headerlink" title="2.2 建立ssh信任关系"></a>2.2 建立ssh信任关系</h3><p><code>本地电脑生成秘钥对-》发送公钥到服务器-》本地可免密连接服务器</code></p>
+<ol>
+<li><p><strong>在本地电脑：</strong> 生成密钥对</p>
+<pre><code> ssh-keygen -t rsa -C &quot;邮箱&quot; </code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301134434516.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>成功后，会在c盘用户下新建秘钥对：<br><img src="https://img-blog.csdnimg.cn/20200301142133779.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p><strong>在服务器：</strong> 切换至git用户，创建 ~/.ssh 文件夹</p>
+<pre><code> su git
+ mkdir ~/.ssh</code></pre><p> 或者root用户直接创建：</p>
+<pre><code> cd /home/git/
+ mkdir .ssh</code></pre></li>
+<li><p><strong>在本地电脑：</strong> 发送公钥 <strong>id_rsa.pub</strong> 到 <strong><em>/home/git/.ssh/authorzied_keys</em></strong></p>
+<pre><code> ssh-copy-id -i C:/Users/CUNGU/.ssh/id_rsa.pub git@47.93.50.90 //把公钥发送给服务器
+ ssh git@47.93.50.90 // 测试能否登录</code></pre><p> 本地登录效果：<img src="https://img-blog.csdnimg.cn/20200301143008591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 服务器文件夹也有了公钥：<br> <img src="https://img-blog.csdnimg.cn/20200301143127403.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p>文件夹权限调整：<code>authorzied_keys</code>权限为600时才生效<br> git用户：</p>
+<pre><code> su git
+ chmod 700 ~/.ssh
+ chmod 600 ~/.ssh/authorzied_keys</code></pre><p> 第二步没有成功，说我没有权限（Permission denied）；emmm，root设置好了<img src="https://img-blog.csdnimg.cn/2020030114430468.png" alt="在这里插入图片描述"><br> root设置第二步：(注意在.ssh目录下)</p>
+<pre><code> exit // 退出到 root 登录
+ sudo chmod 600 authorized_keys</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301145206698.png" alt="在这里插入图片描述"><br>现在就搭建好git桥梁，为后面实现hexo d部署时，可以自动上传啦！</p>
+<h2 id="3-创建blog-git空仓库"><a href="#3-创建blog-git空仓库" class="headerlink" title="3.创建blog.git空仓库"></a>3.创建blog.git空仓库</h2></li>
+<li><p>切换到git用户，接下来都是在git用户权限下进行操作：</p>
+<pre><code>su git                //切换git用户
+cd /home/git/
+mkdir -p projects/blog  //创建你的博客目录
+mkdir repos &amp;&amp; cd repos
+git init --bare blog.git  //创建一个空仓库
+vi post-receive  //创建hook钩子函数，输入以下内容
+git --work-tree=/home/git/projects/blog --git-dir=/home/git/repos/blog.git checkout -f
+chmod +x post-receive  // 修改钩子函数权限</code></pre><p><img src="https://img-blog.csdnimg.cn/20200229222854424.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>说明：</p>
+<ol>
+<li>root用户的命令前缀是#，git是$；</li>
+<li><code>/home/git/projects/blog</code>博客目录(hexo发布public存储的地方当然要最后部署了才有内容)：<br><img src="https://img-blog.csdnimg.cn/20200301151407550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li><code>/home/git/repos</code> 目录：它只为共享而存在<br><img src="https://img-blog.csdnimg.cn/20200301151640442.png" alt="在这里插入图片描述"></li>
+<li>1 vi post-receive钩子内容（文章开头说的，将仓库目录<code>https://cungudafa.top/home/git/projects/blog/index.html</code>拉取到网站根目录<code>https://cungudafa.gitee.io/index.html</code>）：<img src="https://img-blog.csdnimg.cn/20200229221954549.png" alt="在这里插入图片描述"></li>
+<li>2 <code>/home/git/repos/blog.git</code>  使用–bare 参数，Git 就会创建一个裸仓库，裸仓库没有工作区，我们不会在裸仓库上进行操作，它只为共享而存在。<br><img src="https://img-blog.csdnimg.cn/20200301151906966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ol>
+</blockquote>
+</li>
+<li><p>改变 hexo.git 目录的拥有者为git用户：</p>
+<pre><code> sudo chown -R git:git blog.git</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301152546895.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p>为了安全起见，我们需要关闭git账号登录shell的权限！！(一开始疏忽了 一个晚上服务器被异常登陆五次！！)==建议这一步放在全文步骤配置好，最后最后来做==</p>
+<pre><code> vim /etc/passwd</code></pre><p> 找到git账号(一般在最后面)添加：<code>/usr/bin/git-shell</code><br> <img src="https://img-blog.csdnimg.cn/20200301110128121.png" alt="在这里插入图片描述"><br> 加上git就不能登录shell操作了，如需登录操作，删除<code>/usr/bin/git-shell</code><br> <img src="https://img-blog.csdnimg.cn/20200301135806549.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p>在本地测试git仓库是否可用</p>
+<pre><code> git clone git@47.93.50.90:/home/git/repos/blog.git</code></pre><p> 实际拉下来的是你的<code>/home/git/projects/blog</code>，哈哈哈还是空的~<img src="https://img-blog.csdnimg.cn/20200229232516339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="4-hexo配置"><a href="#4-hexo配置" class="headerlink" title="4. hexo配置"></a>4. hexo配置</h2><p>修改博客根目录配置_config.yml，部署部分，增添repo：（以git用户的身份操作）</p>
+<pre><code>deploy:
+type: git
+message: update
+gitee: https://gitee.com/cungudafa/cungudafa.git
+repo: git@47.93.50.90:/home/git/repos/blog.git
+branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo g -d</code>时，就会自动上传啦！<br><img src="https://img-blog.csdnimg.cn/20200301154057910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>初始化git仓库，并将编译之前的文件推送到hexo分支。<br><img src="https://img-blog.csdnimg.cn/202003011542525.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200301154227748.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200301154206422.png" alt="在这里插入图片描述"></p>
+</blockquote>
+</li>
+</ol>
+<p>现在public生成的静态文件已经完好推送到阿里云服务器了！<br>现在需要Pages工作：即将静态页面显示在网站上。</p>
+<h2 id="5-nginx配置"><a href="#5-nginx配置" class="headerlink" title="5. nginx配置"></a>5. nginx配置</h2><p>我直接使用<code>sudo apt install nginx</code>安装是有问题的，看了n多教程之后，还是选择了源码安装😣</p>
+<ol>
+<li><p>下载源码编译工具<br><a href="https://blog.csdn.net/Ti__iT/article/details/80909084?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">参考1</a>  | <a href="https://blog.csdn.net/qq_40183281/article/details/90085220" target="_blank" rel="noopener">参考2</a> |  <a href="https://www.cnblogs.com/emmm/p/12240279.html" target="_blank" rel="noopener">参考3</a></p>
+<pre><code> sudo apt-get update
+ apt-get install gcc
+ apt-get install libpcre3 libpcre3-dev
+ apt-get install zlib1g zlib1g-dev zlib1g.dev
+ apt-get install openssl openssl-dev
+ sudo apt-get install openssl libssl-dev</code></pre></li>
+<li><p>下载安装包，解压到常用目录：</p>
+<pre><code> cd /usr/local/
+ wget http://nginx.org/download/nginx-1.8.1.tar.gz
+ tar -zxvf nginx-1.8.1.tar.gz
+ #重命名
+ mv nginx-1.8.1 nginx 
+ cd nginx
+ #开始配置
+ ./configure --prefix=/usr/local/nginx --with-http_ssl_module
+ # 编译nginx：
+ sudo make
+ # 安装nginx：
+ sudo make install</code></pre><p> 如果出错，就是第一步没有做好，缺编译工具。</p>
+</li>
+<li><p>修改配置：</p>
+<pre><code> vi /usr/local/nginx/conf/nginx.conf</code></pre><ul>
+<li>端口号（阿里云控制台安全组规则要打开端口哦）</li>
+<li>修改域名</li>
+<li>修改根目录位置<br><img src="https://img-blog.csdnimg.cn/20200301001114280.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ul>
+</li>
+<li><p>启动nginx</p>
+<pre><code> sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf</code></pre><blockquote>
+<p>报错：缺少两个文件：<br> 解决方法：<a href="https://blog.csdn.net/rongDang/article/details/90370822?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">参考</a><br><img src="https://img-blog.csdnimg.cn/20200301012001682.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</blockquote>
+<p> 此时已经可以用<a href="http://cungudafa.top/" target="_blank" rel="noopener">域名cungudafa.top或者公网ip</a>在浏览器查看到页面咯：<br> 相比较apache，用另一个端口号即可见：<a href="http://cungudafa.top:82/demo2/" target="_blank" rel="noopener">cungudafa.top:82</a>，双页面美滋滋~<br> <img src="https://img-blog.csdnimg.cn/20200301163516961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> hexo部署就到此结束了，</p>
+</li>
+</ol>
+<h2 id="6-Tips"><a href="#6-Tips" class="headerlink" title="6. Tips"></a>6. Tips</h2><h3 id="（1）-nginx常用的命令"><a href="#（1）-nginx常用的命令" class="headerlink" title="（1） nginx常用的命令"></a>（1） nginx常用的命令</h3><p>建议记在小本本上哦！📃）</p>
+<ul>
+<li>启动：<code>/usr/local/nginx/sbin/nginx</code></li>
+<li>关闭：<code>/usr/local/nginx/sbin/nginx -s stop</code></li>
+<li>重启：<code>/usr/local/nginx/sbin/nginx -s reload</code></li>
+<li>查看nginx的进程pid： <code>cat /usr/local/nginx/logs/nginx.pid</code></li>
+<li>查看版本：<code>/usr/local/nginx/sbin/nginx -V</code></li>
+<li>修改配置文件：<code>vim /usr/local/nginx/conf/nginx.conf</code></li>
+<li>修改完后测试：<code>/usr/local/nginx/sbin/nginx -t</code><blockquote>
+<p>参考于：<a href="https://blog.csdn.net/qq_40313877/article/details/104510377" target="_blank" rel="noopener">nginx常用的命令</a><br>完整： <a href="https://blog.csdn.net/adley_app/article/details/79223221" target="_blank" rel="noopener">删除apt install nginx</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="（2）云网站"><a href="#（2）云网站" class="headerlink" title="（2）云网站"></a>（2）云网站</h3><ol>
+<li>为了响应国家网络安全管理，备案名要加上哦！<br><img src="https://img-blog.csdnimg.cn/20200301170944791.png" alt="在这里插入图片描述"></li>
+<li>hexo中涉及修改：<ul>
+<li>valine评论涉及leadcloud后台添加域名；<br><img src="https://img-blog.csdnimg.cn/20200301164505782.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ul>
+</li>
+<li>换行符转义警告：<br>git commit -a命令时，遇到LF will be replaced by CRLF in…提示的解决办法<pre><code> git config --global core.autocrlf false</code></pre></li>
+</ol>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <!-- 自定义署名方式 -->
+        <footer class="post-footer">
+          <div class="post-lincenses" style="color: #ff9966;">
+            欢迎转载，转载时请注明来源哦！
+            <br>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow">
+            <i class="fa fa-creative-commons" aria-hidden="true"></i>知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+          </div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share"  >
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/post/1d90.html" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://img-blog.csdnimg.cn/20200229131001126.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://img-blog.csdnimg.cn/20200229131001126.png">
+              </div>
+              <span class="label">Next Post</span>
+              <div class="info">
+                <h3>【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      <!-- 加密文章隐藏评论 -->
+      <section class="comment"  >
+        
+<div id="vcomments"></div>
+<!-- 先引入样式,从footer提前 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<!-- 评论框美化 -->
+<style>
+    .v .vwrap{padding: 0 0 44px;}
+    .v .veditor{min-height: 10rem;
+        background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/girls2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255,255,255,0);
+        resize: none;}
+    .v .vwrap .vedit{padding-top:20px;}
+    .v .vwrap .vheader{width: 80%;bottom:0;position: absolute;background: #fff7f7f7;}
+    .v .vinput{padding:10px 15px; text-align: center;}
+    .v .vwrap .vheader .vinput{border-bottom:0px}
+    .v .vwrap .vedit .vctrl{margin-top:-44px;right:0;position:absolute;margin-right:-3px;}
+    .v .vwrap .vcontrol{position:absolute;right:0;bottom:0;width:20%;padding-top:0px;}
+    .v .vwrap .vcontrol .col.col-20,
+    .v .vwrap .vedit .vctrl span.vpreview-btn{display: none}
+    .v .vwrap .vcontrol .col.col-80{width: 100%;}
+    .v .vbtn.vsubmit{border-radius: 0;padding: 0;color: #fff;line-height: 44px;width:100%;border: none;background:#ff9999;}
+    .v .vlist .vcard .vhead .vsys{background: #fff7f7f7;}
+    .v .vlist .vcard .vh .vmeta .vat{font-size: 12px;display: block;margin-left: 15px;float: right;color: #fff;background-color: #ff9999;line-height: 20px;padding: 0 6px;border-radius: 3px;}
+    @media screen and (max-width: 520px){
+    .v .vwrap .vheader .vinput{width: 33.33%;padding:10px 5px;}
+    }
+</style>
+<script>
+    new Valine({
+        el: '#vcomments',
+        lang: 'zh-cn',
+        admin_email: 'cungudafa@163.com',//博主邮箱
+        appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
+        appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
+        path: window.location.pathname,
+        comment_count: true,
+        notify: false, // 邮件提醒!使用第三方就不要添加这个!!
+        verify: true, //验证码
+        avatar: 'monsterid',//小怪物头像
+        placeholder: "你是我一生只会遇见一次的惊喜 ...",
+        emoticon_url: 'https://cloud.panjunwen.com/alu',//自定义表情
+        emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"]
+    });
+    //   自定义邮箱审核规则
+    document.body.addEventListener('click', function(e) {
+        if (e.target.classList.contains('vsubmit')) {
+            const email = document.querySelector('input[type=email]');
+            const nick = document.querySelector('input[name=nick]');
+            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (!email.value || !nick.value || !reg.test(email.value)) {
+                const str = `<div class="valert text-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+                const vmark = document.querySelector('.vmark');
+                vmark.innerHTML = str;
+                vmark.style.display = 'block';
+
+                setTimeout(function() {
+                    vmark.style.display = 'none';
+                    vmark.innerHTML = '';
+                }, 2500);
+            }
+        }
+    });
+    // 点击回复直接评论,官方版本点击回复时都是跳回到页面上方的评论框进行回复，评论框是固定不动的
+    // 参考https://immmmm.com/valine-diy
+    $(document).ready(function(){
+        //$('.vemoji-btn').text('😀');
+        $("#vcomments").on('click', 'span.vat',function(){
+            $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+            $('textarea#veditor').focus();
+        });
+        if(e.target.classList.contains('vsys')) {
+            const chometype = document.getElementById(".vsys");
+            console.log(chometype);
+        };
+    })
+</script>
+<!-- 今日诗词：随机返回一句古诗词名句的接口，宅到用来做 Valine 的 placeholder 显示内容 -->
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+        document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+    })
+</script>
+
+      </section>
+      <!-- 加密文章隐藏作者信息 -->
+      <section class="author-profile"  >
+        <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="cungudafa" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">cungudafa</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>姑，一个学习记录者</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+
+<!--评论配置-->
+
+
+
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 cungudafa<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+        <div class="footertext">
+        <div class="img-preload">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+        </div>
+        <!-- 网站作者版权注明 -->
+        <div id="footer-info" class="inner">
+          <p style="font-family: 'Ubuntu', sans-serif;">
+            <span style="color: #666666;">
+              渝ICP备19001829号
+            </span>
+          </p>
+        </div>
+        </div>
+        <!-- 作者注明 -->
+        <div class="footer-device">
+            <p style="font-family: 'Ubuntu', sans-serif;">
+                <span style="color: #b9b9b9;">
+                   Blog cungudafa
+                   <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> 
+                  Copyright &copy; 2020 by 姑 All Rights Reserved.
+                </span>
+            </p>
+        </div>
+        <!-- 网站数据统计 -->
+        <span style="color: #ff9999;padding-left: 20px;">
+            <!-- 网站运行时间统计 -->
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <span id="time" align="center">载入时间中...</span>
+            <script>
+            var now = new Date(); 
+            function createtime() { 
+            var grt= new Date("2020-02-11 17:20:00");//在此处修改你的建站时间
+            now.setTime(now.getTime()+250); 
+            days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+            if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+            mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+            snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+            document.getElementById("time").innerHTML = "小破站在各种灾难中苟活了 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
+        } 
+        setInterval("createtime()",250);
+            </script>
+            <!-- 全网站字数统计wordcount -->
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">25.8k</span>字</span>
+            <!-- 不蒜子网页计数器 -->
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
+            </span>
+        </span> 
+    </div><!-- .site-info -->
+    <!-- pages壁纸切换 -->
+    <div class="skin-menu no-select" id="mainskin"  style="position: fixed">
+        <div class="theme-controls row-container">
+            <ul class="menu-list">
+                <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+                <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+                <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+                <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+                <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+                <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+                <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+                <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="font-family-controls row-container">
+            <button type="button" class="control-btn-serif selected" data-mode="serif" onclick="mashiro_global.font_control.change_font()">Serif</button>
+            <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>
+        </div>
+    </div>   
+    <canvas id="night-mode-cover"></canvas> 
+        <div class="changeSkin-gear no-select">
+        <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
+            &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
+    </div><!-- skin.end -->
+</footer>
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<!-- 自定义Valine样式注释掉 -->
+<!-- <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script> -->
+<!-- <script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script> -->
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script  async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+
+<!--看板娘-->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="/live2d-widget/autoload.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+
+<!--浏览器搞笑标题-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js"></script>
+<!-- 🌸飘落 -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js"></script>
+<!-- 雪花飘落 -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/snow1.js"></script> -->
+<!-- // 文字 -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js"></script>
+<!-- // 烟花 -->
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/fireworks.js"></script>
+<!-- // 星星跟随坠落 -->
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/cursor.js"></script>
+<!-- // 爱心 -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
+<!-- // 连线 -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script> -->
+<!-- 样式二（飘动的彩带） -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js" type="text/javascript"></script>
+
+<!-- 按键屏蔽,不能F12调试和查看源代码 -->
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/noSomeKey.js"></script> -->
+
+<!--背景切换-->
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<!-- daovoice聊天功能 -->
+
+  <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/f6b2a0b1.js","daovoice")
+    daovoice('init', {
+      app_id: "f6b2a0b1"
+    });
+    daovoice('update');
+  </script>
+
+<!-- weather -->
+<script type="text/javascript">
+  WIDGET = {FID: 'yqRrzxwtvs'}
+  </script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+
+
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">cungudafa姑</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/cungudafa" class="fa fa-github" target="_blank" style="color: #333; margin-left: 20px"></a>
+      
+        <a href="http://weibo.com/3829198906/info" class="fa fa-weibo" target="_blank" style="color: #dd4b39; margin-left: 20px"></a>
+      
+        <a href="https://blog.csdn.net/cungudafa" class="fa fa-star" target="_blank" style="color: #ff9900; margin-left: 20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/tags">
+                  <i class="fa fa-tags" aria-hidden="true"></i>
+                  标签
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E7%94%9F%E6%B4%BB/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  生活
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/photos/">
+                  <i class="fa fa-photo" aria-hidden="true"></i>
+                  相册
+                </a>
+              </li>
+            
+              <li>
+                <a href="/shuoshuo/">
+                  <i class="fa fa-commenting-o fa-commenting" aria-hidden="true"></i>
+                  说说
+                </a>
+              </li>
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  番组
+                </a>
+              </li>
+            
+              <li>
+                <a href="/music/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  歌单
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-meetup" aria-hidden="true"></i>
+                  我？
+                </a>
+              </li>
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                  主题
+                </a>
+              </li>
+            
+              <li>
+                <a href="/lab/">
+                  <i class="fa fa-cogs" aria-hidden="true"></i>
+                  Lab
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/client/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+            项目
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2020 hexo-sakura</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="2660651585"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.7"
+
+    mutex="true"
+
+>
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+ </body>
+</html>
