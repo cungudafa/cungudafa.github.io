@@ -453,7 +453,7 @@
     <i class="fa fa-book"></i>
     <span class="post-meta-item-text">字数统计: </span>
     <!-- 安装插件npm install hexo-wordcount --save -->
-    <span class="post-count">2k字</span>
+    <span class="post-count">2.2k字</span>
   </span>
 </span>
 <span class="bull">
@@ -535,7 +535,7 @@
 <pre><code> chmod 740 /etc/sudoers
  vim /etc/sudoers</code></pre><p> 找到以下内容：<code>root    ALL=(ALL)     ALL</code>在下面添加一行</p>
 <pre><code> git     ALL=(ALL)       ALL</code></pre><p> 保存退出后改回权限：</p>
-<pre><code> chmod 400 /etc/sudoers</code></pre><h2 id="2-服务器打开RSA认证"><a href="#2-服务器打开RSA认证" class="headerlink" title="2. 服务器打开RSA认证"></a>2. 服务器打开RSA认证</h2><p>RSA用公钥加密，私钥解密，成为加密通信。<br>用私钥加密，公钥解密，就是认证。（这样就能证明消息是你发出的。）<br>因为：公钥大家都有，私钥就只有一个，在你自己手里。</p>
+<pre><code> chmod 400 /etc/sudoers</code></pre><h2 id="2-服务器打开RSA认证"><a href="#2-服务器打开RSA认证" class="headerlink" title="2. 服务器打开RSA认证"></a>2. 服务器打开RSA认证</h2><p>RSA用公钥加密，私钥解密，成为加密通信。<br>用私钥加密，公钥解密，就是认证。（这样就能证明消息是你发出的。）<br>因为：公钥大家都有，私钥就只有一个，在你自己手里。<br><img src="https://img-blog.csdnimg.cn/2020030122475652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h3 id="2-1-开启认证配置"><a href="#2-1-开启认证配置" class="headerlink" title="2.1 开启认证配置"></a>2.1 开启认证配置</h3></li>
 </ol>
 <p><strong>服务器端：</strong></p>
@@ -557,7 +557,7 @@ systemctl start sshd.service</code></pre><p><img src="https://img-blog.csdnimg.c
  mkdir .ssh</code></pre></li>
 <li><p><strong>在本地电脑：</strong> 发送公钥 <strong>id_rsa.pub</strong> 到 <strong><em>/home/git/.ssh/authorzied_keys</em></strong></p>
 <pre><code> ssh-copy-id -i C:/Users/CUNGU/.ssh/id_rsa.pub git@47.93.50.90 //把公钥发送给服务器
- ssh git@47.93.50.90 // 测试能否登录</code></pre><p> 本地登录效果：<img src="https://img-blog.csdnimg.cn/20200301143008591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 服务器文件夹也有了公钥：<br> <img src="https://img-blog.csdnimg.cn/20200301143127403.png" alt="在这里插入图片描述"></p>
+ ssh git@47.93.50.90 // 测试能否登录</code></pre><p> 本地登录效果：（authorzied_keys是一行一行添加的，显示成功添加一行）<br> 通过ssh能够直接登录操作shell，当然后面要关掉git的这个shell权限的，不然小心异地登录，危险危险。<img src="https://img-blog.csdnimg.cn/20200301143008591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 服务器文件夹也有了公钥：<br> <img src="https://img-blog.csdnimg.cn/20200301143127403.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p>文件夹权限调整：<code>authorzied_keys</code>权限为600时才生效<br> git用户：</p>
 <pre><code> su git
@@ -574,27 +574,37 @@ mkdir repos &amp;&amp; cd repos
 git init --bare blog.git  //创建一个空仓库
 vi post-receive  //创建hook钩子函数，输入以下内容
 git --work-tree=/home/git/projects/blog --git-dir=/home/git/repos/blog.git checkout -f
-chmod +x post-receive  // 修改钩子函数权限</code></pre><p><img src="https://img-blog.csdnimg.cn/20200229222854424.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+chmod +x post-receive  // 修改钩子函数权限</code></pre><p><img src="https://img-blog.csdnimg.cn/20200229222854424.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200301222600620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <blockquote>
 <p>说明：</p>
 <ol>
 <li>root用户的命令前缀是#，git是$；</li>
 <li><code>/home/git/projects/blog</code>博客目录(hexo发布public存储的地方当然要最后部署了才有内容)：<br><img src="https://img-blog.csdnimg.cn/20200301151407550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-<li><code>/home/git/projects/blog/repos</code> 目录：它只为共享而存在<br><img src="https://img-blog.csdnimg.cn/20200301215708500.png" alt="在这里插入图片描述"></li>
+<li><code>/home/git/repos</code> 目录：它只为共享而存在<br><img src="https://img-blog.csdnimg.cn/20200301151640442.png" alt="在这里插入图片描述"></li>
 <li>1 vi post-receive钩子内容（文章开头说的，将仓库目录<code>https://cungudafa.top/home/git/projects/blog/index.html</code>拉取到网站根目录<code>https://cungudafa.gitee.io/index.html</code>）：<img src="https://img-blog.csdnimg.cn/20200229221954549.png" alt="在这里插入图片描述"></li>
-<li>2 <code>/home/git/projects/blog/repos/blog.git</code>  使用–bare 参数，Git 就会创建一个裸仓库，裸仓库没有工作区，我们不会在裸仓库上进行操作，它只为共享而存在。</li>
+<li>2 <code>/home/git/repos/blog.git</code>  使用–bare 参数，Git 就会创建一个裸仓库，裸仓库没有工作区，我们不会在裸仓库上进行操作，它只为共享而存在。<br><img src="https://img-blog.csdnimg.cn/20200301151906966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
 </ol>
 </blockquote>
 </li>
-</ol>
-<ol start="2">
 <li><p>改变 hexo.git 目录的拥有者为git用户：</p>
-<pre><code> chown -R git:git /home/git/projects/blog/repos/blog.git</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301215642984.png" alt="在这里插入图片描述"></p>
+<pre><code> sudo chown -R git:git blog.git</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301152546895.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p>添加备份目录</p>
+<pre><code> cd /home/git/projects/
+ mkdir -p tmp/blog</code></pre><p> 修改钩子的内容：（重点是git clone 克隆到主目录<code>home/git/projects/blog</code>主目录要配置到nginx中去的）</p>
+<pre><code> #!/bin/bash -l
+ GIT_REPO=/home/git/repos/blog.git
+ TMP_GIT_CLONE=/home/git/projects/tmp/blog
+ PUBLIC_WWW=/home/git/projects/blog
+ rm -rf ${TMP_GIT_CLONE}
+ git clone $GIT_REPO $TMP_GIT_CLONE
+ rm -rf ${PUBLIC_WWW}/*
+ cp -rf ${TMP_GIT_CLONE} ${PUBLIC_WWW}</code></pre><p> 蓝色为上传机制：<br><img src="https://img-blog.csdnimg.cn/20200301232739952.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
 <li><p>为了安全起见，我们需要关闭git账号登录shell的权限！！(一开始疏忽了 一个晚上服务器被异常登陆五次！！)==建议这一步放在全文步骤配置好，最后最后来做==</p>
 <pre><code> vim /etc/passwd</code></pre><p> 找到git账号(一般在最后面)添加：<code>/usr/bin/git-shell</code><br> <img src="https://img-blog.csdnimg.cn/20200301110128121.png" alt="在这里插入图片描述"><br> 加上git就不能登录shell操作了，如需登录操作，删除<code>/usr/bin/git-shell</code><br> <img src="https://img-blog.csdnimg.cn/20200301135806549.png" alt="在这里插入图片描述"></p>
 </li>
-<li><p>在本地测试git仓库是否可用</p>
+<li><p>在本地任意一空目录，测试git仓库是否可用（测试步骤，稍后可清除）</p>
 <pre><code> git clone git@47.93.50.90:/home/git/repos/blog.git</code></pre><p> 实际拉下来的是你的<code>/home/git/projects/blog</code>，哈哈哈还是空的~<img src="https://img-blog.csdnimg.cn/20200229232516339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h2 id="4-hexo配置"><a href="#4-hexo配置" class="headerlink" title="4. hexo配置"></a>4. hexo配置</h2><p>修改博客根目录配置_config.yml，部署部分，增添repo：（以git用户的身份操作）</p>
 <pre><code>deploy:
@@ -604,12 +614,12 @@ gitee: https://gitee.com/cungudafa/cungudafa.git
 repo: git@47.93.50.90:/home/git/repos/blog.git
 branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo g -d</code>时，就会自动上传啦！<br><img src="https://img-blog.csdnimg.cn/20200301154057910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <blockquote>
-<p>初始化git仓库，并将编译之前的文件推送到hexo分支。<br><img src="https://img-blog.csdnimg.cn/202003011542525.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200301154227748.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200301154206422.png" alt="在这里插入图片描述"></p>
+<p>只有在ssh秘钥配置成功，才能成功上传。如果需要修改公钥，要打开git操作shell的权限哦！<code>vim /etc/passwd</code>最后一句。及时开，及时关，做到万无一失。</p>
 </blockquote>
 </li>
 </ol>
 <p>现在public生成的静态文件已经完好推送到阿里云服务器了！<br>现在需要Pages工作：即将静态页面显示在网站上。</p>
-<h2 id="5-nginx配置"><a href="#5-nginx配置" class="headerlink" title="5. nginx配置"></a>5. nginx配置</h2><p>我直接使用<code>sudo apt install nginx</code>安装是有问题的，看了n多教程之后，还是选择了源码安装😣</p>
+<h2 id="5-nginx配置"><a href="#5-nginx配置" class="headerlink" title="5. nginx配置"></a>5. nginx配置</h2><p>nginx显示blog的index.html：<br><img src="https://img-blog.csdnimg.cn/202003012335142.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我直接使用<code>sudo apt install nginx</code>安装是有问题的，看了n多教程之后，还是选择了源码安装😣</p>
 <ol>
 <li><p>下载源码编译工具<br><a href="https://blog.csdn.net/Ti__iT/article/details/80909084?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">参考1</a>  | <a href="https://blog.csdn.net/qq_40183281/article/details/90085220" target="_blank" rel="noopener">参考2</a> |  <a href="https://www.cnblogs.com/emmm/p/12240279.html" target="_blank" rel="noopener">参考3</a></p>
 <pre><code> sudo apt-get update
@@ -917,7 +927,7 @@ branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo
         setInterval("createtime()",250);
             </script>
             <!-- 全网站字数统计wordcount -->
-            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">25.9k</span>字</span>
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">26k</span>字</span>
             <!-- 不蒜子网页计数器 -->
             <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
             </span>
