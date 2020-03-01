@@ -580,14 +580,16 @@ chmod +x post-receive  // 修改钩子函数权限</code></pre><p><img src="http
 <ol>
 <li>root用户的命令前缀是#，git是$；</li>
 <li><code>/home/git/projects/blog</code>博客目录(hexo发布public存储的地方当然要最后部署了才有内容)：<br><img src="https://img-blog.csdnimg.cn/20200301151407550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-<li><code>/home/git/repos</code> 目录：它只为共享而存在<br><img src="https://img-blog.csdnimg.cn/20200301151640442.png" alt="在这里插入图片描述"></li>
+<li><code>/home/git/projects/blog/repos</code> 目录：它只为共享而存在<br><img src="https://img-blog.csdnimg.cn/20200301215708500.png" alt="在这里插入图片描述"></li>
 <li>1 vi post-receive钩子内容（文章开头说的，将仓库目录<code>https://cungudafa.top/home/git/projects/blog/index.html</code>拉取到网站根目录<code>https://cungudafa.gitee.io/index.html</code>）：<img src="https://img-blog.csdnimg.cn/20200229221954549.png" alt="在这里插入图片描述"></li>
-<li>2 <code>/home/git/repos/blog.git</code>  使用–bare 参数，Git 就会创建一个裸仓库，裸仓库没有工作区，我们不会在裸仓库上进行操作，它只为共享而存在。<br><img src="https://img-blog.csdnimg.cn/20200301151906966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>2 <code>/home/git/projects/blog/repos/blog.git</code>  使用–bare 参数，Git 就会创建一个裸仓库，裸仓库没有工作区，我们不会在裸仓库上进行操作，它只为共享而存在。</li>
 </ol>
 </blockquote>
 </li>
+</ol>
+<ol start="2">
 <li><p>改变 hexo.git 目录的拥有者为git用户：</p>
-<pre><code> sudo chown -R git:git blog.git</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301152546895.png" alt="在这里插入图片描述"></p>
+<pre><code> chown -R git:git /home/git/projects/blog/repos/blog.git</code></pre><p> <img src="https://img-blog.csdnimg.cn/20200301215642984.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p>为了安全起见，我们需要关闭git账号登录shell的权限！！(一开始疏忽了 一个晚上服务器被异常登陆五次！！)==建议这一步放在全文步骤配置好，最后最后来做==</p>
 <pre><code> vim /etc/passwd</code></pre><p> 找到git账号(一般在最后面)添加：<code>/usr/bin/git-shell</code><br> <img src="https://img-blog.csdnimg.cn/20200301110128121.png" alt="在这里插入图片描述"><br> 加上git就不能登录shell操作了，如需登录操作，删除<code>/usr/bin/git-shell</code><br> <img src="https://img-blog.csdnimg.cn/20200301135806549.png" alt="在这里插入图片描述"></p>
@@ -915,7 +917,7 @@ branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo
         setInterval("createtime()",250);
             </script>
             <!-- 全网站字数统计wordcount -->
-            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">25.8k</span>字</span>
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">25.9k</span>字</span>
             <!-- 不蒜子网页计数器 -->
             <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
             </span>
