@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-01T15:50:17.170Z</updated>
+  <updated>2020-03-02T05:10:27.153Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>（阿里云Ubantu16）nginx配置https安全访问</title>
+    <link href="https://cungudafa.gitee.io/post/ccbf.html"/>
+    <id>https://cungudafa.gitee.io/post/ccbf.html</id>
+    <published>2020-03-02T05:59:10.000Z</published>
+    <updated>2020-03-02T05:10:27.153Z</updated>
+    
+    <summary type="html">
+    
+      【SSL证书作用】：允许https安全访问
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="nginx" scheme="https://cungudafa.gitee.io/tags/nginx/"/>
+    
+      <category term="https" scheme="https://cungudafa.gitee.io/tags/https/"/>
+    
+      <category term="SSL" scheme="https://cungudafa.gitee.io/tags/SSL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】</title>
     <link href="https://cungudafa.gitee.io/post/32c1.html"/>
     <id>https://cungudafa.gitee.io/post/32c1.html</id>
     <published>2020-03-01T14:59:10.000Z</published>
-    <updated>2020-03-01T15:50:17.170Z</updated>
+    <updated>2020-03-02T04:40:00.013Z</updated>
     
     <summary type="html">
     
@@ -214,6 +239,27 @@
   </entry>
   
   <entry>
+    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
+    <link href="https://cungudafa.gitee.io/post/9958.html"/>
+    <id>https://cungudafa.gitee.io/post/9958.html</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:29:10.375Z</updated>
+    
+    <summary type="html">
+    
+      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo（sakura）添加RSS订阅</title>
     <link href="https://cungudafa.gitee.io/post/8e37.html"/>
     <id>https://cungudafa.gitee.io/post/8e37.html</id>
@@ -233,27 +279,6 @@
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
-    <link href="https://cungudafa.gitee.io/post/9958.html"/>
-    <id>https://cungudafa.gitee.io/post/9958.html</id>
-    <published>2020-02-17T12:19:10.000Z</published>
-    <updated>2020-02-17T12:29:10.375Z</updated>
-    
-    <summary type="html">
-    
-      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -428,29 +453,6 @@
     
     
       <category term="随笔" scheme="https://cungudafa.gitee.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</title>
-    <link href="https://cungudafa.gitee.io/post/771.html"/>
-    <id>https://cungudafa.gitee.io/post/771.html</id>
-    <published>2020-02-13T10:19:10.000Z</published>
-    <updated>2020-02-17T11:24:12.046Z</updated>
-    
-    <summary type="html">
-    
-      花瓣飘落、文字，爱心，连线，飘动的彩带背景动画，壁纸更换，通讯栏通信。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   

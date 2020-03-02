@@ -6,7 +6,7 @@
   <meta name="baidu-site-verification" content="LukfTcyXmC" />
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">lab | cungudafa</title>
+  <title itemprop="name">（阿里云Ubantu16）nginx配置https安全访问 | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -405,61 +405,284 @@
   </div>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-    <div class="pattern-center ">
-      <div class="pattern-attachment-img">
-        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2/img/banner/lab.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-      </div>
-      <header class="pattern-header ">
-        <h1 class="entry-title">
-        Lab实验室</h1>
-      </header>
-    </div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <h2 id="sakura主题"><a href="#sakura主题" class="headerlink" title="sakura主题"></a>sakura主题</h2><p>balabala</p>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
 
-      <!-- .entry-content -->
-      
-      <div class="single-reward">
-        <div class="reward-open">赏
-          <div class="reward-main">
-            <ul class="reward-row">
-              <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
-              <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
-            </ul>
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1583135881220&amp;di=3fb5330fca1d9015070534bfe5204952&amp;imgtype=0&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1583135881220&amp;di=3fb5330fca1d9015070534bfe5204952&amp;imgtype=0&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">（阿里云Ubantu16）nginx配置https安全访问</h1>
+      <p class="entry-census">
+          <span class="post-meta-item">
+            <a href="https://cungudafa.gitee.io">
+              <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+            </a>
+          </span>
+          <span class="post-meta-item">
+            <a href="https://cungudafa.gitee.io"> cungudafa </a>
+          </span>
+          <span class="bull">
+            ·</span>
+          <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text"> 2020-3-2 </span>
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 浏览数显示 -->
+          <span class="post-meta-item" >
+              <span class="post-meta-item-icon">
+                <i class="iconfont icon-attention"></i>
+              </span>
+              <span class="post-meta-item-text">本文共<span id="busuanzi_value_page_pv"> </span>次阅读
+              </span>
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 字数统计-->
+          <span class="post-meta-item" >
+          
+          
+            <span class="post-time">
+  <span class="post-meta-item-icon">
+    <i class="fa fa-book"></i>
+    <span class="post-meta-item-text">字数统计: </span>
+    <!-- 安装插件npm install hexo-wordcount --save -->
+    <span class="post-count">434字</span>
+  </span>
+</span>
+<span class="bull">
+·</span>
+<span class="post-time">
+  <span class="post-meta-item-icon">
+    <i class="fa fa-coffee"></i>
+    <span class="post-meta-item-text">阅读时长≈</span>
+    <span class="post-count">1分钟</span>
+  </span>
+</span>
+          
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 评论数显示 -->
+          <!-- <span class="post-meta-item" >
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              </span class="post-meta-item-text">
+                <span class="valine-comment-count" data-xid="ccbf"> </span>
+              </span>
+          </span> -->
+        </p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h1 id="一、获取证书"><a href="#一、获取证书" class="headerlink" title="一、获取证书"></a>一、获取证书</h1><p>【SSL证书作用】：允许https安全访问</p>
+<ol>
+<li>第一步：到官网申请免费SSL证书：<a href="https://common-buy.aliyun.com/?spm=5176.2020520163.cas.3.2401IbGDIbGDka&commodityCode=cas#/buy" target="_blank" rel="noopener">阿里云免费SSL证书申请</a><br><img src="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>第二步：回到控制台<br><img src="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这里选择自助验证！<br><img src="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>自助验证会在域名下添加如下解析：<br><img src="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点击验证后，即成功！（验证后可删除）<br>![在这里插入图片描述](<a href="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener">https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70</a> =400x)</li>
+</ol>
+<ol start="3">
+<li><p>第三步：刷新控制台，下载SSL证书<br><img src="https://img-blog.csdnimg.cn/20190901162400387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这里可选择多种类型：（这里配置在nginx）<br>![在这里插入图片描述](<a href="https://img-blog.csdnimg.cn/20190901162437584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener">https://img-blog.csdnimg.cn/20190901162437584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70</a> =400x)<br>我是apache和nginx环境，要单独处理一下端口号的问题。</p>
+<blockquote>
+<p>查看443端口是否被占用：<code>lsof -i:443</code> (第一个是阿里云解析地址不用管，后面apache2占用443端口需要关闭)<img src="https://img-blog.csdnimg.cn/20200302120641213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>关闭方法：<code>vi /etc/apache2/ports.conf</code><br> <img src="https://img-blog.csdnimg.cn/20200302120602909.png" alt="在这里插入图片描述"><br>80-&gt;82,443-&gt;442<br> <img src="https://img-blog.csdnimg.cn/20200302120533588.png" alt="在这里插入图片描述"><br>重启Apache: <code>sudo /etc/init.d/apache2 restart</code><br> 再查看端口：（apache2已释放）<br> <img src="https://img-blog.csdnimg.cn/20200302123642482.png" alt="在这里插入图片描述"></p>
+</blockquote>
+</li>
+<li><p>上传SSL证书<br>在<code>/usr/local/nginx/</code>下，新建<code>ssl</code>目录，并上传两个解压文件，重命名如下：<br><img src="https://img-blog.csdnimg.cn/20200302122245369.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>修改Nginx安装目录下的<code>nginx.conf</code>，本人的安装目录在<code>/usr/local/nginx/conf/nginx.conf</code>，根据自己安装的目录适当修改<br><img src="https://img-blog.csdnimg.cn/20200302122527718.png" alt="在这里插入图片描述"><br>#这句是代表 把http的域名请求转成https</p>
+<pre><code> rewrite ^(.*) https://$server_name$1 permanent;</code></pre><p> 将以下注释#去掉，修改目录位置为证书存放的位置：<img src="https://img-blog.csdnimg.cn/20200302122641601.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</li>
+<li><p>重新加载nginx配置文件</p>
+</li>
+</ol>
+<pre><code>```
+/usr/local/nginx/sbin/nginx -t
+```
+只有ok，successful才配置成功！![在这里插入图片描述](https://img-blog.csdnimg.cn/20200302123010275.png)</code></pre><ol start="7">
+<li><p>重启nginx</p>
+<pre><code> /usr/local/nginx/sbin/nginx -s reload</code></pre><p>再访问域名或公网ip，就是安全地址https开头的啦~~</p>
+</li>
+</ol>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-      <footer class="post-footer">
-        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-        <div class="post-tags">
-        </div>
-        <div class="post-share">
-          <div class="social-share sharehidden share-component"></div>
-          <i class="iconfont show-share icon-forward"></i>
-        </div>
-      </footer><!-- .entry-footer -->
-    </article>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <!-- 自定义署名方式 -->
+        <footer class="post-footer">
+          <div class="post-lincenses" style="color: #ff9966;">
+            欢迎转载，转载时请注明来源哦！
+            <br>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow">
+            <i class="fa fa-creative-commons" aria-hidden="true"></i>知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+          </div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share"  >
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
       <!-- #post-## -->
-      <section class="author-profile">
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/post/32c1.html" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg">
+              </div>
+              <span class="label">Next Post</span>
+              <div class="info">
+                <h3>Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      <!-- 加密文章隐藏评论 -->
+      <section class="comment"  >
+        
+<div id="vcomments"></div>
+<!-- 先引入样式,从footer提前 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<!-- 评论框美化 -->
+<style>
+    .v .vwrap{padding: 0 0 44px;}
+    .v .veditor{min-height: 10rem;
+        background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/girls2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255,255,255,0);
+        resize: none;}
+    .v .vwrap .vedit{padding-top:20px;}
+    .v .vwrap .vheader{width: 80%;bottom:0;position: absolute;background: #fff7f7f7;}
+    .v .vinput{padding:10px 15px; text-align: center;}
+    .v .vwrap .vheader .vinput{border-bottom:0px}
+    .v .vwrap .vedit .vctrl{margin-top:-44px;right:0;position:absolute;margin-right:-3px;}
+    .v .vwrap .vcontrol{position:absolute;right:0;bottom:0;width:20%;padding-top:0px;}
+    .v .vwrap .vcontrol .col.col-20,
+    .v .vwrap .vedit .vctrl span.vpreview-btn{display: none}
+    .v .vwrap .vcontrol .col.col-80{width: 100%;}
+    .v .vbtn.vsubmit{border-radius: 0;padding: 0;color: #fff;line-height: 44px;width:100%;border: none;background:#ff9999;}
+    .v .vlist .vcard .vhead .vsys{background: #fff7f7f7;}
+    .v .vlist .vcard .vh .vmeta .vat{font-size: 12px;display: block;margin-left: 15px;float: right;color: #fff;background-color: #ff9999;line-height: 20px;padding: 0 6px;border-radius: 3px;}
+    @media screen and (max-width: 520px){
+    .v .vwrap .vheader .vinput{width: 33.33%;padding:10px 5px;}
+    }
+</style>
+<script>
+    new Valine({
+        el: '#vcomments',
+        lang: 'zh-cn',
+        admin_email: 'cungudafa@163.com',//博主邮箱
+        appId: "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz",
+        appKey: "3opMyv2Vyx3mHa0IWitRGSoi",
+        path: window.location.pathname,
+        comment_count: true,
+        notify: false, // 邮件提醒!使用第三方就不要添加这个!!
+        verify: true, //验证码
+        avatar: 'monsterid',//小怪物头像
+        placeholder: "你是我一生只会遇见一次的惊喜 ...",
+        emoticon_url: 'https://cloud.panjunwen.com/alu',//自定义表情
+        emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"]
+    });
+    //   自定义邮箱审核规则
+    document.body.addEventListener('click', function(e) {
+        if (e.target.classList.contains('vsubmit')) {
+            const email = document.querySelector('input[type=email]');
+            const nick = document.querySelector('input[name=nick]');
+            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (!email.value || !nick.value || !reg.test(email.value)) {
+                const str = `<div class="valert text-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+                const vmark = document.querySelector('.vmark');
+                vmark.innerHTML = str;
+                vmark.style.display = 'block';
+
+                setTimeout(function() {
+                    vmark.style.display = 'none';
+                    vmark.innerHTML = '';
+                }, 2500);
+            }
+        }
+    });
+    // 点击回复直接评论,官方版本点击回复时都是跳回到页面上方的评论框进行回复，评论框是固定不动的
+    // 参考https://immmmm.com/valine-diy
+    $(document).ready(function(){
+        //$('.vemoji-btn').text('😀');
+        $("#vcomments").on('click', 'span.vat',function(){
+            $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+            $('textarea#veditor').focus();
+        });
+        if(e.target.classList.contains('vsys')) {
+            const chometype = document.getElementById(".vsys");
+            console.log(chometype);
+        };
+    })
+</script>
+<!-- 今日诗词：随机返回一句古诗词名句的接口，宅到用来做 Valine 的 placeholder 显示内容 -->
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+        document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+    })
+</script>
+
+      </section>
+      <!-- 加密文章隐藏作者信息 -->
+      <section class="author-profile"  >
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="姑" height="70" width="70"></a>
+          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="cungudafa" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://cungudafa.gitee.io/" itemprop="url" rel="author">姑</a>
+            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">cungudafa</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>莫三天打鱼两天晒网</p>
+        <p><i class="iconfont icon-write"></i>姑，一个学习记录者</p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+
+<!--评论配置-->
+
+
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
