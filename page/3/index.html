@@ -410,9 +410,21 @@
 <div id="content" class="site-content">
   
   <div class="notice" style="margin-top:60px">
-    <i class="iconfont icon-notification">
+    <audio id="mymusic" src="music/lovingstrangers.mp3" loop="loop"></audio>
+    <i class="iconfont icon-notification" onClick="play()">
     </i>
-    <div class="notice-content">学习中~</div>
+    <div class="notice-content">此处可爱贩卖机 24小时正常营业</div>
+    <script>
+      function play() {
+        var audio = document.getElementById('mymusic');
+        if (audio.paused) {
+            audio.play();
+        }else{
+            audio.pause();
+            audio.currentTime = 0;//音乐从头播放
+        }
+      }
+    </script>
   </div>
   
   <div class="top-feature-row">
