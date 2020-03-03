@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cungudafa.gitee.io/lab/index.html</loc>
+    
+    <lastmod>2020-03-03T04:28:48.332Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cungudafa.gitee.io/post/adab.html</loc>
     
     <lastmod>2020-03-02T15:17:51.906Z</lastmod>
@@ -292,13 +299,6 @@
     <loc>https://cungudafa.gitee.io/rss/index.html</loc>
     
     <lastmod>2020-02-13T11:31:02.034Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cungudafa.gitee.io/lab/index.html</loc>
-    
-    <lastmod>2020-02-13T03:46:35.573Z</lastmod>
     
   </url>
   

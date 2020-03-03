@@ -101,8 +101,8 @@
             
               
                 <li>
-                  <a href="https://blog.csdn.net/cungudafa" target="_blank" class="social-github" title="csdn">
-                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/csdn.png">
+                  <a href="https://gitee.com/cungudafa" target="_blank" class="social-github" title="gitee">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/gitee.png">
                   </a>
                 </li>
               
@@ -117,8 +117,8 @@
             
               
                 <li>
-                  <a href="https://gitee.com/cungudafa" target="_blank" class="social-github" title="gitee">
-                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/gitee.png">
+                  <a href="https://blog.csdn.net/cungudafa" target="_blank" class="social-github" title="csdn">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/csdn.png">
                   </a>
                 </li>
               
@@ -420,7 +420,19 @@
   
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <h2 id="sakura主题"><a href="#sakura主题" class="headerlink" title="sakura主题"></a>sakura主题</h2><p>balabala</p>
+      <h1 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h1><h2 id="重启阿里云之后"><a href="#重启阿里云之后" class="headerlink" title="重启阿里云之后"></a>重启阿里云之后</h2><ol>
+<li>重启：数据库、apache<pre><code> sudo service mysql restart
+ sudo service apache2 restart</code></pre></li>
+<li>加载nginx配置：使用nginx -c的参数指定nginx.conf文件的位置生成：/usr/local/nginx/logs/nginx.pid</li>
+<li>重启nginx：<pre><code> /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+ /usr/local/nginx/sbin/nginx -s reload</code></pre><h2 id="端口号配置位置"><a href="#端口号配置位置" class="headerlink" title="端口号配置位置"></a>端口号配置位置</h2></li>
+</ol>
+<p>apache2的端口修改路径：</p>
+<pre><code>vi /etc/apache2/ports.conf</code></pre><p>nginx的端口号：</p>
+<pre><code>vi /usr/local/nginx/conf/nginx.conf</code></pre><a href="http://img3.imgtn.bdimg.com/it/u=107505278,3055738291&fm=26&gp=0.jpg" target="_blank" rel="noopener" data-fancybox="images" data-caption="鱼"><img src="http://img3.imgtn.bdimg.com/it/u=107505278,3055738291&fm=26&gp=0.jpg" /></a>
+
+
+
 
       <!-- .entry-content -->
       
