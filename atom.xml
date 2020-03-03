@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-02T10:36:49.084Z</updated>
+  <updated>2020-03-03T12:10:20.774Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Valine-实现QQ邮箱识别生成头像地址（完美解决头像问题）</title>
+    <link href="https://cungudafa.gitee.io/post/816e.html"/>
+    <id>https://cungudafa.gitee.io/post/816e.html</id>
+    <published>2020-03-03T12:06:10.190Z</published>
+    <updated>2020-03-03T12:10:20.774Z</updated>
+    
+    <summary type="html">
+    
+      在Hexo（sakura）主题中引入valine评论系统，添加qq邮箱头像
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
+    
+      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
+    
+      <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo（sakura）自定义标签云</title>
@@ -113,11 +138,11 @@
   </entry>
   
   <entry>
-    <title>Valine-自定义邮件回复提示.md</title>
+    <title>Valine-自定义邮件回复提示</title>
     <link href="https://cungudafa.gitee.io/post/cb8f.html"/>
     <id>https://cungudafa.gitee.io/post/cb8f.html</id>
     <published>2020-02-25T11:58:56.490Z</published>
-    <updated>2020-02-25T12:02:41.508Z</updated>
+    <updated>2020-03-03T12:06:29.620Z</updated>
     
     <summary type="html">
     
@@ -434,27 +459,6 @@
     
     
       <category term="私人图床" scheme="https://cungudafa.gitee.io/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）文章增添字数统计和阅读时长功能</title>
-    <link href="https://cungudafa.gitee.io/post/8c48.html"/>
-    <id>https://cungudafa.gitee.io/post/8c48.html</id>
-    <published>2020-02-14T05:14:10.000Z</published>
-    <updated>2020-02-17T11:23:34.158Z</updated>
-    
-    <summary type="html">
-    
-      wordcount统计全文字数，分析阅读时长。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
