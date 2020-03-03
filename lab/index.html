@@ -421,7 +421,8 @@
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
       <h1 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h1><h2 id="重启阿里云之后"><a href="#重启阿里云之后" class="headerlink" title="重启阿里云之后"></a>重启阿里云之后</h2><ol>
-<li>重启：数据库、apache<pre><code> sudo service mysql restart
+<li>重启：数据库、tomcat、apache<pre><code> sudo service mysql restart
+ ./usr/local/apache-tomcat-9.0.16/bin/startup.sh
  sudo service apache2 restart</code></pre></li>
 <li>加载nginx配置：使用nginx -c的参数指定nginx.conf文件的位置生成：/usr/local/nginx/logs/nginx.pid</li>
 <li>重启nginx：<pre><code> /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
