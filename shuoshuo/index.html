@@ -416,23 +416,6 @@
     <a class="photos-btn" href="http://cungudafa.top/photos/" target="_blank" rel="noopener">Photos</a>
     <a class="photos-btn active" href="">说说</a>
 </div>
-<style>
-.photos-btn-wrap {
-    border-bottom: 1px solid #e5e5e5;
-    margin-bottom: 20px;
-}
-.photos-btn {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: -4px;
-    padding: 5px 8px 3px;
-}
-.photos-btn.active {
-    color: #08c;
-    border: 1px solid #e5e5e5;
-    border-bottom: 5px solid #fff;
-}
-</style>
 
 <div id="primary" class="content-area" style="">
     <main id="main" class="site-main" role="main">
@@ -441,11 +424,16 @@
                 <li> <span class="shuoshuo_author_img"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" class="avatar avatar-48" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
                         <p></p>
-                        <p>首页的<audio id="mymusic" src="../music/lovingstrangers.mp3" loop="loop"></audio>
+                        首页的
                             <i class="iconfont icon-notification" onClick="play()">
-                            </i>
-                            <div class="notice-content"><%= theme.notice%></div>是有录音的哦，有人发现吗？
-                            <script>
+                            </i> 是有录音的哦，有人发现吗？
+                        <p></p>
+                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
+                            2020年3月3日
+                        </p>
+                    </a>
+                    <audio id="mymusic" src="../music/lovingstrangers.mp3" loop="loop"></audio>
+                     <script>
                             function play() {
                                 var audio = document.getElementById('mymusic');
                                 if (audio.paused) {
@@ -455,13 +443,7 @@
                                     audio.currentTime = 0;//音乐从头播放
                                 }
                             }
-                            </script>
-                        </p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年3月3日
-                        </p>
-                    </a>
+                    </script>
                 </li>
                 <li> <span class="shuoshuo_author_img"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" class="avatar avatar-48" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
@@ -513,7 +495,23 @@
         })
     })
 </script>
-
+<style>
+.photos-btn-wrap {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.photos-btn {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: -4px;
+    padding: 5px 8px 3px;
+}
+.photos-btn.active {
+    color: #08c;
+    border: 1px solid #e5e5e5;
+    border-bottom: 5px solid #fff;
+}
+</style>
       <!-- .entry-content -->
       
       <div class="single-reward">
