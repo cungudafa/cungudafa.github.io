@@ -441,6 +441,31 @@
                 <li> <span class="shuoshuo_author_img"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" class="avatar avatar-48" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
                         <p></p>
+                        <p>首页的<audio id="mymusic" src="../music/lovingstrangers.mp3" loop="loop"></audio>
+                            <i class="iconfont icon-notification" onClick="play()">
+                            </i>
+                            <div class="notice-content"><%= theme.notice%></div>是有录音的哦，有人发现吗？
+                            <script>
+                            function play() {
+                                var audio = document.getElementById('mymusic');
+                                if (audio.paused) {
+                                    audio.play();
+                                }else{
+                                    audio.pause();
+                                    audio.currentTime = 0;//音乐从头播放
+                                }
+                            }
+                            </script>
+                        </p>
+                        <p></p>
+                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
+                            2020年3月3日
+                        </p>
+                    </a>
+                </li>
+                <li> <span class="shuoshuo_author_img"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" class="avatar avatar-48" width="48" height="48"></span>
+                    <a class="cbp_tmlabel" href="">
+                        <p></p>
                         <p>想要开学，想吃火锅，想吃烧烤，想吃蟹肉煲，想吃鸡脚米线，想喝奶茶~</p>
                         <iframe frameborder="no" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1338809890&auto=1&height=66"></iframe>
                         <p></p>
