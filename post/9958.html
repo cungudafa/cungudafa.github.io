@@ -502,9 +502,9 @@
 &lt;script type=&quot;text/javascript&quot;&gt;
   WIDGET = {FID: &#39;yqRrzxwtvs&#39;}
   &lt;/script&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;https://apip.weatherdt.com/float/static/js/r.js?v=1111&quot;&gt;&lt;/script&gt;</code></pre><p><img src="https://img-blog.csdnimg.cn/20200214153953222.png" alt="在这里插入图片描述"></p>
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://apip.weatherdt.com/float/static/js/r.js?v=1111&quot;&gt;&lt;/script&gt;</code></pre><p><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214153953222.png" alt="在这里插入图片描述"></p>
 <h1 id="二、修改文章生成链接形式"><a href="#二、修改文章生成链接形式" class="headerlink" title="二、修改文章生成链接形式"></a>二、修改文章生成链接形式</h1><blockquote>
-<p>示例：同一篇文章的搜索地址<br><img src="https://img-blog.csdnimg.cn/20200217200844819.png" alt="在这里插入图片描述"><br>第一种中文版：<a href="http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0">http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0</a><br>第二种随机数字加代码重命名版：<br><a href="https://cungudafa.gitee.io/post/73fa.html">https://cungudafa.gitee.io/post/73fa.html</a><br>第三种中文转拼音版：<br><a href="https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/">https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/</a></p>
+<p>示例：同一篇文章的搜索地址<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217200844819.png" alt="在这里插入图片描述"><br>第一种中文版：<a href="http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0">http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0</a><br>第二种随机数字加代码重命名版：<br><a href="https://cungudafa.gitee.io/post/73fa.html">https://cungudafa.gitee.io/post/73fa.html</a><br>第三种中文转拼音版：<br><a href="https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/">https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/</a></p>
 </blockquote>
 <h2 id="1-随机编号"><a href="#1-随机编号" class="headerlink" title="1.随机编号"></a>1.随机编号</h2><p>主题默认的文章链接配置是（中文版）</p>
 <pre><code>premalink: :year/:month/:day/:title</code></pre><p>这种生成的链接地址很长，文章版权的链接地址会出现一大串字符编码，一点也不好看。因此需要修改文章生成链接的格式。</p>
@@ -518,7 +518,7 @@
   abbrlink:
         alg: crc16   #算法： crc16(default) and crc32
         rep: hex   #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制</code></pre><ul>
-<li>修改：<code>permalink: post/:abbrlink.html</code><br>（此处可以自己设置，也可以直接使用 :/abbrlink）<pre><code>permalink: post/:abbrlink.html </code></pre><img src="https://img-blog.csdnimg.cn/20200217201629301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>运行效果为随机数字和字母：<br><img src="https://img-blog.csdnimg.cn/20200214161110723.png" alt="在这里插入图片描述"><br>生成文章的链接格式就会是如下样例（官方样例）:</li>
+<li>修改：<code>permalink: post/:abbrlink.html</code><br>（此处可以自己设置，也可以直接使用 :/abbrlink）<pre><code>permalink: post/:abbrlink.html </code></pre><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217201629301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>运行效果为随机数字和字母：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214161110723.png" alt="在这里插入图片描述"><br>生成文章的链接格式就会是如下样例（官方样例）:</li>
 </ul>
 <pre><code>crc16 &amp; hex
 https://post.zz173.com/posts/66c8.html
@@ -544,9 +544,9 @@ https://post.zz173.com/posts/1690090958.html</code></pre><p>生成完后，原md
  # https://github.com/viko16/hexo-permalink-pinyin
  permalink_pinyin:
    enable: true
-   separator: &#39;&#39; # 拼音之间的间隔符default: &#39;-&#39;</code></pre><p> 修改完成如下：<img src="https://img-blog.csdnimg.cn/20200217201342992.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+   separator: &#39;&#39; # 拼音之间的间隔符default: &#39;-&#39;</code></pre><p> 修改完成如下：<img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217201342992.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
-<li><p>运行效果为汉字转拼音：<br><img src="https://img-blog.csdnimg.cn/20200217202215569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>运行效果为汉字转拼音：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217202215569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
 </ol>
 <p>以上两种修改路径的方法自选一种就好了，卸载插件是：</p>

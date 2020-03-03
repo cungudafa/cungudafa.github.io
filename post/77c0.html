@@ -494,7 +494,7 @@
           <h1 id="一、效果"><a href="#一、效果" class="headerlink" title="一、效果"></a>一、效果</h1><blockquote>
 <p>之前引入的标签云插件，看似很炫酷，实则有点鸡肋，今天忍不住又开始魔改前端css了<br><a href="https://blog.csdn.net/cungudafa/article/details/104462403" target="_blank" rel="noopener">Hexo（sakura）建立标签云hexo-tag-cloud</a></p>
 </blockquote>
-<p><a href="https://cungudafa.top/tags/" target="_blank" rel="noopener">演示页面快速门</a><br><img src="https://img-blog.csdnimg.cn/20200302180553520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>文章末尾显示标签云：<br><img src="https://img-blog.csdnimg.cn/20200302180718439.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如果感觉还行的话，可以向你的博客里加入哦！步骤超简单~</p>
+<p><a href="https://cungudafa.top/tags/" target="_blank" rel="noopener">演示页面快速门</a><br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302180553520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>文章末尾显示标签云：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302180718439.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如果感觉还行的话，可以向你的博客里加入哦！步骤超简单~</p>
 <h1 id="二、演示"><a href="#二、演示" class="headerlink" title="二、演示"></a>二、演示</h1><p>我这里是hexo-sakura主题，以这主题来演示一遍操作流程！</p>
 <h2 id="1-新建tags资源文件夹"><a href="#1-新建tags资源文件夹" class="headerlink" title="1. 新建tags资源文件夹"></a>1. 新建tags资源文件夹</h2><p>sakura主题已有静态标签生成插件，大多数主题都有哦，如果没有添加即可：</p>
 <pre><code>npm install hexo-generator-tag --save</code></pre><ol>
@@ -507,7 +507,7 @@
  date: 2020-02-13 20:24:16
  ---</code></pre></li>
 <li><p>主题目录添加tags</p>
-<pre><code> 标签: {path: /tags, fa: fa-tags }, </code></pre><p> <img src="https://img-blog.csdnimg.cn/20200302181707471.png" alt="在这里插入图片描述"></p>
+<pre><code> 标签: {path: /tags, fa: fa-tags }, </code></pre><p> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302181707471.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p>在<code>themes\sakura\languages\zh-cn.yml</code>声明tags（大部分主题也有声明，如果没有则添加）</p>
 <pre><code> tags: 标签</code></pre><h2 id="2-创建样式文件"><a href="#2-创建样式文件" class="headerlink" title="2. 创建样式文件"></a>2. 创建样式文件</h2></li>
@@ -591,8 +591,8 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }</code></pre>
-<p>运行效果如图：<br><img src="https://img-blog.csdnimg.cn/2020030218241919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="3-局部显示标签云"><a href="#3-局部显示标签云" class="headerlink" title="3. 局部显示标签云"></a>3. 局部显示标签云</h2><p>如果要在其他地方显示，好比如文章末尾：<br><img src="https://img-blog.csdnimg.cn/20200302182819116.png" alt="在这里插入图片描述"><br>sakura主题修改：<code>themes\sakura\layout\_widget\common-article.ejs</code><br>找到：<code>&lt;div class=&quot;post-tags&quot;&gt; &lt;/div&gt;</code> 添加如下内容即可：</p>
+<p>运行效果如图：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020030218241919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="3-局部显示标签云"><a href="#3-局部显示标签云" class="headerlink" title="3. 局部显示标签云"></a>3. 局部显示标签云</h2><p>如果要在其他地方显示，好比如文章末尾：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302182819116.png" alt="在这里插入图片描述"><br>sakura主题修改：<code>themes\sakura\layout\_widget\common-article.ejs</code><br>找到：<code>&lt;div class=&quot;post-tags&quot;&gt; &lt;/div&gt;</code> 添加如下内容即可：</p>
 <pre><code>                &lt;div class=&quot;tag-cloud&quot;&gt;
                   &lt;div class=&quot;tag-cloud-title&quot;&gt;
                   &lt;/div&gt;

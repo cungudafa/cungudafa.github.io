@@ -498,18 +498,18 @@
 <ol>
 <li><p>下载 <a href="https://ecomfe.github.io/fontmin/#app" target="_blank" rel="noopener">Fontmin客户端</a> 和 <a href="http://fonts.mobanwang.com/201403/10867.html" target="_blank" rel="noopener">你要用的字体包</a></p>
 </li>
-<li><p>挑选出需要的字：（字体包提前重命名为logo）<br><img src="https://img-blog.csdnimg.cn/20200215173714602.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>挑选出需要的字：（字体包提前重命名为logo）<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215173714602.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
-<li><p>生成简要型字体样式<br><img src="https://img-blog.csdnimg.cn/20200215173807851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>生成简要型字体样式<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215173807851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
-<li><p>在<code>themes\sakura\source\fonts\</code>下新建文件夹LOGO，文件复制到此处<img src="https://img-blog.csdnimg.cn/20200215171751144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>在<code>themes\sakura\source\fonts\</code>下新建文件夹LOGO，文件复制到此处<img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215171751144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
 <li><p>在文件<code>themes\sakura\layout\_partial\head.ejs</code>合适位置添加：</p>
 <pre><code class="html">   &lt;!-- 自定义logo --&gt;
    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/css/logo.css&quot;&gt;
    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/fonts/LOGO/logo.css&quot;&gt;</code></pre>
 </li>
-<li><p>修改文件<code>themes\sakura\layout\_partial\header.ejs</code>第4-11行：<br><img src="https://img-blog.csdnimg.cn/20200215172242666.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改后：</p>
+<li><p>修改文件<code>themes\sakura\layout\_partial\header.ejs</code>第4-11行：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215172242666.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改后：</p>
 <pre><code>         &lt;span class=&quot;site-title&quot;&gt;
              &lt;span class=&quot;logolink logo&quot;&gt;
                  &lt;a href=&quot;/&quot;&gt;
@@ -524,7 +524,7 @@
                    &lt;/a&gt;
              &lt;/span&gt;
            &lt;/span&gt;</code></pre></li>
-<li><p>在css下新建动画效果：（注意这是两个不同的文件哦，之前在head都引入过了。）<br><img src="https://img-blog.csdnimg.cn/20200215181901584.png" alt="在这里插入图片描述"></p>
+<li><p>在css下新建动画效果：（注意这是两个不同的文件哦，之前在head都引入过了。）<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215181901584.png" alt="在这里插入图片描述"></p>
 <pre><code class="css"> .logo {
      font-family: &#39;logo&#39;, &#39;Merriweather Sans&#39;, Helvetica, Tahoma, Arial, &#39;PingFang SC&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft Yahei&#39;, &#39;WenQuanYi Micro Hei&#39;, sans-serif;
  }
@@ -597,7 +597,7 @@
      opacity: 1
  }
 </code></pre>
-<p>运行效果：<br><img src="https://img-blog.csdnimg.cn/20200215181541482.png" alt="在这里插入图片描述"></p>
+<p>运行效果：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215181541482.png" alt="在这里插入图片描述"></p>
 <blockquote>
 <p>欢迎访问我的博客：<a href="https://cungudafa.gitee.io">https://cungudafa.gitee.io</a></p>
 </blockquote>

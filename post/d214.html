@@ -493,7 +493,7 @@
         <div class="entry-content">
           <h1 id="一、live2d简介"><a href="#一、live2d简介" class="headerlink" title="一、live2d简介"></a>一、live2d简介</h1><p>Live2D是一种应用于电子游戏的绘图渲染技术，技术由日本Cybernoids公司开发。通过一系列的连续图像和人物建模来生成一种类似三维模型的二维图像，对于以动画风格为主的冒险游戏来说非常有用，缺点是Live 2D人物无法大幅度转身，开发商正设法让该技术可显示360度图像。</p>
 <blockquote>
-<p>示例：<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">原博大大官网</a><br><code>根据鼠标热键进行互动</code><br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9odWFqaTgudG9wL2ltZy9saXZlMmQvaGlqaWtpLmdpZg" alt="在这里插入图片描述">)<img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9odWFqaTgudG9wL2ltZy9saXZlMmQvaGFydXRvLmdpZg" alt="在这里插入图片描述"></p>
+<p>示例：<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">原博大大官网</a><br><code>根据鼠标热键进行互动</code><br><img data-action="zoom" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9odWFqaTgudG9wL2ltZy9saXZlMmQvaGlqaWtpLmdpZg" alt="在这里插入图片描述">)<img data-action="zoom" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9odWFqaTgudG9wL2ltZy9saXZlMmQvaGFydXRvLmdpZg" alt="在这里插入图片描述"></p>
 </blockquote>
 <h1 id="二、使用教程"><a href="#二、使用教程" class="headerlink" title="二、使用教程"></a>二、使用教程</h1><blockquote>
 <p><a href="https://github.com/EYHN/hexo-helper-live2d/blob/HEAD/README.zh-CN.md" target="_blank" rel="noopener">hexo-helper-live2d中文文档</a></p>
@@ -503,7 +503,7 @@
 <pre><code> npm install --save hexo-helper-live2d</code></pre></li>
 <li><p>下载模型<br>大模型：<a href="https://github.com/summerscar/live2dDemo" target="_blank" rel="noopener">https://github.com/summerscar/live2dDemo</a><br>小模型：<a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">https://github.com/EYHN/hexo-helper-live2d</a></p>
 </li>
-<li><p>在主目录下新建目录<code>live2d_models/</code>,将需要的模型复制到此处<br><img src="https://img-blog.csdnimg.cn/20200212192930187.png" alt="在这里插入图片描述"></p>
+<li><p>在主目录下新建目录<code>live2d_models/</code>,将需要的模型复制到此处<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200212192930187.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p>请向主目录的 _config.yml 文件末尾粘贴：</p>
 <pre><code> live2d: ##自定义看板娘动画
@@ -524,7 +524,7 @@
      show: true ##移动端是否显示
    react:
      opacity: 0.7</code></pre></li>
-<li><p>发布hexo<br><img src="https://img-blog.csdnimg.cn/20200212210722160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>ok！简单版的看板娘弄好了，接下来是加强版：</p>
+<li><p>发布hexo<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200212210722160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>ok！简单版的看板娘弄好了，接下来是加强版：</p>
 <blockquote>
 <p>换装互动：<a href="https://github.com/stevenjoezhang/live2d-widget" target="_blank" rel="noopener">https://github.com/stevenjoezhang/live2d-widget</a></p>
 </blockquote>
@@ -533,7 +533,7 @@
 <h1 id="三、加强版看板娘"><a href="#三、加强版看板娘" class="headerlink" title="三、加强版看板娘"></a>三、加强版看板娘</h1><ol>
 <li><p><code>卸载</code>live2d</p>
 <pre><code>npm uninstall hexo-helper-live2d</code></pre></li>
-<li><p>下载大神<a href="https://github.com/stevenjoezhang/live2d-widget" target="_blank" rel="noopener">优化版live2d-widget</a>；<br>其次， 在<code>主目录\themes\sakura\source</code>目录下新建目录==live2d-widget==；<br>最后，将下载内容解压到该目录下。<br><img src="https://img-blog.csdnimg.cn/20200212213932766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>下载大神<a href="https://github.com/stevenjoezhang/live2d-widget" target="_blank" rel="noopener">优化版live2d-widget</a>；<br>其次， 在<code>主目录\themes\sakura\source</code>目录下新建目录==live2d-widget==；<br>最后，将下载内容解压到该目录下。<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200212213932766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <ol start="3">
 <li>修改==autoload.js==文件，将大神路径改为绝对路径<br>说明：这个绝对路径是编译后 <strong>根目录</strong> 位置在<code>themes/sakura/source</code><pre><code>// 注意：live2d_path 参数应使用绝对路径
 //const live2d_path = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/&quot;;
@@ -549,7 +549,7 @@ const live2d_path = &quot;/live2d-widget/&quot;;</code></pre></li>
 </li>
 <li><p>在<code>\MyWeb\_config.yml</code>文末添加</p>
 <pre><code>live2d: ##自定义看板娘动画
-  enable: true</code></pre><p>运行效果：<br><img src="https://img-blog.csdnimg.cn/20200212215233330.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+  enable: true</code></pre><p>运行效果：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200212215233330.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </li>
 <li><p>想修改看板娘大小、位置、格式、文本内容等，可查看并修改 waifu-tips.js 、 waifu-tips.json 和 waifu.css。<br>其实看板娘可以侧边隐藏，对样本的修改影响也不大。</p>
 </li>
