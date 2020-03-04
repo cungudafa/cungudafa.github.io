@@ -693,7 +693,7 @@ body {
     text-shadow:0 0 1px rgba(0,0,0,.1)
 }
 input:-webkit-autofill {
-    -webkit-box-shadow:0 0 0 1000px white inset
+    box-shadow:0 0 0 1000px white inset
 }
 ::selection {
     background:#444;
@@ -2858,12 +2858,10 @@ h3#comments-list-title {
 }
 .alignleft {
     display:inline;
-    float:left;
     margin-right:1.5em
 }
 .alignright {
     display:inline;
-    float:right;
     margin-left:1.5em
 }
 .aligncenter {

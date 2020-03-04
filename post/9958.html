@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/css/insight.css" media="all">
   <link rel="stylesheet" href="/css/tags.css" media="all">
   <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">  
-  <link rel="stylesheet" href="/css/zoom.css" media="all">
+
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
   <!-- 自定义logo -->
   <link rel="stylesheet" type="text/css" href="/css/logo.css">
@@ -502,9 +502,9 @@
 &lt;script type=&quot;text/javascript&quot;&gt;
   WIDGET = {FID: &#39;yqRrzxwtvs&#39;}
   &lt;/script&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;https://apip.weatherdt.com/float/static/js/r.js?v=1111&quot;&gt;&lt;/script&gt;</code></pre><p><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214153953222.png" alt="在这里插入图片描述"></p>
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://apip.weatherdt.com/float/static/js/r.js?v=1111&quot;&gt;&lt;/script&gt;</code></pre><p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214153953222.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214153953222.png" alt="在这里插入图片描述"></a></p>
 <h1 id="二、修改文章生成链接形式"><a href="#二、修改文章生成链接形式" class="headerlink" title="二、修改文章生成链接形式"></a>二、修改文章生成链接形式</h1><blockquote>
-<p>示例：同一篇文章的搜索地址<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217200844819.png" alt="在这里插入图片描述"><br>第一种中文版：<a href="http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0">http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0</a><br>第二种随机数字加代码重命名版：<br><a href="https://cungudafa.gitee.io/post/73fa.html">https://cungudafa.gitee.io/post/73fa.html</a><br>第三种中文转拼音版：<br><a href="https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/">https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/</a></p>
+<p>示例：同一篇文章的搜索地址<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200217200844819.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217200844819.png" alt="在这里插入图片描述"></a><br>第一种中文版：<a href="http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0">http://cungudafa.gitee.io/2020/02/17/Hexo%EF%BC%88sakura%EF%BC%89%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6+%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0</a><br>第二种随机数字加代码重命名版：<br><a href="https://cungudafa.gitee.io/post/73fa.html">https://cungudafa.gitee.io/post/73fa.html</a><br>第三种中文转拼音版：<br><a href="https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/">https://cungudafa.gitee.io/2020/02/17/hexo-sakura-she-zhi-wen-zhang-zhi-ding-si-mi-wen-zhang/</a></p>
 </blockquote>
 <h2 id="1-随机编号"><a href="#1-随机编号" class="headerlink" title="1.随机编号"></a>1.随机编号</h2><p>主题默认的文章链接配置是（中文版）</p>
 <pre><code>premalink: :year/:month/:day/:title</code></pre><p>这种生成的链接地址很长，文章版权的链接地址会出现一大串字符编码，一点也不好看。因此需要修改文章生成链接的格式。</p>
@@ -518,7 +518,7 @@
   abbrlink:
         alg: crc16   #算法： crc16(default) and crc32
         rep: hex   #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制</code></pre><ul>
-<li>修改：<code>permalink: post/:abbrlink.html</code><br>（此处可以自己设置，也可以直接使用 :/abbrlink）<pre><code>permalink: post/:abbrlink.html </code></pre><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217201629301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>运行效果为随机数字和字母：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214161110723.png" alt="在这里插入图片描述"><br>生成文章的链接格式就会是如下样例（官方样例）:</li>
+<li>修改：<code>permalink: post/:abbrlink.html</code><br>（此处可以自己设置，也可以直接使用 :/abbrlink）<pre><code>permalink: post/:abbrlink.html </code></pre><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200217201629301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217201629301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>运行效果为随机数字和字母：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214161110723.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214161110723.png" alt="在这里插入图片描述"></a><br>生成文章的链接格式就会是如下样例（官方样例）:</li>
 </ul>
 <pre><code>crc16 &amp; hex
 https://post.zz173.com/posts/66c8.html
@@ -544,9 +544,9 @@ https://post.zz173.com/posts/1690090958.html</code></pre><p>生成完后，原md
  # https://github.com/viko16/hexo-permalink-pinyin
  permalink_pinyin:
    enable: true
-   separator: &#39;&#39; # 拼音之间的间隔符default: &#39;-&#39;</code></pre><p> 修改完成如下：<img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217201342992.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+   separator: &#39;&#39; # 拼音之间的间隔符default: &#39;-&#39;</code></pre><p> 修改完成如下：<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200217201342992.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217201342992.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
-<li><p>运行效果为汉字转拼音：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217202215569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>运行效果为汉字转拼音：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200217202215569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200217202215569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 </ol>
 <p>以上两种修改路径的方法自选一种就好了，卸载插件是：</p>
@@ -596,7 +596,7 @@ npm uninstall hexo-permalink-pinyin --save</code></pre><p>删掉主配置文件�
             <div class="tag-cloud-title">
             </div>
             <div class="tag-cloud-tags">
-            <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SEO/" style="font-size: 10px; color: #f06966">SEO</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/diy/" style="font-size: 10px; color: #f06966">diy</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/nick/" style="font-size: 10px; color: #f06966">nick</a> <a href="/tags/pyecharts/" style="font-size: 10px; color: #f06966">pyecharts</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/valine/" style="font-size: 17.5px; color: #67a6c8">valine</a> <a href="/tags/web/" style="font-size: 10px; color: #f06966">web</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px; color: #39bae8">前端</a> <a href="/tags/%E5%8A%A0%E5%AF%86/" style="font-size: 10px; color: #f06966">加密</a> <a href="/tags/%E5%8A%A8%E7%94%BB/" style="font-size: 15px; color: #9592a7">动画</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px; color: #f06966">博客搭建</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 12.5px; color: #c27d87">图集</a> <a href="/tags/%E5%A4%96%E9%93%BE/" style="font-size: 10px; color: #f06966">外链</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 12.5px; color: #c27d87">头像</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px; color: #f06966">技术</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 12.5px; color: #c27d87">文章</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/" style="font-size: 12.5px; color: #c27d87">标签云</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/" style="font-size: 10px; color: #f06966">说说、心情</a> <a href="/tags/%E9%82%AE%E4%BB%B6/" style="font-size: 12.5px; color: #c27d87">邮件</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px; color: #f06966">邮箱</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 10px; color: #f06966">阿里云</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
+            <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SEO/" style="font-size: 10px; color: #f06966">SEO</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/diy/" style="font-size: 10px; color: #f06966">diy</a> <a href="/tags/fancybox/" style="font-size: 12.5px; color: #c27d87">fancybox</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/nick/" style="font-size: 10px; color: #f06966">nick</a> <a href="/tags/pyecharts/" style="font-size: 10px; color: #f06966">pyecharts</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/valine/" style="font-size: 17.5px; color: #67a6c8">valine</a> <a href="/tags/web/" style="font-size: 10px; color: #f06966">web</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px; color: #39bae8">前端</a> <a href="/tags/%E5%8A%A0%E5%AF%86/" style="font-size: 10px; color: #f06966">加密</a> <a href="/tags/%E5%8A%A8%E7%94%BB/" style="font-size: 15px; color: #9592a7">动画</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px; color: #f06966">博客搭建</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 15px; color: #9592a7">图集</a> <a href="/tags/%E5%A4%96%E9%93%BE/" style="font-size: 10px; color: #f06966">外链</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 12.5px; color: #c27d87">头像</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px; color: #f06966">技术</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 12.5px; color: #c27d87">文章</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/" style="font-size: 12.5px; color: #c27d87">标签云</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/" style="font-size: 10px; color: #f06966">说说、心情</a> <a href="/tags/%E9%82%AE%E4%BB%B6/" style="font-size: 12.5px; color: #c27d87">邮件</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px; color: #f06966">邮箱</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 10px; color: #f06966">阿里云</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
             </div>
           </div>
       </article>
@@ -607,13 +607,13 @@ npm uninstall hexo-permalink-pinyin --save</code></pre><p>删掉主配置文件�
           
             <div class="post-nepre half previous">
           
-            <a href="/post/8e37.html" rel="prev">
+            <a href="/post/2b2b.html" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2012/04/24/17/57/rss-40674_1280.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.pixabay.com/photo/2012/04/24/17/57/rss-40674_1280.png">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2013/12/30/07/58/photo-album-235603_1280.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.pixabay.com/photo/2013/12/30/07/58/photo-album-235603_1280.jpg">
               </div>
               <span class="label">Previous Post</span>
               <div class="info">
-                <h3>Hexo（sakura）添加RSS订阅</h3>
+                <h3>Github+Hexo博客增添相册功能</h3>
                 <hr>
               </div>
             </a>
@@ -623,13 +623,13 @@ npm uninstall hexo-permalink-pinyin --save</code></pre><p>删掉主配置文件�
           
             <div class="post-nepre half next">
           
-            <a href="/post/73fa.html" rel="next">
+            <a href="/post/8e37.html" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2020/02/05/07/51/painting-4820359_960_720.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.pixabay.com/photo/2020/02/05/07/51/painting-4820359_960_720.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2012/04/24/17/57/rss-40674_1280.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.pixabay.com/photo/2012/04/24/17/57/rss-40674_1280.png">
               </div>
               <span class="label">Next Post</span>
               <div class="info">
-                <h3>Hexo（sakura）设置文章置顶+私密文章</h3>
+                <h3>Hexo（sakura）添加RSS订阅</h3>
                 <hr>
               </div>
             </a>
@@ -832,7 +832,7 @@ npm uninstall hexo-permalink-pinyin --save</code></pre><p>删掉主配置文件�
         setInterval("createtime()",250);
             </script>
             <!-- 全网站字数统计wordcount -->
-            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">29k</span>字</span>
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">30.2k</span>字</span>
             <!-- 不蒜子网页计数器 -->
             <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
             </span>
@@ -866,16 +866,34 @@ npm uninstall hexo-permalink-pinyin --save</code></pre><p>删掉主配置文件�
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
+<!-- fancybox大图查看 需jq -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script>
+  $('[data-fancybox="images"]').fancybox({
+    thumbs : {
+      autoStart : true //缩略图
+    }
+  });
+  $('[data-fancybox]').fancybox({
+    protect: true,//图片右键不能下载
+    youtube : {
+        controls : 0,
+        showinfo : 0
+    },
+    vimeo : {
+        color : 'f00'
+    }
+  });
+</script>
+
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
-<script  async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-<!--看板娘-->
-<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<!--看板娘 需jq-->
 <script src="/live2d-widget/autoload.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
 

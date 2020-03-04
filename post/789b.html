@@ -6,7 +6,7 @@
   <!-- <meta name="baidu-site-verification" content="LukfTcyXmC" /> -->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】 | cungudafa</title>
+  <title itemprop="name">hexo（sakura）引入fancybox优化图片视频查看效果 | cungudafa</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -412,10 +412,10 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo40.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo40.jpg">
     </div>
     <header class="pattern-header single-header">
-      <h1 class="entry-title">Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】</h1>
+      <h1 class="entry-title">hexo（sakura）引入fancybox优化图片视频查看效果</h1>
       <p class="entry-census">
           <span class="post-meta-item">
             <a href="https://cungudafa.gitee.io">
@@ -423,7 +423,7 @@
             </a>
           </span>
           <span class="post-meta-item">
-            <a href="https://cungudafa.gitee.io"> cungudafa </a>
+            <a href="https://cungudafa.gitee.io"> 姑 </a>
           </span>
           <span class="bull">
             ·</span>
@@ -431,7 +431,7 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text"> 2020-3-1 </span>
+              <span class="post-meta-item-text"> 2020-3-4 </span>
           </span>
           <span class="bull">
             ·</span>
@@ -454,7 +454,7 @@
     <i class="fa fa-book"></i>
     <span class="post-meta-item-text">字数统计: </span>
     <!-- 安装插件npm install hexo-wordcount --save -->
-    <span class="post-count">2.2k字</span>
+    <span class="post-count">1.3k字</span>
   </span>
 </span>
 <span class="bull">
@@ -463,7 +463,7 @@
   <span class="post-meta-item-icon">
     <i class="fa fa-coffee"></i>
     <span class="post-meta-item-text">阅读时长≈</span>
-    <span class="post-count">9分钟</span>
+    <span class="post-count">6分钟</span>
   </span>
 </span>
           
@@ -476,7 +476,7 @@
                 <i class="fa fa-comment-o"></i>
               </span>
               </span class="post-meta-item-text">
-                <span class="valine-comment-count" data-xid="32c1"> </span>
+                <span class="valine-comment-count" data-xid="789b"> </span>
               </span>
           </span> -->
         </p>
@@ -491,203 +491,148 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前用Gitee的Pages对博客进行部署，怎么用也不习惯，今天续费阿里云服务器了，开造~</p>
-<p><code>前期准备：</code></p>
-<ul>
-<li>本地hexo构建可运行发布</li>
-<li>阿里云服务器能访问</li>
-<li>有一个域名（非必须项，可以公网ip查看嘛~）</li>
-</ul>
-<p><code>服务器环境：</code></p>
-<ul>
-<li>Ubantu16.04(我也想换centos，但我的数据库也需要移植，qaq)</li>
-<li>mysql5<code>端口号3306</code> + myphpadmin （hexo是静态页面，用不到的啦；如果是WordPress就需要）</li>
-<li>apache2<code>端口号80</code> （之前的页面）<br>因为我的服务器上正在跑着我的<a href="http://cungudafa.top:82/demo2/" target="_blank" rel="noopener">个人网站</a>，要再加一个网站的话需要做反向代理，于是需要安装nginx，避免80端口冲突，这里先把apache80端口修改为82，这样nginx就可以作为主页面显示。</li>
-</ul>
-<h2 id="修改Apache端口号"><a href="#修改Apache端口号" class="headerlink" title="修改Apache端口号"></a>修改Apache端口号</h2><ol>
-<li><p>修改服务器Apache端口配置文件：</p>
-<pre><code> cd /etc/apache2
- vi ports.conf</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200229180631128.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200229180631128.png" alt="在这里插入图片描述"></a><br> 将<code>Listen 80改为82</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200229180556493.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200229180556493.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>在阿里云控制台添加安全组规则：添加82端口<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020022918100541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020022918100541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>重启Apache</p>
-<pre><code> sudo /etc/init.d/apache2 restart</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020022918093429.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020022918093429.png" alt="在这里插入图片描述"></a></p>
-</li>
-</ol>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>回顾一下Hexo发布到gitee（Pages）的流程：</p>
-<ul>
-<li>本地计算机用Hexo构建静态文件public</li>
-<li>关键一步就是<code>git上传</code>github或gitee</li>
-<li><code>发布Pages</code>将仓库目录<code>https://gitee.com/cungudafa/cungudafa/index.html</code>拉取到<code>https://cungudafa.gitee.io/index.html</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301115226557.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301115226557.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>当然我们需要上传的是public文件夹；每次xftp手动上传肯定是不现实且麻烦的，所以我们接下来要在服务器安装git。</li>
-</ul>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="1-服务器创建git用户"><a href="#1-服务器创建git用户" class="headerlink" title="1. 服务器创建git用户"></a>1. 服务器创建git用户</h2><ol>
-<li><p><a href="https://blog.csdn.net/ninnyyan/article/details/88059092" target="_blank" rel="noopener">创建一个git用户</a>，用来运行git服务。（root不安全）</p>
-<pre><code> sudo useradd git -m</code></pre><blockquote>
-<p>注意：Ubantu下必须加上-m，才会自动新建用户目录/home/git/（后面配置和博客文件都放在这里）<br> 在/home/git/非常重要，如果出错，可以删除<code>sudo userdel -r git</code>用户，重新之前的步骤。</p>
+          <blockquote>
+<p><strong>题外话：</strong><br><a href="https://github.com/honjun/hexo-theme-sakura/blob/master/README-zh_cn.md#201961%E8%BF%BD%E5%8A%A0" target="_blank" rel="noopener">原本在hexo-theme-sakura</a>作者hojun的添加下有zoom功能，<br>我也乖乖根据配置进行调整，并<a href="https://www.cnblogs.com/yadongliang/p/9327659.html" target="_blank" rel="noopener">参考</a>实现了zoom.js缩放图片功能，只能简单缩放，不够美观，还会出现白屏的情况。我果断放弃了。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304171456717.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304171456717.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </blockquote>
-</li>
-</ol>
-<ol start="2">
-<li><p>设置密码</p>
-<pre><code> sudo passwd git</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200229181359235.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200229181359235.png" alt="在这里插入图片描述"></a><br> 密码是git用户的密码，简单为上啦。</p>
-</li>
-<li><p>增加git用户执行sudo的权限</p>
-<pre><code> chmod 740 /etc/sudoers
- vim /etc/sudoers</code></pre><p> 找到以下内容：<code>root    ALL=(ALL)     ALL</code>在下面添加一行</p>
-<pre><code> git     ALL=(ALL)       ALL</code></pre><p> 保存退出后改回权限：</p>
-<pre><code> chmod 400 /etc/sudoers</code></pre><h2 id="2-服务器打开RSA认证"><a href="#2-服务器打开RSA认证" class="headerlink" title="2. 服务器打开RSA认证"></a>2. 服务器打开RSA认证</h2><p>RSA用公钥加密，私钥解密，成为加密通信。<br>用私钥加密，公钥解密，就是认证。（这样就能证明消息是你发出的。）<br>因为：公钥大家都有，私钥就只有一个，在你自己手里。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030122475652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020030122475652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-<h3 id="2-1-开启认证配置"><a href="#2-1-开启认证配置" class="headerlink" title="2.1 开启认证配置"></a>2.1 开启认证配置</h3></li>
-</ol>
-<p><strong>服务器端：</strong></p>
-<pre><code>vim /etc/ssh/sshd_config</code></pre><p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200229194038985.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200229194038985.png" alt="在这里插入图片描述"></a><br>在sshd_config中开启以下几项：(前两项yes，后一项修改为如下)</p>
-<pre><code>RSAAuthentication yes
-PubkeyAuthentication yes
-AuthorizedKeysFile  .ssh/authorized_keys</code></pre><p>重启sshd</p>
-<pre><code>systemctl stop sshd.service
-systemctl start sshd.service</code></pre><p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020022919413910.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020022919413910.png" alt="在这里插入图片描述"></a></p>
-<h3 id="2-2-建立ssh信任关系"><a href="#2-2-建立ssh信任关系" class="headerlink" title="2.2 建立ssh信任关系"></a>2.2 建立ssh信任关系</h3><p><code>本地电脑生成秘钥对-》发送公钥到服务器-》本地可免密连接服务器</code></p>
-<ol>
-<li><p><strong>在本地电脑：</strong> 生成密钥对</p>
-<pre><code> ssh-keygen -t rsa -C &quot;邮箱&quot; </code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301134434516.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301134434516.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>成功后，会在c盘用户下新建秘钥对：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301142133779.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301142133779.png" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p><strong>在服务器：</strong> 切换至git用户，创建 ~/.ssh 文件夹</p>
-<pre><code> su git
- mkdir ~/.ssh</code></pre><p> 或者root用户直接创建：</p>
-<pre><code> cd /home/git/
- mkdir .ssh</code></pre></li>
-<li><p><strong>在本地电脑：</strong> 发送公钥 <strong>id_rsa.pub</strong> 到 <strong><em>/home/git/.ssh/authorzied_keys</em></strong></p>
-<pre><code> ssh-copy-id -i C:/Users/CUNGU/.ssh/id_rsa.pub git@47.93.50.90 //把公钥发送给服务器
- ssh git@47.93.50.90 // 测试能否登录</code></pre><p> 本地登录效果：（authorzied_keys是一行一行添加的，显示成功添加一行）<br> 通过ssh能够直接登录操作shell，当然后面要关掉git的这个shell权限的，不然小心异地登录，危险危险。<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301143008591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301143008591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 服务器文件夹也有了公钥：<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301143127403.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301143127403.png" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>文件夹权限调整：<code>authorzied_keys</code>权限为600时才生效<br> git用户：</p>
-<pre><code> su git
- chmod 700 ~/.ssh
- chmod 600 ~/.ssh/authorzied_keys</code></pre><p> 第二步没有成功，说我没有权限（Permission denied）；emmm，root设置好了<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030114430468.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020030114430468.png" alt="在这里插入图片描述"></a><br> root设置第二步：(注意在.ssh目录下)</p>
-<pre><code> exit // 退出到 root 登录
- sudo chmod 600 authorized_keys</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301145206698.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301145206698.png" alt="在这里插入图片描述"></a><br>现在就搭建好git桥梁，为后面实现hexo d部署时，可以自动上传啦！</p>
-<h2 id="3-创建blog-git空仓库"><a href="#3-创建blog-git空仓库" class="headerlink" title="3.创建blog.git空仓库"></a>3.创建blog.git空仓库</h2></li>
-<li><p>切换到git用户，接下来都是在git用户权限下进行操作：</p>
-<pre><code>su git                //切换git用户
-cd /home/git/
-mkdir -p projects/blog  //创建你的博客目录
-mkdir repos &amp;&amp; cd repos
-git init --bare blog.git  //创建一个空仓库
-cd blog.git/hooks
-vi post-receive  //创建hook钩子函数，输入以下内容
-git --work-tree=/home/git/projects/blog --git-dir=/home/git/repos/blog.git checkout -f
-chmod +x post-receive  // 修改钩子函数权限</code></pre><p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302113855479.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302113855479.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-</li>
-</ol>
-<ol start="2">
-<li><p>改变 hexo.git 目录的拥有者为git用户：</p>
-<pre><code> sudo chown -R git:git blog.git</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301152546895.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301152546895.png" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>添加备份目录</p>
-<pre><code> cd /home/git/projects/
- mkdir -p tmp/blog</code></pre><p> 修改钩子的内容：（重点是git clone 克隆到主目录<code>home/git/projects/blog</code>主目录要配置到nginx中去的）</p>
-<pre><code> #!/bin/bash
- GIT_REPO=/home/git/repos/blog.git    # git仓库
- TMP_GIT_CLONE=/home/git/projects/tmp/blog
- PUBLIC_WWW=/home/git/projects/blog  # 网站目录
- rm -rf ${TMP_GIT_CLONE}
- git clone $GIT_REPO $TMP_GIT_CLONE
- rm -rf ${PUBLIC_WWW}/*
- cp -rf ${TMP_GIT_CLONE}/* ${PUBLIC_WWW}
- chmod +x post-receive          # 赋予脚本的执行权限</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302010103996.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302010103996.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> git用户赋权：</p>
-<pre><code> su git
- chmod +x post-receive
- exit // 退出到 root 登录
- chown -R git:git /home/git/repos/blog.git // 添加权限
- sudo chown git:git -R /home/git/projects/</code></pre><p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302001910588.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302001910588.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 蓝色为更新后的上传机制：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302114012739.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302114012739.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>为了安全起见，我们需要关闭git账号登录shell的权限！！(一开始疏忽了 一个晚上服务器被异常登陆五次！！)==建议这一步放在全文步骤配置好，最后最后来做==</p>
-<pre><code> vim /etc/passwd</code></pre><p> 找到git账号(一般在最后面)添加：<code>/usr/bin/git-shell</code><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301110128121.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301110128121.png" alt="在这里插入图片描述"></a><br> 加上git就只能git clone，如需shell操作，撤销<code>/usr/bin/git-shell</code>即可。<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301135806549.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301135806549.png" alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>在本地任意一空目录，测试git仓库是否可用（测试步骤，稍后可清除）</p>
-<pre><code> git clone git@47.93.50.90:/home/git/repos/blog.git</code></pre><p> 实际拉下来的是你的<code>/home/git/projects/blog</code>，哈哈哈还是空的~<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200229232516339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200229232516339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-<h2 id="4-hexo配置"><a href="#4-hexo配置" class="headerlink" title="4. hexo配置"></a>4. hexo配置</h2><p>修改博客根目录配置_config.yml，部署部分，增添repo：（以git用户的身份操作）</p>
-<pre><code>deploy:
-type: git
-message: update
-gitee: https://gitee.com/cungudafa/cungudafa.git
-repo: git@47.93.50.90:/home/git/repos/blog.git
-branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo g -d</code>时，就会自动上传啦！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301154057910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301154057910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
+<h1 id="一、fancybox介绍"><a href="#一、fancybox介绍" class="headerlink" title="一、fancybox介绍"></a>一、fancybox介绍</h1><p>在我们平常阅读博文时，常遇到：<code>图片太小，字看不清</code>的情况<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304165730518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304165730518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>不怕，fancybox可以将你的图片放大！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304165838704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304165838704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>强大的相册功能！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304170123126.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304170123126.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br><font color=ff6666 size=4>原理：给所有图片加一层a标签，并链接图片地址到蒙版层面上</font></p>
+<p>简单源码：（多图）</p>
+<pre><code class="html">&lt;！DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset =“ utf-8”&gt;
+    &lt;title&gt;我的页面&lt;/ title&gt;
+
+    &lt;!--CSS--&gt;
+    &lt;link rel =“ stylesheet” type =“ text / css” href =“ jquery.fancybox.min.css”&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- 一组图片 ，a标签的data-fancybox属性很重要 --&gt;
+    &lt;a href=&quot;image_1.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Caption #1&quot;&gt;
+    &lt;img src=&quot;thumbnail_1.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;image_2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Caption #2&quot;&gt;
+        &lt;img src=&quot;thumbnail_2.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+
+    &lt;！-JS-&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js&quot;&gt;
+    &lt;script&gt; 
+    $(&#39;[data-fancybox=&quot;images&quot;]&#39;).fancybox({
+        thumbs : {
+          autoStart : true //缩略图
+        }
+      });
+      $(&#39;[data-fancybox]&#39;).fancybox({
+        protect: true,//图片右键不能下载
+    });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>视频：（弹窗播放）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304173854714.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304173854714.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
+<pre><code class="html">&lt;！DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset =“ utf-8”&gt;
+    &lt;title&gt;我的页面&lt;/ title&gt;
+
+    &lt;!--CSS--&gt;
+    &lt;link rel =“ stylesheet” type =“ text / css” href =“ jquery.fancybox.min.css”&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;a data-fancybox href=&quot;https://www.youtube.com/watch?v=_sI_Ps7JSEk&quot;&gt;
+    YouTube video
+&lt;/a&gt;
+&lt;a data-fancybox href=&quot;https://vimeo.com/191947042&quot;&gt;
+    Vimeo video
+&lt;/a&gt;
+&lt;a data-fancybox data-width=&quot;640&quot; data-height=&quot;360&quot; href=&quot;video.mp4&quot;&gt;
+    Direct link to MP4 video
+&lt;/a&gt;
+&lt;a data-fancybox href=&quot;#myVideo&quot;&gt;
+    HTML5 video element
+&lt;/a&gt;
+&lt;video width=&quot;640&quot; height=&quot;320&quot; controls id=&quot;myVideo&quot; style=&quot;display:none;&quot;&gt;
+    &lt;source src=&quot;https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;source src=&quot;https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.webm&quot; type=&quot;video/webm&quot;&gt;
+    &lt;source src=&quot;https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.ogv&quot; type=&quot;video/ogg&quot;&gt;
+    Your browser doesn&#39;t support HTML5 video tag.
+&lt;/video&gt;
+
+&lt;!-- fancybox大图查看 需jq --&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.fancybox.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  $(&#39;[data-fancybox]&#39;).fancybox({
+    youtube : {
+        controls : 0,
+        showinfo : 0
+    },
+    vimeo : {
+        color : &#39;f00&#39;
+    }
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
 <blockquote>
-<p>只有在ssh秘钥配置成功，才能成功上传。如果需要修改公钥，要打开git操作shell的权限哦！<code>vim /etc/passwd</code>最后一句。及时开，及时关，做到万无一失。</p>
+<p>文档：<a href="https://fancyapps.com/fancybox/3/docs/" target="_blank" rel="noopener">https://fancyapps.com/fancybox/3/docs/</a><br>中文翻译参考：<a href="https://salongweb.com/fancybox3.html" target="_blank" rel="noopener">jQuery 强大丰富的响应式弹出框插件 fancyBox3</a><br>很详尽很丰富，拿到手又有一点头大！本文是hexo-sakura主题博客整合fancybox插件实例的教程！</p>
 </blockquote>
+<h1 id="二、hexo中添加fancybox"><a href="#二、hexo中添加fancybox" class="headerlink" title="二、hexo中添加fancybox"></a>二、hexo中添加fancybox</h1><h2 id="1-添加引用"><a href="#1-添加引用" class="headerlink" title="1. 添加引用"></a>1. 添加引用</h2><ol>
+<li><p>分别在head.ejs和footer.ejs：删去zoom引用，只保留fancybox；<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304172702740.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304172702740.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>在footer中添加cdn加速版jQuery引用<br>完整的引用：</p>
+<pre><code class="html"> &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/jquery.fancybox.min.css&quot; media=&quot;all&quot;&gt;  
+ &lt;!-- fancybox大图查看 需jq --&gt;
+ &lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+ &lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.fancybox.min.js&quot;&gt;&lt;/script&gt;
+ &lt;script&gt;
+   $(&#39;[data-fancybox=&quot;images&quot;]&#39;).fancybox({//可选
+     thumbs : {
+       autoStart : true //缩略图
+     }
+   });
+   $(&#39;[data-fancybox]&#39;).fancybox({//启用函数，必须
+     //protect: true //图片右键不能下载，可选
+   });
+ &lt;/script&gt;
+</code></pre>
 </li>
 </ol>
-<p>现在public生成的静态文件已经完好推送到阿里云服务器了！<br>现在需要Pages工作：即将静态页面显示在网站上。</p>
-<h2 id="5-nginx配置"><a href="#5-nginx配置" class="headerlink" title="5. nginx配置"></a>5. nginx配置</h2><p>nginx显示blog的index.html：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302114134173.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200302114134173.png" alt="在这里插入图片描述"></a><br>我直接使用<code>sudo apt install nginx</code>安装是有问题的，看了n多教程之后，还是选择了源码安装😣</p>
-<ol>
-<li><p>下载源码编译工具<br><a href="https://blog.csdn.net/Ti__iT/article/details/80909084?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">参考1</a>  | <a href="https://blog.csdn.net/qq_40183281/article/details/90085220" target="_blank" rel="noopener">参考2</a> |  <a href="https://www.cnblogs.com/emmm/p/12240279.html" target="_blank" rel="noopener">参考3</a></p>
-<pre><code> sudo apt-get update
- apt-get install gcc
- apt-get install libpcre3 libpcre3-dev
- apt-get install zlib1g zlib1g-dev zlib1g.dev
- apt-get install openssl openssl-dev
- sudo apt-get install openssl libssl-dev</code></pre></li>
-<li><p>下载安装包，解压到常用目录：</p>
-<pre><code> cd /usr/local/
- wget http://nginx.org/download/nginx-1.8.1.tar.gz
- tar -zxvf nginx-1.8.1.tar.gz
- #重命名
- mv nginx-1.8.1 nginx 
- cd nginx
- #开始配置
- ./configure --prefix=/usr/local/nginx --with-http_ssl_module
- # 编译nginx：
- sudo make
- # 安装nginx：
- sudo make install</code></pre><p> 如果出错，就是第一步没有做好，缺编译工具。</p>
-</li>
-<li><p>修改配置：</p>
-<pre><code> vi /usr/local/nginx/conf/nginx.conf</code></pre><ul>
-<li>端口号（阿里云控制台安全组规则要打开端口哦）</li>
-<li>修改域名</li>
-<li>修改根目录位置</li>
-<li>修改用户为root用户<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301234937404.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301234937404.png" alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301001114280.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301001114280.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></li>
-</ul>
-</li>
-<li><p>启动nginx</p>
-<pre><code> sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf</code></pre><blockquote>
-<p>报错：缺少两个文件：<br> 解决方法：<a href="https://blog.csdn.net/rongDang/article/details/90370822?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">参考</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301012001682.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301012001682.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-</blockquote>
-<p> 此时已经可以用<a href="http://cungudafa.top/" target="_blank" rel="noopener">域名cungudafa.top或者公网ip</a>在浏览器查看到页面咯：<br> 相比较apache，用另一个端口号即可见：<a href="http://cungudafa.top:82/demo2/" target="_blank" rel="noopener">cungudafa.top:82</a>，双页面美滋滋~<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301163516961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301163516961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> hexo部署就到此结束了，看看操作流程，配置只配置一次，以后发布就自动发布了，再也不用点gitee的手动部署了。    👏<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030201070076.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020030201070076.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-<h2 id="6-Tips"><a href="#6-Tips" class="headerlink" title="6. Tips"></a>6. Tips</h2><h3 id="（1）-nginx常用的命令"><a href="#（1）-nginx常用的命令" class="headerlink" title="（1） nginx常用的命令"></a>（1） nginx常用的命令</h3><p>建议记在小本本上哦！📃）</p>
-</li>
-</ol>
+<h2 id="2-修改配置"><a href="#2-修改配置" class="headerlink" title="2.修改配置"></a>2.修改配置</h2><p>hexo是md格式文件生成的静态页面，<br>说明一下<code>node_modules\marked\lib\marked.js</code>这个函数的作用：</p>
 <ul>
-<li>启动：<code>/usr/local/nginx/sbin/nginx</code></li>
-<li>关闭：<code>/usr/local/nginx/sbin/nginx -s stop</code></li>
-<li>重启：<code>/usr/local/nginx/sbin/nginx -s reload</code></li>
-<li>查看nginx的进程pid： <code>cat /usr/local/nginx/logs/nginx.pid</code></li>
-<li>查看版本：<code>/usr/local/nginx/sbin/nginx -V</code></li>
-<li>修改配置文件：<code>vim /usr/local/nginx/conf/nginx.conf</code></li>
-<li>修改完后测试：<code>/usr/local/nginx/sbin/nginx -t</code><blockquote>
-<p>参考于：<a href="https://blog.csdn.net/qq_40313877/article/details/104510377" target="_blank" rel="noopener">nginx常用的命令</a><br>完整： <a href="https://blog.csdn.net/adley_app/article/details/79223221" target="_blank" rel="noopener">删除apt install nginx</a></p>
-</blockquote>
-</li>
-</ul>
-<p>tips：为 nginx 取别名，后面可直接用🧡</p>
-<pre><code>alias nginx=&#39;/usr/local/nginx/sbin/nginx&#39;</code></pre><ul>
-<li>启动：<code>nginx</code></li>
-<li>关闭：<code>nginx -s stop</code></li>
-<li>重启：<code>nginx -s reload</code></li>
-<li>查看nginx的进程pid： <code>cat /usr/local/nginx/logs/nginx.pid</code></li>
-<li>查看版本：<code>nginx -V</code></li>
-<li>修改配置文件：<code>vim /usr/local/nginx/conf/nginx.conf</code></li>
-<li>修改完后测试：<code>nginx -t</code><h3 id="（2）云网站"><a href="#（2）云网站" class="headerlink" title="（2）云网站"></a>（2）云网站</h3></li>
+<li>marked.js是一个用JavaScript写的功能齐全的Markdown解析器和编译器。可以非常方便的在线编译Markdown代码为HTML并直接显示，并且支持完全的自定义各种格式。</li>
+<li>它的作用：<pre><code>  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200304135000622.png)
+  转换成：
+  &lt;img data-action=&quot;zoom&quot; src=&quot;https://img-blog.csdnimg.cn/20200304135000622.png&quot; alt=&quot;在这里插入图片描述&quot;&gt;</code></pre>我们要进一步转换成含a标签的fancybox可调用的样式：<pre><code>&lt;a data-fancybox=&quot;gallery&quot; rel=&quot;group1 noopener&quot; href=&quot;https://img-blog.csdnimg.cn/20200304135000622.png&quot; target=&quot;_blank&quot;&gt;
+  &lt;img data-action=&quot;zoom&quot; src=&quot;https://img-blog.csdnimg.cn/20200304135000622.png&quot; alt=&quot;在这里插入图片描述&quot;&gt;
+&lt;/a&gt;</code></pre></li>
 </ul>
 <ol>
-<li>为了响应国家网络安全管理，备案名要加上哦！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301170944791.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301170944791.png" alt="在这里插入图片描述"></a></li>
-<li>hexo中涉及修改：<ul>
-<li>valine评论涉及leadcloud后台添加域名；<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200301164505782.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200301164505782.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></li>
-<li>修改博主通知域名哦（云引擎-》设置-》环境变量：修改域名、保存，然后重启云引擎实例）</li>
-</ul>
+<li><p>修改静态文件<code>node_modules\marked\lib\marked.js</code><br>ctrl+F 搜索 <code>Renderer.prototype.image</code> 函数，修改如下：</p>
+<pre><code class="js"> Renderer.prototype.image = function(href, title, text) {
+   // href = cleanUrl(this.options.sanitize, this.options.baseUrl, href);
+   // if (href === null) {
+   //   return text;
+   // }
+
+   // var out = &#39;&lt;img src=&quot;&#39; + href + &#39;&quot; alt=&quot;&#39; + text + &#39;&quot;&#39;;
+   // if (title) {
+   //   out += &#39; title=&quot;&#39; + title + &#39;&quot;&#39;;
+   // }
+   // out += this.options.xhtml ? &#39;/&gt;&#39; : &#39;&gt;&#39;;
+   // return out;
+   if (this.options.baseUrl &amp;&amp; !originIndependentUrl.test(href)) {
+     href = resolveUrl(this.options.baseUrl, href);
+   }
+   var out = &#39;&lt;a data-fancybox=&quot;gallery&quot; data-caption=&quot;&#39;+text+&#39;&quot; href=&quot;&#39;+href+&#39;&quot;&gt;&lt;img data-action=&quot;zoom&quot; src=&quot;&#39; + href + &#39;&quot; alt=&quot;&#39; + text + &#39;&quot;&#39;;
+   if (title) {
+     out += &#39; title=&quot;&#39; + title + &#39;&quot;&#39;;
+   }
+   out += this.options.xhtml ? &#39;/&gt;&lt;/a&gt;&#39; : &#39;&gt;&lt;/a&gt;&#39;;
+   return out;
+ };</code></pre>
+<p> 现在已经大功告成，可以实现效果了！<br> 示例：<a href="https://cungudafa.top/post/32c1.html" target="_blank" rel="noopener">demo</a></p>
 </li>
-<li>换行符转义警告：<br>git commit -a命令时，遇到LF will be replaced by CRLF in…提示的解决办法<pre><code> git config --global core.autocrlf false</code></pre></li>
 </ol>
 
         </div>
@@ -713,9 +658,9 @@ branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo
           <div class="post-tags" style="color: #a39391">
               <span><i class="fa fa-tags"></i>
                 
-                    <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="color: #716e77;">阿里云<em>·</em></a>
+                    <a href="/tags/%E5%9B%BE%E9%9B%86/" style="color: #716e77;">图集<em>·</em></a>
                   
-                    <a href="/tags/hexo/" style="color: #716e77;">hexo<em>·</em></a>
+                    <a href="/tags/fancybox/" style="color: #716e77;">fancybox<em>·</em></a>
                   
                 </span>
                 <span>
@@ -742,32 +687,17 @@ branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/post/ccbf.html" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png">
-              </div>
-              <span class="label">Previous Post</span>
-              <div class="info">
-                <h3>（阿里云Ubantu16）nginx配置https安全访问</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/post/1d90.html" rel="next">
+            <a href="/post/3af9.html" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4190080762,256915529&fm=26&gp=0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4190080762,256915529&fm=26&gp=0.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://b-ssl.duitang.com/uploads/item/201901/29/20190129223401_nZYXf.jpeg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://b-ssl.duitang.com/uploads/item/201901/29/20190129223401_nZYXf.jpeg">
               </div>
               <span class="label">Next Post</span>
               <div class="info">
-                <h3>【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</h3>
+                <h3>为你的博客引入——今日诗词、每日一言（js插件分享）</h3>
                 <hr>
               </div>
             </a>
@@ -875,11 +805,11 @@ branch: master</code></pre><p>接下来，在用<code>hexo clean &amp;&amp; hexo
       <!-- 加密文章隐藏作者信息 -->
       <section class="author-profile"  >
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="cungudafa" height="70" width="70"></a>
+          <a href="https://cungudafa.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="姑" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">cungudafa</a>
+            <a href="https://cungudafa.gitee.io" itemprop="url" rel="author">姑</a>
             </h3>
           </div>
         </div>

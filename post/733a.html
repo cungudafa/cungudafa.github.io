@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/css/insight.css" media="all">
   <link rel="stylesheet" href="/css/tags.css" media="all">
   <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">  
-  <link rel="stylesheet" href="/css/zoom.css" media="all">
+
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
   <!-- 自定义logo -->
   <link rel="stylesheet" type="text/css" href="/css/logo.css">
@@ -502,7 +502,7 @@
 <p>Github<a href="https://blog.csdn.net/cungudafa/article/details/104274949" target="_blank" rel="noopener">配置cdn</a>和<a href="https://blog.csdn.net/cungudafa/article/details/104318976" target="_blank" rel="noopener">私人picGo图床</a>教程</p>
 </blockquote>
 </li>
-<li><p>对页面的静态资源进行压缩，包括css、js和html等文件。我们自己添加的css和js文件为了可读性，往往会有很多<strong>换行和空格</strong>，这些对于浏览器来无用，甚至还会降低渲染页面的速度。至于html文件，由于Markdown转成html的bug，会导致页面存在大量的空白，如果你查看下页面的源代码，就会发现这些大量的空白符，十分难看。这也会造成页面渲染的性能问题。<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215144340337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>对页面的静态资源进行压缩，包括css、js和html等文件。我们自己添加的css和js文件为了可读性，往往会有很多<strong>换行和空格</strong>，这些对于浏览器来无用，甚至还会降低渲染页面的速度。至于html文件，由于Markdown转成html的bug，会导致页面存在大量的空白，如果你查看下页面的源代码，就会发现这些大量的空白符，十分难看。这也会造成页面渲染的性能问题。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215144340337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215144340337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 <h1 id="二、使用教程"><a href="#二、使用教程" class="headerlink" title="二、使用教程"></a>二、使用教程</h1></li>
 <li><p>安装插件</p>
 <pre><code> npm install hexo-neat --save</code></pre></li>
@@ -534,11 +534,11 @@
      - &#39;jquery.fancybox.min.js&#39;
      - &#39;**/live2d-widget/*.js&#39;
      - &#39;**/live2d-widget/*.min.js&#39;</code></pre></li>
-<li><p>运行（因为<code>mangle: true #打印日志</code>,我们能看到运行流程）<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215150939580.png" alt="在这里插入图片描述"><br>【INFO  neat the html:xxxx.<code>md</code>】先压缩md文件的换行和空白</p>
+<li><p>运行（因为<code>mangle: true #打印日志</code>,我们能看到运行流程）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215150939580.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215150939580.png" alt="在这里插入图片描述"></a><br>【INFO  neat the html:xxxx.<code>md</code>】先压缩md文件的换行和空白</p>
 <blockquote>
-<p>注意md中不要带特殊标签<code>&lt;&gt;</code>的颜表情&lt;(￣ˇ￣)/、&lt;(ˉ^ˉ)&gt;等，因为压缩转换为html后会变成<code>&lt;div &gt;&lt; (￣ˇ￣)/&lt;/div&gt;</code>，转义失败！！！<br>问：我是怎么发现的呢？<br> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215155511279.png" alt="在这里插入图片描述"><br>答：这在sakura主题中，原作者的<code>source\links\index.md</code>中就用了颜文字&lt;(￣︶￣)，微微一笑，挖坑，这里补坑了啊。</p>
+<p>注意md中不要带特殊标签<code>&lt;&gt;</code>的颜表情&lt;(￣ˇ￣)/、&lt;(ˉ^ˉ)&gt;等，因为压缩转换为html后会变成<code>&lt;div &gt;&lt; (￣ˇ￣)/&lt;/div&gt;</code>，转义失败！！！<br>问：我是怎么发现的呢？<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215155511279.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215155511279.png" alt="在这里插入图片描述"></a><br>答：这在sakura主题中，原作者的<code>source\links\index.md</code>中就用了颜文字&lt;(￣︶￣)，微微一笑，挖坑，这里补坑了啊。</p>
 </blockquote>
-<p> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215150847977.png" alt="在这里插入图片描述"><br>【INFO  neat the html: xxxx.<code>ejs</code>】压缩ejs配置文件（这里也有很多换行和空格），这是html片段格式文件。<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020021515075890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如果配置了RSS订阅，这里还会atom.xml生成;本文里它无关紧要了。<br>现在是neat工作最重要的部分之一：压缩js和css。<br><code>这一部分最重要，因为sakura主题作者留了几个坑，不同引入js也需要灵活的设置exclude。</code><br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215151239907.png" alt="在这里插入图片描述"><br>最后是（hexo generate）将md文章转换成html语言格式的过程。</p>
+<p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215150847977.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215150847977.png" alt="在这里插入图片描述"></a><br>【INFO  neat the html: xxxx.<code>ejs</code>】压缩ejs配置文件（这里也有很多换行和空格），这是html片段格式文件。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021515075890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020021515075890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>如果配置了RSS订阅，这里还会atom.xml生成;本文里它无关紧要了。<br>现在是neat工作最重要的部分之一：压缩js和css。<br><code>这一部分最重要，因为sakura主题作者留了几个坑，不同引入js也需要灵活的设置exclude。</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215151239907.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215151239907.png" alt="在这里插入图片描述"></a><br>最后是（hexo generate）将md文章转换成html语言格式的过程。</p>
 </li>
 </ol>
 <h1 id="三、灵活exclude配置（易错）"><a href="#三、灵活exclude配置（易错）" class="headerlink" title="三、灵活exclude配置（易错）"></a>三、灵活exclude配置（易错）</h1><ol>
@@ -546,9 +546,9 @@
 </li>
 <li><p>已经压缩过的css和js不用压缩：剔除exclude（<code>*.min.css</code>和  <code>* .min.js</code>）</p>
 </li>
-<li><p>特殊名字<code>xx.xx.min.js</code>的需要单独列出来（这里引用了fancybox图片弹窗效果，从压缩名单里单独剔除）<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215152404944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>特殊名字<code>xx.xx.min.js</code>的需要单独列出来（这里引用了fancybox图片弹窗效果，从压缩名单里单独剔除）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215152404944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215152404944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
-<li><p>深目录的，需要单独列出来：（这里我引用了live2d看板娘的动画）<br>单用<code>**/*.min.js</code>深目录跳过已压缩文件不行，这部分只好全部跳过压缩了：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215152949730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<li><p>深目录的，需要单独列出来：（这里我引用了live2d看板娘的动画）<br>单用<code>**/*.min.js</code>深目录跳过已压缩文件不行，这部分只好全部跳过压缩了：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215152949730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215152949730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 <ol start="5">
 <li>如果你和我一样用的sakura主题，那么在<code>themes\sakura\layout\_partial\aplayer.ejs</code>中，在34和35行中间添加一个<code>&gt;</code>反括号。</li>
 </ol>
@@ -557,7 +557,7 @@
     &lt;%- i %&gt;=&quot;&lt;%- theme.aplayer[i] %&gt;&quot;
 &lt;% } %&gt;
 &gt;
-&lt;/meting-js&gt;</code></pre><p>说明一下，这是aplayer音乐的标签<br><code>&lt;meting-js i =&quot;aplayer[i] &quot;&gt;    &lt;/meting-js&gt;</code><br> 一共有i项歌单，循环打印歌单信息，对，sakura原作者忘记加<code>&lt;/meting-js&gt;</code>前的反括号了。<img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215154623929.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 不加报错如下：<br> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215155329844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>大概就是这样啦，在日志里找找错误的点，修改一下就好了。现在压缩后的页面加载速度起飞了呢。~<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215160332905.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+&lt;/meting-js&gt;</code></pre><p>说明一下，这是aplayer音乐的标签<br><code>&lt;meting-js i =&quot;aplayer[i] &quot;&gt;    &lt;/meting-js&gt;</code><br> 一共有i项歌单，循环打印歌单信息，对，sakura原作者忘记加<code>&lt;/meting-js&gt;</code>前的反括号了。<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215154623929.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215154623929.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 不加报错如下：<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215155329844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215155329844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>大概就是这样啦，在日志里找找错误的点，修改一下就好了。现在压缩后的页面加载速度起飞了呢。~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200215160332905.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200215160332905.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 </ol>
 
@@ -605,7 +605,7 @@
             <div class="tag-cloud-title">
             </div>
             <div class="tag-cloud-tags">
-            <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SEO/" style="font-size: 10px; color: #f06966">SEO</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/diy/" style="font-size: 10px; color: #f06966">diy</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/nick/" style="font-size: 10px; color: #f06966">nick</a> <a href="/tags/pyecharts/" style="font-size: 10px; color: #f06966">pyecharts</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/valine/" style="font-size: 17.5px; color: #67a6c8">valine</a> <a href="/tags/web/" style="font-size: 10px; color: #f06966">web</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px; color: #39bae8">前端</a> <a href="/tags/%E5%8A%A0%E5%AF%86/" style="font-size: 10px; color: #f06966">加密</a> <a href="/tags/%E5%8A%A8%E7%94%BB/" style="font-size: 15px; color: #9592a7">动画</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px; color: #f06966">博客搭建</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 12.5px; color: #c27d87">图集</a> <a href="/tags/%E5%A4%96%E9%93%BE/" style="font-size: 10px; color: #f06966">外链</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 12.5px; color: #c27d87">头像</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px; color: #f06966">技术</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 12.5px; color: #c27d87">文章</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/" style="font-size: 12.5px; color: #c27d87">标签云</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/" style="font-size: 10px; color: #f06966">说说、心情</a> <a href="/tags/%E9%82%AE%E4%BB%B6/" style="font-size: 12.5px; color: #c27d87">邮件</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px; color: #f06966">邮箱</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 10px; color: #f06966">阿里云</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
+            <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SEO/" style="font-size: 10px; color: #f06966">SEO</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/diy/" style="font-size: 10px; color: #f06966">diy</a> <a href="/tags/fancybox/" style="font-size: 12.5px; color: #c27d87">fancybox</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/nick/" style="font-size: 10px; color: #f06966">nick</a> <a href="/tags/pyecharts/" style="font-size: 10px; color: #f06966">pyecharts</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/valine/" style="font-size: 17.5px; color: #67a6c8">valine</a> <a href="/tags/web/" style="font-size: 10px; color: #f06966">web</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px; color: #39bae8">前端</a> <a href="/tags/%E5%8A%A0%E5%AF%86/" style="font-size: 10px; color: #f06966">加密</a> <a href="/tags/%E5%8A%A8%E7%94%BB/" style="font-size: 15px; color: #9592a7">动画</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px; color: #f06966">博客搭建</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 15px; color: #9592a7">图集</a> <a href="/tags/%E5%A4%96%E9%93%BE/" style="font-size: 10px; color: #f06966">外链</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 12.5px; color: #c27d87">头像</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px; color: #f06966">技术</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 12.5px; color: #c27d87">文章</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/" style="font-size: 12.5px; color: #c27d87">标签云</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/" style="font-size: 10px; color: #f06966">说说、心情</a> <a href="/tags/%E9%82%AE%E4%BB%B6/" style="font-size: 12.5px; color: #c27d87">邮件</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px; color: #f06966">邮箱</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 10px; color: #f06966">阿里云</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
             </div>
           </div>
       </article>
@@ -841,7 +841,7 @@
         setInterval("createtime()",250);
             </script>
             <!-- 全网站字数统计wordcount -->
-            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">29k</span>字</span>
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">30.2k</span>字</span>
             <!-- 不蒜子网页计数器 -->
             <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
             </span>
@@ -875,16 +875,34 @@
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
+<!-- fancybox大图查看 需jq -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script>
+  $('[data-fancybox="images"]').fancybox({
+    thumbs : {
+      autoStart : true //缩略图
+    }
+  });
+  $('[data-fancybox]').fancybox({
+    protect: true,//图片右键不能下载
+    youtube : {
+        controls : 0,
+        showinfo : 0
+    },
+    vimeo : {
+        color : 'f00'
+    }
+  });
+</script>
+
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
-<script  async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-<!--看板娘-->
-<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<!--看板娘 需jq-->
 <script src="/live2d-widget/autoload.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
 

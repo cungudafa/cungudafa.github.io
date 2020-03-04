@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/css/insight.css" media="all">
   <link rel="stylesheet" href="/css/tags.css" media="all">
   <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">  
-  <link rel="stylesheet" href="/css/zoom.css" media="all">
+
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
   <!-- 自定义logo -->
   <link rel="stylesheet" type="text/css" href="/css/logo.css">
@@ -412,7 +412,7 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(http://img4.imgtn.bdimg.com/it/u=1514455907,3832484193&amp;fm=26&amp;gp=0.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://img4.imgtn.bdimg.com/it/u=1514455907,3832484193&amp;fm=26&amp;gp=0.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo34.jpg);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo34.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">Valine-实现QQ邮箱识别生成头像地址（完美解决头像问题）</h1>
@@ -511,18 +511,18 @@
 </li>
 </ul>
 </li>
-<li><p>F12查看源码–发现valine中显示头像的相关代码是：（关键标签：<code>vimg</code>）<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303191145475.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>再以我<code>ctrl+F</code>快速查找的本领（关键词：<code>vimg</code>），不负众望，在<a href="https://unpkg.com/valine/dist/Valine.min.js" target="_blank" rel="noopener">Valine.min.js</a>中找到</p>
+<li><p>F12查看源码–发现valine中显示头像的相关代码是：（关键标签：<code>vimg</code>）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303191145475.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303191145475.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>再以我<code>ctrl+F</code>快速查找的本领（关键词：<code>vimg</code>），不负众望，在<a href="https://unpkg.com/valine/dist/Valine.min.js" target="_blank" rel="noopener">Valine.min.js</a>中找到</p>
 <blockquote>
-<p>首先我们要知道：valine的头像处理接口是gravator<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303192013107.png" alt="在这里插入图片描述"><br>拼接头像地址并显示的关键步骤：<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303192356464.png" alt="在这里插入图片描述"></p>
+<p>首先我们要知道：valine的头像处理接口是gravator<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303192013107.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303192013107.png" alt="在这里插入图片描述"></a><br>拼接头像地址并显示的关键步骤：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303192356464.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303192356464.png" alt="在这里插入图片描述"></a></p>
 </blockquote>
 <p> ok，找到源头，替换src的内容即可。</p>
 <pre><code> &lt;img class=&quot;vimg&quot; src=&quot;&#39;+(m.cdn+a(e.get(&quot;mail&quot;))+m.params)+&#39;&quot;&gt;</code></pre><p> 正式开干！</p>
 <h1 id="二、示例"><a href="#二、示例" class="headerlink" title="二、示例"></a>二、示例</h1><h2 id="1-修改valine-min-js"><a href="#1-修改valine-min-js" class="headerlink" title="1. 修改valine.min.js"></a>1. 修改valine.min.js</h2></li>
 <li><p>下载<a href="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js" target="_blank" rel="noopener">Valine.min.js</a>到本地<code>themes\sakura\source\js\Valine.min.js</code><br>修改引入本地的Valine</p>
-<pre><code> &lt;script src=&quot;../js/Valine.min.js&quot;&gt;&lt;/script&gt;</code></pre><p> 我的引入位置在：<code>themes\sakura\layout\_partial\comment.ejs</code><br> 如果你是在footer.ejs，注意相对路径只有一个点<code>&lt;script src=&quot;./js/Valine.min.js&quot;&gt;&lt;/script&gt;</code><br> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303192846877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<pre><code> &lt;script src=&quot;../js/Valine.min.js&quot;&gt;&lt;/script&gt;</code></pre><p> 我的引入位置在：<code>themes\sakura\layout\_partial\comment.ejs</code><br> 如果你是在footer.ejs，注意相对路径只有一个点<code>&lt;script src=&quot;./js/Valine.min.js&quot;&gt;&lt;/script&gt;</code><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303192846877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303192846877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 <li><p>打开Valine.min.js，<code>ctrl+F</code>快速查找关键词：</p>
-<pre><code> m.cdn+a(e.get(&quot;mail&quot;))+m.params</code></pre><p> 定位到：<br> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303194019193.png" alt="在这里插入图片描述"><br> 稍加换行如图所示：<img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303194153919.png" alt="在这里插入图片描述"></p>
+<pre><code> m.cdn+a(e.get(&quot;mail&quot;))+m.params</code></pre><p> 定位到：<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303194019193.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303194019193.png" alt="在这里插入图片描述"></a><br> 稍加换行如图所示：<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303194153919.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303194153919.png" alt="在这里插入图片描述"></a></p>
 </li>
 <li><p>修改前：</p>
 <pre><code class="js"> C=function(e,n,r){
@@ -539,7 +539,7 @@
          }
      }
      var i=u.create(&quot;div&quot;,{class:&quot;vcard&quot;,id:e.id}),o=m.hide?&quot;&quot;:&#39;&lt;img class=&quot;vimg&quot; src=&quot;&#39;+ (qq_img)+&#39;&quot;&gt;&#39;,</code></pre>
-<p> <img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303194354956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>流程：</p>
+<p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303194354956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303194354956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>流程：</p>
 <ol>
 <li>默认还是gravator头像接口</li>
 <li>判断是否是qq邮箱，提取前缀prefix</li>
@@ -549,7 +549,7 @@
 </ol>
 </li>
 </ol>
-<h2 id="2-效果"><a href="#2-效果" class="headerlink" title="2. 效果"></a>2. 效果</h2><p>哈哈哈，如果有其他邮箱头像接口，都可以同理加上哦！<br><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303195721408.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>都说博客的 <strong>评论模块</strong> 和 <strong>消息通知模块</strong> 是最难的，为了花式DIY评论区，效果自己也比较满意吧。</p>
+<h2 id="2-效果"><a href="#2-效果" class="headerlink" title="2. 效果"></a>2. 效果</h2><p>哈哈哈，如果有其他邮箱头像接口，都可以同理加上哦！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200303195721408.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200303195721408.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>都说博客的 <strong>评论模块</strong> 和 <strong>消息通知模块</strong> 是最难的，为了花式DIY评论区，效果自己也比较满意吧。</p>
 <p>Valine部分：</p>
 <ol>
 <li><a href="https://blog.csdn.net/cungudafa/article/details/104281764" target="_blank" rel="noopener">Valine - 一款快速、简洁且高效的无后端评论系统</a></li>
@@ -603,7 +603,7 @@
             <div class="tag-cloud-title">
             </div>
             <div class="tag-cloud-tags">
-            <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SEO/" style="font-size: 10px; color: #f06966">SEO</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/diy/" style="font-size: 10px; color: #f06966">diy</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/nick/" style="font-size: 10px; color: #f06966">nick</a> <a href="/tags/pyecharts/" style="font-size: 10px; color: #f06966">pyecharts</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/valine/" style="font-size: 17.5px; color: #67a6c8">valine</a> <a href="/tags/web/" style="font-size: 10px; color: #f06966">web</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px; color: #39bae8">前端</a> <a href="/tags/%E5%8A%A0%E5%AF%86/" style="font-size: 10px; color: #f06966">加密</a> <a href="/tags/%E5%8A%A8%E7%94%BB/" style="font-size: 15px; color: #9592a7">动画</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px; color: #f06966">博客搭建</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 12.5px; color: #c27d87">图集</a> <a href="/tags/%E5%A4%96%E9%93%BE/" style="font-size: 10px; color: #f06966">外链</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 12.5px; color: #c27d87">头像</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px; color: #f06966">技术</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 12.5px; color: #c27d87">文章</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/" style="font-size: 12.5px; color: #c27d87">标签云</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/" style="font-size: 10px; color: #f06966">说说、心情</a> <a href="/tags/%E9%82%AE%E4%BB%B6/" style="font-size: 12.5px; color: #c27d87">邮件</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px; color: #f06966">邮箱</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 10px; color: #f06966">阿里云</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
+            <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SEO/" style="font-size: 10px; color: #f06966">SEO</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/diy/" style="font-size: 10px; color: #f06966">diy</a> <a href="/tags/fancybox/" style="font-size: 12.5px; color: #c27d87">fancybox</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/nick/" style="font-size: 10px; color: #f06966">nick</a> <a href="/tags/pyecharts/" style="font-size: 10px; color: #f06966">pyecharts</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/valine/" style="font-size: 17.5px; color: #67a6c8">valine</a> <a href="/tags/web/" style="font-size: 10px; color: #f06966">web</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px; color: #39bae8">前端</a> <a href="/tags/%E5%8A%A0%E5%AF%86/" style="font-size: 10px; color: #f06966">加密</a> <a href="/tags/%E5%8A%A8%E7%94%BB/" style="font-size: 15px; color: #9592a7">动画</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px; color: #f06966">博客搭建</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 15px; color: #9592a7">图集</a> <a href="/tags/%E5%A4%96%E9%93%BE/" style="font-size: 10px; color: #f06966">外链</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 12.5px; color: #c27d87">头像</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px; color: #f06966">技术</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 12.5px; color: #c27d87">文章</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/" style="font-size: 12.5px; color: #c27d87">标签云</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/" style="font-size: 10px; color: #f06966">说说、心情</a> <a href="/tags/%E9%82%AE%E4%BB%B6/" style="font-size: 12.5px; color: #c27d87">邮件</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px; color: #f06966">邮箱</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 10px; color: #f06966">阿里云</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
             </div>
           </div>
       </article>
@@ -616,7 +616,7 @@
           
             <a href="/post/f6a1.html" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://img3.imgtn.bdimg.com/it/u=1292823314,3875298035&fm=26&gp=0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://img3.imgtn.bdimg.com/it/u=1292823314,3875298035&fm=26&gp=0.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo45.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo45.jpg">
               </div>
               <span class="label">Previous Post</span>
               <div class="info">
@@ -632,7 +632,7 @@
           
             <a href="/post/77c0.html" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://img-blog.csdnimg.cn/2020030218241919.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://img-blog.csdnimg.cn/2020030218241919.png">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo33.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://sudasuta.com/wp-content/uploads/2019/10/sudasuta-Vicente-Romero-Redondo33.jpg">
               </div>
               <span class="label">Next Post</span>
               <div class="info">
@@ -839,7 +839,7 @@
         setInterval("createtime()",250);
             </script>
             <!-- 全网站字数统计wordcount -->
-            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">29k</span>字</span>
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">30.2k</span>字</span>
             <!-- 不蒜子网页计数器 -->
             <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
             </span>
@@ -873,16 +873,34 @@
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
+<!-- fancybox大图查看 需jq -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script>
+  $('[data-fancybox="images"]').fancybox({
+    thumbs : {
+      autoStart : true //缩略图
+    }
+  });
+  $('[data-fancybox]').fancybox({
+    protect: true,//图片右键不能下载
+    youtube : {
+        controls : 0,
+        showinfo : 0
+    },
+    vimeo : {
+        color : 'f00'
+    }
+  });
+</script>
+
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
-<script  async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-<!--看板娘-->
-<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<!--看板娘 需jq-->
 <script src="/live2d-widget/autoload.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
 

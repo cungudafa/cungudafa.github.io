@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-04T06:59:49.147Z</updated>
+  <updated>2020-03-04T10:15:26.036Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo（sakura）引入fancybox优化图片视频查看效果</title>
+    <link href="https://cungudafa.gitee.io/post/789b.html"/>
+    <id>https://cungudafa.gitee.io/post/789b.html</id>
+    <published>2020-03-04T10:08:10.000Z</published>
+    <updated>2020-03-04T10:15:26.036Z</updated>
+    
+    <summary type="html">
+    
+      在Hexo博客中添加jqury.fancybox.min.js图集查看功能
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
+    
+      <category term="fancybox" scheme="https://cungudafa.gitee.io/tags/fancybox/"/>
+    
+  </entry>
+  
+  <entry>
     <title>为你的博客引入——今日诗词、每日一言（js插件分享）</title>
     <link href="https://cungudafa.gitee.io/post/3af9.html"/>
     <id>https://cungudafa.gitee.io/post/3af9.html</id>
     <published>2020-03-04T06:36:53.080Z</published>
-    <updated>2020-03-04T06:59:49.147Z</updated>
+    <updated>2020-03-04T09:44:46.730Z</updated>
     
     <summary type="html">
     
@@ -46,7 +69,7 @@
     <link href="https://cungudafa.gitee.io/post/f6a1.html"/>
     <id>https://cungudafa.gitee.io/post/f6a1.html</id>
     <published>2020-03-04T06:36:52.965Z</published>
-    <updated>2020-03-04T06:59:32.181Z</updated>
+    <updated>2020-03-04T10:23:15.289Z</updated>
     
     <summary type="html">
     
@@ -70,8 +93,8 @@
     <title>Valine-实现QQ邮箱识别生成头像地址（完美解决头像问题）</title>
     <link href="https://cungudafa.gitee.io/post/816e.html"/>
     <id>https://cungudafa.gitee.io/post/816e.html</id>
-    <published>2020-03-03T12:06:10.190Z</published>
-    <updated>2020-03-03T12:10:20.774Z</updated>
+    <published>2020-03-03T12:22:10.000Z</published>
+    <updated>2020-03-04T10:23:04.582Z</updated>
     
     <summary type="html">
     
@@ -96,7 +119,7 @@
     <link href="https://cungudafa.gitee.io/post/77c0.html"/>
     <id>https://cungudafa.gitee.io/post/77c0.html</id>
     <published>2020-03-02T10:57:10.000Z</published>
-    <updated>2020-03-02T10:36:49.084Z</updated>
+    <updated>2020-03-04T10:17:54.165Z</updated>
     
     <summary type="html">
     
@@ -108,9 +131,9 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="标签云" scheme="https://cungudafa.gitee.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
-    
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="标签云" scheme="https://cungudafa.gitee.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
     
   </entry>
   
@@ -337,6 +360,27 @@
   </entry>
   
   <entry>
+    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
+    <link href="https://cungudafa.gitee.io/post/9958.html"/>
+    <id>https://cungudafa.gitee.io/post/9958.html</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:29:10.375Z</updated>
+    
+    <summary type="html">
+    
+      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo（sakura）添加RSS订阅</title>
     <link href="https://cungudafa.gitee.io/post/8e37.html"/>
     <id>https://cungudafa.gitee.io/post/8e37.html</id>
@@ -356,27 +400,6 @@
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
-    <link href="https://cungudafa.gitee.io/post/9958.html"/>
-    <id>https://cungudafa.gitee.io/post/9958.html</id>
-    <published>2020-02-17T12:19:10.000Z</published>
-    <updated>2020-02-17T12:29:10.375Z</updated>
-    
-    <summary type="html">
-    
-      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -429,7 +452,7 @@
     <link href="https://cungudafa.gitee.io/post/61cf.html"/>
     <id>https://cungudafa.gitee.io/post/61cf.html</id>
     <published>2020-02-15T14:48:10.000Z</published>
-    <updated>2020-02-17T12:32:58.107Z</updated>
+    <updated>2020-03-04T10:11:15.272Z</updated>
     
     <summary type="html">
     
@@ -443,28 +466,9 @@
     
       <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
     
+      <category term="fancybox" scheme="https://cungudafa.gitee.io/tags/fancybox/"/>
+    
       <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）主题Mashiro大佬同款LOGO修改方法</title>
-    <link href="https://cungudafa.gitee.io/post/58d.html"/>
-    <id>https://cungudafa.gitee.io/post/58d.html</id>
-    <published>2020-02-15T10:31:10.000Z</published>
-    <updated>2020-02-17T11:23:16.671Z</updated>
-    
-    <summary type="html">
-    
-      姑的小屋（酷炫LOGO）——kitty原始猫咪中文智能手机字体
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
