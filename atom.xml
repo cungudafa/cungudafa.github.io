@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-04T06:42:52.333Z</updated>
+  <updated>2020-03-04T06:59:49.147Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>[object Object]</title>
+    <title>为你的博客引入——今日诗词、每日一言（js插件分享）</title>
     <link href="https://cungudafa.gitee.io/post/3af9.html"/>
     <id>https://cungudafa.gitee.io/post/3af9.html</id>
     <published>2020-03-04T06:36:53.080Z</published>
-    <updated>2020-03-04T06:42:52.333Z</updated>
+    <updated>2020-03-04T06:59:49.147Z</updated>
     
     <summary type="html">
     
@@ -42,11 +42,11 @@
   </entry>
   
   <entry>
-    <title>[object Object]</title>
+    <title>Valine-修复评论者昵称跳转外链出错</title>
     <link href="https://cungudafa.gitee.io/post/f6a1.html"/>
     <id>https://cungudafa.gitee.io/post/f6a1.html</id>
     <published>2020-03-04T06:36:52.965Z</published>
-    <updated>2020-03-04T06:43:32.072Z</updated>
+    <updated>2020-03-04T06:59:32.181Z</updated>
     
     <summary type="html">
     
@@ -85,9 +85,9 @@
     
       <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
     
-      <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
-    
       <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
+    
+      <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
     
   </entry>
   
@@ -108,9 +108,9 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
       <category term="标签云" scheme="https://cungudafa.gitee.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
