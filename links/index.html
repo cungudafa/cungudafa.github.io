@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- cungudafa百度收录验证编号 -->
-  <meta name="baidu-site-verification" content="LukfTcyXmC" />
+  <!-- <meta name="baidu-site-verification" content="LukfTcyXmC" /> -->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
   <title itemprop="name">links | cungudafa</title>
@@ -629,7 +629,7 @@
             
               <li class="link-item">
                 <a class="link-item-inner effect-apollo" href="https://dmcimi.github.io" title="奇妙的记录者" target="_blank" rel="friend">
-                  <img class="lazyload" onerror="imgError(this,1)" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://dmcimi.github.io/images/avatar.jpg" src="https://dmcimi.github.io/images/avatar.jpg">
+                  <img class="lazyload" onerror="imgError(this,1)" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/dmcimi/dmcimi.github.io/images/avatar.jpg" src="https://cdn.jsdelivr.net/gh/dmcimi/dmcimi.github.io/images/avatar.jpg">
                   <span class="sitename">
                   Admax</span>
                   <div class="linkdes">
@@ -734,9 +734,14 @@
         if (e.target.classList.contains('vsubmit')) {
             const email = document.querySelector('input[type=email]');
             const nick = document.querySelector('input[name=nick]');
-            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            const link = document.querySelector('input[name=link]');
+            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;//邮箱
+            const reg2=/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;  //正则表达式，url
             if (!email.value || !nick.value || !reg.test(email.value)) {
                 const str = `<div class="valert text-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+                if(!link.value ||!reg2.test(link.value)){//链接不是必填,填写则校验
+                    const str = `<div class="valert text-center"><div class="vtext">请检查昵称、邮箱、网址是否填写正确！</div></div>`;
+                }
                 const vmark = document.querySelector('.vmark');
                 vmark.innerHTML = str;
                 vmark.style.display = 'block';
@@ -745,7 +750,7 @@
                     vmark.style.display = 'none';
                     vmark.innerHTML = '';
                 }, 2500);
-            }
+            }  
         }
     });
     // 点击回复直接评论,官方版本点击回复时都是跳回到页面上方的评论框进行回复，评论框是固定不动的
@@ -826,10 +831,10 @@
     </div>
     <hr>
     <p id="hitokoto"><i class="iconfont icon-write"></i></p>
-    <!-- 一言 -->
-     <script type="text/javascript" src="https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=&encode=js&fun=sync&source="></script>
-     <script>hitokoto()</script>
   </section>
+  <!-- 一言 -->
+  <script type="text/javascript" src="https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=&encode=js&fun=sync&source="></script>
+  <script>hitokoto()</script>
 </div>
     </div>    
     <div class="ins-search">
@@ -906,7 +911,7 @@
         setInterval("createtime()",250);
             </script>
             <!-- 全网站字数统计wordcount -->
-            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">28.1k</span>字</span>
+            <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-line-chart"  aria-hidden="true"></i> 博客全站共<span class="post-count">29k</span>字</span>
             <!-- 不蒜子网页计数器 -->
             <span style="color:#ff9999;padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true"></i><span id="busuanzi_container_site_pv">总热度 <span id="busuanzi_value_site_pv"></span>℃</span>
             </span>

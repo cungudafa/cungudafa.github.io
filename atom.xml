@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-03T12:10:20.774Z</updated>
+  <updated>2020-03-04T06:42:52.333Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[object Object]</title>
+    <link href="https://cungudafa.gitee.io/post/3af9.html"/>
+    <id>https://cungudafa.gitee.io/post/3af9.html</id>
+    <published>2020-03-04T06:36:53.080Z</published>
+    <updated>2020-03-04T06:42:52.333Z</updated>
+    
+    <summary type="html">
+    
+      今日诗词 API 根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐，返回一句古诗词名句的接口。一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="每日一言" scheme="https://cungudafa.gitee.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/"/>
+    
+      <category term="今日诗词" scheme="https://cungudafa.gitee.io/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/"/>
+    
+      <category term="js插件" scheme="https://cungudafa.gitee.io/tags/js%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[object Object]</title>
+    <link href="https://cungudafa.gitee.io/post/f6a1.html"/>
+    <id>https://cungudafa.gitee.io/post/f6a1.html</id>
+    <published>2020-03-04T06:36:52.965Z</published>
+    <updated>2020-03-04T06:43:32.072Z</updated>
+    
+    <summary type="html">
+    
+      解决在valine评论list点击评论者姓名跳转链接出错问题
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
+    
+      <category term="nick" scheme="https://cungudafa.gitee.io/tags/nick/"/>
+    
+      <category term="外链" scheme="https://cungudafa.gitee.io/tags/%E5%A4%96%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>Valine-实现QQ邮箱识别生成头像地址（完美解决头像问题）</title>
@@ -35,9 +85,9 @@
     
       <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
     
-      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
-    
       <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
+    
+      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
     
   </entry>
   
@@ -287,27 +337,6 @@
   </entry>
   
   <entry>
-    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
-    <link href="https://cungudafa.gitee.io/post/9958.html"/>
-    <id>https://cungudafa.gitee.io/post/9958.html</id>
-    <published>2020-02-17T12:19:10.000Z</published>
-    <updated>2020-02-17T12:29:10.375Z</updated>
-    
-    <summary type="html">
-    
-      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo（sakura）添加RSS订阅</title>
     <link href="https://cungudafa.gitee.io/post/8e37.html"/>
     <id>https://cungudafa.gitee.io/post/8e37.html</id>
@@ -327,6 +356,27 @@
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）添加天气小插件，修改访问路径</title>
+    <link href="https://cungudafa.gitee.io/post/9958.html"/>
+    <id>https://cungudafa.gitee.io/post/9958.html</id>
+    <published>2020-02-17T12:19:10.000Z</published>
+    <updated>2020-02-17T12:29:10.375Z</updated>
+    
+    <summary type="html">
+    
+      为博客添加天气小插件（中国天气），自定义访问路由（中文转拼音）
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -415,50 +465,6 @@
     
     
       <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-neat插件优化提升访问效率</title>
-    <link href="https://cungudafa.gitee.io/post/733a.html"/>
-    <id>https://cungudafa.gitee.io/post/733a.html</id>
-    <published>2020-02-15T08:06:23.000Z</published>
-    <updated>2020-02-17T03:25:34.384Z</updated>
-    
-    <summary type="html">
-    
-      对于任何一个网站来说，优化页面的访问速度是必须的，个人来说，只要加载页面十秒以上或长时间处于空白或加载状态，我会立刻关掉此页面的，你又能容忍几秒呢？
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="web" scheme="https://cungudafa.gitee.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Github+PicGo配置私人图床</title>
-    <link href="https://cungudafa.gitee.io/post/2103.html"/>
-    <id>https://cungudafa.gitee.io/post/2103.html</id>
-    <published>2020-02-14T12:50:10.000Z</published>
-    <updated>2020-02-15T08:39:29.524Z</updated>
-    
-    <summary type="html">
-    
-      图床，资源，加速访问github资源。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="私人图床" scheme="https://cungudafa.gitee.io/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
