@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-04T10:15:26.036Z</updated>
+  <updated>2020-03-05T12:05:32.781Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信公众号（一）基本功能实现</title>
+    <link href="https://cungudafa.gitee.io/post/98ec.html"/>
+    <id>https://cungudafa.gitee.io/post/98ec.html</id>
+    <published>2020-03-05T10:54:10.000Z</published>
+    <updated>2020-03-05T12:05:32.781Z</updated>
+    
+    <summary type="html">
+    
+      cungudafa:在学习中的小王呀
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="微信公众号" scheme="https://cungudafa.gitee.io/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo（sakura）引入fancybox优化图片视频查看效果</title>
@@ -444,31 +465,6 @@
     
     
       <category term="生活" scheme="https://cungudafa.gitee.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）引入fancybox图集和b站视频链接</title>
-    <link href="https://cungudafa.gitee.io/post/61cf.html"/>
-    <id>https://cungudafa.gitee.io/post/61cf.html</id>
-    <published>2020-02-15T14:48:10.000Z</published>
-    <updated>2020-03-04T10:11:15.272Z</updated>
-    
-    <summary type="html">
-    
-      在Hexo博客中添加b站视频和图集查看功能
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
-    
-      <category term="fancybox" scheme="https://cungudafa.gitee.io/tags/fancybox/"/>
-    
-      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
