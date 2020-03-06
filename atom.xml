@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-05T12:05:32.781Z</updated>
+  <updated>2020-03-06T09:00:24.776Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信公众号（二）扩展分享</title>
+    <link href="https://cungudafa.gitee.io/post/44e8.html"/>
+    <id>https://cungudafa.gitee.io/post/44e8.html</id>
+    <published>2020-03-06T08:54:10.000Z</published>
+    <updated>2020-03-06T09:00:24.776Z</updated>
+    
+    <summary type="html">
+    
+      cungudafa:在学习中的小王呀
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="微信公众号" scheme="https://cungudafa.gitee.io/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>微信公众号（一）基本功能实现</title>
@@ -444,27 +465,6 @@
       <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
     
       <category term="加密" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A0%E5%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>程序媛交友</title>
-    <link href="https://cungudafa.gitee.io/post/adab.html"/>
-    <id>https://cungudafa.gitee.io/post/adab.html</id>
-    <published>2020-02-16T09:54:10.000Z</published>
-    <updated>2020-03-04T12:42:02.278Z</updated>
-    
-    <summary type="html">
-    
-      cungudafa:在学习中的小王呀
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="生活" scheme="https://cungudafa.gitee.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
