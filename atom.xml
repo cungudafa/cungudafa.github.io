@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-06T10:14:36.015Z</updated>
+  <updated>2020-03-07T09:29:30.641Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>读手语图像识别论文笔记</title>
+    <link href="https://cungudafa.gitee.io/post/7035.html"/>
+    <id>https://cungudafa.gitee.io/post/7035.html</id>
+    <published>2020-03-07T09:05:10.000Z</published>
+    <updated>2020-03-07T09:29:30.641Z</updated>
+    
+    <summary type="html">
+    
+      读手语图像识别论文笔记：研究背景和国内外现状
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
+      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+      <category term="知网论文" scheme="https://cungudafa.gitee.io/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>在线论文正确打开方式</title>
@@ -421,29 +446,6 @@
     
     
       <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）添加RSS订阅</title>
-    <link href="https://cungudafa.gitee.io/post/8e37.html"/>
-    <id>https://cungudafa.gitee.io/post/8e37.html</id>
-    <published>2020-02-17T12:19:10.000Z</published>
-    <updated>2020-02-17T12:30:31.552Z</updated>
-    
-    <summary type="html">
-    
-      简易信息聚合是“Really Simple Syndication”或“Richsite summary”(网站内容摘要)的中文名字。是站点用来和其他站点之间共享内容的一种简易方式。英文缩写为RSS技术。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="动画" scheme="https://cungudafa.gitee.io/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
