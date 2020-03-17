@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-11T08:45:22.886Z</updated>
+  <updated>2020-03-17T11:12:50.538Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕设毕设中~</title>
+    <link href="https://cungudafa.gitee.io/post/c55e.html"/>
+    <id>https://cungudafa.gitee.io/post/c55e.html</id>
+    <published>2020-03-17T11:05:10.000Z</published>
+    <updated>2020-03-17T11:12:50.538Z</updated>
+    
+    <summary type="html">
+    
+      手语图像识别，毕设加油中
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="机器视觉" scheme="https://cungudafa.gitee.io/tags/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo（sakura）添加Rating投票功能</title>
@@ -56,9 +77,9 @@
       <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
       <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
+      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
     
       <category term="知网论文" scheme="https://cungudafa.gitee.io/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/"/>
     
@@ -134,7 +155,7 @@
     <link href="https://cungudafa.gitee.io/post/789b.html"/>
     <id>https://cungudafa.gitee.io/post/789b.html</id>
     <published>2020-03-04T10:08:10.000Z</published>
-    <updated>2020-03-04T10:15:26.036Z</updated>
+    <updated>2020-03-17T11:01:45.868Z</updated>
     
     <summary type="html">
     
@@ -182,7 +203,7 @@
     <link href="https://cungudafa.gitee.io/post/f6a1.html"/>
     <id>https://cungudafa.gitee.io/post/f6a1.html</id>
     <published>2020-03-04T06:36:52.965Z</published>
-    <updated>2020-03-04T10:23:15.289Z</updated>
+    <updated>2020-03-17T11:02:40.967Z</updated>
     
     <summary type="html">
     
@@ -207,7 +228,7 @@
     <link href="https://cungudafa.gitee.io/post/816e.html"/>
     <id>https://cungudafa.gitee.io/post/816e.html</id>
     <published>2020-03-03T12:22:10.000Z</published>
-    <updated>2020-03-04T10:23:04.582Z</updated>
+    <updated>2020-03-17T11:03:37.326Z</updated>
     
     <summary type="html">
     
@@ -221,9 +242,9 @@
     
       <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
     
-      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
-    
       <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
+    
+      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
     
   </entry>
   
@@ -232,7 +253,7 @@
     <link href="https://cungudafa.gitee.io/post/77c0.html"/>
     <id>https://cungudafa.gitee.io/post/77c0.html</id>
     <published>2020-03-02T10:57:10.000Z</published>
-    <updated>2020-03-04T10:17:54.165Z</updated>
+    <updated>2020-03-17T11:04:40.149Z</updated>
     
     <summary type="html">
     
@@ -448,27 +469,6 @@
     
     
       <category term="SEO" scheme="https://cungudafa.gitee.io/tags/SEO/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Github+Hexo博客增添相册功能</title>
-    <link href="https://cungudafa.gitee.io/post/2b2b.html"/>
-    <id>https://cungudafa.gitee.io/post/2b2b.html</id>
-    <published>2020-02-18T17:14:10.000Z</published>
-    <updated>2020-03-04T11:14:02.219Z</updated>
-    
-    <summary type="html">
-    
-      Hexo博客延展功能——制定个人相册
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="图集" scheme="https://cungudafa.gitee.io/tags/%E5%9B%BE%E9%9B%86/"/>
     
   </entry>
   
