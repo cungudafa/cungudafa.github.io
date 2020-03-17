@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-17T11:12:50.538Z</updated>
+  <updated>2020-03-17T11:17:01.175Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cungudafa.gitee.io/post/c55e.html"/>
     <id>https://cungudafa.gitee.io/post/c55e.html</id>
     <published>2020-03-17T11:05:10.000Z</published>
-    <updated>2020-03-17T11:12:50.538Z</updated>
+    <updated>2020-03-17T11:17:01.175Z</updated>
     
     <summary type="html">
     
@@ -77,9 +77,9 @@
       <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
-    
       <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+      <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
     
       <category term="知网论文" scheme="https://cungudafa.gitee.io/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/"/>
     
@@ -242,9 +242,9 @@
     
       <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
     
-      <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
-    
       <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
+    
+      <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
     
   </entry>
   
