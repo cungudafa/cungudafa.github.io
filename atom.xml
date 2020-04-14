@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-03-17T11:17:01.175Z</updated>
+  <updated>2020-04-14T15:14:53.390Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo（sakura）neat压缩导致首页归档页面分页处错位（完美解决）</title>
+    <link href="https://cungudafa.gitee.io/post/1c7b.html"/>
+    <id>https://cungudafa.gitee.io/post/1c7b.html</id>
+    <published>2020-04-14T15:31:10.000Z</published>
+    <updated>2020-04-14T15:14:53.390Z</updated>
+    
+    <summary type="html">
+    
+      我错了，几个人跳坑了，我以为**只是删掉一些注释**，没什么大不了，少写了一篇博客，2333
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="bug" scheme="https://cungudafa.gitee.io/tags/bug/"/>
+    
+      <category term="neat" scheme="https://cungudafa.gitee.io/tags/neat/"/>
+    
+  </entry>
   
   <entry>
     <title>毕设毕设中~</title>
@@ -77,9 +100,9 @@
       <category term="生活" scheme="https://cungudafa.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
       <category term="文章" scheme="https://cungudafa.gitee.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
+      <category term="悦读" scheme="https://cungudafa.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
     
       <category term="知网论文" scheme="https://cungudafa.gitee.io/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/"/>
     
@@ -448,27 +471,6 @@
     
     
       <category term="pyecharts" scheme="https://cungudafa.gitee.io/tags/pyecharts/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-SEO搜索引擎优化（sitemap）</title>
-    <link href="https://cungudafa.gitee.io/post/e7a5.html"/>
-    <id>https://cungudafa.gitee.io/post/e7a5.html</id>
-    <published>2020-02-19T14:54:10.000Z</published>
-    <updated>2020-03-05T14:55:05.623Z</updated>
-    
-    <summary type="html">
-    
-      sitemap在SEO（Search Engine Optimization：汉译为搜索引擎优化）过程中有着十分重要的地位，同时也能限制蜘蛛对某些特定目录的爬取
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="SEO" scheme="https://cungudafa.gitee.io/tags/SEO/"/>
     
   </entry>
   
