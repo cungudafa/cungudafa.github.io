@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-04-14T15:19:10.984Z</updated>
+  <updated>2020-04-16T05:19:58.246Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）</title>
+    <link href="https://cungudafa.gitee.io/post/8202.html"/>
+    <id>https://cungudafa.gitee.io/post/8202.html</id>
+    <published>2020-04-16T05:13:40.468Z</published>
+    <updated>2020-04-16T05:19:58.246Z</updated>
+    
+    <summary type="html">
+    
+      自定义背景、增添个性表情、根据邮箱拉取qq头像、引入一言api、diy魔改样式
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
+    
+      <category term="美化" scheme="https://cungudafa.gitee.io/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="表情包" scheme="https://cungudafa.gitee.io/tags/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo（sakura）neat压缩导致首页归档页面分页处错位（完美解决）</title>
@@ -265,9 +290,9 @@
     
       <category term="valine" scheme="https://cungudafa.gitee.io/tags/valine/"/>
     
-      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
-    
       <category term="邮箱" scheme="https://cungudafa.gitee.io/tags/%E9%82%AE%E7%AE%B1/"/>
+    
+      <category term="头像" scheme="https://cungudafa.gitee.io/tags/%E5%A4%B4%E5%83%8F/"/>
     
   </entry>
   
@@ -450,27 +475,6 @@
     
     
       <category term="博客搭建" scheme="https://cungudafa.gitee.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>毕业季，同窗去哪儿？</title>
-    <link href="https://cungudafa.gitee.io/post/b240.html"/>
-    <id>https://cungudafa.gitee.io/post/b240.html</id>
-    <published>2020-02-20T09:54:10.000Z</published>
-    <updated>2020-02-23T05:55:15.221Z</updated>
-    
-    <summary type="html">
-    
-      同班好友就业信息地理位置分布图
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="pyecharts" scheme="https://cungudafa.gitee.io/tags/pyecharts/"/>
     
   </entry>
   
