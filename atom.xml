@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.gitee.io/"/>
-  <updated>2020-04-16T05:19:58.246Z</updated>
+  <updated>2020-04-17T11:11:56.286Z</updated>
   <id>https://cungudafa.gitee.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cungudafa.gitee.io/post/8202.html"/>
     <id>https://cungudafa.gitee.io/post/8202.html</id>
     <published>2020-04-16T05:13:40.468Z</published>
-    <updated>2020-04-16T05:19:58.246Z</updated>
+    <updated>2020-04-17T11:11:56.286Z</updated>
     
     <summary type="html">
     
@@ -313,9 +313,9 @@
       <category term="技术" scheme="https://cungudafa.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
       <category term="标签云" scheme="https://cungudafa.gitee.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
+    
+      <category term="前端" scheme="https://cungudafa.gitee.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
