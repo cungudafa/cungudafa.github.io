@@ -1,6 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020年2月4日情人节随笔</title>
+    <url>/post/ff18.html</url>
+    <content><![CDATA[<blockquote>
+<p>疫情期间，姑已经在家呆了<code>二十天</code>了，可是为国家省心的好孩子。</p>
+</blockquote>
+<p><strong>明天就是2月14号了，如何度过这个西方的浪漫节日呢？</strong></p>
+<p>当然，不建议出门聚会哦！</p>
+<p> <code>划重点：</code>  你会如何选择在家度过美好的一天呢？</p>
+<ol>
+<li><p>美食party<br>（自制火锅，家庭烤肉)<br><a data-fancybox="gallery" data-caption="1" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615245028&di=51788c02e4ae35098a7f8eafa1a7c0ac&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615245028&di=51788c02e4ae35098a7f8eafa1a7c0ac&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg"  alt="1"></a><br>(烘焙蛋糕，布丁甜点…）<br><a data-fancybox="gallery" data-caption="2" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615176879&di=64efe5d959b73df9995031cec6e1a42f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615176879&di=64efe5d959b73df9995031cec6e1a42f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif"  alt="2"></a></p>
+</li>
+<li><p>甜甜的韩剧/美剧<br>《爱的迫降》–蝉联电视剧话题性冠军一个月！<br><a data-fancybox="gallery" data-caption="3" href="https://www.hanjutv.com/api/thumb/7dd3ed2e12d7967b656d156d50308263/800-419-1-0.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://www.hanjutv.com/api/thumb/7dd3ed2e12d7967b656d156d50308263/800-419-1-0.jpg"  alt="3"></a></p>
+</li>
+</ol>
+<blockquote>
+<p>点击观看<a href="https://www.hanjutv.com/player/54585.html" target="_blank" rel="noopener">第一集</a></p>
+</blockquote>
+<p>在家法则：能躺下就不要坐着，煲剧ing~</p>
+<blockquote>
+<p>2020年2月13日 22:55:30 <code>姑</code> 对你说:</p>
+<p>晚安海绵宝宝，晚安小蜗，晚安派大星，晚安章鱼哥，晚安珊迪，晚安蟹老板，晚安皮老板，晚安泡芙老师，晚安唔西迪西，晚安玛卡巴卡，晚安依古比古，晚安汤姆布利波，晚安小点点，晚安叮叮车，晚安哈呼呼，晚安小仙女。 ​​​</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Botui搭建js聊天机器人</title>
+    <url>/post/81c1.html</url>
+    <content><![CDATA[<h1 id="一、Botui简介"><a href="#一、Botui简介" class="headerlink" title="一、Botui简介"></a>一、Botui简介</h1><p>一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。<br>可点击查看me？试试看。</p>
+<blockquote>
+<p>项目地址：<a href="https://botui.org" target="_blank" rel="noopener">https://botui.org</a></p>
+</blockquote>
+<h1 id="二、使用教程"><a href="#二、使用教程" class="headerlink" title="二、使用教程"></a>二、使用教程</h1><p>Botui是结合Vue和Botui.js的自动回复界面：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100053619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200213100053619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>模拟对话：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100135244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200213100135244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>在html中使用直接引入vue和js即可，<a href="https://github.com/botui/botui" target="_blank" rel="noopener">使用教程</a>；<br>这里我是基于Hexo界面（Sakura）主题，融合vue到botui.js中了：</p>
+<ol>
+<li><p>在<code>主目录\source\</code>下新建目录<code>about</code>，新建<code>index.md</code><br>（sakura特点是将index.md文件直接转换成about\index.html）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100829183.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200213100829183.png"  alt="在这里插入图片描述"></a><br>index.md<br>关键代码是：</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;bot-ui&gt;&lt;&#x2F;botui&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;&#x2F;js&#x2F;botui.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">bot_ui_ini()</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>完整代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: about</span><br><span class="line">date: 2020-2-12 22:14:36</span><br><span class="line">keywords: 关于</span><br><span class="line">description: </span><br><span class="line">comments: false</span><br><span class="line">photos: https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;cungudafa&#x2F;cdn&#x2F;img&#x2F;banner&#x2F;about.jpg</span><br><span class="line">---</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&lt;!-- 因为vue和botui更新导至bug,现将对话移至js下的botui中配置 --&gt;</span><br><span class="line">&lt;div class&#x3D;&quot;entry-content&quot;&gt;</span><br><span class="line">  &lt;div class&#x3D;&quot;moe-mashiro&quot; style&#x3D;&quot;text-align:center; font-size: 50px; margin-bottom: 20px;&quot;&gt;[さくら荘のcungudafa]&lt;&#x2F;div&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;hello-mashiro&quot; class&#x3D;&quot;popcontainer&quot; style&#x3D;&quot;min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;&quot;&gt;</span><br><span class="line">    &lt;center&gt;</span><br><span class="line">    &lt;p&gt;</span><br><span class="line">    &lt;&#x2F;p&gt;</span><br><span class="line">    &lt;h4&gt;</span><br><span class="line">    与&amp;nbsp;&lt;ruby&gt;</span><br><span class="line">    cungudafa&amp;nbsp;&lt;rp&gt;</span><br><span class="line">    （&lt;&#x2F;rp&gt;</span><br><span class="line">    &lt;rt&gt;</span><br><span class="line">    真（ま）白（しろ）&lt;&#x2F;rt&gt;</span><br><span class="line">    &lt;rp&gt;</span><br><span class="line">    ）&lt;&#x2F;rp&gt;</span><br><span class="line">    &lt;&#x2F;ruby&gt;</span><br><span class="line">    对话中...&lt;&#x2F;h4&gt;</span><br><span class="line">    &lt;p&gt;</span><br><span class="line">    &lt;&#x2F;p&gt;</span><br><span class="line">    &lt;&#x2F;center&gt;</span><br><span class="line">    &lt;bot-ui&gt;&lt;&#x2F;botui&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;&#x2F;js&#x2F;botui.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">bot_ui_ini()</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改引入的<code>sakura/js/botui.js</code>即可修改对话</p>
+<blockquote>
+<p>代码片较长，这里直接在gitee仓库中查看： <a href="https://gitee.com/cungudafa/cungudafa/blob/master/js/botui.js" target="_blank" rel="noopener">/js/botui.js</a></p>
+</blockquote>
+<p> 之前用sakura原版botui.js,出现了编码格式不一致中文乱码的情况，后来修改后手动保存为UTF-8编码格式，已解决问题。</p>
+</li>
+</ol>
+<h1 id="三、演示效果"><a href="#三、演示效果" class="headerlink" title="三、演示效果"></a>三、演示效果</h1><p><a href="https://cungudafa.gitee.io/about/" target="_blank" rel="noopener">https://cungudafa.gitee.io/about/</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>自动回复机器人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）</title>
+    <url>/post/2103.html</url>
+    <content><![CDATA[<h1 id="一、什么是图床"><a href="#一、什么是图床" class="headerlink" title="一、什么是图床"></a>一、什么是图床</h1><p>图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p>
+<p>简单来说就是：在文章中引用指定网址显示图片。<br><a data-fancybox="gallery" data-caption="" href="https://img-blog.csdnimg.cn/20200214204559186.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214204559186.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt=""></a><code>平常我们都是在网络上复制粘贴网络图片的地址，太out了，如何快速引用本地图片呢？？？</code></p>
+<h1 id="二、配置教程"><a href="#二、配置教程" class="headerlink" title="二、配置教程"></a>二、配置教程</h1><h2 id="1-获取Token"><a href="#1-获取Token" class="headerlink" title="1.获取Token"></a>1.获取Token</h2><blockquote>
+<p>github云端仓库位置： 延续上一次cdn的仓库失败。（建议新建一个仓库，发布过release版本号的仓库会使用异常）</p>
+</blockquote>
+<ol>
+<li>进入设置Setting<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021419381472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021419381472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>选择开发者设置Developer setting<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214193956719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214193956719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>选择个人数据帧Personal access tokens，生成新的数据帧 Generate new token<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214194254176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214194254176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>命名为picgo（图床），赋予仓库权限</li>
+</ol>
+<p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214194550612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214194550612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<ol>
+<li>最后点击Generate token即可看到显示的token页面，==它只会显示一次，关闭页面后再打开这个页面就不会显示了。== <code>复制token值粘贴到文本文档</code>中，先保存下来，后面配置PicGo要用到。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><h2 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h2></li>
+<li>首先下载PicGo，图片上传工具PicGo下载地址:<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo/releases</a><blockquote>
+<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
+</blockquote>
+</li>
+<li>安装配置PicGo<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><ul>
+<li>设定仓库名：这个是刚刚第一步所新建仓库的名称，我的为cdn，此处填写格式username/repo。</li>
+<li>设定分支名：master，采用默认分支即可</li>
+<li>设定Token：此处填写上一步得到的Token，添加到输入框即可。</li>
+<li>指定存储路径：自定义，例：<code>images/</code>，相当于在刚刚新建的仓库下新建了一个文件夹。</li>
+<li>设定自定义域名：cdn加速格式：<code>https://cdn.jsdelivr.net/gh/username/repo</code>，username为GitHub用户名，repo为新建的仓库，用于存储图片</li>
+<li>设置快捷键<code>ctrl+shit+C</code>: 在qq截屏<code>ctrl+alt+a</code>后，再<code>ctrl+shit+C</code>可以快速上传</li>
+</ul>
+</li>
+</ol>
+<h1 id="三、上传方法"><a href="#三、上传方法" class="headerlink" title="三、上传方法"></a>三、上传方法</h1><ol>
+<li>快捷键上传</li>
+<li>拖拽上传<br><a data-fancybox="gallery" data-caption="List item" href="https://img-blog.csdnimg.cn/20200214201209951.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214201209951.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="List item"></a><br>上传后，云端图片显示：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214201503971.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214201503971.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>使用方法：选择<code>相册</code>，可<code>复制、修改链接、删除</code>图片（不能删除github上的图片，需要手动删除）：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214201720518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214201720518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>最终在md使用链接时出现错误，原因是我的cdn发布过release版本号，最有效的解决办法就是新建一个仓库，重新配置本地picgo的名称就好，此时相册显示也正常。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214203218166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214203218166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>md显预览也正常。<br>ps.在vscode中点击右上角可分屏查看，快捷键ctrl+shift+v可快速预览Markdown文章。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214203623590.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214203623590.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+</ol>
+<h1 id="四、结合Typora写文"><a href="#四、结合Typora写文" class="headerlink" title="四、结合Typora写文"></a>四、结合Typora写文</h1><ul>
+<li>3.7日增加：</li>
+</ul>
+<ol>
+<li><p>如果pic显示上传不成功！有可能你在其他地方向仓库上传了资料，此时打开github重新获取token修改即可。</p>
+</li>
+<li><p>可以在picGo设置快捷键，修改时按住<code>Ctrl+shift+C</code>即可。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200307170324949.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200307170324949.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+</ol>
+<ul>
+<li><p>我们常用的是QQ快速截屏：<code>ctrl+Alt+A</code>截屏</p>
+</li>
+<li><p>然后<code>ctrl+shift+C</code>直接使用picGo将截图上传github，</p>
+</li>
+<li><p>到任何要使用的地方粘贴：<code>ctrl+V</code></p>
+<p>  效果——这是我在编辑typora时的截图：（这都对用户来说都是<strong>透明操作，丝滑般写文</strong>）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030717092865.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030717092865.png"  alt="在这里插入图片描述"></a><br>这里我加上了开机自启动，为了方便我编辑md<br>（这里推荐typora编辑器，安装时记得配置typora偏好设置-》图像路径-》./当前文件夹）</p>
+</li>
+</ul>
+<p>这里再也不担心Typora写文发布时，图片无法显示的问题了。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>私人图床</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github+jsDelivr搭建自己的免费cdn</title>
+    <url>/post/2a9.html</url>
+    <content><![CDATA[<h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>CDN的全称是<code>Content Delivery Network</code>，即<code>内容分发网络</code>。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使<strong>用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率</strong>。CDN的关键技术主要有<code>内容存储</code>和<code>分发技术</code>。</p>
+<p>放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDelivr + Github便是免费且好用的CDN，非常适合博客网站使用。</p>
+<h1 id="二、内容存储"><a href="#二、内容存储" class="headerlink" title="二、内容存储"></a>二、内容存储</h1><h2 id="1-新建Github-cdn仓库"><a href="#1-新建Github-cdn仓库" class="headerlink" title="1. 新建Github\cdn仓库"></a>1. 新建Github\cdn仓库</h2><p>命名为cdn，公开访问权限<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212110954407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212110954407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>获取仓库地址<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212111157197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212111157197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h2 id="2-克隆仓库到本地"><a href="#2-克隆仓库到本地" class="headerlink" title="2. 克隆仓库到本地"></a>2. 克隆仓库到本地</h2><p>在本地目录右键 Git Bash Here，执行以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;cungudafa&#x2F;cdn.git</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>第一次应该是空目录，以后有素材文件，这一步就比较关键（以免替覆盖掉之前的素材）</p>
+</blockquote>
+<h2 id="3-上传资源"><a href="#3-上传资源" class="headerlink" title="3. 上传资源"></a>3. 上传资源</h2><ol>
+<li><p>现有img和js素材，复制到cdn目录下（支持20M以内的图片、视频、js、css等）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212112709297.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212112709297.png"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>在本地git仓库目录下右键 Git Bash Here，执行以下命令：</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git status                    &#x2F;&#x2F;查看状态</span><br><span class="line">git add .                     &#x2F;&#x2F;添加所有文件到暂存区</span><br><span class="line">git commit -m &#39;第一次提交&#39;      &#x2F;&#x2F;把文件提交到仓库</span><br><span class="line">git push                      &#x2F;&#x2F;推送至远程仓库</span><br></pre></td></tr></table></figure>
+<p> 也可以用Git Gui上传，上传成功后在浏览器可查看<a href="https://github.com/cungudafa/cdn" target="_blank" rel="noopener">https://github.com/cungudafa/cdn</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113116661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113116661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h2 id="4-发布资源"><a href="#4-发布资源" class="headerlink" title="4. 发布资源"></a>4. 发布资源</h2></li>
+<li><p>点击release自定义发布的版本号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113312274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113312274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>自定义版本号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113603368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113603368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>我上传了两次图片，我这里发布了两个版本：（1.6和2.0版本）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113714128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113714128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h1 id="三、jsDelivr引用"><a href="#三、jsDelivr引用" class="headerlink" title="三、jsDelivr引用"></a>三、jsDelivr引用</h1></li>
+<li><p>原理：将github上的资源转为快速访问网址<br><code>https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</code><br> 例如：<br> <a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@1.6/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@1.6/img/custom/cungudafa.jpg</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg</a><br>第一次1.6版本没有发布图片，在2.0版本有发布图片。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212115007704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212115007704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>版本号不是必需的，是为了区分新旧资源，如果不使用版本号，将会直接引用最新资源<br><code>//完全省略该版本以获取最新版本</code><br><code>https://cdn.jsdelivr.net/gh/user/repo/file</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg</a></p>
+</li>
+<li><p>其他资源填写路径即可：<br><code>// 加载任何Github发布、提交或分支</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/lib.min.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/lib.min.js</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/HanHyoJoo.gif" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/HanHyoJoo.gif</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021212282352.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021212282352.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>除此之外还可以使用某个范围内的版本，查看所有资源等，具体使用方法如下：<br><code>// 使用版本范围而不是特定版本</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2/img/custom/cungudafa.jpg</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/cungudafa.jpg</a></p>
+</li>
+<li><p>压缩版<br><code>// 将“.min”添加到任何JS/CSS文件中以获取缩小版本，如果不存在，将为会自动生成</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file/file.min.js</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.js</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.min.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.min.js</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212122731808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212122731808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>目录<br><code>// 在末尾添加 / 以获取资源目录列表</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file/</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021212103323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021212103323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>cdn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ps抠图（小白教程）</title>
+    <url>/post/2f1b.html</url>
+    <content><![CDATA[<p><strong>今天看见一个帖子有萌新😳问：有必要掌握Ps和Pr技能吗？<br>答：我认为一些基本技能：Ps抠图，Pr剪切视频音频处理是很有必要的。</strong></p>
+<p>在日常生活中，无论是 <strong>PPT制作</strong> 还是 <strong>前端</strong> 使用中，<code>png格式</code>的透明背景图片是很有必要的。</p>
+<ul>
+<li>请评价一下如下两张图的视觉感受：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222152408606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222152408606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>当然，大多数人都会觉得第二张图的视觉效果更好一点。</li>
+</ul>
+<p><strong>问：为什么非要png格式的图片呢？</strong></p>
+<p><strong>答：</strong> png是一种无损压缩的位图片形格式。其设计目的是为了替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性。 png格式是非失真性压缩的，允许使用类似于GIF格式的调色板技术，支持真彩色图像，并具备阿尔法通道（半透明）等特性。</p>
+<ul>
+<li>png占内存多，jpg占内存少</li>
+<li>png是无损压缩，jpg则牺牲了图片质量</li>
+<li><code>在ps中png可为透明背景，而jpg显然是不行的</code></li>
+<li>PNG格式可编辑。如图片中有字体等，可利用PS再做更改。JPG格式不可编辑。</li>
+<li>对于两种格式的解析度,PNG高于JPG</li>
+<li>PNG不适用任何场合，因为它的体积很大，不利用显示，完全用于编辑者作为以后更改图片时做的备份之用。JPG格式用于很多场合。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222153336347.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222153336347.png"  alt="在这里插入图片描述"></a></li>
+</ul>
+<p>下面是Ps演示教程，大佬可以跳过，小白可以看看😛</p>
+<hr>
+<p>演示图（任意格式）：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222153405966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222153405966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<ol>
+<li><p>选中图片，右键选择用Ps打开——Ps版本（2015版）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222153832743.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222153832743.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>在左侧找到<code>魔法笔</code>，右键可以选择<code>快速选择工具</code>，上方可以选择<code>选择+</code>和<code>选择-</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154021590.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154021590.png"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>抠图（快速选择工具勾选我们需要的轮廓）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154407412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154407412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>用上方可以<code>选择-</code>——剔除多余的部分<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154604534.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154604534.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<blockquote>
+<p>鼠标长按可连续勾选，每次鼠标勾选完毕后，取消最新部分勾选快捷键<code>ctrl加z</code></p>
+</blockquote>
+<p> <code>键盘ctrl和+</code>将图片放大，剔除和补充细节部分<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154833326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154833326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<blockquote>
+<p>百万年薪抠图师就是扣细节：🤣根据需要细细的抠图，慢工出细活😎<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154947304.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154947304.png"  alt="在这里插入图片描述"></a></p>
+</blockquote>
+</li>
+<li><p><code>ctrl加-</code>回到原始图像大小，鼠标右键选择<code>通过拷贝的图层</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155456315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155456315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>在左侧可以看到多出一个图层1，取消掉背景图层的可视化<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155551433.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155551433.png"  alt="在这里插入图片描述"></a> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155627554.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155627554.png"  alt="在这里插入图片描述"></a><br>预览抠图，如果还不满意，打开背景可视化，<code>ctrl加z</code>直接回到抠图模式，补充或删减<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155717641.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155717641.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<blockquote>
+<p>tips：可以右键选择<code>羽化</code>，可以调整抠图轮廓的边缘渐变透明，使抠图更加柔和。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020022216005526.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020022216005526.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</blockquote>
+</li>
+<li><p>在右侧选中最终满意的图层，右键选择<code>快速导出为PNG</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222160411635.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222160411635.png"  alt="在这里插入图片描述"></a></p>
+</li>
+</ol>
+<p>最终效果，棒棒哒！(～￣▽￣)～<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222151705401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222151705401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Ps</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github+Hexo博客增添相册功能</title>
     <url>/post/2b2b.html</url>
     <content><![CDATA[<p>前言：hexo的sakura主题默认是不含有相册页面的,如果想添加此页面需自行编写<br>效果图预览，<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218212915690.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200218212915690.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>思路：<br>    不能把所有图片都放在source静态资源下，一是数据量太大，增加Hexo的负担（所以我们<strong>把图片放在github</strong>），二是加载高清大图片资源缓慢（所以我们用<strong>python对图片进行批量压缩处理</strong>），这样加载呈现压缩图，点击才加载原图。</p>
@@ -83,143 +304,6 @@ ending~
       </categories>
       <tags>
         <tag>图集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Botui搭建js聊天机器人</title>
-    <url>/post/81c1.html</url>
-    <content><![CDATA[<h1 id="一、Botui简介"><a href="#一、Botui简介" class="headerlink" title="一、Botui简介"></a>一、Botui简介</h1><p>一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。<br>可点击查看me？试试看。</p>
-<blockquote>
-<p>项目地址：<a href="https://botui.org" target="_blank" rel="noopener">https://botui.org</a></p>
-</blockquote>
-<h1 id="二、使用教程"><a href="#二、使用教程" class="headerlink" title="二、使用教程"></a>二、使用教程</h1><p>Botui是结合Vue和Botui.js的自动回复界面：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100053619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200213100053619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>模拟对话：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100135244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200213100135244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>在html中使用直接引入vue和js即可，<a href="https://github.com/botui/botui" target="_blank" rel="noopener">使用教程</a>；<br>这里我是基于Hexo界面（Sakura）主题，融合vue到botui.js中了：</p>
-<ol>
-<li><p>在<code>主目录\source\</code>下新建目录<code>about</code>，新建<code>index.md</code><br>（sakura特点是将index.md文件直接转换成about\index.html）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100829183.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200213100829183.png"  alt="在这里插入图片描述"></a><br>index.md<br>关键代码是：</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;bot-ui&gt;&lt;&#x2F;botui&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;&#x2F;js&#x2F;botui.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">bot_ui_ini()</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-
-<p>完整代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: about</span><br><span class="line">date: 2020-2-12 22:14:36</span><br><span class="line">keywords: 关于</span><br><span class="line">description: </span><br><span class="line">comments: false</span><br><span class="line">photos: https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;cungudafa&#x2F;cdn&#x2F;img&#x2F;banner&#x2F;about.jpg</span><br><span class="line">---</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&lt;!-- 因为vue和botui更新导至bug,现将对话移至js下的botui中配置 --&gt;</span><br><span class="line">&lt;div class&#x3D;&quot;entry-content&quot;&gt;</span><br><span class="line">  &lt;div class&#x3D;&quot;moe-mashiro&quot; style&#x3D;&quot;text-align:center; font-size: 50px; margin-bottom: 20px;&quot;&gt;[さくら荘のcungudafa]&lt;&#x2F;div&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;hello-mashiro&quot; class&#x3D;&quot;popcontainer&quot; style&#x3D;&quot;min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;&quot;&gt;</span><br><span class="line">    &lt;center&gt;</span><br><span class="line">    &lt;p&gt;</span><br><span class="line">    &lt;&#x2F;p&gt;</span><br><span class="line">    &lt;h4&gt;</span><br><span class="line">    与&amp;nbsp;&lt;ruby&gt;</span><br><span class="line">    cungudafa&amp;nbsp;&lt;rp&gt;</span><br><span class="line">    （&lt;&#x2F;rp&gt;</span><br><span class="line">    &lt;rt&gt;</span><br><span class="line">    真（ま）白（しろ）&lt;&#x2F;rt&gt;</span><br><span class="line">    &lt;rp&gt;</span><br><span class="line">    ）&lt;&#x2F;rp&gt;</span><br><span class="line">    &lt;&#x2F;ruby&gt;</span><br><span class="line">    对话中...&lt;&#x2F;h4&gt;</span><br><span class="line">    &lt;p&gt;</span><br><span class="line">    &lt;&#x2F;p&gt;</span><br><span class="line">    &lt;&#x2F;center&gt;</span><br><span class="line">    &lt;bot-ui&gt;&lt;&#x2F;botui&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;&#x2F;js&#x2F;botui.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">bot_ui_ini()</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改引入的<code>sakura/js/botui.js</code>即可修改对话</p>
-<blockquote>
-<p>代码片较长，这里直接在gitee仓库中查看： <a href="https://gitee.com/cungudafa/cungudafa/blob/master/js/botui.js" target="_blank" rel="noopener">/js/botui.js</a></p>
-</blockquote>
-<p> 之前用sakura原版botui.js,出现了编码格式不一致中文乱码的情况，后来修改后手动保存为UTF-8编码格式，已解决问题。</p>
-</li>
-</ol>
-<h1 id="三、演示效果"><a href="#三、演示效果" class="headerlink" title="三、演示效果"></a>三、演示效果</h1><p><a href="https://cungudafa.gitee.io/about/" target="_blank" rel="noopener">https://cungudafa.gitee.io/about/</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>自动回复机器人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github+jsDelivr搭建自己的免费cdn</title>
-    <url>/post/2a9.html</url>
-    <content><![CDATA[<h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>CDN的全称是<code>Content Delivery Network</code>，即<code>内容分发网络</code>。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使<strong>用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率</strong>。CDN的关键技术主要有<code>内容存储</code>和<code>分发技术</code>。</p>
-<p>放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDelivr + Github便是免费且好用的CDN，非常适合博客网站使用。</p>
-<h1 id="二、内容存储"><a href="#二、内容存储" class="headerlink" title="二、内容存储"></a>二、内容存储</h1><h2 id="1-新建Github-cdn仓库"><a href="#1-新建Github-cdn仓库" class="headerlink" title="1. 新建Github\cdn仓库"></a>1. 新建Github\cdn仓库</h2><p>命名为cdn，公开访问权限<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212110954407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212110954407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>获取仓库地址<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212111157197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212111157197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h2 id="2-克隆仓库到本地"><a href="#2-克隆仓库到本地" class="headerlink" title="2. 克隆仓库到本地"></a>2. 克隆仓库到本地</h2><p>在本地目录右键 Git Bash Here，执行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;cungudafa&#x2F;cdn.git</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>第一次应该是空目录，以后有素材文件，这一步就比较关键（以免替覆盖掉之前的素材）</p>
-</blockquote>
-<h2 id="3-上传资源"><a href="#3-上传资源" class="headerlink" title="3. 上传资源"></a>3. 上传资源</h2><ol>
-<li><p>现有img和js素材，复制到cdn目录下（支持20M以内的图片、视频、js、css等）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212112709297.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212112709297.png"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>在本地git仓库目录下右键 Git Bash Here，执行以下命令：</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git status                    &#x2F;&#x2F;查看状态</span><br><span class="line">git add .                     &#x2F;&#x2F;添加所有文件到暂存区</span><br><span class="line">git commit -m &#39;第一次提交&#39;      &#x2F;&#x2F;把文件提交到仓库</span><br><span class="line">git push                      &#x2F;&#x2F;推送至远程仓库</span><br></pre></td></tr></table></figure>
-<p> 也可以用Git Gui上传，上传成功后在浏览器可查看<a href="https://github.com/cungudafa/cdn" target="_blank" rel="noopener">https://github.com/cungudafa/cdn</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113116661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113116661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h2 id="4-发布资源"><a href="#4-发布资源" class="headerlink" title="4. 发布资源"></a>4. 发布资源</h2></li>
-<li><p>点击release自定义发布的版本号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113312274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113312274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>自定义版本号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113603368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113603368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>我上传了两次图片，我这里发布了两个版本：（1.6和2.0版本）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113714128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212113714128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h1 id="三、jsDelivr引用"><a href="#三、jsDelivr引用" class="headerlink" title="三、jsDelivr引用"></a>三、jsDelivr引用</h1></li>
-<li><p>原理：将github上的资源转为快速访问网址<br><code>https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</code><br> 例如：<br> <a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@1.6/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@1.6/img/custom/cungudafa.jpg</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg</a><br>第一次1.6版本没有发布图片，在2.0版本有发布图片。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212115007704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212115007704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>版本号不是必需的，是为了区分新旧资源，如果不使用版本号，将会直接引用最新资源<br><code>//完全省略该版本以获取最新版本</code><br><code>https://cdn.jsdelivr.net/gh/user/repo/file</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg</a></p>
-</li>
-<li><p>其他资源填写路径即可：<br><code>// 加载任何Github发布、提交或分支</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/lib.min.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/lib.min.js</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/HanHyoJoo.gif" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/HanHyoJoo.gif</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021212282352.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021212282352.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>除此之外还可以使用某个范围内的版本，查看所有资源等，具体使用方法如下：<br><code>// 使用版本范围而不是特定版本</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2/img/custom/cungudafa.jpg</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/img/custom/cungudafa.jpg</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/cungudafa.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/cungudafa.jpg</a></p>
-</li>
-<li><p>压缩版<br><code>// 将“.min”添加到任何JS/CSS文件中以获取缩小版本，如果不存在，将为会自动生成</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file/file.min.js</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.js</a><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.min.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0/js/InsightSearch.min.js</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212122731808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200212122731808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>目录<br><code>// 在末尾添加 / 以获取资源目录列表</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file/</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021212103323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021212103323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>cdn</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）</title>
-    <url>/post/2103.html</url>
-    <content><![CDATA[<h1 id="一、什么是图床"><a href="#一、什么是图床" class="headerlink" title="一、什么是图床"></a>一、什么是图床</h1><p>图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p>
-<p>简单来说就是：在文章中引用指定网址显示图片。<br><a data-fancybox="gallery" data-caption="" href="https://img-blog.csdnimg.cn/20200214204559186.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214204559186.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt=""></a><code>平常我们都是在网络上复制粘贴网络图片的地址，太out了，如何快速引用本地图片呢？？？</code></p>
-<h1 id="二、配置教程"><a href="#二、配置教程" class="headerlink" title="二、配置教程"></a>二、配置教程</h1><h2 id="1-获取Token"><a href="#1-获取Token" class="headerlink" title="1.获取Token"></a>1.获取Token</h2><blockquote>
-<p>github云端仓库位置： 延续上一次cdn的仓库失败。（建议新建一个仓库，发布过release版本号的仓库会使用异常）</p>
-</blockquote>
-<ol>
-<li>进入设置Setting<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021419381472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021419381472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>选择开发者设置Developer setting<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214193956719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214193956719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>选择个人数据帧Personal access tokens，生成新的数据帧 Generate new token<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214194254176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214194254176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>命名为picgo（图床），赋予仓库权限</li>
-</ol>
-<p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214194550612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214194550612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<ol>
-<li>最后点击Generate token即可看到显示的token页面，==它只会显示一次，关闭页面后再打开这个页面就不会显示了。== <code>复制token值粘贴到文本文档</code>中，先保存下来，后面配置PicGo要用到。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><h2 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h2></li>
-<li>首先下载PicGo，图片上传工具PicGo下载地址:<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo/releases</a><blockquote>
-<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
-</blockquote>
-</li>
-<li>安装配置PicGo<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><ul>
-<li>设定仓库名：这个是刚刚第一步所新建仓库的名称，我的为cdn，此处填写格式username/repo。</li>
-<li>设定分支名：master，采用默认分支即可</li>
-<li>设定Token：此处填写上一步得到的Token，添加到输入框即可。</li>
-<li>指定存储路径：自定义，例：<code>images/</code>，相当于在刚刚新建的仓库下新建了一个文件夹。</li>
-<li>设定自定义域名：cdn加速格式：<code>https://cdn.jsdelivr.net/gh/username/repo</code>，username为GitHub用户名，repo为新建的仓库，用于存储图片</li>
-<li>设置快捷键<code>ctrl+shit+C</code>: 在qq截屏<code>ctrl+alt+a</code>后，再<code>ctrl+shit+C</code>可以快速上传</li>
-</ul>
-</li>
-</ol>
-<h1 id="三、上传方法"><a href="#三、上传方法" class="headerlink" title="三、上传方法"></a>三、上传方法</h1><ol>
-<li>快捷键上传</li>
-<li>拖拽上传<br><a data-fancybox="gallery" data-caption="List item" href="https://img-blog.csdnimg.cn/20200214201209951.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214201209951.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="List item"></a><br>上传后，云端图片显示：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214201503971.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214201503971.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>使用方法：选择<code>相册</code>，可<code>复制、修改链接、删除</code>图片（不能删除github上的图片，需要手动删除）：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214201720518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214201720518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>最终在md使用链接时出现错误，原因是我的cdn发布过release版本号，最有效的解决办法就是新建一个仓库，重新配置本地picgo的名称就好，此时相册显示也正常。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214203218166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214203218166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>md显预览也正常。<br>ps.在vscode中点击右上角可分屏查看，快捷键ctrl+shift+v可快速预览Markdown文章。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214203623590.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200214203623590.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-</ol>
-<h1 id="四、结合Typora写文"><a href="#四、结合Typora写文" class="headerlink" title="四、结合Typora写文"></a>四、结合Typora写文</h1><ul>
-<li>3.7日增加：</li>
-</ul>
-<ol>
-<li><p>如果pic显示上传不成功！有可能你在其他地方向仓库上传了资料，此时打开github重新获取token修改即可。</p>
-</li>
-<li><p>可以在picGo设置快捷键，修改时按住<code>Ctrl+shift+C</code>即可。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200307170324949.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200307170324949.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-</ol>
-<ul>
-<li><p>我们常用的是QQ快速截屏：<code>ctrl+Alt+A</code>截屏</p>
-</li>
-<li><p>然后<code>ctrl+shift+C</code>直接使用picGo将截图上传github，</p>
-</li>
-<li><p>到任何要使用的地方粘贴：<code>ctrl+V</code></p>
-<p>  效果——这是我在编辑typora时的截图：（这都对用户来说都是<strong>透明操作，丝滑般写文</strong>）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030717092865.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030717092865.png"  alt="在这里插入图片描述"></a><br>这里我加上了开机自启动，为了方便我编辑md<br>（这里推荐typora编辑器，安装时记得配置typora偏好设置-》图像路径-》./当前文件夹）</p>
-</li>
-</ul>
-<p>这里再也不担心Typora写文发布时，图片无法显示的问题了。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>私人图床</tag>
       </tags>
   </entry>
   <entry>
@@ -332,199 +416,6 @@ ending~
         <tag>valine</tag>
         <tag>美化</tag>
         <tag>表情包</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ps抠图（小白教程）</title>
-    <url>/post/2f1b.html</url>
-    <content><![CDATA[<p><strong>今天看见一个帖子有萌新😳问：有必要掌握Ps和Pr技能吗？<br>答：我认为一些基本技能：Ps抠图，Pr剪切视频音频处理是很有必要的。</strong></p>
-<p>在日常生活中，无论是 <strong>PPT制作</strong> 还是 <strong>前端</strong> 使用中，<code>png格式</code>的透明背景图片是很有必要的。</p>
-<ul>
-<li>请评价一下如下两张图的视觉感受：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222152408606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222152408606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>当然，大多数人都会觉得第二张图的视觉效果更好一点。</li>
-</ul>
-<p><strong>问：为什么非要png格式的图片呢？</strong></p>
-<p><strong>答：</strong> png是一种无损压缩的位图片形格式。其设计目的是为了替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性。 png格式是非失真性压缩的，允许使用类似于GIF格式的调色板技术，支持真彩色图像，并具备阿尔法通道（半透明）等特性。</p>
-<ul>
-<li>png占内存多，jpg占内存少</li>
-<li>png是无损压缩，jpg则牺牲了图片质量</li>
-<li><code>在ps中png可为透明背景，而jpg显然是不行的</code></li>
-<li>PNG格式可编辑。如图片中有字体等，可利用PS再做更改。JPG格式不可编辑。</li>
-<li>对于两种格式的解析度,PNG高于JPG</li>
-<li>PNG不适用任何场合，因为它的体积很大，不利用显示，完全用于编辑者作为以后更改图片时做的备份之用。JPG格式用于很多场合。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222153336347.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222153336347.png"  alt="在这里插入图片描述"></a></li>
-</ul>
-<p>下面是Ps演示教程，大佬可以跳过，小白可以看看😛</p>
-<hr>
-<p>演示图（任意格式）：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222153405966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222153405966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<ol>
-<li><p>选中图片，右键选择用Ps打开——Ps版本（2015版）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222153832743.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222153832743.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>在左侧找到<code>魔法笔</code>，右键可以选择<code>快速选择工具</code>，上方可以选择<code>选择+</code>和<code>选择-</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154021590.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154021590.png"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>抠图（快速选择工具勾选我们需要的轮廓）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154407412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154407412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>用上方可以<code>选择-</code>——剔除多余的部分<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154604534.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154604534.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<blockquote>
-<p>鼠标长按可连续勾选，每次鼠标勾选完毕后，取消最新部分勾选快捷键<code>ctrl加z</code></p>
-</blockquote>
-<p> <code>键盘ctrl和+</code>将图片放大，剔除和补充细节部分<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154833326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154833326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<blockquote>
-<p>百万年薪抠图师就是扣细节：🤣根据需要细细的抠图，慢工出细活😎<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222154947304.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222154947304.png"  alt="在这里插入图片描述"></a></p>
-</blockquote>
-</li>
-<li><p><code>ctrl加-</code>回到原始图像大小，鼠标右键选择<code>通过拷贝的图层</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155456315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155456315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>在左侧可以看到多出一个图层1，取消掉背景图层的可视化<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155551433.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155551433.png"  alt="在这里插入图片描述"></a> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155627554.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155627554.png"  alt="在这里插入图片描述"></a><br>预览抠图，如果还不满意，打开背景可视化，<code>ctrl加z</code>直接回到抠图模式，补充或删减<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222155717641.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222155717641.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<blockquote>
-<p>tips：可以右键选择<code>羽化</code>，可以调整抠图轮廓的边缘渐变透明，使抠图更加柔和。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020022216005526.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020022216005526.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</blockquote>
-</li>
-<li><p>在右侧选中最终满意的图层，右键选择<code>快速导出为PNG</code><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222160411635.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222160411635.png"  alt="在这里插入图片描述"></a></p>
-</li>
-</ol>
-<p>最终效果，棒棒哒！(～￣▽￣)～<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222151705401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200222151705401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Ps</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年2月4日情人节随笔</title>
-    <url>/post/ff18.html</url>
-    <content><![CDATA[<blockquote>
-<p>疫情期间，姑已经在家呆了<code>二十天</code>了，可是为国家省心的好孩子。</p>
-</blockquote>
-<p><strong>明天就是2月14号了，如何度过这个西方的浪漫节日呢？</strong></p>
-<p>当然，不建议出门聚会哦！</p>
-<p> <code>划重点：</code>  你会如何选择在家度过美好的一天呢？</p>
-<ol>
-<li><p>美食party<br>（自制火锅，家庭烤肉)<br><a data-fancybox="gallery" data-caption="1" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615245028&di=51788c02e4ae35098a7f8eafa1a7c0ac&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615245028&di=51788c02e4ae35098a7f8eafa1a7c0ac&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg"  alt="1"></a><br>(烘焙蛋糕，布丁甜点…）<br><a data-fancybox="gallery" data-caption="2" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615176879&di=64efe5d959b73df9995031cec6e1a42f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615176879&di=64efe5d959b73df9995031cec6e1a42f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif"  alt="2"></a></p>
-</li>
-<li><p>甜甜的韩剧/美剧<br>《爱的迫降》–蝉联电视剧话题性冠军一个月！<br><a data-fancybox="gallery" data-caption="3" href="https://www.hanjutv.com/api/thumb/7dd3ed2e12d7967b656d156d50308263/800-419-1-0.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://www.hanjutv.com/api/thumb/7dd3ed2e12d7967b656d156d50308263/800-419-1-0.jpg"  alt="3"></a></p>
-</li>
-</ol>
-<blockquote>
-<p>点击观看<a href="https://www.hanjutv.com/player/54585.html" target="_blank" rel="noopener">第一集</a></p>
-</blockquote>
-<p>在家法则：能躺下就不要坐着，煲剧ing~</p>
-<blockquote>
-<p>2020年2月13日 22:55:30 <code>姑</code> 对你说:</p>
-<p>晚安海绵宝宝，晚安小蜗，晚安派大星，晚安章鱼哥，晚安珊迪，晚安蟹老板，晚安皮老板，晚安泡芙老师，晚安唔西迪西，晚安玛卡巴卡，晚安依古比古，晚安汤姆布利波，晚安小点点，晚安叮叮车，晚安哈呼呼，晚安小仙女。 ​​​</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微信公众号（二）扩展分享</title>
-    <url>/post/44e8.html</url>
-    <content><![CDATA[<blockquote>
-<p>前面一篇文章，我已经：<a href="https://blog.csdn.net/cungudafa/article/details/104667604" target="_blank" rel="noopener">微信公众号（一）基本功能实现</a></p>
-</blockquote>
-<h1 id="一、管理用具"><a href="#一、管理用具" class="headerlink" title="一、管理用具"></a>一、管理用具</h1><h2 id="1-每个人必须收藏的网站"><a href="#1-每个人必须收藏的网站" class="headerlink" title="1.每个人必须收藏的网站"></a>1.每个人必须收藏的网站</h2><p>图片中的各网址，你可能听说过，也可能没听说过；<br>但我保证，每一个网站都是大V吐血推荐的。（可输入网址看看，你会发现新大陆！）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306151717593.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306151717593.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<blockquote>
-<p>了解更多参考：<a href="https://blog.csdn.net/cungudafa/article/details/100106125" target="_blank" rel="noopener">cungudafa推荐好用工具分享</a><br>记得点赞哦！</p>
-</blockquote>
-<h2 id="2-浏览器插件"><a href="#2-浏览器插件" class="headerlink" title="2.浏览器插件"></a>2.浏览器插件</h2><p><strong>新媒体管家</strong> 官网：<a href="http://xmt.cn/index" target="_blank" rel="noopener">xmt.cn</a></p>
-<blockquote>
-<p>根据官网引导安装浏览器插件<br>官网有教学视频，这里bilibili前辈也给出了详细的：<a href="https://www.bilibili.com/video/av68618433?p=19" target="_blank" rel="noopener">教学视频</a>。</p>
-</blockquote>
-<p>这个应用分为两步<code>管理和图文编辑</code>：</p>
-<ul>
-<li>（1）应用管理（不用在每个网站单独注册，用管家账号就能登录使用）<br>好用指数🏆🏆🏆🏆🏆<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306152709155.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306152709155.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>运营辅助:（营销日历和素材热点，小白见了只能：“哇，双击666”）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306153315985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306153315985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>账号管理：（一天之内免登陆，竟然没有接入csdn，差评！）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306154623759.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306154623759.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>（2）优化微信公众号<br>很多小细可以在之前的视频讲解里可以看到，这里单独说一下：图文编辑模块<br>之前用的135虽好，但界面太过复杂，插件真香：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306153912817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306153912817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><blockquote>
-<p>除此之外，推荐插件工具：<a href="https://yiban.io/" target="_blank" rel="noopener">壹伴</a></p>
-</blockquote>
-</li>
-</ul>
-<h1 id="二、运营学习"><a href="#二、运营学习" class="headerlink" title="二、运营学习"></a>二、运营学习</h1><p>说道这一块，我还是一个小白，从头开始学习！</p>
-<ol>
-<li><p>前辈在视频里讲的是：<a href="https://www.bilibili.com/video/av68618433?p=28" target="_blank" rel="noopener">从知乎免费引流</a><br>课（我）代（自）表（己）这里简单归纳了一下，如图：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306155552190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306155552190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>多平台引流</p>
-<blockquote>
-<p>在知乎上看了大量关于微信公众号和运营的知识，学问很大。<br> 如何给网站取名让更多人感兴趣搜索到，公众号内容定位，推广。<br> <strong>有一句话：“如何打败你的竞争对手，就是先关注50-100个公众号！”</strong><br> 我想：这意思是–<strong><em>知己知彼百战百胜</em></strong>。<br>我目前不谋求盈利，算是自己的一点一点积累吧，学无止境。</p>
-</blockquote>
-<p> 很多人都强调，命名！！！！我的命名不是跟随站长查询的主流，而是一个对我有意义的名字：<strong>cungudafa</strong>（图中平台搜索“<strong><em>cungudafa</em></strong>”，你都可以发现我的轨迹，哈哈哈）</p>
-<p> cungudafa励志做一个代<strong>码搬运工</strong>：</p>
-<ul>
-<li>学习记录在csdn</li>
-<li>代码存放在github或gitee</li>
-<li>知乎会回答问题（都可以留言哦）</li>
-<li>公众号、b站、网站都是分享平台（欢迎去我的网站和微信公众号踩踩）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306162311795.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306162311795.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>哈哈，作为一个妥妥的码农，当然代码是根本，图中黄色星标是我活动轨迹最频繁的地方！小灯是我正在扩展的地方！如果我俩有缘，有幸在其他平台也能遇见你哦~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306164731412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306164731412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-</ul>
-</li>
-</ol>
-<p>最后第一张图补充完整图片：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306165204207.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306165204207.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>微信公众号</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为你的博客引入——今日诗词、每日一言（js插件分享）</title>
-    <url>/post/3af9.html</url>
-    <content><![CDATA[<h1 id="一、今日诗词"><a href="#一、今日诗词" class="headerlink" title="一、今日诗词"></a>一、今日诗词</h1><p>今日诗词API，是一个可以返回一句古诗词名句的接口。它可以通过图片和 JSON 格式调用。今日诗词 API 根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐。</p>
-<blockquote>
-<p>官网：<a href="https://www.jinrishici.com/" target="_blank" rel="noopener">www.jinrishici.com</a></p>
-</blockquote>
-<p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304132239160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200304132239160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span></span><br><span class="line">    念两句诗<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"poem"</span>&gt;</span></span><br><span class="line">    叙别梦、扬州一觉。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"info"</span>&gt;</span></span><br><span class="line">    【宋代】吴文英《夜游宫·人去西楼雁杳》<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://sdk.jinrishici.com/v2/browser/jinrishici.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="actionscript">    jinrishici.load(<span class="function"><span class="keyword">function</span><span class="params">(result)</span> </span>&#123;</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> poem =  result.data.content;</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> info = <span class="string">"【"</span>+result.data.origin.dynasty+<span class="string">"】"</span>+ result.data.origin.author +<span class="string">"《"</span> + result.data.origin.title + <span class="string">"》"</span>;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">"poem"</span>).value(poem);</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">"info"</span>).value(info);</span></span><br><span class="line">    &#125;)</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="二、每日一言"><a href="#二、每日一言" class="headerlink" title="二、每日一言"></a>二、每日一言</h1><p>一言网（hitokoto.cn）创立于 2016 年，隶属于萌创团队，目前网站主要提供一句话服务。</p>
-<p>动漫也好、小说也好、网络也好，不论在哪里，我们总会看到有那么一两个句子能穿透你的心。我们把这些句子汇聚起来，形成一言网络，以传递更多的感动。如果可以，我们希望我们没有停止服务的那一天。</p>
-<p>简单来说，一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。</p>
-<blockquote>
-<p>官网：<a href="https://hitokoto.cn/" target="_blank" rel="noopener">hitokoto.cn</a></p>
-</blockquote>
-<p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304135000622.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200304135000622.png"  alt="在这里插入图片描述"></a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"https://你的域名/hitokoto/?format=js&amp;charset=utf-8"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"hitokoto"</span>&gt;</span><span class="tag">&lt;<span class="name">script</span>&gt;</span>hitokoto()<span class="tag">&lt;/<span class="name">script</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>每日一言</tag>
-        <tag>今日诗词</tag>
-        <tag>js插件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在线论文正确打开方式</title>
-    <url>/post/6874.html</url>
-    <content><![CDATA[<blockquote>
-<p>一篇在csdn审核不通过的文章23333</p>
-</blockquote>
-<ol>
-<li><p>打开手机支付宝，搜索并关注公众号“<code>浙江图书馆</code>”， 免费申请读书证；</p>
-<blockquote>
-<p>具体教程参考链接：<a href="https://baijiahao.baidu.com/s?id=1614272758350284209&wfr=spider&for=pc" target="_blank" rel="noopener">如何免费下载中国知网文献</a></p>
-</blockquote>
-<p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115500595.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115500595.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115600605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115600605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115428958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115428958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>登录<a href="http://www.zjlib.cn/" target="_blank" rel="noopener">浙江省图书馆官网</a>，在网站底部快速链接，比如中国知网，可免费下载论文；<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115318612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115318612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-</ol>
-<ol start="3">
-<li>下载的论文格式为caj格式，查看工具<code>CAJViewer</code>下载：在知网官网底部，安装即可。<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115202550.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115202550.png"  alt="在这里插入图片描述"></a><blockquote>
-<p>具体教程参考链接：<a href="https://jingyan.baidu.com/article/358570f6ace1edce4724fc1f.html" target="_blank" rel="noopener">caj格式的文件怎么打开</a></p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>知网论文</tag>
-        <tag>免费</tag>
       </tags>
   </entry>
   <entry>
@@ -667,6 +558,132 @@ date: 2020-03-01 22:59:10
       </tags>
   </entry>
   <entry>
+    <title>为你的博客引入——今日诗词、每日一言（js插件分享）</title>
+    <url>/post/3af9.html</url>
+    <content><![CDATA[<h1 id="一、今日诗词"><a href="#一、今日诗词" class="headerlink" title="一、今日诗词"></a>一、今日诗词</h1><p>今日诗词API，是一个可以返回一句古诗词名句的接口。它可以通过图片和 JSON 格式调用。今日诗词 API 根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐。</p>
+<blockquote>
+<p>官网：<a href="https://www.jinrishici.com/" target="_blank" rel="noopener">www.jinrishici.com</a></p>
+</blockquote>
+<p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304132239160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200304132239160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span></span><br><span class="line">    念两句诗<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"poem"</span>&gt;</span></span><br><span class="line">    叙别梦、扬州一觉。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"info"</span>&gt;</span></span><br><span class="line">    【宋代】吴文英《夜游宫·人去西楼雁杳》<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://sdk.jinrishici.com/v2/browser/jinrishici.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="actionscript">    jinrishici.load(<span class="function"><span class="keyword">function</span><span class="params">(result)</span> </span>&#123;</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> poem =  result.data.content;</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> info = <span class="string">"【"</span>+result.data.origin.dynasty+<span class="string">"】"</span>+ result.data.origin.author +<span class="string">"《"</span> + result.data.origin.title + <span class="string">"》"</span>;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">"poem"</span>).value(poem);</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">"info"</span>).value(info);</span></span><br><span class="line">    &#125;)</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="二、每日一言"><a href="#二、每日一言" class="headerlink" title="二、每日一言"></a>二、每日一言</h1><p>一言网（hitokoto.cn）创立于 2016 年，隶属于萌创团队，目前网站主要提供一句话服务。</p>
+<p>动漫也好、小说也好、网络也好，不论在哪里，我们总会看到有那么一两个句子能穿透你的心。我们把这些句子汇聚起来，形成一言网络，以传递更多的感动。如果可以，我们希望我们没有停止服务的那一天。</p>
+<p>简单来说，一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。</p>
+<blockquote>
+<p>官网：<a href="https://hitokoto.cn/" target="_blank" rel="noopener">hitokoto.cn</a></p>
+</blockquote>
+<p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304135000622.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200304135000622.png"  alt="在这里插入图片描述"></a></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"https://你的域名/hitokoto/?format=js&amp;charset=utf-8"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"hitokoto"</span>&gt;</span><span class="tag">&lt;<span class="name">script</span>&gt;</span>hitokoto()<span class="tag">&lt;/<span class="name">script</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>每日一言</tag>
+        <tag>今日诗词</tag>
+        <tag>js插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线论文正确打开方式</title>
+    <url>/post/6874.html</url>
+    <content><![CDATA[<blockquote>
+<p>一篇在csdn审核不通过的文章23333</p>
+</blockquote>
+<ol>
+<li><p>打开手机支付宝，搜索并关注公众号“<code>浙江图书馆</code>”， 免费申请读书证；</p>
+<blockquote>
+<p>具体教程参考链接：<a href="https://baijiahao.baidu.com/s?id=1614272758350284209&wfr=spider&for=pc" target="_blank" rel="noopener">如何免费下载中国知网文献</a></p>
+</blockquote>
+<p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115500595.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115500595.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115600605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115600605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115428958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115428958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>登录<a href="http://www.zjlib.cn/" target="_blank" rel="noopener">浙江省图书馆官网</a>，在网站底部快速链接，比如中国知网，可免费下载论文；<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115318612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115318612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+</ol>
+<ol start="3">
+<li>下载的论文格式为caj格式，查看工具<code>CAJViewer</code>下载：在知网官网底部，安装即可。<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115202550.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200113115202550.png"  alt="在这里插入图片描述"></a><blockquote>
+<p>具体教程参考链接：<a href="https://jingyan.baidu.com/article/358570f6ace1edce4724fc1f.html" target="_blank" rel="noopener">caj格式的文件怎么打开</a></p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>知网论文</tag>
+        <tag>免费</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微信公众号（一）基本功能实现</title>
+    <url>/post/98ec.html</url>
+    <content><![CDATA[<h1 id="一、注册"><a href="#一、注册" class="headerlink" title="一、注册"></a>一、注册</h1><ol>
+<li><p>在<a href="https://mp.weixin.qq.com/cgi-bin/registermidpage?action=index&lang=zh_CN" target="_blank" rel="noopener">微信公众号平台</a>申请注册<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>信息填写（邮箱和密码对应一个账号）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085510943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085510943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>选择个人订阅号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085638810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085638810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>个人选1，企业选2,3<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085847112.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085847112.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>类型不可更改哦！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085916655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085916655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>选择主体类型：也是个人。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305090027306.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305090027306.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>根据要求：验证邮箱、身份证号、微信、管理员联系方式。</p>
+</li>
+<li><p>公众号信息：<a href="https://weixin.sogou.com/" target="_blank" rel="noopener">账号名称查重</a>、功能介绍（如果想不出退出了，下次直接登录补充信息，不是基本信息再填写了哦！）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305090432655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305090432655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>就大功告成了！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305100604922.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305100604922.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h1 id="二、基本设置"><a href="#二、基本设置" class="headerlink" title="二、基本设置"></a>二、基本设置</h1><h2 id="1-公众号设置"><a href="#1-公众号设置" class="headerlink" title="1. 公众号设置"></a>1. 公众号设置</h2></li>
+</ol>
+<ol>
+<li>设置-》公众号设置-》修改头像（一月可修改5次）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305101303123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305101303123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><ul>
+<li>名称一年可修改两次</li>
+<li>微信号（可以用此搜索到你的，我的是cungudafa）一年修改一次</li>
+<li>简介一月修改5次</li>
+</ul>
+</li>
+</ol>
+<ol start="2">
+<li>功能设置<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030510221220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030510221220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>更多详细介绍参考：<a data-fancybox="gallery" data-caption="1" href="https://www.bilibili.com/video/av68618433?p=7" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://www.bilibili.com/video/av68618433?p=7"  alt="1"></a></li>
+</ol>
+<h2 id="2-回复设置"><a href="#2-回复设置" class="headerlink" title="2. 回复设置"></a>2. 回复设置</h2><p>功能设置-》回复设置<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305105621397.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305105621397.png"  alt="在这里插入图片描述"></a></p>
+<h3 id="2-1-被关注回复"><a href="#2-1-被关注回复" class="headerlink" title="2.1 被关注回复"></a>2.1 被关注回复</h3><p>参考效果：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305110715307.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305110715307.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305110648160.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305110648160.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置：<a href="http://www.360doc.com/content/15/1110/09/27970353_512071192.shtml" target="_blank" rel="noopener">参考链接</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305112748732.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305112748732.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h3 id="2-2-收到消息回复"><a href="#2-2-收到消息回复" class="headerlink" title="2.2 收到消息回复"></a>2.2 收到消息回复</h3><p>参考效果：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305110859959.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305110859959.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305113133597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305113133597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h3 id="2-3-关键词回复"><a href="#2-3-关键词回复" class="headerlink" title="2.3 关键词回复"></a>2.3 关键词回复</h3><p>参考效果：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305112407615.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305112407615.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305105608571.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305105608571.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>回复文字：（最常用的，平常关注公众号都是为了某盘链接嘛，直接复制粘贴到此处就行）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305112444300.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305112444300.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>回复图文、视频都后面说；多条回复，就是可以发送文字和图片，根据情况设置。</p>
+<h2 id="3-新建图文素材"><a href="#3-新建图文素材" class="headerlink" title="3. 新建图文素材"></a>3. 新建图文素材</h2><p>管理-》素材管理：新建图文消息<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305113957625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305113957625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305115500618.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305115500618.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>关注公众号，可以预览：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305115651402.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305115651402.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h2 id="4-菜单栏设置"><a href="#4-菜单栏设置" class="headerlink" title="4. 菜单栏设置"></a>4. 菜单栏设置</h2><p>功能设置-》自定义菜单<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305122359855.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305122359855.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>勾选历史消息列表！（当然也可以跳转自定义页面模板，这里先简单适用，后期再配置）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305122508355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305122508355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置好了，就会跳转到链接：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030512265718.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030512265718.png"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030512315753.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030512315753.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>菜单示例：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305124234334.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305124234334.png"  alt="在这里插入图片描述"></a></p>
+<h2 id="5-新建文章、群发"><a href="#5-新建文章、群发" class="headerlink" title="5. 新建文章、群发"></a>5. 新建文章、群发</h2><p>首页-》新建群发<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305125822686.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305125822686.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>模板库导入、自建图文、转载（需要在其他公众号申请白名单）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305130029451.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305130029451.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>注意这里一天最多群发一次，那么需要群发多篇文章（在左侧添加，建议先创建好图文，再群发哦！珍惜群发机会~）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305130440846.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305130440846.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h2 id="6-图文排版"><a href="#6-图文排版" class="headerlink" title="6. 图文排版"></a>6. 图文排版</h2><p>引导图、二维码图、背景图、标题图，每一点都值得我们美化哦！</p>
+<p>图文排版可以用在线排版工具——135编辑器或者秀米编辑器，<br>也可以使用chrome插件——新媒体管家和壹伴编辑插件。</p>
+<blockquote>
+<p><code>重要的一点</code>：图文如何编辑得漂亮<br>视频教程：<a href="https://www.bilibili.com/video/av68618433?p=17" target="_blank" rel="noopener">135编辑器的使用</a></p>
+</blockquote>
+<p>嗯，第一次用135写文，精心挑选布置了好久，做好了2,3个模板，以后都粘贴复制好了！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305173205276.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305173205276.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>后面有用到更好的排版工具再分享。</p>
+<p>到这里，公众号的基本使用功能已经完全具备了呢！</p>
+<p><code>记住一定要先预览，以免哪里没有改到位</code>，再发布试试~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305182326232.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305182326232.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305182940514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305182940514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>哈哈哈，关注我就可以看到前面两篇原文了！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305183253238.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305183253238.gif"  alt="在这里插入图片描述"></a></p>
+<blockquote>
+<p>可以发布消息了不是唯一哦，一个优秀的公众号除了技术博文扎实，也要有一定的维护技巧呢。<br>此文篇幅在这里，另起一文实时记录：我的公众号是</p>
+<ul>
+<li>如何优化内容（点赞、评论、赞赏，图文操作细节）</li>
+<li>引流、分析</li>
+<li>插件使用</li>
+</ul>
+</blockquote>
+<h2 id="7-页面模板"><a href="#7-页面模板" class="headerlink" title="7. 页面模板"></a>7. 页面模板</h2><p>功能-》页面模板</p>
+<blockquote>
+<p><a href="https://www.bilibili.com/video/av68618433?p=14" target="_blank" rel="noopener">页面模板视频教程</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305174615336.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305174615336.png"  alt="在这里插入图片描述"></a></p>
+</blockquote>
+<p>修改位置：（这里由于我的文章篇幅较少，暂时还没设置，预分类：技术栈和分享专栏吧。）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305124836307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305124836307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<hr>
+<ol>
+<li>长网址转短网址：<a href="http://sina.lt/" target="_blank" rel="noopener">新浪短网址</a></li>
+<li>彩色二维码制作：<a href="https://cli.im/" target="_blank" rel="noopener">草料二维码生成器</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>微信公众号</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Gitee+Hexo搭建个人博客</title>
     <url>/post/e27b.html</url>
     <content><![CDATA[<blockquote>
@@ -771,204 +788,68 @@ date: 2020-03-01 22:59:10
       </tags>
   </entry>
   <entry>
-    <title>读手语图像识别论文笔记</title>
-    <url>/post/7035.html</url>
-    <content><![CDATA[<h1 id="1-手语识别背景"><a href="#1-手语识别背景" class="headerlink" title="1.手语识别背景"></a>1.手语识别背景</h1><p>​    根据世卫组织最近的一项报道表明，在全球有超过10亿的残疾人，就聋哑人占残疾人口的10%。截止2013年末，据第六次全国人口普查我国总人口数，及第二次全国残疾人抽样调查我国的残疾人口达8502万人，其中听力残疾2054万人，语言残疾130万人，这些人中只有少部分只听力或语言障碍，大多数人完全失去了与健康人类正常沟通的能力，手语则是他们唯一的交流方式。手语是聋哑人和听障人群的日常交流中自然发展出来的语言，是聋哑人间的主要沟通媒介。手语是一种肢体语言，它主要以手势表达信息，通过手的手形、位置、朝向和运动轨迹即可以传递一个手语，在个别情况下，表情、眼神、唇动和身体姿态也辅助参与到手语的表达上。</p>
-<p>​    由于手语不是一门大众化的语言，在听觉正常的人中只有极少数人会使用或理解手语，即使在聋哑人群体中，标准化手语的普及率也很低，不同聋哑人群体使用的手语往往有很大区别，存在很严重的方言现象，由于环境差异，可能会有使用不同的表达方式，所以手势通常是一个不太明确的概念，有时手势表达的含义在不同情境下承载的信息是不同的。那么将手语转换成声音和图像并被人们轻易理解就变得很有实用价值，使正常人能通过机器的翻译“看懂”手语，利用相关语音识别合成技术将文字或语音合成出手语，帮助聋哑人“听出”声音。</p>
-<h1 id="2-国内外现状"><a href="#2-国内外现状" class="headerlink" title="2.国内外现状"></a>2.国内外现状</h1><p>​    从研究方法与技术应用中将手语识别技术大致分为两大主流：<strong>基于数据手套的手语识别和基于视觉的手语识别</strong>。基于数据手套的手语识别系统其实是一个多传感器融合系统，通过对手的角度信息、运动轨迹与时序信息融合处理来分类识别的系统。该系统能精确获取手的信息且识别性高，适合种类多的手语识别；但是使用时需要穿戴笨重的传感设备，这严重影响了人机交换的易用性和自然性，并且设备成本高，在实际生产生活中使用非常不便，难以批量使用。相对而言，基于视觉的手语识别是利用摄像头获取手语的二维图像或者视频，然后利用图像处理，机器学习等先关领域的算法进行手语的识别，该系统更加贴近社会的需求，最适合人机交互。但相对的，该模式手语识别系统很难实现手语特征提取的精确性以及很难有统一的手语识别方法等。因此通过视觉的手语识别系统存在识别率低、实时性差、适用性低的缺陷。</p>
-<p>​    对手语识别技术的研究最早产生于国外，1983年，美国电话电报公司的G.J.Grimes取得了“数字数据输入手套接口设备”的专利。该设备能识别72个单字字母，被认定是最早进行手语识别研究的人。1995年，美国麻省理工学院对本国<u><strong>连续手语识别</strong></u>进行研究。提取手语的手形、方向与运动轨迹作为多特征，然后利用<code>隐马尔可夫</code>进行跟踪识别。识别时要求佩戴有色手套。对组成的<strong>40个连续句子</strong>进行试验验证，正确率为91.3%。随后对句子给予相应语法约束后，识别率达到98%。2010年，日本Morpho公司研究出一项通过人脸寻找附近的手势进行动作识别，并对电视进行控制的人机交互技术。随后推出一款名为3D手势遥控器，利用<strong>手势的动作</strong>来达到遥控的功能。</p>
-<p>​    目前，国内对基于视觉的手语识别研究还较少，主要集中在对简单的手势识别研究上。1995年，哈尔滨工业大学的吴江琴、高文对手语识别系统进行了分析与研究，提出了利用<strong>数据手套</strong>采集手语的方向、位置、形状等信息，通过<code>人工神经网络和隐马尔科夫相结合</code>的方法实现手语识别方法，从而实现了对<strong>13个静态手势</strong>的识别以及简单的动作识别。2009年，西安建筑大学的郭彩龙等人针对如何提高手语识别率，通过研究图像的<code>傅里叶描述子</code>的平移、缩放、旋转不变性的特征，研究出一种<u><strong>基于傅里叶描绘子的中国静态识别算法</strong></u>。采用<code>Sobe检测边缘</code>，随后获取边缘的<code>傅里叶系数</code>作为特征量，最后利用<code>欧式距离</code>的模板匹配算法进行识别，识别率达到96.2%。2013年，西南科技大学的林水强等人针对如何实现自然手语识别交互，提出一种<u><strong>基于几何特征的手势识别方法</strong></u>。采用<code>多序列背景模型、肤色跟踪与几何形状相结合</code>的分割算法提取手势。随后利用<code>动态帧方法</code>获取多个几何特征用于<code>决策树</code>进行分类识别。对规定的<strong>6种手势</strong>进行测试，合格率达94%。</p>
-<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手语识别垂直时间轴.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手语识别垂直时间轴.png"  alt=""></a></p>
-<p>图中只记录了部分相关研究。</p>
-<h1 id="3-关键词"><a href="#3-关键词" class="headerlink" title="3.关键词"></a>3.关键词</h1><p>按<strong>手语类型</strong>分类：</p>
-<p>​    静态手语识别、孤立词手语识别、大规模连续动作手语识别</p>
-<p>按<strong>研究方式</strong>分类：</p>
-<p>​    基于数据手套和传感器识别系统、基于视觉图像处理识别系统</p>
-<p>上述涉及相关算法：</p>
-<p>​    <strong>隐形马尔科夫算法(HMM)、人工神经网络、傅里叶描述子算法、Sobe边缘检测、欧式距离、决策树、肤色聚类算法与Harr特征检测算法、人体骨骼匹配算法、KNN临近算法</strong></p>
-<h2 id="3-1特征值"><a href="#3-1特征值" class="headerlink" title="3.1特征值"></a>3.1特征值</h2><ul>
-<li><p>隐形马尔科夫算法(HMM)</p>
-<p>隐马尔可夫模型（Hidden Markov Model，HMM）是统计模型，它用来描述一个含有隐含未知参数的马尔可夫过程。其难点是从可观察的参数中确定该过程的隐含参数。然后利用这些参数来作进一步的分析，例如模式识别。是在被建模的系统被认为是一个马尔可夫过程与未观测到的（隐藏的）的状态的统计马尔可夫模型。 </p>
-</li>
-<li><p>傅里叶描述子算法</p>
-<p>傅立叶描述子是分析和识别物体形状的重要方法之一。利用基于曲线多边形近似的连续傅立叶变换方法 计算傅立叶描述子，并通过形状的主方向消除边界起始点相位影响的方法，定义了新的具有旋转、平移和尺度不变 性的归一化傅立叶描述子。与使用离散傅立叶变换和模归一化的传统傅立叶描述子相比，新的归一化傅立叶描述 子同时保留了模与相位特性，因此能够更好地识别物体的形状。</p>
-<img src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200205144102378.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  style="zoom:50%;" />
-
-<blockquote>
-<p>图片源文链接:<a href="https://blog.csdn.net/cungudafa/article/details/104182392" target="_blank" rel="noopener">OpenCV-python提取特征（批量处理数据）</a></p>
-</blockquote>
-</li>
-<li><p>Sobe边缘检测</p>
-<p>索贝尔算子（Sobel operator）是图像处理中的算子之一，主要用于边缘检测。在技术上，它是一离散型差分算子，用来运算图像亮度函数的梯度之近似值 。在图像的任何一点使用此算子，将会产生对应的梯度矢量或是其法矢量。 </p>
-<img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/20200307164212.png"  style="zoom:67%;" />
-
-<blockquote>
-<p><a href="https://blog.csdn.net/luoganttcc/article/details/88639530" target="_blank" rel="noopener">opencv sobe 边缘检测算子</a></p>
-</blockquote>
-</li>
-<li><p>肤色聚类算法与Harr特征检测算法</p>
-<p>肤色检测算法：RGB、Ycrcb之cr分量+otsu阈值化、YCrCb、HSV、基于椭圆皮肤模型的皮肤检测<br>opencv自带肤色检测类AdaptiveSkinDetector等都是设定皮肤颜色的范围，再将其过滤出来，不同的是过滤的过程在不同的颜色空间下进行的。 </p>
-<p>Haar分类器实际上是Boosting算法的一个应用，Haar分类器用到了Boosting算法中的AdaBoost算法，只是把AdaBoost算法训练出的强分类器进行了级联，并且在底层的特征提取中采用了高效率的矩形特征和积分图方法 </p>
-</li>
-<li><p>人体骨骼匹配算法</p>
-<p>基于骨架匹配的轮廓线提取方法可以生成静态图像中人体的轮廓线图。在图像中找到可以表征人体骨架的骨架关键点,通过骨架关键点,利用图像中各像素点所包含的边缘信息,结合人体形态学先验知识,构建了隐马尔科夫模型来匹配人体上对应骨架关键点的边缘关键点,少量的边缘关键点即可生成人体大致轮廓。 </p>
-</li>
-</ul>
-<h2 id="3-2分类决策"><a href="#3-2分类决策" class="headerlink" title="3.2分类决策"></a>3.2分类决策</h2><ul>
-<li><p>欧式距离</p>
-<p>欧式距离也称欧几里得距离，是最常见的距离度量，衡量的是多维空间中两个点之间的绝对距离。也可以理解为：m维空间中两个点之间的真实距离，或者向量的自然长度（即该点到原点的距离）。在二维和三维空间中的欧氏距离就是两点之间的实际距离。</p>
-<p>这里引用是用保存的已知手势特征点和预测手势图像特征点求取欧式距离再取均值，欧式距离越小，手势匹配度越高。</p>
-</li>
-<li><p>人工神经网络</p>
-<p> 人工神经网络，也就是ANN（Artificial Neural Network），它是模拟人类大脑处理信息的生物神经网络所产生出来的一种计算模型。而它主要用于机器学习的研究与调用，例如语音识别，计算机图像处理，NLP等。</p>
-<p>通过前面不同手势保存的特征点，对不同手势进行学习，由已知手势预测新的手势。</p>
-</li>
-<li><p>决策树</p>
-<p> 决策树是一种机器学习的方法。决策树的生成算法有ID3, C4.5和C5.0等。决策树是一种树形结构，其中每个内部节点表示一个属性上的判断，每个分支代表一个判断结果的输出，最后每个叶节点代表一种分类结果。 </p>
-</li>
-<li><p>KNN临近算法</p>
-<p> 近算法，或者说K最近邻(kNN，k-NearestNeighbor)分类算法是数据挖掘分类技术中最简单的方法之一。所谓K最近邻，就是k个最近的邻居的意思，说的是每个样本都可以用它最接近的k个邻居来代表。 </p>
-</li>
-</ul>
-<hr>
-<p>引用：</p>
-<p>[1] 江勇军. 基于Kinect的孤立词手语识别系统研究[D]. 2015. </p>
-<p>[2] 刘伟康. 基于Kinect的静态数字手语识别研究及系统实现[D]. 2016. </p>
-<p>[3] 孙丽娟. 基于边缘梯度方向直方图的中国静态手语识别[D]. 2009. </p>
-<p>[4] 武红娇. 复杂背景下的静态手语识别技术研究[D]. </p>
-<p>[5] 韩宁江. 基于深度学习的手语识别方法研究[D]. </p>
+    <title>毕设毕设中~</title>
+    <url>/post/c55e.html</url>
+    <content><![CDATA[<p>毕设中呀！可能个人网站更新不及时~ 抱歉</p>
+<p>技术转csdn-cungudafa</p>
+<p><a href="https://blog.csdn.net/cungudafa" target="_blank" rel="noopener" class="LinkCard">csdn-cungudafa</a></p>
+<p>生活记录转公众号【IOT姑】</p>
+<p><a data-fancybox="gallery" data-caption="cungudafa的公众号" href="https://img-blog.csdnimg.cn/20200305183253238.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305183253238.gif"  alt="cungudafa的公众号"></a></p>
 ]]></content>
       <categories>
-        <category>生活</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>知网论文</tag>
-        <tag>悦读</tag>
-        <tag>文章</tag>
+        <tag>机器视觉</tag>
       </tags>
   </entry>
   <entry>
-    <title>微信公众号（一）基本功能实现</title>
-    <url>/post/98ec.html</url>
-    <content><![CDATA[<h1 id="一、注册"><a href="#一、注册" class="headerlink" title="一、注册"></a>一、注册</h1><ol>
-<li><p>在<a href="https://mp.weixin.qq.com/cgi-bin/registermidpage?action=index&lang=zh_CN" target="_blank" rel="noopener">微信公众号平台</a>申请注册<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>信息填写（邮箱和密码对应一个账号）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085510943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085510943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>选择个人订阅号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085638810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085638810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>个人选1，企业选2,3<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085847112.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085847112.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>类型不可更改哦！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085916655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305085916655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>选择主体类型：也是个人。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305090027306.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305090027306.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>根据要求：验证邮箱、身份证号、微信、管理员联系方式。</p>
-</li>
-<li><p>公众号信息：<a href="https://weixin.sogou.com/" target="_blank" rel="noopener">账号名称查重</a>、功能介绍（如果想不出退出了，下次直接登录补充信息，不是基本信息再填写了哦！）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305090432655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305090432655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>就大功告成了！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305100604922.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305100604922.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h1 id="二、基本设置"><a href="#二、基本设置" class="headerlink" title="二、基本设置"></a>二、基本设置</h1><h2 id="1-公众号设置"><a href="#1-公众号设置" class="headerlink" title="1. 公众号设置"></a>1. 公众号设置</h2></li>
-</ol>
-<ol>
-<li>设置-》公众号设置-》修改头像（一月可修改5次）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305101303123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305101303123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><ul>
-<li>名称一年可修改两次</li>
-<li>微信号（可以用此搜索到你的，我的是cungudafa）一年修改一次</li>
-<li>简介一月修改5次</li>
-</ul>
-</li>
-</ol>
-<ol start="2">
-<li>功能设置<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030510221220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030510221220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>更多详细介绍参考：<a data-fancybox="gallery" data-caption="1" href="https://www.bilibili.com/video/av68618433?p=7" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://www.bilibili.com/video/av68618433?p=7"  alt="1"></a></li>
-</ol>
-<h2 id="2-回复设置"><a href="#2-回复设置" class="headerlink" title="2. 回复设置"></a>2. 回复设置</h2><p>功能设置-》回复设置<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305105621397.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305105621397.png"  alt="在这里插入图片描述"></a></p>
-<h3 id="2-1-被关注回复"><a href="#2-1-被关注回复" class="headerlink" title="2.1 被关注回复"></a>2.1 被关注回复</h3><p>参考效果：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305110715307.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305110715307.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305110648160.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305110648160.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置：<a href="http://www.360doc.com/content/15/1110/09/27970353_512071192.shtml" target="_blank" rel="noopener">参考链接</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305112748732.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305112748732.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h3 id="2-2-收到消息回复"><a href="#2-2-收到消息回复" class="headerlink" title="2.2 收到消息回复"></a>2.2 收到消息回复</h3><p>参考效果：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305110859959.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305110859959.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305113133597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305113133597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h3 id="2-3-关键词回复"><a href="#2-3-关键词回复" class="headerlink" title="2.3 关键词回复"></a>2.3 关键词回复</h3><p>参考效果：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305112407615.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305112407615.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305105608571.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305105608571.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>回复文字：（最常用的，平常关注公众号都是为了某盘链接嘛，直接复制粘贴到此处就行）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305112444300.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305112444300.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>回复图文、视频都后面说；多条回复，就是可以发送文字和图片，根据情况设置。</p>
-<h2 id="3-新建图文素材"><a href="#3-新建图文素材" class="headerlink" title="3. 新建图文素材"></a>3. 新建图文素材</h2><p>管理-》素材管理：新建图文消息<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305113957625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305113957625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305115500618.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305115500618.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>关注公众号，可以预览：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305115651402.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305115651402.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h2 id="4-菜单栏设置"><a href="#4-菜单栏设置" class="headerlink" title="4. 菜单栏设置"></a>4. 菜单栏设置</h2><p>功能设置-》自定义菜单<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305122359855.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305122359855.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>勾选历史消息列表！（当然也可以跳转自定义页面模板，这里先简单适用，后期再配置）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305122508355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305122508355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>设置好了，就会跳转到链接：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030512265718.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030512265718.png"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020030512315753.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020030512315753.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>菜单示例：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305124234334.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305124234334.png"  alt="在这里插入图片描述"></a></p>
-<h2 id="5-新建文章、群发"><a href="#5-新建文章、群发" class="headerlink" title="5. 新建文章、群发"></a>5. 新建文章、群发</h2><p>首页-》新建群发<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305125822686.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305125822686.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>模板库导入、自建图文、转载（需要在其他公众号申请白名单）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305130029451.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305130029451.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>注意这里一天最多群发一次，那么需要群发多篇文章（在左侧添加，建议先创建好图文，再群发哦！珍惜群发机会~）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305130440846.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305130440846.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<h2 id="6-图文排版"><a href="#6-图文排版" class="headerlink" title="6. 图文排版"></a>6. 图文排版</h2><p>引导图、二维码图、背景图、标题图，每一点都值得我们美化哦！</p>
-<p>图文排版可以用在线排版工具——135编辑器或者秀米编辑器，<br>也可以使用chrome插件——新媒体管家和壹伴编辑插件。</p>
-<blockquote>
-<p><code>重要的一点</code>：图文如何编辑得漂亮<br>视频教程：<a href="https://www.bilibili.com/video/av68618433?p=17" target="_blank" rel="noopener">135编辑器的使用</a></p>
+    <title>微信公众号（二）扩展分享</title>
+    <url>/post/44e8.html</url>
+    <content><![CDATA[<blockquote>
+<p>前面一篇文章，我已经：<a href="https://blog.csdn.net/cungudafa/article/details/104667604" target="_blank" rel="noopener">微信公众号（一）基本功能实现</a></p>
 </blockquote>
-<p>嗯，第一次用135写文，精心挑选布置了好久，做好了2,3个模板，以后都粘贴复制好了！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305173205276.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305173205276.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>后面有用到更好的排版工具再分享。</p>
-<p>到这里，公众号的基本使用功能已经完全具备了呢！</p>
-<p><code>记住一定要先预览，以免哪里没有改到位</code>，再发布试试~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305182326232.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305182326232.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305182940514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305182940514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>哈哈哈，关注我就可以看到前面两篇原文了！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305183253238.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305183253238.gif"  alt="在这里插入图片描述"></a></p>
+<h1 id="一、管理用具"><a href="#一、管理用具" class="headerlink" title="一、管理用具"></a>一、管理用具</h1><h2 id="1-每个人必须收藏的网站"><a href="#1-每个人必须收藏的网站" class="headerlink" title="1.每个人必须收藏的网站"></a>1.每个人必须收藏的网站</h2><p>图片中的各网址，你可能听说过，也可能没听说过；<br>但我保证，每一个网站都是大V吐血推荐的。（可输入网址看看，你会发现新大陆！）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306151717593.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306151717593.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
 <blockquote>
-<p>可以发布消息了不是唯一哦，一个优秀的公众号除了技术博文扎实，也要有一定的维护技巧呢。<br>此文篇幅在这里，另起一文实时记录：我的公众号是</p>
+<p>了解更多参考：<a href="https://blog.csdn.net/cungudafa/article/details/100106125" target="_blank" rel="noopener">cungudafa推荐好用工具分享</a><br>记得点赞哦！</p>
+</blockquote>
+<h2 id="2-浏览器插件"><a href="#2-浏览器插件" class="headerlink" title="2.浏览器插件"></a>2.浏览器插件</h2><p><strong>新媒体管家</strong> 官网：<a href="http://xmt.cn/index" target="_blank" rel="noopener">xmt.cn</a></p>
+<blockquote>
+<p>根据官网引导安装浏览器插件<br>官网有教学视频，这里bilibili前辈也给出了详细的：<a href="https://www.bilibili.com/video/av68618433?p=19" target="_blank" rel="noopener">教学视频</a>。</p>
+</blockquote>
+<p>这个应用分为两步<code>管理和图文编辑</code>：</p>
 <ul>
-<li>如何优化内容（点赞、评论、赞赏，图文操作细节）</li>
-<li>引流、分析</li>
-<li>插件使用</li>
+<li>（1）应用管理（不用在每个网站单独注册，用管家账号就能登录使用）<br>好用指数🏆🏆🏆🏆🏆<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306152709155.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306152709155.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>运营辅助:（营销日历和素材热点，小白见了只能：“哇，双击666”）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306153315985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306153315985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>账号管理：（一天之内免登陆，竟然没有接入csdn，差评！）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306154623759.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306154623759.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>（2）优化微信公众号<br>很多小细可以在之前的视频讲解里可以看到，这里单独说一下：图文编辑模块<br>之前用的135虽好，但界面太过复杂，插件真香：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306153912817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306153912817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><blockquote>
+<p>除此之外，推荐插件工具：<a href="https://yiban.io/" target="_blank" rel="noopener">壹伴</a></p>
+</blockquote>
+</li>
 </ul>
-</blockquote>
-<h2 id="7-页面模板"><a href="#7-页面模板" class="headerlink" title="7. 页面模板"></a>7. 页面模板</h2><p>功能-》页面模板</p>
-<blockquote>
-<p><a href="https://www.bilibili.com/video/av68618433?p=14" target="_blank" rel="noopener">页面模板视频教程</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305174615336.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305174615336.png"  alt="在这里插入图片描述"></a></p>
-</blockquote>
-<p>修改位置：（这里由于我的文章篇幅较少，暂时还没设置，预分类：技术栈和分享专栏吧。）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305124836307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305124836307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-<hr>
+<h1 id="二、运营学习"><a href="#二、运营学习" class="headerlink" title="二、运营学习"></a>二、运营学习</h1><p>说道这一块，我还是一个小白，从头开始学习！</p>
 <ol>
-<li>长网址转短网址：<a href="http://sina.lt/" target="_blank" rel="noopener">新浪短网址</a></li>
-<li>彩色二维码制作：<a href="https://cli.im/" target="_blank" rel="noopener">草料二维码生成器</a></li>
+<li><p>前辈在视频里讲的是：<a href="https://www.bilibili.com/video/av68618433?p=28" target="_blank" rel="noopener">从知乎免费引流</a><br>课（我）代（自）表（己）这里简单归纳了一下，如图：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306155552190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306155552190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>多平台引流</p>
+<blockquote>
+<p>在知乎上看了大量关于微信公众号和运营的知识，学问很大。<br> 如何给网站取名让更多人感兴趣搜索到，公众号内容定位，推广。<br> <strong>有一句话：“如何打败你的竞争对手，就是先关注50-100个公众号！”</strong><br> 我想：这意思是–<strong><em>知己知彼百战百胜</em></strong>。<br>我目前不谋求盈利，算是自己的一点一点积累吧，学无止境。</p>
+</blockquote>
+<p> 很多人都强调，命名！！！！我的命名不是跟随站长查询的主流，而是一个对我有意义的名字：<strong>cungudafa</strong>（图中平台搜索“<strong><em>cungudafa</em></strong>”，你都可以发现我的轨迹，哈哈哈）</p>
+<p> cungudafa励志做一个代<strong>码搬运工</strong>：</p>
+<ul>
+<li>学习记录在csdn</li>
+<li>代码存放在github或gitee</li>
+<li>知乎会回答问题（都可以留言哦）</li>
+<li>公众号、b站、网站都是分享平台（欢迎去我的网站和微信公众号踩踩）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306162311795.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306162311795.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>哈哈，作为一个妥妥的码农，当然代码是根本，图中黄色星标是我活动轨迹最频繁的地方！小灯是我正在扩展的地方！如果我俩有缘，有幸在其他平台也能遇见你哦~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306164731412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306164731412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_1,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+</ul>
+</li>
 </ol>
+<p>最后第一张图补充完整图片：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306165204207.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200306165204207.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
         <tag>微信公众号</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>（阿里云Ubantu16）nginx配置https安全访问</title>
-    <url>/post/ccbf.html</url>
-    <content><![CDATA[<!-- ---
-title: 
-author: cungudafa
-authorLink: 'https://cungudafa.gitee.io'
-avatar: 'https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg'
-authorAbout: 姑，一个学习记录者
-tags:
-  - nginx
-  - https
-  - SSL
-categories: 技术
-comment: false
-photos: >-
-  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png
-description: 【SSL证书作用】：允许https安全访问
-abbrlink: ccbf
-date: 
---- -->
-<h1 id="一、获取证书"><a href="#一、获取证书" class="headerlink" title="一、获取证书"></a>一、获取证书</h1><p>【SSL证书作用】：允许https安全访问</p>
-<ol>
-<li>第一步：到官网申请免费SSL证书：<a href="https://common-buy.aliyun.com/?spm=5176.2020520163.cas.3.2401IbGDIbGDka&commodityCode=cas#/buy" target="_blank" rel="noopener">阿里云免费SSL证书申请</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-<li>第二步：回到控制台<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>这里选择自助验证！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>自助验证会在域名下添加如下解析：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>点击验证后，即成功！（验证后可删除）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
-</ol>
-<ol start="3">
-<li><p>第三步：刷新控制台，下载SSL证书<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162400387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901162400387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>这里可选择多种类型：（这里配置在nginx）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162437584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901162437584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>我是apache和nginx环境，要单独处理一下端口号的问题。</p>
-<blockquote>
-<p>查看443端口是否被占用：<code>lsof -i:443</code> (第一个是阿里云解析地址不用管，后面apache2占用443端口需要关闭)<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302120641213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302120641213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>关闭方法：<code>vi /etc/apache2/ports.conf</code><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302120602909.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302120602909.png"  alt="在这里插入图片描述"></a><br>80-&gt;82,443-&gt;442<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302120533588.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302120533588.png"  alt="在这里插入图片描述"></a><br>重启Apache: <code>sudo /etc/init.d/apache2 restart</code><br> 再查看端口：（apache2已释放）<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302123642482.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302123642482.png"  alt="在这里插入图片描述"></a></p>
-</blockquote>
-</li>
-<li><p>上传SSL证书<br>在<code>/usr/local/nginx/</code>下，新建<code>ssl</code>目录，并上传两个解压文件，重命名如下：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302122245369.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302122245369.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>修改Nginx安装目录下的<code>nginx.conf</code>，本人的安装目录在<code>/usr/local/nginx/conf/nginx.conf</code>，根据自己安装的目录适当修改<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302122527718.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302122527718.png"  alt="在这里插入图片描述"></a><br>#这句是代表 把http的域名请求转成https</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">rewrite ^(.*) https:&#x2F;&#x2F;$server_name$1 permanent;</span><br></pre></td></tr></table></figure>
-<p> 将以下注释#去掉，修改目录位置为证书存放的位置：<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302122641601.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302122641601.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
-</li>
-<li><p>重新加载nginx配置文件</p>
-</li>
-</ol>
-<pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -t</span><br></pre></td></tr></table></figure>
-只有ok，successful才配置成功！![在这里插入图片描述](https://img-blog.csdnimg.cn/20200302123010275.png)</code></pre><ol start="7">
-<li><p>重启nginx</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s reload</span><br></pre></td></tr></table></figure>
-<p>再访问域名或公网ip，就是安全地址https开头的啦~~</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
-        <tag>https</tag>
-        <tag>SSL</tag>
       </tags>
   </entry>
   <entry>
@@ -1071,19 +952,138 @@ date:
       </tags>
   </entry>
   <entry>
-    <title>毕设毕设中~</title>
-    <url>/post/c55e.html</url>
-    <content><![CDATA[<p>毕设中呀！可能个人网站更新不及时~ 抱歉</p>
-<p>技术转csdn-cungudafa</p>
-<p><a href="https://blog.csdn.net/cungudafa" target="_blank" rel="noopener" class="LinkCard">csdn-cungudafa</a></p>
-<p>生活记录转公众号【IOT姑】</p>
-<p><a data-fancybox="gallery" data-caption="cungudafa的公众号" href="https://img-blog.csdnimg.cn/20200305183253238.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200305183253238.gif"  alt="cungudafa的公众号"></a></p>
+    <title>读手语图像识别论文笔记</title>
+    <url>/post/7035.html</url>
+    <content><![CDATA[<h1 id="1-手语识别背景"><a href="#1-手语识别背景" class="headerlink" title="1.手语识别背景"></a>1.手语识别背景</h1><p>​    根据世卫组织最近的一项报道表明，在全球有超过10亿的残疾人，就聋哑人占残疾人口的10%。截止2013年末，据第六次全国人口普查我国总人口数，及第二次全国残疾人抽样调查我国的残疾人口达8502万人，其中听力残疾2054万人，语言残疾130万人，这些人中只有少部分只听力或语言障碍，大多数人完全失去了与健康人类正常沟通的能力，手语则是他们唯一的交流方式。手语是聋哑人和听障人群的日常交流中自然发展出来的语言，是聋哑人间的主要沟通媒介。手语是一种肢体语言，它主要以手势表达信息，通过手的手形、位置、朝向和运动轨迹即可以传递一个手语，在个别情况下，表情、眼神、唇动和身体姿态也辅助参与到手语的表达上。</p>
+<p>​    由于手语不是一门大众化的语言，在听觉正常的人中只有极少数人会使用或理解手语，即使在聋哑人群体中，标准化手语的普及率也很低，不同聋哑人群体使用的手语往往有很大区别，存在很严重的方言现象，由于环境差异，可能会有使用不同的表达方式，所以手势通常是一个不太明确的概念，有时手势表达的含义在不同情境下承载的信息是不同的。那么将手语转换成声音和图像并被人们轻易理解就变得很有实用价值，使正常人能通过机器的翻译“看懂”手语，利用相关语音识别合成技术将文字或语音合成出手语，帮助聋哑人“听出”声音。</p>
+<h1 id="2-国内外现状"><a href="#2-国内外现状" class="headerlink" title="2.国内外现状"></a>2.国内外现状</h1><p>​    从研究方法与技术应用中将手语识别技术大致分为两大主流：<strong>基于数据手套的手语识别和基于视觉的手语识别</strong>。基于数据手套的手语识别系统其实是一个多传感器融合系统，通过对手的角度信息、运动轨迹与时序信息融合处理来分类识别的系统。该系统能精确获取手的信息且识别性高，适合种类多的手语识别；但是使用时需要穿戴笨重的传感设备，这严重影响了人机交换的易用性和自然性，并且设备成本高，在实际生产生活中使用非常不便，难以批量使用。相对而言，基于视觉的手语识别是利用摄像头获取手语的二维图像或者视频，然后利用图像处理，机器学习等先关领域的算法进行手语的识别，该系统更加贴近社会的需求，最适合人机交互。但相对的，该模式手语识别系统很难实现手语特征提取的精确性以及很难有统一的手语识别方法等。因此通过视觉的手语识别系统存在识别率低、实时性差、适用性低的缺陷。</p>
+<p>​    对手语识别技术的研究最早产生于国外，1983年，美国电话电报公司的G.J.Grimes取得了“数字数据输入手套接口设备”的专利。该设备能识别72个单字字母，被认定是最早进行手语识别研究的人。1995年，美国麻省理工学院对本国<u><strong>连续手语识别</strong></u>进行研究。提取手语的手形、方向与运动轨迹作为多特征，然后利用<code>隐马尔可夫</code>进行跟踪识别。识别时要求佩戴有色手套。对组成的<strong>40个连续句子</strong>进行试验验证，正确率为91.3%。随后对句子给予相应语法约束后，识别率达到98%。2010年，日本Morpho公司研究出一项通过人脸寻找附近的手势进行动作识别，并对电视进行控制的人机交互技术。随后推出一款名为3D手势遥控器，利用<strong>手势的动作</strong>来达到遥控的功能。</p>
+<p>​    目前，国内对基于视觉的手语识别研究还较少，主要集中在对简单的手势识别研究上。1995年，哈尔滨工业大学的吴江琴、高文对手语识别系统进行了分析与研究，提出了利用<strong>数据手套</strong>采集手语的方向、位置、形状等信息，通过<code>人工神经网络和隐马尔科夫相结合</code>的方法实现手语识别方法，从而实现了对<strong>13个静态手势</strong>的识别以及简单的动作识别。2009年，西安建筑大学的郭彩龙等人针对如何提高手语识别率，通过研究图像的<code>傅里叶描述子</code>的平移、缩放、旋转不变性的特征，研究出一种<u><strong>基于傅里叶描绘子的中国静态识别算法</strong></u>。采用<code>Sobe检测边缘</code>，随后获取边缘的<code>傅里叶系数</code>作为特征量，最后利用<code>欧式距离</code>的模板匹配算法进行识别，识别率达到96.2%。2013年，西南科技大学的林水强等人针对如何实现自然手语识别交互，提出一种<u><strong>基于几何特征的手势识别方法</strong></u>。采用<code>多序列背景模型、肤色跟踪与几何形状相结合</code>的分割算法提取手势。随后利用<code>动态帧方法</code>获取多个几何特征用于<code>决策树</code>进行分类识别。对规定的<strong>6种手势</strong>进行测试，合格率达94%。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手语识别垂直时间轴.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手语识别垂直时间轴.png"  alt=""></a></p>
+<p>图中只记录了部分相关研究。</p>
+<h1 id="3-关键词"><a href="#3-关键词" class="headerlink" title="3.关键词"></a>3.关键词</h1><p>按<strong>手语类型</strong>分类：</p>
+<p>​    静态手语识别、孤立词手语识别、大规模连续动作手语识别</p>
+<p>按<strong>研究方式</strong>分类：</p>
+<p>​    基于数据手套和传感器识别系统、基于视觉图像处理识别系统</p>
+<p>上述涉及相关算法：</p>
+<p>​    <strong>隐形马尔科夫算法(HMM)、人工神经网络、傅里叶描述子算法、Sobe边缘检测、欧式距离、决策树、肤色聚类算法与Harr特征检测算法、人体骨骼匹配算法、KNN临近算法</strong></p>
+<h2 id="3-1特征值"><a href="#3-1特征值" class="headerlink" title="3.1特征值"></a>3.1特征值</h2><ul>
+<li><p>隐形马尔科夫算法(HMM)</p>
+<p>隐马尔可夫模型（Hidden Markov Model，HMM）是统计模型，它用来描述一个含有隐含未知参数的马尔可夫过程。其难点是从可观察的参数中确定该过程的隐含参数。然后利用这些参数来作进一步的分析，例如模式识别。是在被建模的系统被认为是一个马尔可夫过程与未观测到的（隐藏的）的状态的统计马尔可夫模型。 </p>
+</li>
+<li><p>傅里叶描述子算法</p>
+<p>傅立叶描述子是分析和识别物体形状的重要方法之一。利用基于曲线多边形近似的连续傅立叶变换方法 计算傅立叶描述子，并通过形状的主方向消除边界起始点相位影响的方法，定义了新的具有旋转、平移和尺度不变 性的归一化傅立叶描述子。与使用离散傅立叶变换和模归一化的传统傅立叶描述子相比，新的归一化傅立叶描述 子同时保留了模与相位特性，因此能够更好地识别物体的形状。</p>
+<img src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200205144102378.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  style="zoom:50%;" />
+
+<blockquote>
+<p>图片源文链接:<a href="https://blog.csdn.net/cungudafa/article/details/104182392" target="_blank" rel="noopener">OpenCV-python提取特征（批量处理数据）</a></p>
+</blockquote>
+</li>
+<li><p>Sobe边缘检测</p>
+<p>索贝尔算子（Sobel operator）是图像处理中的算子之一，主要用于边缘检测。在技术上，它是一离散型差分算子，用来运算图像亮度函数的梯度之近似值 。在图像的任何一点使用此算子，将会产生对应的梯度矢量或是其法矢量。 </p>
+<img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/20200307164212.png"  style="zoom:67%;" />
+
+<blockquote>
+<p><a href="https://blog.csdn.net/luoganttcc/article/details/88639530" target="_blank" rel="noopener">opencv sobe 边缘检测算子</a></p>
+</blockquote>
+</li>
+<li><p>肤色聚类算法与Harr特征检测算法</p>
+<p>肤色检测算法：RGB、Ycrcb之cr分量+otsu阈值化、YCrCb、HSV、基于椭圆皮肤模型的皮肤检测<br>opencv自带肤色检测类AdaptiveSkinDetector等都是设定皮肤颜色的范围，再将其过滤出来，不同的是过滤的过程在不同的颜色空间下进行的。 </p>
+<p>Haar分类器实际上是Boosting算法的一个应用，Haar分类器用到了Boosting算法中的AdaBoost算法，只是把AdaBoost算法训练出的强分类器进行了级联，并且在底层的特征提取中采用了高效率的矩形特征和积分图方法 </p>
+</li>
+<li><p>人体骨骼匹配算法</p>
+<p>基于骨架匹配的轮廓线提取方法可以生成静态图像中人体的轮廓线图。在图像中找到可以表征人体骨架的骨架关键点,通过骨架关键点,利用图像中各像素点所包含的边缘信息,结合人体形态学先验知识,构建了隐马尔科夫模型来匹配人体上对应骨架关键点的边缘关键点,少量的边缘关键点即可生成人体大致轮廓。 </p>
+</li>
+</ul>
+<h2 id="3-2分类决策"><a href="#3-2分类决策" class="headerlink" title="3.2分类决策"></a>3.2分类决策</h2><ul>
+<li><p>欧式距离</p>
+<p>欧式距离也称欧几里得距离，是最常见的距离度量，衡量的是多维空间中两个点之间的绝对距离。也可以理解为：m维空间中两个点之间的真实距离，或者向量的自然长度（即该点到原点的距离）。在二维和三维空间中的欧氏距离就是两点之间的实际距离。</p>
+<p>这里引用是用保存的已知手势特征点和预测手势图像特征点求取欧式距离再取均值，欧式距离越小，手势匹配度越高。</p>
+</li>
+<li><p>人工神经网络</p>
+<p> 人工神经网络，也就是ANN（Artificial Neural Network），它是模拟人类大脑处理信息的生物神经网络所产生出来的一种计算模型。而它主要用于机器学习的研究与调用，例如语音识别，计算机图像处理，NLP等。</p>
+<p>通过前面不同手势保存的特征点，对不同手势进行学习，由已知手势预测新的手势。</p>
+</li>
+<li><p>决策树</p>
+<p> 决策树是一种机器学习的方法。决策树的生成算法有ID3, C4.5和C5.0等。决策树是一种树形结构，其中每个内部节点表示一个属性上的判断，每个分支代表一个判断结果的输出，最后每个叶节点代表一种分类结果。 </p>
+</li>
+<li><p>KNN临近算法</p>
+<p> 近算法，或者说K最近邻(kNN，k-NearestNeighbor)分类算法是数据挖掘分类技术中最简单的方法之一。所谓K最近邻，就是k个最近的邻居的意思，说的是每个样本都可以用它最接近的k个邻居来代表。 </p>
+</li>
+</ul>
+<hr>
+<p>引用：</p>
+<p>[1] 江勇军. 基于Kinect的孤立词手语识别系统研究[D]. 2015. </p>
+<p>[2] 刘伟康. 基于Kinect的静态数字手语识别研究及系统实现[D]. 2016. </p>
+<p>[3] 孙丽娟. 基于边缘梯度方向直方图的中国静态手语识别[D]. 2009. </p>
+<p>[4] 武红娇. 复杂背景下的静态手语识别技术研究[D]. </p>
+<p>[5] 韩宁江. 基于深度学习的手语识别方法研究[D]. </p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>知网论文</tag>
+        <tag>悦读</tag>
+        <tag>文章</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>（阿里云Ubantu16）nginx配置https安全访问</title>
+    <url>/post/ccbf.html</url>
+    <content><![CDATA[<!-- ---
+title: 
+author: cungudafa
+authorLink: 'https://cungudafa.gitee.io'
+avatar: 'https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg'
+authorAbout: 姑，一个学习记录者
+tags:
+  - nginx
+  - https
+  - SSL
+categories: 技术
+comment: false
+photos: >-
+  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png
+description: 【SSL证书作用】：允许https安全访问
+abbrlink: ccbf
+date: 
+--- -->
+<h1 id="一、获取证书"><a href="#一、获取证书" class="headerlink" title="一、获取证书"></a>一、获取证书</h1><p>【SSL证书作用】：允许https安全访问</p>
+<ol>
+<li>第一步：到官网申请免费SSL证书：<a href="https://common-buy.aliyun.com/?spm=5176.2020520163.cas.3.2401IbGDIbGDka&commodityCode=cas#/buy" target="_blank" rel="noopener">阿里云免费SSL证书申请</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+<li>第二步：回到控制台<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>这里选择自助验证！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>自助验证会在域名下添加如下解析：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>点击验证后，即成功！（验证后可删除）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></li>
+</ol>
+<ol start="3">
+<li><p>第三步：刷新控制台，下载SSL证书<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162400387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901162400387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>这里可选择多种类型：（这里配置在nginx）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162437584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20190901162437584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>我是apache和nginx环境，要单独处理一下端口号的问题。</p>
+<blockquote>
+<p>查看443端口是否被占用：<code>lsof -i:443</code> (第一个是阿里云解析地址不用管，后面apache2占用443端口需要关闭)<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302120641213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302120641213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>关闭方法：<code>vi /etc/apache2/ports.conf</code><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302120602909.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302120602909.png"  alt="在这里插入图片描述"></a><br>80-&gt;82,443-&gt;442<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302120533588.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302120533588.png"  alt="在这里插入图片描述"></a><br>重启Apache: <code>sudo /etc/init.d/apache2 restart</code><br> 再查看端口：（apache2已释放）<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302123642482.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302123642482.png"  alt="在这里插入图片描述"></a></p>
+</blockquote>
+</li>
+<li><p>上传SSL证书<br>在<code>/usr/local/nginx/</code>下，新建<code>ssl</code>目录，并上传两个解压文件，重命名如下：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302122245369.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302122245369.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>修改Nginx安装目录下的<code>nginx.conf</code>，本人的安装目录在<code>/usr/local/nginx/conf/nginx.conf</code>，根据自己安装的目录适当修改<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302122527718.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302122527718.png"  alt="在这里插入图片描述"></a><br>#这句是代表 把http的域名请求转成https</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">rewrite ^(.*) https:&#x2F;&#x2F;$server_name$1 permanent;</span><br></pre></td></tr></table></figure>
+<p> 将以下注释#去掉，修改目录位置为证书存放的位置：<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200302122641601.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200302122641601.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>重新加载nginx配置文件</p>
+</li>
+</ol>
+<pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -t</span><br></pre></td></tr></table></figure>
+只有ok，successful才配置成功！![在这里插入图片描述](https://img-blog.csdnimg.cn/20200302123010275.png)</code></pre><ol start="7">
+<li><p>重启nginx</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s reload</span><br></pre></td></tr></table></figure>
+<p>再访问域名或公网ip，就是安全地址https开头的啦~~</p>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>机器视觉</tag>
+        <tag>nginx</tag>
+        <tag>https</tag>
+        <tag>SSL</tag>
       </tags>
   </entry>
 </search>
