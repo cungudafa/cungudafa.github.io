@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>cungudafa</title>
   
-  <subtitle>Sakura</subtitle>
+  <subtitle>姑的小屋</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.top/"/>
-  <updated>2020-04-17T11:11:56.286Z</updated>
+  <updated>2020-04-21T08:42:52.109Z</updated>
   <id>https://cungudafa.top/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）</title>
     <link href="https://cungudafa.top/post/8202.html"/>
     <id>https://cungudafa.top/post/8202.html</id>
-    <published>2020-04-16T05:13:40.468Z</published>
-    <updated>2020-04-17T11:11:56.286Z</updated>
+    <published>2020-04-21T09:14:10.000Z</published>
+    <updated>2020-04-21T08:42:52.109Z</updated>
     
     <summary type="html">
     
@@ -42,34 +42,11 @@
   </entry>
   
   <entry>
-    <title>Hexo（sakura）neat压缩导致首页归档页面分页处错位（完美解决）</title>
-    <link href="https://cungudafa.top/post/1c7b.html"/>
-    <id>https://cungudafa.top/post/1c7b.html</id>
-    <published>2020-04-14T15:31:10.000Z</published>
-    <updated>2020-04-14T15:19:10.984Z</updated>
-    
-    <summary type="html">
-    
-      我错了，几个人跳坑了，我以为**只是删掉一些注释**，没什么大不了，少写了一篇博客，2333
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="bug" scheme="https://cungudafa.top/tags/bug/"/>
-    
-      <category term="neat" scheme="https://cungudafa.top/tags/neat/"/>
-    
-  </entry>
-  
-  <entry>
     <title>毕设毕设中~</title>
     <link href="https://cungudafa.top/post/c55e.html"/>
     <id>https://cungudafa.top/post/c55e.html</id>
     <published>2020-03-17T11:05:10.000Z</published>
-    <updated>2020-03-17T11:17:01.175Z</updated>
+    <updated>2020-04-21T08:20:28.012Z</updated>
     
     <summary type="html">
     
@@ -86,34 +63,11 @@
   </entry>
   
   <entry>
-    <title>Hexo（sakura）添加Rating投票功能</title>
-    <link href="https://cungudafa.top/post/f75f.html"/>
-    <id>https://cungudafa.top/post/f75f.html</id>
-    <published>2020-03-11T08:19:10.000Z</published>
-    <updated>2020-03-11T08:45:22.886Z</updated>
-    
-    <summary type="html">
-    
-      评分需要css画出5个五角星；js点击，然后记录评分值并改变星星；但是刷新界面后，之前的评价就没有了，保存评分的话需要数据库，怎么办？不会写后台没有关系，widgetpack了解一下。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://cungudafa.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="评分" scheme="https://cungudafa.top/tags/%E8%AF%84%E5%88%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>读手语图像识别论文笔记</title>
     <link href="https://cungudafa.top/post/7035.html"/>
     <id>https://cungudafa.top/post/7035.html</id>
     <published>2020-03-07T09:05:10.000Z</published>
-    <updated>2020-03-23T04:02:40.311Z</updated>
+    <updated>2020-04-21T08:20:03.205Z</updated>
     
     <summary type="html">
     
@@ -125,11 +79,11 @@
       <category term="生活" scheme="https://cungudafa.top/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="文章" scheme="https://cungudafa.top/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="知网论文" scheme="https://cungudafa.top/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/"/>
     
       <category term="悦读" scheme="https://cungudafa.top/tags/%E6%82%A6%E8%AF%BB/"/>
     
-      <category term="知网论文" scheme="https://cungudafa.top/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/"/>
+      <category term="文章" scheme="https://cungudafa.top/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
@@ -138,7 +92,7 @@
     <link href="https://cungudafa.top/post/6874.html"/>
     <id>https://cungudafa.top/post/6874.html</id>
     <published>2020-03-06T10:05:10.000Z</published>
-    <updated>2020-03-06T10:14:36.015Z</updated>
+    <updated>2020-04-21T08:21:01.928Z</updated>
     
     <summary type="html">
     
@@ -161,7 +115,7 @@
     <link href="https://cungudafa.top/post/44e8.html"/>
     <id>https://cungudafa.top/post/44e8.html</id>
     <published>2020-03-06T08:54:10.000Z</published>
-    <updated>2020-03-06T09:00:24.776Z</updated>
+    <updated>2020-04-21T08:20:40.158Z</updated>
     
     <summary type="html">
     
@@ -182,7 +136,7 @@
     <link href="https://cungudafa.top/post/98ec.html"/>
     <id>https://cungudafa.top/post/98ec.html</id>
     <published>2020-03-05T10:54:10.000Z</published>
-    <updated>2020-03-06T10:16:33.693Z</updated>
+    <updated>2020-04-21T08:20:49.605Z</updated>
     
     <summary type="html">
     
@@ -199,15 +153,25 @@
   </entry>
   
   <entry>
-    <title>hexo（sakura）引入fancybox优化图片视频查看效果</title>
-    <link href="https://cungudafa.top/post/789b.html"/>
-    <id>https://cungudafa.top/post/789b.html</id>
-    <published>2020-03-04T10:08:10.000Z</published>
-    <updated>2020-03-17T11:01:45.868Z</updated>
+    <title>（阿里云Ubantu16）nginx配置https安全访问</title>
+    <link href="https://cungudafa.top/post/ccbf.html"/>
+    <id>https://cungudafa.top/post/ccbf.html</id>
+    <published>2020-03-02T05:59:10.000Z</published>
+    <updated>2020-04-21T03:01:54.224Z</updated>
     
     <summary type="html">
     
-      在Hexo博客中添加jqury.fancybox.min.js图集查看功能
+      
+      
+        
+        
+          &lt;!-- ---
+title: 
+author: cungudafa
+authorLink: &#39;https://cungudafa.gitee.io&#39;
+avatar:
+        
+      
     
     </summary>
     
@@ -215,9 +179,46 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="图集" scheme="https://cungudafa.top/tags/%E5%9B%BE%E9%9B%86/"/>
+      <category term="nginx" scheme="https://cungudafa.top/tags/nginx/"/>
     
-      <category term="fancybox" scheme="https://cungudafa.top/tags/fancybox/"/>
+      <category term="https" scheme="https://cungudafa.top/tags/https/"/>
+    
+      <category term="SSL" scheme="https://cungudafa.top/tags/SSL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</title>
+    <link href="https://cungudafa.top/post/1d90.html"/>
+    <id>https://cungudafa.top/post/1d90.html</id>
+    <published>2020-03-01T14:59:10.000Z</published>
+    <updated>2020-04-21T08:37:02.382Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- ---
+title: 【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN
+author: cungudafa
+authorLink: &#39;https://cungudafa.gitee.io&#39;
+avatar:
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tensorflow" scheme="https://cungudafa.top/tags/tensorflow/"/>
+    
+      <category term="keras" scheme="https://cungudafa.top/tags/keras/"/>
+    
+      <category term="CNN" scheme="https://cungudafa.top/tags/CNN/"/>
     
   </entry>
   
@@ -225,8 +226,8 @@
     <title>为你的博客引入——今日诗词、每日一言（js插件分享）</title>
     <link href="https://cungudafa.top/post/3af9.html"/>
     <id>https://cungudafa.top/post/3af9.html</id>
-    <published>2020-03-04T06:36:53.080Z</published>
-    <updated>2020-03-23T03:56:02.126Z</updated>
+    <published>2020-02-23T09:14:10.000Z</published>
+    <updated>2020-04-21T08:43:15.357Z</updated>
     
     <summary type="html">
     
@@ -247,15 +248,15 @@
   </entry>
   
   <entry>
-    <title>Valine-修复评论者昵称跳转外链出错</title>
-    <link href="https://cungudafa.top/post/f6a1.html"/>
-    <id>https://cungudafa.top/post/f6a1.html</id>
-    <published>2020-03-04T06:36:52.965Z</published>
-    <updated>2020-03-17T11:02:40.967Z</updated>
+    <title>Github+Hexo博客增添相册功能</title>
+    <link href="https://cungudafa.top/post/2b2b.html"/>
+    <id>https://cungudafa.top/post/2b2b.html</id>
+    <published>2020-02-18T17:14:10.000Z</published>
+    <updated>2020-04-21T08:35:13.753Z</updated>
     
     <summary type="html">
     
-      解决在valine评论list点击评论者姓名跳转链接出错问题
+      Hexo博客延展功能——制定个人相册
     
     </summary>
     
@@ -263,24 +264,41 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="valine" scheme="https://cungudafa.top/tags/valine/"/>
-    
-      <category term="nick" scheme="https://cungudafa.top/tags/nick/"/>
-    
-      <category term="外链" scheme="https://cungudafa.top/tags/%E5%A4%96%E9%93%BE/"/>
+      <category term="图集" scheme="https://cungudafa.top/tags/%E5%9B%BE%E9%9B%86/"/>
     
   </entry>
   
   <entry>
-    <title>Valine-实现QQ邮箱识别生成头像地址（完美解决头像问题）</title>
-    <link href="https://cungudafa.top/post/816e.html"/>
-    <id>https://cungudafa.top/post/816e.html</id>
-    <published>2020-03-03T12:22:10.000Z</published>
-    <updated>2020-03-17T11:03:37.326Z</updated>
+    <title>程序媛交友</title>
+    <link href="https://cungudafa.top/post/adab.html"/>
+    <id>https://cungudafa.top/post/adab.html</id>
+    <published>2020-02-16T09:54:10.000Z</published>
+    <updated>2020-04-21T05:36:00.908Z</updated>
     
     <summary type="html">
     
-      在Hexo（sakura）主题中引入valine评论系统，添加qq邮箱头像
+      cungudafa:在学习中的小王呀
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="https://cungudafa.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）</title>
+    <link href="https://cungudafa.top/post/2103.html"/>
+    <id>https://cungudafa.top/post/2103.html</id>
+    <published>2020-02-14T12:50:10.000Z</published>
+    <updated>2020-04-21T08:24:33.446Z</updated>
+    
+    <summary type="html">
+    
+      图床，资源，加速访问github资源。
     
     </summary>
     
@@ -288,24 +306,41 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="valine" scheme="https://cungudafa.top/tags/valine/"/>
-    
-      <category term="头像" scheme="https://cungudafa.top/tags/%E5%A4%B4%E5%83%8F/"/>
-    
-      <category term="邮箱" scheme="https://cungudafa.top/tags/%E9%82%AE%E7%AE%B1/"/>
+      <category term="私人图床" scheme="https://cungudafa.top/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo（sakura）自定义标签云</title>
-    <link href="https://cungudafa.top/post/77c0.html"/>
-    <id>https://cungudafa.top/post/77c0.html</id>
-    <published>2020-03-02T10:57:10.000Z</published>
-    <updated>2020-03-17T11:04:40.149Z</updated>
+    <title>2020年2月4日情人节随笔</title>
+    <link href="https://cungudafa.top/post/ff18.html"/>
+    <id>https://cungudafa.top/post/ff18.html</id>
+    <published>2020-02-13T14:59:10.000Z</published>
+    <updated>2020-04-21T08:35:04.849Z</updated>
     
     <summary type="html">
     
-      之前引入的标签云插件，看似很炫酷，实则有点鸡肋，今天忍不住又开始魔改前端css了
+      情人节随笔
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="随笔" scheme="https://cungudafa.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Botui搭建js聊天机器人</title>
+    <link href="https://cungudafa.top/post/81c1.html"/>
+    <id>https://cungudafa.top/post/81c1.html</id>
+    <published>2020-02-13T10:14:10.000Z</published>
+    <updated>2020-04-21T08:37:52.252Z</updated>
+    
+    <summary type="html">
+    
+      一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。
     
     </summary>
     
@@ -313,22 +348,20 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="前端" scheme="https://cungudafa.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="标签云" scheme="https://cungudafa.top/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
+      <category term="自动回复机器人" scheme="https://cungudafa.top/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
   </entry>
   
   <entry>
-    <title>（阿里云Ubantu16）nginx配置https安全访问</title>
-    <link href="https://cungudafa.top/post/ccbf.html"/>
-    <id>https://cungudafa.top/post/ccbf.html</id>
-    <published>2020-03-02T05:59:10.000Z</published>
-    <updated>2020-03-02T05:52:34.621Z</updated>
+    <title>Gitee+Hexo搭建个人博客</title>
+    <link href="https://cungudafa.top/post/e27b.html"/>
+    <id>https://cungudafa.top/post/e27b.html</id>
+    <published>2020-02-13T09:14:10.000Z</published>
+    <updated>2020-04-21T08:43:45.034Z</updated>
     
     <summary type="html">
     
-      【SSL证书作用】：允许https安全访问
+      Gitee+Hexo（sakura）免费搭建开源个人博客，小白试水记录
     
     </summary>
     
@@ -336,24 +369,20 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="nginx" scheme="https://cungudafa.top/tags/nginx/"/>
-    
-      <category term="https" scheme="https://cungudafa.top/tags/https/"/>
-    
-      <category term="SSL" scheme="https://cungudafa.top/tags/SSL/"/>
+      <category term="经验分享" scheme="https://cungudafa.top/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】</title>
-    <link href="https://cungudafa.top/post/32c1.html"/>
-    <id>https://cungudafa.top/post/32c1.html</id>
-    <published>2020-03-01T14:59:10.000Z</published>
-    <updated>2020-03-03T07:16:59.462Z</updated>
+    <title>Ps抠图（小白教程）</title>
+    <link href="https://cungudafa.top/post/2f1b.html"/>
+    <id>https://cungudafa.top/post/2f1b.html</id>
+    <published>2020-02-12T09:14:10.000Z</published>
+    <updated>2020-04-21T08:21:56.425Z</updated>
     
     <summary type="html">
     
-      Hexo自动部署到阿里云(Ubantu16.04)【超详细踩坑记录】
+      Ps抠图，Pr剪切视频音频处理是很有必要的学习一下哦
     
     </summary>
     
@@ -361,22 +390,20 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="阿里云" scheme="https://cungudafa.top/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
-    
-      <category term="hexo" scheme="https://cungudafa.top/tags/hexo/"/>
+      <category term="Ps" scheme="https://cungudafa.top/tags/Ps/"/>
     
   </entry>
   
   <entry>
-    <title>【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</title>
-    <link href="https://cungudafa.top/post/1d90.html"/>
-    <id>https://cungudafa.top/post/1d90.html</id>
-    <published>2020-03-01T14:59:10.000Z</published>
-    <updated>2020-03-03T07:29:53.231Z</updated>
+    <title>Github+jsDelivr搭建自己的免费cdn</title>
+    <link href="https://cungudafa.top/post/2a9.html"/>
+    <id>https://cungudafa.top/post/2a9.html</id>
+    <published>2020-02-12T02:19:10.000Z</published>
+    <updated>2020-04-21T08:24:38.316Z</updated>
     
     <summary type="html">
     
-      TensorFlow&amp;Keras环境配置、入门猫狗数据集实验、理解卷积神经网络CNN
+      图床，资源，加速访问github资源。
     
     </summary>
     
@@ -384,97 +411,7 @@
       <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="tensorflow" scheme="https://cungudafa.top/tags/tensorflow/"/>
-    
-      <category term="keras" scheme="https://cungudafa.top/tags/keras/"/>
-    
-      <category term="CNN" scheme="https://cungudafa.top/tags/CNN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Valine-自定义邮件回复提示</title>
-    <link href="https://cungudafa.top/post/cb8f.html"/>
-    <id>https://cungudafa.top/post/cb8f.html</id>
-    <published>2020-02-25T11:58:56.490Z</published>
-    <updated>2020-03-03T12:06:29.620Z</updated>
-    
-    <summary type="html">
-    
-      前文：在Hexo（sakura）主题中引入valine评论系统以及魔改diy样式！下文：自定义邮件提示！
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="valine" scheme="https://cungudafa.top/tags/valine/"/>
-    
-      <category term="邮件" scheme="https://cungudafa.top/tags/%E9%82%AE%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）添加说说页面</title>
-    <link href="https://cungudafa.top/post/ec85.html"/>
-    <id>https://cungudafa.top/post/ec85.html</id>
-    <published>2020-02-25T11:43:40.996Z</published>
-    <updated>2020-03-02T06:04:32.339Z</updated>
-    
-    <summary type="html">
-    
-      在自己的网站中添加说说页面，类似于qq空间一样：实现操作也比较简单：css处理样式就好了。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="说说、心情" scheme="https://cungudafa.top/tags/%E8%AF%B4%E8%AF%B4%E3%80%81%E5%BF%83%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo（sakura）建立标签云hexo-tag-cloud</title>
-    <link href="https://cungudafa.top/post/2f76.html"/>
-    <id>https://cungudafa.top/post/2f76.html</id>
-    <published>2020-02-25T11:43:40.993Z</published>
-    <updated>2020-02-25T11:52:55.317Z</updated>
-    
-    <summary type="html">
-    
-      标签云
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="https://cungudafa.top/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-      <category term="标签云" scheme="https://cungudafa.top/tags/%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo(sakura)+gitee_github搭建个人博客（总结）</title>
-    <link href="https://cungudafa.top/post/ffa5.html"/>
-    <id>https://cungudafa.top/post/ffa5.html</id>
-    <published>2020-02-23T05:54:10.000Z</published>
-    <updated>2020-03-05T14:54:41.587Z</updated>
-    
-    <summary type="html">
-    
-      Hexo(sakura)+gitee_github搭建个人博客（总结）小白必看教程
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="博客搭建" scheme="https://cungudafa.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="cdn" scheme="https://cungudafa.top/tags/cdn/"/>
     
   </entry>
   
