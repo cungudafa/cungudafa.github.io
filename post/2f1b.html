@@ -130,33 +130,15 @@ var guest_info = 'nick,mail,link'.split(',').filter(function(item){
 });
 guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
 
-//- function aru(str){
-//-     return "aru/aru-" + str + ".gif";
-//- }
-//- function tieba(str){
-//-     return "tieba/tieba-" + str + ".png";
-//- }
-//- function qq(str) {
-//-     return "qq/qq-" + str + ".gif";
-//- }
-//- my_emojiMaps = {};
-//- for (var i = 1; i < 54; i++) {
-//-   my_emojiMaps.exports['https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/tieba-' + i] = tieba(i);
-//- }
-//- for (var i = 1; i < 101; i++) {
-//-   my_emojiMaps.exports['https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/qq-' + i] = qq(i);
-//- }
-//- for (var i = 1; i < 116; i++) {
-//-   my_emojiMaps.exports['https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/aru-' + i] = aru(i);
-//- }
 window.valine = new Valine({
   el:'#vcomment',
   enableQQ: true,
+  boolean: true,
   notify: 'false',
   verify: 'false',
   appId: 'cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz',
   appKey: '3opMyv2Vyx3mHa0IWitRGSoi',
-  placeholder: '你是我一生只会遇见一次的惊喜',
+  placeholder: '昵称填写qq可以显示qq头像和昵称哦~',
   avatar: 'monsterid',
   meta: guest_info,
   pageSize: '10',

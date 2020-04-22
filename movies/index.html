@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>视频 | cungudafa</title><meta name="description" content="视频"><meta name="author" content="cungudafa"><meta name="copyright" content="cungudafa"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="TJBY5AcW2i"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="视频"><meta name="twitter:description" content="视频"><meta name="twitter:image" content="https://cungudafa.top/img/post.jpg"><meta property="og:type" content="website"><meta property="og:title" content="视频"><meta property="og:url" content="https://cungudafa.top/movies/"><meta property="og:site_name" content="cungudafa"><meta property="og:description" content="视频"><meta property="og:image" content="https://cungudafa.top/img/post.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>视频 | cungudafa</title><meta name="description" content="视频"><meta name="author" content="cungudafa"><meta name="copyright" content="cungudafa"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="TJBY5AcW2i"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="视频"><meta name="twitter:description" content="视频"><meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(3).jpg.webp"><meta property="og:type" content="website"><meta property="og:title" content="视频"><meta property="og:url" content="https://cungudafa.top/movies/"><meta property="og:site_name" content="cungudafa"><meta property="og:description" content="视频"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(3).jpg.webp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
 var t = Cookies.get("theme")
 if (autoChangeMode == '1'){
   var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -88,33 +88,15 @@ var guest_info = 'nick,mail,link'.split(',').filter(function(item){
 });
 guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
 
-//- function aru(str){
-//-     return "aru/aru-" + str + ".gif";
-//- }
-//- function tieba(str){
-//-     return "tieba/tieba-" + str + ".png";
-//- }
-//- function qq(str) {
-//-     return "qq/qq-" + str + ".gif";
-//- }
-//- my_emojiMaps = {};
-//- for (var i = 1; i < 54; i++) {
-//-   my_emojiMaps.exports['https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/tieba-' + i] = tieba(i);
-//- }
-//- for (var i = 1; i < 101; i++) {
-//-   my_emojiMaps.exports['https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/qq-' + i] = qq(i);
-//- }
-//- for (var i = 1; i < 116; i++) {
-//-   my_emojiMaps.exports['https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/aru-' + i] = aru(i);
-//- }
 window.valine = new Valine({
   el:'#vcomment',
   enableQQ: true,
+  boolean: true,
   notify: 'false',
   verify: 'false',
   appId: 'cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz',
   appKey: '3opMyv2Vyx3mHa0IWitRGSoi',
-  placeholder: '你是我一生只会遇见一次的惊喜',
+  placeholder: '昵称填写qq可以显示qq头像和昵称哦~',
   avatar: 'monsterid',
   meta: guest_info,
   pageSize: '10',
