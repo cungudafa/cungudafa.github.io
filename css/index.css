@@ -1538,6 +1538,8 @@ canvas,
   background: #f6f8fa;
   color: #90a4ae;
   line-height: 20px;
+  counter-reset: line;
+  white-space: pre-wrap;
 }
 .code-area-wrap {
   position: relative;
@@ -1600,6 +1602,15 @@ blockquote footer cite:before {
 #article-container figure.highlight .line::selection {
   background: rgba(128,203,196,0.251);
   color: #90a4ae;
+}
+#article-container figure.highlight .line:before {
+  display: inline-block;
+  padding: 0 0.3rem 0 0;
+  min-width: 1.6rem;
+  color: #cfd8dc;
+  content: counter(line);
+  counter-increment: line;
+  text-align: left;
 }
 #article-container figure.highlight .line.marked {
   background-color: rgba(128,203,196,0.251);
@@ -2256,16 +2267,6 @@ blockquote footer cite:before {
   white-space: nowrap;
   font-size: 13px;
 }
-@media screen and (max-width: 1100px) {
-  .flink .md-links .md-links-item {
-    width: calc(50% - 15px) !important;
-  }
-}
-@media screen and (max-width: 600px) {
-  .flink .md-links .md-links-item {
-    width: calc(100% - 15px) !important;
-  }
-}
 #footer {
   position: relative;
   background: #49b1f5;
@@ -2274,6 +2275,13 @@ blockquote footer cite:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+#footer:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  content: '';
 }
 #footer-wrap {
   position: relative;
