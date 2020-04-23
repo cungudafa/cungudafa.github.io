@@ -141,11 +141,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </ul>
 <p>主页：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200423103327641.gif" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200423103327641.gif"  alt="在这里插入图片描述"></a><br>如何开始你的hexo-theme-butterfly呢？</p>
 <ol>
-<li><p>官方教程：<a href="https://jerryc.me/posts/21cfbf15/" target="_blank" rel="noopener">快速开始</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200423111040302.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200423111040302.png"  alt="在这里插入图片描述"></a><br><font color=#ff6699 size=5>1. 第一次使用，一定要仔细阅读参考文档，配置好你的config和source。<br></p>
-</li>
-<li><p>其次，还有很多功能是需要安装插件的，申请app_id的都要按照规范做。<br></p>
-</li>
-<li><p>最后，注意细节是否有空格，名称路径是否出错。<font></p>
+<li><p>官方教程：<a href="https://jerryc.me/posts/21cfbf15/" target="_blank" rel="noopener">快速开始</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200423111040302.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200423111040302.png"  alt="在这里插入图片描述"></a><br><font color=#ff6699 size=5>1. 第一次使用，一定要仔细阅读参考文档，配置好你的config和source。<br></font><br><font color=#ff6699 size=5>2.其次，还有很多功能是需要安装插件的，申请app_id的都要按照规范做。<br></font><br><font color=#ff6699 size=5>3.最后，注意细节是否有空格，名称路径是否出错。</font></p>
 </li>
 <li><p><a href="https://www.jianshu.com/p/a1a4ebf0e5fc" target="_blank" rel="noopener">Hexo+Butterfly+Github+Coding搭建个人博客</a><br>这篇文章指出需要安装：</p>
  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install cheerio --save</span><br></pre></td></tr></table></figure>
