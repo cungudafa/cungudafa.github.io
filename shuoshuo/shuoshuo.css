@@ -13,14 +13,12 @@ ul.cbp_tmtimeline {
     padding: 0;
 }
 
-div class.cdp_tmlabel > li .cbp_tmlabel {
-    margin-bottom: 0;
-}
 
 .cbp_tmtimeline {
     margin: 30px 0 0 0;
     padding: 0;
     list-style: none;
+    display: inline;
     position: relative;
 }
 /* The line */
@@ -68,7 +66,9 @@ div.cbp_tmlabel > p {
     margin-bottom: 0;
 }
 /* Right content */
-
+div class.cdp_tmlabel > li .cbp_tmlabel {
+    margin-bottom: 0;
+}
 .cbp_tmtimeline > li .cbp_tmlabel {
     margin: 0 0 45px 65px;
     background: #9BCD9B;
@@ -145,10 +145,27 @@ p.shuoshuo_time {
     transition: transform 0.4s ease-out;
     -moz-transition: -moz-transform 0.4s ease-out;
 }
-
-.zhuan {
-    transform: rotateZ(720deg);
-    -webkit-transform: rotateZ(720deg);
-    -moz-transform: rotateZ(720deg);
+.avatar:hover {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 /* end */
+
+.photos-btn-wrap {
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 20px;
+}
+.photos-btn {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: -4px;
+	padding: 5px 8px 3px;
+}
+.photos-btn.active {
+	color: #08c;
+	border: 1px solid #e5e5e5;
+	border-bottom: 5px solid #fff;
+}
