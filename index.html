@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Portfolio</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<!-- end google fonts -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--nav-->
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(function () {
+			var pull = $('#pull');
+			menu = $('nav ul');
+			menuHeight = menu.height();
+
+			$(pull).on('click', function (e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function () {
+				var w = $(window).width();
+				if (w > 320 && menu.is(':hidden')) {
+					menu.removeAttr('style');
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="body">
+		<div class="wrap">
+			<div class="wrapper">
+				<!-- start header-->
+				<div class="header">
+					<div class="logo">
+						<a href="index.html"><img src="images/cat.gif" alt="" style="height:100px;"></a>
+					</div>
+					<div class="cssmenu">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class="last"><a href="https://cungudafa.top/comment/">Comment</a></li>
+							<li class="has-sub"><a href="https://cungudafa.top/about/">About</a></li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="top-nav">
+						<nav class="clearfix">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="https://cungudafa.top/comment/">Comment</a></li>
+								<li><a href="https://cungudafa.top/about/">About</a></li>
+							</ul>
+							<a href="#" id="pull">Menu</a>
+						</nav>
+					</div>
+				</div>
+				<!-- start content -->
+				<div class="main1">
+					<div class="content">
+						<h2>LIST OF PROJECTS</h2>
+					</div>
+					<div class="grids_of_4">
+						<div class="grid_1_of_4 images_1_of_4">
+							<a href="https://cungudafa.gitee.io/"><img src="images/gitee.jpg" title="Project1" alt="" /></a>
+							<h3><a href="https://cungudafa.gitee.io/">sakura</a></h3>
+							<p class="para">大魔改主题，花里胡哨</p>
+							<h4><a href="https://cungudafa.gitee.io/">hexo-theme-sakura主题</h4></a>
+						</div>
+						<div class="grid_1_of_4 images_1_of_4">
+							<a href="https://cungudafa.top/"><img src="images/top.jpg" title="Project2" alt="" /></a>
+							<h3><a href="https://cungudafa.top/">butterfly</a></h3>
+							<p class="para">小清新</p>
+							<h4><a href="https://cungudafa.top/">hexo-theme-butterfly主题</a></h4>
+						</div>
+						<div class="grid_1_of_4 images_1_of_4">
+							<a href="https://cungudafa.blog.csdn.net/"><img src="images/csdn.jpg" title="Project3" alt="" /></a>
+							<h3><a href="https://cungudafa.blog.csdn.net/">csdn</a></h3>
+							<p class="para">技术栈</p>
+							<h4><a href="https://cungudafa.blog.csdn.net/">Java,python,Linux</a></h4>
+						</div>
+						<div class="grid_1_of_4 images_1_of_4">
+							<a href="#"><img src="images/cungudafa.png" title="Project4" alt="" style="height:120px;" /></a>
+							<h3><a href="#">微信公众号</a></h3>
+							<p class="para">三言两语</p>
+							<h4><a href="#">cungudafa.IOT姑</a></h4>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- start footer copy -->
+		<div class="wrap">
+			<div class="wrapper">
+				<div class="copy" style="text-align:center;margin:0 auto;">
+					<!-- 网站数据统计 -->
+					<span style="font-style: italic;line-height: 1.5em;font-size: 0.8725em;
+					color: #FF61A0;-webkit-text-stroke: 0.25px;text-transform: capitalize;
+					-webkit-transition: all 0.3s ease-out;
+					-moz-transition: all 0.3s ease-out;
+					-ms-transition: all 0.3s ease-out;
+					-o-transition: all 0.3s ease-out;
+					transition: all 0.3s ease-out;">
+						<!-- 网站运行时间统计 -->
+						<i class="fa fa-clock-o" aria-hidden="true"></i>
+						<span id="time" align="center">载入时间中...</span>
+				</div>
+			</div>
+		</div>
+		<script>
+			var now = new Date();
+			function createtime() {
+				var grt = new Date("2020-04-23 20:20:00");//在此处修改你的建站时间
+				now.setTime(now.getTime() + 250);
+				days = (now - grt) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+				hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+				if (String(hnum).length == 1) { hnum = "0" + hnum; } minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+				mnum = Math.floor(minutes); if (String(mnum).length == 1) { mnum = "0" + mnum; }
+				seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+				snum = Math.round(seconds); if (String(snum).length == 1) { snum = "0" + snum; }
+				document.getElementById("time").innerHTML = "cungudafa.js.org 苟活了 " + dnum + " 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+			}
+			setInterval("createtime()", 250);
+		</script>
+	</div>
+</body>
+
+</html>
