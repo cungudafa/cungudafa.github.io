@@ -4375,6 +4375,9 @@ img {
 #vcomment button:hover {
   background-color: #ff7242;
 }
+#vcomment textarea {
+  background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich30.gif") 100% 100% no-repeat;
+}
 #vcomment .info {
   display: none;
 }
