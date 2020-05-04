@@ -117,6 +117,42 @@ wpac_init.push({widget: 'Comment', id: 23889});
       </tags>
   </entry>
   <entry>
+    <title>hexo(butterfly)加入clustrmaps访问者地图</title>
+    <url>/post/2c2c.html</url>
+    <content><![CDATA[<h1 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h1><p>看到别人有，我也喜欢，于是添加。</p>
+<p>地图是按照ip地址定位的，目前只有我自己哈。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200505000757794.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200505000757794.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<h1 id="二、设置"><a href="#二、设置" class="headerlink" title="二、设置"></a>二、设置</h1><h2 id="1-注册账号"><a href="#1-注册账号" class="headerlink" title="1. 注册账号"></a>1. 注册账号</h2><p>官网 <a href="https://clustrmaps.com/" target="_blank" rel="noopener">clustrmaps.com</a> 也是第三方的，有Google Docs账号可以直接登录，Sign up即可，科学上网这里不教。<br>注册之后，在官网找到 Website Widget，如图。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200505000231389.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200505000231389.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+<p>我喜欢Map形式，如果喜欢Globe widget自便。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200504230609405.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200504230609405.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>点击select就可以看到信息了，我这里用的html版，复制到你的博客就好了。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020050423071020.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/2020050423071020.png"  alt="在这里插入图片描述"></a><br>其实这些第三方工具随便插在努力的网页，博客园也支持，话不扯远，进入正题。</p>
+<h2 id="2-hexo主题引入"><a href="#2-hexo主题引入" class="headerlink" title="2.hexo主题引入"></a>2.hexo主题引入</h2><blockquote>
+<p>我在butterfly（pug）的侧边栏引入的，next可以同理规划；sakura（ejs）更简单，直接贴js或html代码</p>
+</blockquote>
+<ol>
+<li><p>在主题配置声明一个侧边栏给地图显示<br>文件：<code>source\_data\butterfly.yml</code></p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">card_maps: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200504234654500.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200504234654500.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+<li><p>添加一个界面元素<br>文件如图所示：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200504234850441.png" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200504234850441.png"  alt="在这里插入图片描述"></a><br>先在加载框添加一条card_maps的声明，（主题控制是否显示这个界面元素）<br>修改添加：<code>themes\Butterfly\layout\includes\widget\index.pug</code></p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> theme.aside.card_maps</span><br><span class="line">  !=partial(<span class="string">'includes/widget/card_maps'</span>, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
+<p> 位置其实你可以任意，我觉得放在这里比较好看，不接受反驳。<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200504234731170.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200504234731170.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a><br>然后，<strong>新建</strong> 一个页面元素：<code>themes\Butterfly\layout\includes\widget\card_maps.pug</code><br>复制下面的pug格式样式，将url_for改为你之前申请的，例如我的是：</p>
+<blockquote>
+<p>《a href=”<del><a href="https://clustrmaps.com/site/1b7sx" target="_blank" rel="noopener">https://clustrmaps.com/site/1b7sx</a></del> “  title=”Visit tracker”》《img src=”<del>//<a href="http://www.clustrmaps.com/map_v2.png?d=LHTfP-cAzRYLHEj_KNHtRxRu6ThgMwnyqi-X7ZV9k14&amp;cl=ffffff" target="_blank" rel="noopener">www.clustrmaps.com/map_v2.png?d=LHTfP-cAzRYLHEj_KNHtRxRu6ThgMwnyqi-X7ZV9k14&amp;cl=ffffff</a></del> “ /》《/a》</p>
+</blockquote>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">.card-widget.card-map</span><br><span class="line">  .card-content</span><br><span class="line">    .item-headline</span><br><span class="line">        i.fa.fa-map-marker(aria-hidden=<span class="string">"true"</span>)</span><br><span class="line">        span= _p(<span class="string">'访客'</span>)</span><br><span class="line">    a(href=url_for(<span class="string">'https://clustrmaps.com/site/1b7sx'</span>))</span><br><span class="line">        img(src=url_for(<span class="string">'//www.clustrmaps.com/map_v2.png?d=LHTfP-cAzRYLHEj_KNHtRxRu6ThgMwnyqi-X7ZV9k14&amp;cl=ffffff'</span>))</span><br></pre></td></tr></table></figure>
+<p>简单又easy，还学会了侧边栏添加<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200504235856674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="/" class="lazyload" data-src="https://img-blog.csdnimg.cn/20200504235856674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70"  alt="在这里插入图片描述"></a></p>
+</li>
+</ol>
+<p>嘻嘻嘻嘻~  喜欢就抱走，请点赞。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>clustrmaps</tag>
+        <tag>maps</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo（butterfly）蝴蝶主题+个性美化</title>
     <url>/post/6c36.html</url>
     <content><![CDATA[<h1 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h1><p>这两天心血来潮给自己的hexo网站换了主题，从sakura到butterfly了，</p>
