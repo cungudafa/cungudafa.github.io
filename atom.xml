@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.top/"/>
-  <updated>2020-05-04T16:13:24.131Z</updated>
+  <updated>2020-05-05T16:30:47.205Z</updated>
   <id>https://cungudafa.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo（butterfly）添加说说页面（Artitalk可在线发布）</title>
+    <link href="https://cungudafa.top/post/96c.html"/>
+    <id>https://cungudafa.top/post/96c.html</id>
+    <published>2020-05-05T16:30:10.000Z</published>
+    <updated>2020-05-05T16:30:47.205Z</updated>
+    
+    <summary type="html">
+    
+      Artitalk推荐
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Artitalk" scheme="https://cungudafa.top/tags/Artitalk/"/>
+    
+      <category term="说说" scheme="https://cungudafa.top/tags/%E8%AF%B4%E8%AF%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo(butterfly)加入clustrmaps访问者地图</title>
