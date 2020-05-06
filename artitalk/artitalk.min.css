@@ -1,6 +1,6 @@
 #shuoshuo_content {
   padding: 10px;
-  min-height: 500px;
+  /* min-height: 500px; */
 }
 /* shuo */
 
@@ -192,4 +192,19 @@ p.shuoshuo_time {
 /* butterfly theme adapter */
 #article-container ul p {
   margin: 0 0 1rem;
+}
+
+.power {
+  text-align: right;
+  color: #999;
+  font-size: .75em;
+  padding: .5em 0;
+}
+.power a {
+  font-size: .75em;
+  position: relative;
+  cursor: pointer;
+  color: #1abc9c;
+  text-decoration: none;
+  display: inline-block;
 }
