@@ -161,6 +161,9 @@ p.shuoshuo_time {
   outline-style: none ;
   border: 1px solid #ccc; 
   border-radius: 6px;
+  resize: none; 
+  background-color: transparent;
+  color: #999;
 }
 /* password */
 .input{
@@ -168,12 +171,14 @@ p.shuoshuo_time {
   border: 1px solid #ccc; 
   border-radius: 6px;
   padding: 8px 16px;
-  width: 75%;
+  width: 100%;
   font-size: 12px;
+  background-color: transparent;
+  color: #999;
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #9BCD9B; /* Green */
   border: none;
   margin-left: 5px;
   color: white;
@@ -183,6 +188,8 @@ p.shuoshuo_time {
   display: inline-block;
   font-size: 12px;
   border-radius: 12px; /* circle */
+  outline: none;
+  cursor: pointer;
 }
 .button:hover {
   background-color: #ff7242;
@@ -193,9 +200,10 @@ p.shuoshuo_time {
 #article-container ul p {
   margin: 0 0 1rem;
 }
-
+/* version */
 .power {
   text-align: right;
+  float: right;
   color: #999;
   font-size: .75em;
   padding: .5em 0;
@@ -207,4 +215,26 @@ p.shuoshuo_time {
   color: #1abc9c;
   text-decoration: none;
   display: inline-block;
+}
+/* row */
+.shuoshuo_submit{
+  margin: 0 0 1rem;
+}
+
+.shuoshuo_row .col.col-80 {
+  width: 80%;
+  float: left;
+}
+.shuoshuo_row .col.col-20 {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+#preview {
+  width: 100%;
+  float: left;
+  margin: .5rem 0 0;
+  padding: 7px;
+  box-shadow: 0 0 1px #f0f0f0;
 }
