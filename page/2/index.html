@@ -1,150 +1,1082 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>cungudafa - 姑的小屋</title><meta name="description" content="公众号关注-IOT姑"><meta name="author" content="cungudafa"><meta name="copyright" content="cungudafa"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://hm.baidu.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="TJBY5AcW2i"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="cungudafa"><meta name="twitter:description" content="公众号关注-IOT姑"><meta name="twitter:image" content="https://cungudafa.top/img/avatar.png"><meta property="og:type" content="website"><meta property="og:title" content="cungudafa"><meta property="og:url" content="https://cungudafa.top/page/2/"><meta property="og:site_name" content="cungudafa"><meta property="og:description" content="公众号关注-IOT姑"><meta property="og:image" content="https://cungudafa.top/img/avatar.png"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
-var t = Cookies.get("theme")
-if (autoChangeMode == '1'){
-  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
-  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
-  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
-  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+<!DOCTYPE HTML>
+<html lang="zh-CN">
 
-  if (t === undefined){
-    if (isLightMode) activateLightMode()
-    else if (isDarkMode) activateDarkMode()
-    else if (isNotSpecified || hasNoSupport){
-      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
-      var now = new Date()
-      var hour = now.getHours()
-      var isNight = hour < 6 || hour >= 18
-      isNight ? activateDarkMode() : activateLightMode()
-  }
-  } else if (t == 'light') activateLightMode()
-  else activateDarkMode()
 
-} else if (autoChangeMode == '2'){
-  now = new Date();
-  hour = now.getHours();
-  isNight = hour < 6 || hour >= 18
-  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
-  else if (t === 'light') activateLightMode()
-  else activateDarkMode() 
-} else {
-  if ( t == 'dark' ) activateDarkMode()
-  else if ( t == 'light') activateLightMode()
-}
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="cungudafa">
+    <meta name="description" content="公众号关注-IOT姑">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
-function activateDarkMode(){
-  document.documentElement.setAttribute('data-theme', 'dark')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
-  }
-}
-function activateLightMode(){
-  document.documentElement.setAttribute('data-theme', 'light')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
-  }
-}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/flink.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://cungudafa.top/page/2/"><script>var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?b05d6287bdeab72f3886bffe3cff054a";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
-  root: '/',
-  algolia: undefined,
-  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://cungudafa.top/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
-  copy: {
-    success: '复制成功',
-    error: '复制错误',
-    noSupport: '浏览器不支持'
-  },
-  bookmark: {
-    message_prev: '按',
-    message_next: '键将本页加入书签'
-  },
-  runtime_unit: '天',
-  runtime: true,
-  copyright: undefined,
-  ClickShowText: undefined,
-  medium_zoom: false,
-  fancybox: true,
-  Snackbar: undefined,
-  baiduPush: false,
-  highlightCopy: true,
-  highlightLang: true,
-  highlightShrink: 'false',
-  isFontAwesomeV5: false,
-  isPhotoFigcaption: false
+
+    <title>cungudafa</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">cungudafa</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
   
-}</script><script>var GLOBAL_CONFIG_SITE = { 
-  isPost: false,
-  isHome: true,
-  isSidebar: false  
-  }</script><noscript><style>
-#page-header {
-  opacity: 1
-}
-.justified-gallery img{
-  opacity: 1
-}
-</style></noscript><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
-</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">19</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">31</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-graduation-cap" aria-hidden="true"></i><span> 博文</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-diamond" aria-hidden="true"></i><span> 生活</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-comments-o"></i><span> 说说</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> 阅读</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-video-camera"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/box/"><i class="fa-fw fa fa-code"></i><span> 程序媛</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><div class="full_page" id="nav" style="background-image: url(https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/beautyinside01.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">cungudafa</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-graduation-cap" aria-hidden="true"></i><span> 博文</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-diamond" aria-hidden="true"></i><span> 生活</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-comments-o"></i><span> 说说</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> 阅读</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-video-camera"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/box/"><i class="fa-fw fa fa-code"></i><span> 程序媛</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="site-info"><h1 id="site_title">cungudafa</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/cungudafa" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:cungudafa@163.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://cungudafa.blog.csdn.net" target="_blank" title="CSDN"><i class="fa fa-star" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div><div id="scroll_down"><i class="fa fa-angle-down scroll-down-effects"></i></div></div><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/post/1d90.html" title="【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN">     <img class="post_bg lazyload" data-src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4190080762,256915529&amp;fm=26&amp;gp=0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN"></a></div><div class="recent-post-info"><a class="article-title" href="/post/1d90.html" title="【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN">【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-01 22:59:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-01</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">
-前言 1、TensorFlow&amp;Keras环境配置
- 这里选择Jupyter Notebook，好处不言而喻，可上网查看，这里不赘述； 在windows10下安装Anaconda3并配置好环境，启动Anaconda Navigator，在其面板里下载配置TensorFlow、Keras、J ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/post/3af9.html" title="为你的博客引入——今日诗词、每日一言（js插件分享）">     <img class="post_bg lazyload" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手写诗词.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为你的博客引入——今日诗词、每日一言（js插件分享）"></a></div><div class="recent-post-info"><a class="article-title" href="/post/3af9.html" title="为你的博客引入——今日诗词、每日一言（js插件分享）">为你的博客引入——今日诗词、每日一言（js插件分享）</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-23 17:14:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-23</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">一、今日诗词今日诗词API，是一个可以返回一句古诗词名句的接口。它可以通过图片和 JSON 格式调用。今日诗词 API 根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐。
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/artitalk" class="waves-effect waves-light">
+      
+      <i class="fas fa-comment-smile" style="zoom: 0.6;"></i>
+      
+      <span>Artitalk</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/links" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/comment" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">cungudafa</div>
+        <div class="logo-desc">
+            
+            公众号关注-IOT姑
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/artitalk" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comment-smile"></i>
+			
+			Artitalk
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/links" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/comment" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/cungudafa" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #ff9999;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/cungudafa" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                姑的小屋
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['一个学习记录者!','Good memory as a bad pen.'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+</script>
+
+
+    </div>
+</div>
+
+
+<main class="content">
+
+    
+
+    
+
+    <!-- 所有文章卡片 -->
+    <article id="articles" class="container articles">
+        <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/ccbf.html">
+                        <div class="card-image">
+                            
+                            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png" class="responsive-img" alt="（阿里云Ubantu16）nginx配置https安全访问">
+                            
+                            <span class="card-title">（阿里云Ubantu16）nginx配置https安全访问</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                一、获取证书【SSL证书作用】：允许https安全访问
+
+第一步：到官网申请免费SSL证书：阿里云免费SSL证书申请
+第二步：回到控制台这里选择自助验证！自助验证会在域名下添加如下解析：点击验证后，即成功！（验证后可删除）
+
+
+第三步：刷新
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-02
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/nginx/">
+                            <span class="chip bg-color">nginx</span>
+                        </a>
+                        
+                        <a href="/tags/https/">
+                            <span class="chip bg-color">https</span>
+                        </a>
+                        
+                        <a href="/tags/SSL/">
+                            <span class="chip bg-color">SSL</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/1d90.html">
+                        <div class="card-image">
+                            
+                            <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4190080762,256915529&fm=26&gp=0.jpg" class="responsive-img" alt="【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN">
+                            
+                            <span class="card-title">【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                前言 1、TensorFlow&amp;Keras环境配置
+ 这里选择Jupyter Notebook，好处不言而喻，可上网查看，这里不赘述； 在windows10下安装Anaconda3并配置好环境，启动Anaconda Navigato
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/tensorflow/">
+                            <span class="chip bg-color">tensorflow</span>
+                        </a>
+                        
+                        <a href="/tags/keras/">
+                            <span class="chip bg-color">keras</span>
+                        </a>
+                        
+                        <a href="/tags/CNN/">
+                            <span class="chip bg-color">CNN</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/3af9.html">
+                        <div class="card-image">
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手写诗词.jpg" class="responsive-img" alt="为你的博客引入——今日诗词、每日一言（js插件分享）">
+                            
+                            <span class="card-title">为你的博客引入——今日诗词、每日一言（js插件分享）</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                一、今日诗词今日诗词API，是一个可以返回一句古诗词名句的接口。它可以通过图片和 JSON 格式调用。今日诗词 API 根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐。
 
 官网：www.jinrishici.com
 
 
-    &lt;h1&gt;    念两句诗&lt;/h1&gt; ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/post/2b2b.html" title="Github+Hexo博客增添相册功能">     <img class="post_bg lazyload" data-src="https://cdn.pixabay.com/photo/2013/12/30/07/58/photo-album-235603_1280.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Github+Hexo博客增添相册功能"></a></div><div class="recent-post-info"><a class="article-title" href="/post/2b2b.html" title="Github+Hexo博客增添相册功能">Github+Hexo博客增添相册功能</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-19 01:14:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-19</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">前言：hexo的sakura主题默认是不含有相册页面的,如果想添加此页面需自行编写效果图预览，思路：    不能把所有图片都放在source静态资源下，一是数据量太大，增加Hexo的负担（所以我们把图片放在github），二是加载高清大图片资源缓慢（所以我们用python对图片进行批量压缩处理），这 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/post/2103.html" title="Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）">     <img class="post_bg lazyload" data-src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）"></a></div><div class="recent-post-info"><a class="article-title" href="/post/2103.html" title="Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）">Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-14 20:50:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-14</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">一、什么是图床图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。
-简单来说就是：在文章中引用指定网址显示图片。平常我们都是在网络上复制粘贴网络图片的地址，太out了，如何快速引用本地图片呢？？ ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/post/ff18.html" title="2020年2月4日情人节随笔">     <img class="post_bg lazyload" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581614436311&amp;di=abb6a6cf26c58fac96ef46f67a30aca9&amp;imgtype=0&amp;src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2020年2月4日情人节随笔"></a></div><div class="recent-post-info"><a class="article-title" href="/post/ff18.html" title="2020年2月4日情人节随笔">2020年2月4日情人节随笔</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-13 22:59:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-13</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content">
+   
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-23
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/">
+                            <span class="chip bg-color">每日一言</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/">
+                            <span class="chip bg-color">今日诗词</span>
+                        </a>
+                        
+                        <a href="/tags/js%E6%8F%92%E4%BB%B6/">
+                            <span class="chip bg-color">js插件</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/2b2b.html">
+                        <div class="card-image">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2013/12/30/07/58/photo-album-235603_1280.jpg" class="responsive-img" alt="Github+Hexo博客增添相册功能">
+                            
+                            <span class="card-title">Github+Hexo博客增添相册功能</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                前言：hexo的sakura主题默认是不含有相册页面的,如果想添加此页面需自行编写效果图预览，思路：    不能把所有图片都放在source静态资源下，一是数据量太大，增加Hexo的负担（所以我们把图片放在github），二是加载高清大图片
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-19
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%9B%BE%E9%9B%86/">
+                            <span class="chip bg-color">图集</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/2103.html">
+                        <div class="card-image">
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg" class="responsive-img" alt="Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）">
+                            
+                            <span class="card-title">Github+PicGo+cdn配置私人图床（丝滑操作撰写md文章）</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                一、什么是图床图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。
+简单来说就是：在文章中引用指定网址显示图片。平常我们都是在网络上复
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-14
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/">
+                            <span class="chip bg-color">私人图床</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/ff18.html">
+                        <div class="card-image">
+                            
+                            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581614436311&di=abb6a6cf26c58fac96ef46f67a30aca9&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FZoUnbijG%3DpCNJGmb9TxcCQDxtbOg69%3DfyA34axitbUquO1539777929873.jpg" class="responsive-img" alt="2020年2月4日情人节随笔">
+                            
+                            <span class="card-title">2020年2月4日情人节随笔</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
 疫情期间，姑已经在家呆了二十天了，可是为国家省心的好孩子。
 
 明天就是2月14号了，如何度过这个西方的浪漫节日呢？
 当然，不建议出门聚会哦！
  划重点：  你会如何选择在家度过美好的一天呢？
 
-美食party（自制火锅，家庭烤肉)(烘焙蛋糕，布丁甜点…）
+美食party（自制火锅，家庭烤肉)(烘焙蛋
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-13
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%94%9F%E6%B4%BB/" class="post-category">
+                                    生活
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
 
-甜甜的韩剧/美剧《爱的迫降》–蝉联电视剧 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/post/81c1.html" title="Botui搭建js聊天机器人">     <img class="post_bg lazyload" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599862744&amp;di=b0accfc7b5e92d45e7a5543266962374&amp;imgtype=0&amp;src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Botui搭建js聊天机器人"></a></div><div class="recent-post-info"><a class="article-title" href="/post/81c1.html" title="Botui搭建js聊天机器人">Botui搭建js聊天机器人</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-13 18:14:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-13</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">一、Botui简介一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。可点击查看me？试试看。
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E9%9A%8F%E7%AC%94/">
+                            <span class="chip bg-color">随笔</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/81c1.html">
+                        <div class="card-image">
+                            
+                            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599862744&di=b0accfc7b5e92d45e7a5543266962374&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20160224%2FImg438339008.jpg" class="responsive-img" alt="Botui搭建js聊天机器人">
+                            
+                            <span class="card-title">Botui搭建js聊天机器人</span>
+                        </div>
+                    </a>
 
-项目地址：https://botui.org
- ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/post/e27b.html" title="Gitee+Hexo搭建个人博客">     <img class="post_bg lazyload" data-src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2275415319,1766856612&amp;fm=26&amp;gp=0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Gitee+Hexo搭建个人博客"></a></div><div class="recent-post-info"><a class="article-title" href="/post/e27b.html" title="Gitee+Hexo搭建个人博客">Gitee+Hexo搭建个人博客</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-13 17:14:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-13</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">
-前言：之前学习云服务器时搭建过个人网站，现在我的云服务器停止维护了，现就博客模块（基于Gitee+Hexo搭建个人博客），之前有很多在github上用Hexo模板或express模板搭建个人博客的教程，但访问速度原因，现就码云进行实操并记录搭建过程。
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                一、Botui简介一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。可点击查看me
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-13
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
 
-一、准备
-node.js下载，官网：http ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/post/2f1b.html" title="Ps抠图（小白教程）">     <img class="post_bg lazyload" data-src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1213954157,1758892033&amp;fm=26&amp;gp=0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Ps抠图（小白教程）"></a></div><div class="recent-post-info"><a class="article-title" href="/post/2f1b.html" title="Ps抠图（小白教程）">Ps抠图（小白教程）</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-12 17:14:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-12</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">今天看见一个帖子有萌新😳问：有必要掌握Ps和Pr技能吗？答：我认为一些基本技能：Ps抠图，Pr剪切视频音频处理是很有必要的。
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+                            <span class="chip bg-color">自动回复机器人</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/e27b.html">
+                        <div class="card-image">
+                            
+                            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2275415319,1766856612&fm=26&gp=0.jpg" class="responsive-img" alt="Gitee+Hexo搭建个人博客">
+                            
+                            <span class="card-title">Gitee+Hexo搭建个人博客</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+前言：之前学习云服务器时搭建过个人网站，现在我的云服务器停止维护了，现就博客模块（基于Gitee+Hexo搭建个人博客），之前有很多在github上用Hexo模板或express模板搭建个人博客的教程，但访问速度原因，现就码云进行实操并记
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-13
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
+                            <span class="chip bg-color">经验分享</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/2f1b.html">
+                        <div class="card-image">
+                            
+                            <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1213954157,1758892033&fm=26&gp=0.jpg" class="responsive-img" alt="Ps抠图（小白教程）">
+                            
+                            <span class="card-title">Ps抠图（小白教程）</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                今天看见一个帖子有萌新😳问：有必要掌握Ps和Pr技能吗？答：我认为一些基本技能：Ps抠图，Pr剪切视频音频处理是很有必要的。
 在日常生活中，无论是 PPT制作 还是 前端 使用中，png格式的透明背景图片是很有必要的。
 
-请评价一下如下两张图的视觉感受：
-当然，大多数人都会觉得第二张图的视觉效果更 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/post/2a9.html" title="Github+jsDelivr搭建自己的免费cdn">     <img class="post_bg lazyload" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581599780027&amp;di=b8dfe75a2d9a31743cba15f2c98f032d&amp;imgtype=jpg&amp;src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D1036027984%2C2620666265%26fm%3D214%26gp%3D0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Github+jsDelivr搭建自己的免费cdn"></a></div><div class="recent-post-info"><a class="article-title" href="/post/2a9.html" title="Github+jsDelivr搭建自己的免费cdn">Github+jsDelivr搭建自己的免费cdn</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-12 10:19:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-12</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">一、简介CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fa fa-fw fa-chevron-left" aria-hidden="true"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">cungudafa</div><div class="author-info__description">公众号关注-IOT姑</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">19</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">31</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">2</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/cungudafa" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:cungudafa@163.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://cungudafa.blog.csdn.net" target="_blank" title="CSDN"><i class="fa fa-star" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>公告</span></div><div class="announcement_content">毕设中，更新可能不及时 ^_^</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"> <div class="aside-recent-post"><a href="/post/96c.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img-blog.csdnimg.cn/2020050600085346.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" title="hexo（butterfly）添加说说页面（Artitalk可在线发布）" alt="hexo（butterfly）添加说说页面（Artitalk可在线发布）"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/96c.html" title="hexo（butterfly）添加说说页面（Artitalk可在线发布）">hexo（butterfly）添加说说页面（Artitalk可在线发布）</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-06 00:30:10">2020-05-06</time></div></a></div><div class="aside-recent-post"><a href="/post/2c2c.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img-blog.csdnimg.cn/20200505000757794.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="hexo(butterfly)加入clustrmaps访问者地图" alt="hexo(butterfly)加入clustrmaps访问者地图"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/2c2c.html" title="hexo(butterfly)加入clustrmaps访问者地图">hexo(butterfly)加入clustrmaps访问者地图</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-05 00:11:10">2020-05-05</time></div></a></div><div class="aside-recent-post"><a href="/post/6c36.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img-blog.csdnimg.cn/20200423095138883.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="hexo（butterfly）蝴蝶主题+个性美化" alt="hexo（butterfly）蝴蝶主题+个性美化"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/6c36.html" title="hexo（butterfly）蝴蝶主题+个性美化">hexo（butterfly）蝴蝶主题+个性美化</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-23 14:20:10">2020-04-23</time></div></a></div><div class="aside-recent-post"><a href="/post/8202.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img-blog.csdnimg.cn/20200416125943104.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）" alt="Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/8202.html" title="Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）">Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-21 17:14:10">2020-04-21</time></div></a></div><div class="aside-recent-post"><a href="/post/c55e.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img-blog.csdnimg.cn/20200314212307690.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="毕设毕设中~" alt="毕设毕设中~"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/c55e.html" title="毕设毕设中~">毕设毕设中~</div><time class="aside-post_meta post-meta__date" title="发表于 2020-03-17 19:05:10">2020-03-17</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="aside-category-item">       <li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E6%8A%80%E6%9C%AF/"><span class="aside-category-list_name">技术</span><span class="aside-category-list_length">16</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E7%94%9F%E6%B4%BB/"><span class="aside-category-list_name">生活</span><span class="aside-category-list_length">3</span></a></li></ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Artitalk/" style="font-size: 16px; color: #999">Artitalk</a> <a href="/tags/CNN/" style="font-size: 16px; color: #999">CNN</a> <a href="/tags/Ps/" style="font-size: 16px; color: #999">Ps</a> <a href="/tags/SSL/" style="font-size: 16px; color: #999">SSL</a> <a href="/tags/butterfly/" style="font-size: 16px; color: #999">butterfly</a> <a href="/tags/cdn/" style="font-size: 16px; color: #999">cdn</a> <a href="/tags/clustrmaps/" style="font-size: 16px; color: #999">clustrmaps</a> <a href="/tags/hexo/" style="font-size: 16px; color: #999">hexo</a> <a href="/tags/https/" style="font-size: 16px; color: #999">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 16px; color: #999">js插件</a> <a href="/tags/keras/" style="font-size: 16px; color: #999">keras</a> <a href="/tags/maps/" style="font-size: 16px; color: #999">maps</a> <a href="/tags/nginx/" style="font-size: 16px; color: #999">nginx</a> <a href="/tags/tensorflow/" style="font-size: 16px; color: #999">tensorflow</a> <a href="/tags/valine/" style="font-size: 16px; color: #999">valine</a> <a href="/tags/%E4%B8%AA%E6%80%A7%E7%BE%8E%E5%8C%96/" style="font-size: 16px; color: #999">个性美化</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 16px; color: #999">今日诗词</a> <a href="/tags/%E5%85%8D%E8%B4%B9/" style="font-size: 16px; color: #999">免费</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 16px; color: #999">图集</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/" style="font-size: 24px; color: #99a9bf">微信公众号</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/" style="font-size: 16px; color: #999">机器视觉</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 16px; color: #999">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 16px; color: #999">生活</a> <a href="/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/" style="font-size: 16px; color: #999">知网论文</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 16px; color: #999">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 16px; color: #999">经验分享</a> <a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 16px; color: #999">美化</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 16px; color: #999">自动回复机器人</a> <a href="/tags/%E8%A1%A8%E6%83%85%E5%8C%85/" style="font-size: 16px; color: #999">表情包</a> <a href="/tags/%E8%AF%B4%E8%AF%B4/" style="font-size: 16px; color: #999">说说</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 16px; color: #999">随笔</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/"><span class="archive-list-date">2020年05月</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/"><span class="archive-list-date">2020年04月</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/"><span class="archive-list-date">2020年03月</span><span class="archive-list-count">6</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/"><span class="archive-list-date">2020年02月</span><span class="archive-list-count">9</span></a></li></ul></div></div><div class="card-widget card-map"><div class="card-content"><div class="item-headline"><i class="fa fa-map-marker" aria-hidden="true"></i><span>访客</span></div><a href="https://clustrmaps.com/site/1b7sx" target="_blank" rel="noopener"><img src="//www.clustrmaps.com/map_v2.png?d=LHTfP-cAzRYLHEj_KNHtRxRu6ThgMwnyqi-X7ZV9k14&amp;cl=ffffff"/></a></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">19</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="6/7/2018 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/beautyinside01.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By cungudafa</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://cungudafa.top/">blog</a>!</div><div class="icp"><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" target="_blank" rel="noopener"><img class="icp-icon" src="/img/icp.png"/><span>渝ICP备19001829号</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
- <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
-POWERMODE.shake = false;
-document.body.addEventListener('input', POWERMODE);
-</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener('DOMContentLoaded', function() {
-      pangu.spacingElementById('content-inner')
-})</script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleEffect = true
-fetch('https://v1.hitokoto.cn')
-.then(function (res){
-  return res.json();
-})
-.then(function (data) {
-  if (subtitleEffect){
-    var from = '出自 ' + data.from
-    var sub = '一个学习记录者,Good memory as bad written'.length == 0  ? new Array() : '一个学习记录者,Good memory as bad written'.split(",");
-    var both = sub.unshift(data.hitokoto,from)  
-    var typed = new Typed("#subtitle", {
-      strings: sub,
-      startDelay: 300,
-      typeSpeed: 150,
-      loop: false,
-      backSpeed: 50
-    });
-  }else{
-    document.getElementById("subtitle").innerHTML = data.hitokoto        
-  }
-})
-.catch(function (err) {
-  console.error(err);
-})
-</script></body></html>
+请评价一下如下两
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Ps/">
+                            <span class="chip bg-color">Ps</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/post/2a9.html">
+                        <div class="card-image">
+                            
+                            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581599780027&di=b8dfe75a2d9a31743cba15f2c98f032d&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D1036027984%2C2620666265%26fm%3D214%26gp%3D0.jpg" class="responsive-img" alt="Github+jsDelivr搭建自己的免费cdn">
+                            
+                            <span class="card-title">Github+jsDelivr搭建自己的免费cdn</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                一、简介CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/cdn/">
+                            <span class="chip bg-color">cdn</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
+
+</main>
+
+
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            
+            <a href="/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
+        </div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">2 / 3</div>
+        </div>
+        <div class="col s6 m4 l4">
+            
+            <a href="/page/3/"
+               class="right btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">cungudafa</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" target="_blank">渝ICP备19001829号</a>
+            </span>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/cungudafa" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:cungudafa@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/cungudafa" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/cungudafa" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b05d6287bdeab72f3886bffe3cff054a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

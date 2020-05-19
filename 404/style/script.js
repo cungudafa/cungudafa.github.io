@@ -81,7 +81,25 @@ gsap.to("#glassShine", {
 // const burger = document.querySelector('.burger');
 // const nav = document.querySelector('nav');
 
-// burger.addEventListener('click', e => {
+// burger.addEventListener('click', e =&gt; {
 //   burger.dataset.state === 'closed' ? burger.dataset.state = "open" : burger.dataset.state = "closed";
 //   nav.dataset.state === "closed" ? nav.dataset.state = "open" : nav.dataset.state = "closed";
-// });
+// });<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
