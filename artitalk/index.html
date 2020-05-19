@@ -30,8 +30,8 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -385,6 +385,42 @@
               <div id="artitalk"></div>
               <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
               <!-- artitalk.end -->
+              <!-- 自定义样式 -->
+              <style>
+                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+                  background: linear-gradient(-45deg, #7F95D1, #FF82A9, #FFC0BE, #FFEBE7) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: white;
+                }
+                .cbp_tmtimeline>li .cbp_tmlabel {
+                  background: linear-gradient(-45deg, #7F95D1, #FF82A9, #FFC0BE, #FFEBE7) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: white;
+                }
+                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+                  border-right-color:  #FFC0BE
+                }
+                .cbp_tmtimeline>li .cbp_tmlabel:after {
+                  border-right-color:  #FFEBE7
+                }
+                .button {
+                  background: linear-gradient(-45deg, #7F95D1, #FF82A9, #FFC0BE, #FFEBE7) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: white;
+                }
+                @keyframes gradientBG {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+              </style>
+              <!-- 自定义样式.end -->
           </div>
       </div>
   </div>
