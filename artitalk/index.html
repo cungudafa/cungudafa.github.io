@@ -494,6 +494,39 @@
               <!-- artitalk.end -->
               <!-- 自定义样式 -->
               <style>
+                                /* matery 主题 input 适配 */
+                                input:not([type]),input[type=text]:not(.browser-default),
+                input[type=password]:not(.browser-default), 
+                input[type=email]:not(.browser-default), 
+                input[type=url]:not(.browser-default), 
+                input[type=time]:not(.browser-default), 
+                input[type=date]:not(.browser-default), 
+                input[type=datetime]:not(.browser-default), 
+                input[type=datetime-local]:not(.browser-default), 
+                input[type=tel]:not(.browser-default), 
+                input[type=number]:not(.browser-default), 
+                input[type=search]:not(.browser-default), 
+                textarea.materialize-textarea{
+                  border-bottom: 1px solid #9e9e9e;
+                  outline: none;
+                  height: 1rem;
+                  width: 60%;
+                  margin: 0 0 8px 0;
+                  outline-style: none;
+                  border: 1px solid #ccc;
+                  border-radius: 6px;
+                  padding: 8px 16px;
+                  font-size: 12px;
+                  background-color: transparent;
+                  color: #999;
+                }
+                .card .card-content p {
+                    margin: 5px;
+                }
+                .c2{
+                  padding: 15px 0 5px 0;
+                }
+                /* matery 主题 end */
                 .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
                   background: linear-gradient(-45deg, #7F95D1, #FF82A9, #FFC0BE, #FFEBE7) 0% 0% / 400% 400%;
                   animation: 15s ease 0s infinite normal none running gradientBG;
@@ -526,24 +559,28 @@
                         background-position: 0% 50%;
                     }
                 }
-                /* matery 主题 input 适配 */
-                input:not([type]),input[type=text]:not(.browser-default){
-                  border-bottom: 1px solid #9e9e9e;
-                  outline: none;
-                  height: 1rem;
-                  width: 60%;
-                  margin: 0 0 0px 0;
-                  outline-style: none;
-                  border: 1px solid #ccc;
-                  border-radius: 6px;
-                  padding: 8px 16px;
-                  font-size: 12px;
-                  background-color: transparent;
-                  color: #999;
+
+                .balck_white01 {
+                  background: #333030;
+                  color: #e3dede
+                }
+                .url02{
+                  background: url("https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/hyo01.jpg") 0% 0% / cover;
                 }
               </style>
               <!-- 自定义样式.end -->
           </div>
+          <!-- Personality customization -->
+          <h1>🌼个性定制</h1>
+          <p><a href="https://cungudafa.blog.csdn.net/article/details/106224223" target="_blank"> 教程快速门 </a></p>
+          <h1>👀示例站点</h1>
+          <div class="card-demo">
+            <div data-type="photo" style="display:inline-block;width:200px;height:100px;color: #333030;background: #e3dede;text-align:center;line-height:100px;margin-bottom:5px;cursor:pointer"><a href="https://kashuukiyoko.github.io/shuoshuo/" target="_blank">简约背景</a></div>
+            <div data-type="photo" style="display:inline-block;width:200px;height:100px;background: url('https://bing.rthe.net/wallpaper') 0% 0% / cover;text-align:center;line-height:100px;margin-bottom:5px;cursor:pointer"><a href="https://wztlink1013.com/essay/" target="_blank">图片背景</a></div>
+            <div data-type="photo" style="display:inline-block;width:200px;height:100px;background: linear-gradient(102.7deg,#fddaff 8.2%,#dfadfc 19.6%,#adcdfc 36.8%,#adfcf4 73.2%,#caf8d0 90.9%);text-align:center;line-height:100px;margin-bottom:5px;cursor:pointer"><a href="http://cungudafa.top/artitalk/" target="_blank">渐变背景</a></div>
+            <div data-type="photo" style="display:inline-block;width:200px;height:100px;background: linear-gradient(-45deg, #7F95D1, #FF82A9, #FFC0BE, #FFEBE7) 0% 0% / 400% 400%;animation: 15s ease 0s infinite normal none running gradientBG;text-align:center;line-height:100px;margin-bottom:5px;cursor:pointer"><a href="http://cungudafa.top/artitalk/" target="_blank">渐变动画</a></div>
+          </div>
+          <!-- Personality customization.end -->
       </div>
   </div>
 </main>
