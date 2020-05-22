@@ -717,7 +717,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"生活","value":4},{"name":"技术","value":16}],
+                data: [{"name":"技术","value":16},{"name":"生活","value":4}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -741,7 +741,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["知网论文","微信公众号","随笔","自动回复机器人","图集","私人图床","cdn","Ps","valine","美化"]
+                data: ["知网论文","微信公众号","自动回复机器人","随笔","图集","私人图床","Ps","cdn","valine","美化"]
             }
         ],
         yAxis: [
@@ -983,7 +983,13 @@ $(function () {
 });
 </script>
 
-    <!-- 回到顶部按钮 -->
+    <!-- 直达评论 -->
+<div id="to_comment" class="comment-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#vcomments" title="直达评论">
+        <i class="fas fa-comments"></i>
+    </a>
+</div>
+<!-- 回到顶部按钮 -->
 <div id="backTop" class="top-scroll">
     <a class="btn-floating btn-large waves-effect waves-light" href="#!">
         <i class="fas fa-arrow-up"></i>

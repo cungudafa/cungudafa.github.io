@@ -1903,7 +1903,26 @@ footer .copy-right {
     font-style: normal;
     white-space: pre-wrap;
 }
+/*直达评论按钮样式*/
+.comment-scroll {
+    position: fixed;
+    right: 15px;
+    bottom: 135px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
 
+.comment-scroll .btn-floating {
+    background: linear-gradient(to bottom right, #FF9999 0%, #ff6666 100%);
+    width: 48px;
+    height: 48px;
+}
+
+.comment-scroll .btn-floating i {
+    line-height: 48px;
+    font-size: 1.8rem;
+}
 /*回到顶部按钮样式*/
 .top-scroll {
     display: none;
