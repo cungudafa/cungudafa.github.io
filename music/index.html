@@ -407,22 +407,31 @@
   
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      
-<meting-js
-  server="netease"
-  type="playlist"
-  id="2731690811"
-  mutex="true">
+      <meting-js server="netease" type="playlist" id="2731690811" mutex="true">
 </meting-js>
 
-<meting-js
-  server="netease"
-  type="playlist"
-  id="419239189"
-  mutex="true">
+<meting-js server="netease" type="playlist" id="419239189" mutex="true">
 </meting-js>
 
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       <!-- .entry-content -->
       
 
@@ -461,21 +470,21 @@
 
 
 <!-- 代码块功能依赖 -->
-<script type="text/javascript" src="./js/codeBlock/codeBlockFuction.js"></script>
+<script type="text/javascript" src="https://gitee.com/cungudafa/source/raw/master/js/codeBlock/codeBlockFuction.js"></script>
 
 <!-- 代码语言 -->
 
-<script type="text/javascript" src="./js/codeBlock/codeLang.js"></script>
+<script type="text/javascript" src="https://gitee.com/cungudafa/source/raw/master/js/codeBlock/codeLang.js"></script>
 
 
 <!-- 代码块复制 -->
 
-<script type="text/javascript" src="./js/libs/codeBlock/codeCopy.js"></script>
+<script type="text/javascript" src="https://gitee.com/cungudafa/source/raw/master/js/codeBlock/codeCopy.js"></script>
 
 
 <!-- 代码块收缩 -->
 
-<script type="text/javascript" src="./js/libs/codeBlock/codeShrink.js"></script>
+<script type="text/javascript" src="https://gitee.com/cungudafa/source/raw/master/js/codeBlock/codeShrink.js"></script>
 
 
 <!-- 代码块折行 -->
@@ -549,7 +558,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">22.5k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
@@ -924,6 +933,8 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
   }
 </style>
 <meting-js
+
+    enable="false"
 
     id="2660651585"
 

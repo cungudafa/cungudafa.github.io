@@ -433,7 +433,7 @@
     <i class="fa fa-book"></i>
     <span class="post-meta-item-text">字数统计: </span>
     <!-- 安装插件npm install hexo-wordcount --save -->
-    <span class="post-count">34字</span>
+    <span class="post-count">86字</span>
   </span>
 </span>
 <span class="bull">
@@ -476,7 +476,25 @@
 <p><a href="https://blog.csdn.net/cungudafa" target="_blank" rel="noopener" class="LinkCard">csdn-cungudafa</a></p>
 <p>生活记录转公众号【IOT姑】</p>
 <p><a data-fancybox="gallery" data-caption="cungudafa的公众号" href="https://img-blog.csdnimg.cn/20200305183253238.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200305183253238.gif" alt="cungudafa的公众号"></a></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
         
         <!-- .entry-content -->
@@ -585,6 +603,12 @@ wpac_init.push({widget: 'Rating', id: 23889});
         
     <div id="vcomments"></div>
     <script src="https://unpkg.com/valine/dist/Valine.min.js"></script><!-- 最新版 -->
+    <style>
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
     <script>
         new Valine({
             el: '#vcomments',
@@ -738,7 +762,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">22.5k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
@@ -1113,6 +1137,8 @@ wpac_init.push({widget: 'Rating', id: 23889});
   }
 </style>
 <meting-js
+
+    enable="false"
 
     id="2660651585"
 

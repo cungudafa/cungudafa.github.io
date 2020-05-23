@@ -524,29 +524,29 @@
 ---
 title: artitalk
 type: artitalk
-noDate: &#39;true&#39;
-comments: &#39;false&#39;
+noDate: 'true'
+comments: 'false'
 img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 ---
 
 &lt;head&gt;
-  &lt;script src=&quot;https://libs.baidu.com/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"&gt;&lt;/script&gt;
 &lt;/head&gt;
   &lt;body&gt;
       &lt;script&gt;
-        var img = &quot;https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg&quot;; //说说旁边显示的头像
-        var appID = &quot;CiSXX5nyVSt0RIztkC1oLL9P-MdYXbMMI&quot;;
-        var appKEY = &quot;vrfkqkuHou88MuRKfF3OeExc&quot;;
-        var per = &quot;5&quot;; //每页显示说说的数量
-        var username = &quot;cungudafa&quot;; //Leancloud中设置的用户名
-        var placeholder1=&quot;只有cungudafa才能评论哦&quot;; //在编辑说说的输入框中的占位符
-        var placeholder2=&quot;没有密码，不能评论！&quot;;  //在编辑密码的输入框中的占位符
+        var img = "https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg"; //说说旁边显示的头像
+        var appID = "CiSXX5nyVSt0RIztkC1oLL9P-MdYXbMMI";
+        var appKEY = "vrfkqkuHou88MuRKfF3OeExc";
+        var per = "5"; //每页显示说说的数量
+        var username = "cungudafa"; //Leancloud中设置的用户名
+        var placeholder1="只有cungudafa才能评论哦"; //在编辑说说的输入框中的占位符
+        var placeholder2="没有密码，不能评论！";  //在编辑密码的输入框中的占位符
         var lazy = 1; //是否开启懒加载动画
-        var bgimg = &quot;https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif&quot;; //背景动画
+        var bgimg = "https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif"; //背景动画
       &lt;/script&gt;
-      &lt;div id=&quot;lazy&quot;&gt;&lt;/div&gt;
-      &lt;div id=&quot;artitalk&quot;&gt;&lt;/div&gt;
-      &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/drew233/artitalk/source/v1.0.0/artitalk.js&quot;&gt;&lt;/script&gt;
+      &lt;div id="lazy"&gt;&lt;/div&gt;
+      &lt;div id="artitalk"&gt;&lt;/div&gt;
+      &lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/drew233/artitalk/source/v1.0.0/artitalk.js"&gt;&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 
@@ -569,7 +569,25 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 <p>人有多大胆，。。。。。</p>
 <h1 id="四、更多"><a href="#四、更多" class="headerlink" title="四、更多"></a>四、更多</h1><p>5.5日记，因为Artitalk还在起步阶段，如果后序有更新，我也会补充的。<br>5.6日记，花了一中午重构代码，优化了Artitalk界面小细节、还适配了黑夜模式<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200505234356115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200505234356115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 <p>欢迎大家来吃螃蟹，提<a href="https://github.com/Drew233/Artitalk/issues" target="_blank" rel="noopener">issue</a>，为开源项目打call。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200505234835386.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200505234835386.png" alt="在这里插入图片描述"></a></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
         
         <!-- .entry-content -->
@@ -680,6 +698,12 @@ wpac_init.push({widget: 'Rating', id: 23889});
         
     <div id="vcomments"></div>
     <script src="https://unpkg.com/valine/dist/Valine.min.js"></script><!-- 最新版 -->
+    <style>
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
     <script>
         new Valine({
             el: '#vcomments',
@@ -833,7 +857,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">22.5k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
@@ -1208,6 +1232,8 @@ wpac_init.push({widget: 'Rating', id: 23889});
   }
 </style>
 <meting-js
+
+    enable="false"
 
     id="2660651585"
 

@@ -433,7 +433,7 @@
     <i class="fa fa-book"></i>
     <span class="post-meta-item-text">字数统计: </span>
     <!-- 安装插件npm install hexo-wordcount --save -->
-    <span class="post-count">2.9k字</span>
+    <span class="post-count">3k字</span>
   </span>
 </span>
 <span class="bull">
@@ -490,7 +490,7 @@
 </li>
 <li><p>傅里叶描述子算法</p>
 <p>傅立叶描述子是分析和识别物体形状的重要方法之一。利用基于曲线多边形近似的连续傅立叶变换方法 计算傅立叶描述子，并通过形状的主方向消除边界起始点相位影响的方法，定义了新的具有旋转、平移和尺度不变 性的归一化傅立叶描述子。与使用离散傅立叶变换和模归一化的传统傅立叶描述子相比，新的归一化傅立叶描述 子同时保留了模与相位特性，因此能够更好地识别物体的形状。</p>
-<img src="https://img-blog.csdnimg.cn/20200205144102378.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" style="zoom:50%;" />
+<img src="https://img-blog.csdnimg.cn/20200205144102378.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" style="zoom:50%;">
 
 <blockquote>
 <p>图片源文链接:<a href="https://blog.csdn.net/cungudafa/article/details/104182392" target="_blank" rel="noopener">OpenCV-python提取特征（批量处理数据）</a></p>
@@ -498,7 +498,7 @@
 </li>
 <li><p>Sobe边缘检测</p>
 <p>索贝尔算子（Sobel operator）是图像处理中的算子之一，主要用于边缘检测。在技术上，它是一离散型差分算子，用来运算图像亮度函数的梯度之近似值 。在图像的任何一点使用此算子，将会产生对应的梯度矢量或是其法矢量。 </p>
-<img src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/20200307164212.png" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/20200307164212.png" style="zoom:67%;">
 
 <blockquote>
 <p><a href="https://blog.csdn.net/luoganttcc/article/details/88639530" target="_blank" rel="noopener">opencv sobe 边缘检测算子</a></p>
@@ -535,7 +535,25 @@
 <p>[3] 孙丽娟. 基于边缘梯度方向直方图的中国静态手语识别[D]. 2009. </p>
 <p>[4] 武红娇. 复杂背景下的静态手语识别技术研究[D]. </p>
 <p>[5] 韩宁江. 基于深度学习的手语识别方法研究[D]. </p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
         
         <!-- .entry-content -->
@@ -648,6 +666,12 @@ wpac_init.push({widget: 'Rating', id: 23889});
         
     <div id="vcomments"></div>
     <script src="https://unpkg.com/valine/dist/Valine.min.js"></script><!-- 最新版 -->
+    <style>
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
     <script>
         new Valine({
             el: '#vcomments',
@@ -801,7 +825,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">22.5k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
@@ -1176,6 +1200,8 @@ wpac_init.push({widget: 'Rating', id: 23889});
   }
 </style>
 <meting-js
+
+    enable="false"
 
     id="2660651585"
 

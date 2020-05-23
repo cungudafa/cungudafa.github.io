@@ -433,7 +433,7 @@
     <i class="fa fa-book"></i>
     <span class="post-meta-item-text">字数统计: </span>
     <!-- 安装插件npm install hexo-wordcount --save -->
-    <span class="post-count">883字</span>
+    <span class="post-count">935字</span>
   </span>
 </span>
 <span class="bull">
@@ -486,7 +486,7 @@
 <ol>
 <li>最后点击Generate token即可看到显示的token页面，==它只会显示一次，关闭页面后再打开这个页面就不会显示了。== <code>复制token值粘贴到文本文档</code>中，先保存下来，后面配置PicGo要用到。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><h2 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h2></li>
 <li>首先下载PicGo，图片上传工具PicGo下载地址:<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo/releases</a><blockquote>
-<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
+<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&amp;url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
 </blockquote>
 </li>
 <li>安装配置PicGo<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><ul>
@@ -523,7 +523,25 @@
 </li>
 </ul>
 <p>这里再也不担心Typora写文发布时，图片无法显示的问题了。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
         
         <!-- .entry-content -->
@@ -632,6 +650,12 @@ wpac_init.push({widget: 'Rating', id: 23889});
         
     <div id="vcomments"></div>
     <script src="https://unpkg.com/valine/dist/Valine.min.js"></script><!-- 最新版 -->
+    <style>
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
     <script>
         new Valine({
             el: '#vcomments',
@@ -785,7 +809,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">22.5k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
@@ -1160,6 +1184,8 @@ wpac_init.push({widget: 'Rating', id: 23889});
   }
 </style>
 <meting-js
+
+    enable="false"
 
     id="2660651585"
 

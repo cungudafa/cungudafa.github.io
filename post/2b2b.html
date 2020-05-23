@@ -442,7 +442,7 @@
   <span class="post-meta-item-icon">
     <i class="fa fa-coffee"></i>
     <span class="post-meta-item-text">阅读时长≈</span>
-    <span class="post-count">6分钟</span>
+    <span class="post-count">7分钟</span>
   </span>
 </span>
           
@@ -513,8 +513,8 @@
 <li><p>把data.json复制到<code>\photos</code>下，为了方便，也可以修改tools.py的大约135行位置处，以后在运行脚本时，直接保存到此处：</p>
 <pre><code> ```
      # 这里可以直接修改到你的hexo资源目录
-     #with open(&quot;data.json&quot;,&quot;w&quot;) as fp:
-     with open(&quot;D:/myworkspace/1GitHub_cungudafa/MyWeb/source/photos/data.json&quot;,&quot;w&quot;) as fp:
+     #with open("data.json","w") as fp:
+     with open("D:/myworkspace/1GitHub_cungudafa/MyWeb/source/photos/data.json","w") as fp:
      json.dump(final_dict, fp)
          json.dump(final_dict, fp)
  ```</code></pre></li>
@@ -525,8 +525,8 @@
 </li>
 <li><p>因为相册渲染用不到sakura主题，所以还需要额外添加css文件和js文件，<a href="https://github.com/cungudafa/img/tree/master/js_css" target="_blank" rel="noopener">我的样式链接js_css</a>，将js和css中的内容也复制到<code>MyWeb\source\photos</code>下；<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/202002182045087.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/202002182045087.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> <strong>说明：</strong> （1）assets目录下放的是一张empty.png图片，原作者在ins.js中引用了此图片也没有特别说明，<a href="https://github.com/cungudafa/img/tree/master/js_css/assets" target="_blank" rel="noopener">我的链接</a>里给出来了，补坑；<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218220626748.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218220626748.png" alt="在这里插入图片描述"></a><br> （其次，原作者的assets和photos同级目录，我放在photos目录里，特别修改了这两个位置，下载我的js已经修改过了。）<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218220210548.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218220210548.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> <strong>特别修改：</strong> （2）自己动手，修改<code>ins.js</code>里大约在119行左右的链接修改为你的GitHub的仓库地址：（我的示例：<code>cungudafa/img</code>修改为<code>你的github名/你的github仓库名</code>）</p>
 <pre><code> // 需要修改https://raw.githubusercontent.com/你的github名/你的github仓库名/master/min_photos/即可
- var minSrc = &#39;https://raw.githubusercontent.com/cungudafa/img/master/min_photos/&#39; + data.link[i];
- var src = &#39;https://raw.githubusercontent.com/cungudafa/img/master/photos/&#39; + data.link[i];       </code></pre><blockquote>
+ var minSrc = 'https://raw.githubusercontent.com/cungudafa/img/master/min_photos/' + data.link[i];
+ var src = 'https://raw.githubusercontent.com/cungudafa/img/master/photos/' + data.link[i];       </code></pre><blockquote>
 <p><code>注意点：</code>确保你的图片地址是正确的，否则加载不出来，检测方法可以将选择一个图片地址看能不能再浏览器中打开。<br>如图是点击<code>download</code>下载后的链接，是<a href="https://raw.githubusercontent.com" target="_blank" rel="noopener">https://raw.githubusercontent.com</a> 开头的，不是图片的存储地址，否则加载不出。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218211835624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218211835624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </blockquote>
 </li>
@@ -537,12 +537,12 @@
 </li>
 </ol>
 <h1 id="三、其他配置"><a href="#三、其他配置" class="headerlink" title="三、其他配置"></a>三、其他配置</h1><ol>
-<li><p>下载<a href="https://github.com/cungudafa/img/tree/master/js_css" target="_blank" rel="noopener">样式文件</a>（我的img图库已经很大了，不方便下载，这里给一个<a href="https://github.com/malizhigithub/HexoAlbumData/tree/master/JS&CSS" target="_blank" rel="noopener">前人的下载链接</a>）<br> 1.1 <code>photos</code>目录下添加<code>photoswipe.css</code>、<code>photoswipe-ui-default.min.js</code>、<code>photoswipe.min.js</code>，<br> 1.2 photos目录下新建<code>default-skin</code>目录，添加如下文件：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 1.3 在<code>source\photos\index.md</code>相册文件前加上样式：</p>
-<pre><code> &lt;link rel=&quot;stylesheet&quot; href=&quot;./ins.css&quot;&gt;
- &lt;link rel=&quot;stylesheet&quot; href=&quot;./photoswipe.css&quot;&gt; 
- &lt;link rel=&quot;stylesheet&quot; href=&quot;./default-skin/default-skin.css&quot;&gt; 
- &lt;script src=&quot;./photoswipe.min.js&quot;&gt;&lt;/script&gt;
- &lt;script src=&quot;./photoswipe-ui-default.min.js&quot;&gt;&lt;/script&gt;</code></pre><p> 查看大图：（手机端也适应哦！）<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
+<li><p>下载<a href="https://github.com/cungudafa/img/tree/master/js_css" target="_blank" rel="noopener">样式文件</a>（我的img图库已经很大了，不方便下载，这里给一个<a href="https://github.com/malizhigithub/HexoAlbumData/tree/master/JS&amp;CSS" target="_blank" rel="noopener">前人的下载链接</a>）<br> 1.1 <code>photos</code>目录下添加<code>photoswipe.css</code>、<code>photoswipe-ui-default.min.js</code>、<code>photoswipe.min.js</code>，<br> 1.2 photos目录下新建<code>default-skin</code>目录，添加如下文件：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 1.3 在<code>source\photos\index.md</code>相册文件前加上样式：</p>
+<pre><code> &lt;link rel="stylesheet" href="./ins.css"&gt;
+ &lt;link rel="stylesheet" href="./photoswipe.css"&gt; 
+ &lt;link rel="stylesheet" href="./default-skin/default-skin.css"&gt; 
+ &lt;script src="./photoswipe.min.js"&gt;&lt;/script&gt;
+ &lt;script src="./photoswipe-ui-default.min.js"&gt;&lt;/script&gt;</code></pre><p> 查看大图：（手机端也适应哦！）<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 <li><p>如果想要全局都使用photoswipe效果的话，可以把js和css配置在theme主题中，在head、footer分别加上相应引入，额外还要添加一些配置哦：<a href="https://blog.csdn.net/lunsunhuan1825/article/details/96474155" target="_blank" rel="noopener">photoswipe 移动端PC端兼容图片相册预览</a> 。</p>
 </li>
@@ -552,7 +552,25 @@
 </blockquote>
 <pre><code>现在项目相册部分完美！接下来是视频部分~~ 踩坑、填坑、学习记录 走起
 ending~
-更多小王的技术博客:[cungudafa-csdn](https://blog.csdn.net/cungudafa/article/details/104378416)</code></pre>
+更多小王的技术博客:[cungudafa-csdn](https://blog.csdn.net/cungudafa/article/details/104378416)</code></pre><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
         
         <!-- .entry-content -->
@@ -661,6 +679,12 @@ wpac_init.push({widget: 'Rating', id: 23889});
         
     <div id="vcomments"></div>
     <script src="https://unpkg.com/valine/dist/Valine.min.js"></script><!-- 最新版 -->
+    <style>
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
     <script>
         new Valine({
             el: '#vcomments',
@@ -814,7 +838,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">22.5k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
@@ -1189,6 +1213,8 @@ wpac_init.push({widget: 'Rating', id: 23889});
   }
 </style>
 <meting-js
+
+    enable="false"
 
     id="2660651585"
 
