@@ -467,7 +467,8 @@
     <main id="main" class="site-main" role="main">
       <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
         <div class="toc"></div>
-        <!--<div class="toc-entry-content"> <!--套嵌目录使用（主要为了支援评论）-->
+        <!--<div class="toc-entry-content">  -->
+          <!--套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
           <p>前言：hexo的sakura主题默认是不含有相册页面的,如果想添加此页面需自行编写<br>效果图预览，<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218212915690.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218212915690.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>思路：<br>    不能把所有图片都放在source静态资源下，一是数据量太大，增加Hexo的负担（所以我们<strong>把图片放在github</strong>），二是加载高清大图片资源缓慢（所以我们用<strong>python对图片进行批量压缩处理</strong>），这样加载呈现压缩图，点击才加载原图。</p>
