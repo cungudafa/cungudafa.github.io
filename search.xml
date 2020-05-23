@@ -56,29 +56,29 @@
 ---
 title: artitalk
 type: artitalk
-noDate: 'true'
-comments: 'false'
+noDate: &#39;true&#39;
+comments: &#39;false&#39;
 img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 ---
 
 &lt;head&gt;
-  &lt;script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://libs.baidu.com/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
   &lt;body&gt;
       &lt;script&gt;
-        var img = "https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg"; //说说旁边显示的头像
-        var appID = "CiSXX5nyVSt0RIztkC1oLL9P-MdYXbMMI";
-        var appKEY = "vrfkqkuHou88MuRKfF3OeExc";
-        var per = "5"; //每页显示说说的数量
-        var username = "cungudafa"; //Leancloud中设置的用户名
-        var placeholder1="只有cungudafa才能评论哦"; //在编辑说说的输入框中的占位符
-        var placeholder2="没有密码，不能评论！";  //在编辑密码的输入框中的占位符
+        var img = &quot;https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg&quot;; //说说旁边显示的头像
+        var appID = &quot;CiSXX5nyVSt0RIztkC1oLL9P-MdYXbMMI&quot;;
+        var appKEY = &quot;vrfkqkuHou88MuRKfF3OeExc&quot;;
+        var per = &quot;5&quot;; //每页显示说说的数量
+        var username = &quot;cungudafa&quot;; //Leancloud中设置的用户名
+        var placeholder1=&quot;只有cungudafa才能评论哦&quot;; //在编辑说说的输入框中的占位符
+        var placeholder2=&quot;没有密码，不能评论！&quot;;  //在编辑密码的输入框中的占位符
         var lazy = 1; //是否开启懒加载动画
-        var bgimg = "https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif"; //背景动画
+        var bgimg = &quot;https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif&quot;; //背景动画
       &lt;/script&gt;
-      &lt;div id="lazy"&gt;&lt;/div&gt;
-      &lt;div id="artitalk"&gt;&lt;/div&gt;
-      &lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/drew233/artitalk/source/v1.0.0/artitalk.js"&gt;&lt;/script&gt;
+      &lt;div id=&quot;lazy&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;artitalk&quot;&gt;&lt;/div&gt;
+      &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/drew233/artitalk/source/v1.0.0/artitalk.js&quot;&gt;&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 
@@ -101,25 +101,7 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 <p>人有多大胆，。。。。。</p>
 <h1 id="四、更多"><a href="#四、更多" class="headerlink" title="四、更多"></a>四、更多</h1><p>5.5日记，因为Artitalk还在起步阶段，如果后序有更新，我也会补充的。<br>5.6日记，花了一中午重构代码，优化了Artitalk界面小细节、还适配了黑夜模式<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200505234356115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200505234356115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 <p>欢迎大家来吃螃蟹，提<a href="https://github.com/Drew233/Artitalk/issues" target="_blank" rel="noopener">issue</a>，为开源项目打call。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200505234835386.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200505234835386.png" alt="在这里插入图片描述"></a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -131,7 +113,7 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
   <entry>
     <title>程序媛交友</title>
     <url>/post/adab.html</url>
-    <content><![CDATA[<h1 id="个人资料"><a href="#个人资料" class="headerlink" title="个人资料"></a><font color="ff9966">个人资料</font></h1><font color="ff9999" size="3">
+    <content><![CDATA[<h1 id="个人资料"><a href="#个人资料" class="headerlink" title="个人资料"></a><font color=ff9966>个人资料</font></h1><font color=ff9999 size=3>
 姓名：小王 :)
 <br>
 昵称：cungudafa
@@ -140,85 +122,85 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 <br>
 邮箱：cungudafa@163.com
 <br></font>
-<font color="ff9999" size="3">常驻博客：</font>
+<font color=ff9999 size=3>常驻博客：</font>
 
 <p><a href="https://blog.csdn.net/cungudafa" target="_blank" rel="noopener">CSDN-cungudafa</a></p>
 <p><a href="https://blog.csdn.net/cungudafa" target="_blank" rel="noopener" class="LinkCard">csdn</a></p>
-<p><font color="ff9999" size="3">博客：</font><br><a href="https://cungudafa.top/">https://cungudafa.top</a> </p>
-<p><font color="ff9999" size="3">项目仓库：</font><br> <a href="https://github.com/cungudafa/" target="_blank" rel="noopener">github-cungudafa</a><br> <a href="https://gitee.com/cungudafa" target="_blank" rel="noopener">码云—cungudafa</a></p>
-<p><font color="ff9999" size="3">项目演示快速门：</font><br> <a href="https://space.bilibili.com/430247358/video" target="_blank" rel="noopener">b站-cungduafa</a><br></p>
-<table><tbody><tr><td bgcolor="ffff"> <font color="996666" size="3"> Tips：学弟学妹们，大部分作业参考，切记不可Ctrl+cv哦！（面试会吃亏~）</font></td></tr></tbody></table>
+<p><font color=ff9999 size=3>博客：</font><br><a href="https://cungudafa.top/">https://cungudafa.top</a> </p>
+<p><font color=ff9999 size=3>项目仓库：</font><br> <a href="https://github.com/cungudafa/" target="_blank" rel="noopener">github-cungudafa</a><br> <a href="https://gitee.com/cungudafa" target="_blank" rel="noopener">码云—cungudafa</a></p>
+<p><font color=ff9999 size=3>项目演示快速门：</font><br> <a href="https://space.bilibili.com/430247358/video" target="_blank" rel="noopener">b站-cungduafa</a><br></font></p>
+<table><tr><td bgcolor=ffff> <font color=996666 size=3> Tips：学弟学妹们，大部分作业参考，切记不可Ctrl+cv哦！（面试会吃亏~）</font></td></tr></table>
 
-<h1 id="学习经历"><a href="#学习经历" class="headerlink" title="学习经历"></a><font color="ff9966">学习经历</font></h1><p><font color="ff9999" size="3">目前在读大四物联网工程专业程序媛一枚</font></p>
-<a href="https://img-blog.csdnimg.cn/20191222142704298.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222142704298.png"></a>
-<p><font color="ff9966">学习路线：</font></p>
+<h1 id="学习经历"><a href="#学习经历" class="headerlink" title="学习经历"></a><font color=ff9966>学习经历</font></h1><p><font color=ff9999 size=3>目前在读大四物联网工程专业程序媛一枚</font></p>
+<a href="https://img-blog.csdnimg.cn/20191222142704298.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222142704298.png" /></a>
+<p><font color=ff9966>学习路线：</font></p>
 <ul>
-<li><font color="ff9966">c++/c#/Python/Java</font></li>
-<li><font color="ff9966">MySQL/SqlServer</font></li>
-<li><font color="ff9966">Linux/</font></li>
-<li><font color="ff9966">Javaweb/Android/WeApp</font></li>
-<li><font color="ff9966">Pr</font></li>
-<li><font color="ff9966">数据结构/数据库原理</font></li>
+<li><font color=ff9966>c++/c#/Python/Java</font></li>
+<li><font color=ff9966>MySQL/SqlServer</font></li>
+<li><font color=ff9966>Linux/</font></li>
+<li><font color=ff9966>Javaweb/Android/WeApp</font></li>
+<li><font color=ff9966>Pr</font></li>
+<li><font color=ff9966>数据结构/数据库原理</font></li>
 </ul>
-<a href="https://img-blog.csdnimg.cn/2019122214322387.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/2019122214322387.png"></a>
+<a href="https://img-blog.csdnimg.cn/2019122214322387.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/2019122214322387.png" /></a>
 
 
-<h1 id="专业经验"><a href="#专业经验" class="headerlink" title="专业经验"></a><font color="ff9966">专业经验</font></h1><h2 id="一部分是前后端"><a href="#一部分是前后端" class="headerlink" title="一部分是前后端"></a><font color="ff9933">一部分是前后端</font></h2><ol>
-<li><font color="ff9966">SSM</font></li>
-<li><font color="ff9966">JavaWeb</font></li>
-<li><font color="ff9966">BootStrap+LayUI+vue</font></li>
-<li><font color="ff9966">Vue+Springboot前后端分离</font></li>
+<h1 id="专业经验"><a href="#专业经验" class="headerlink" title="专业经验"></a><font color=ff9966>专业经验</font></h1><h2 id="一部分是前后端"><a href="#一部分是前后端" class="headerlink" title="一部分是前后端"></a><font color=ff9933>一部分是前后端</font></h2><ol>
+<li><font color=ff9966>SSM</font></li>
+<li><font color=ff9966>JavaWeb</font></li>
+<li><font color=ff9966>BootStrap+LayUI+vue</font></li>
+<li><font color=ff9966>Vue+Springboot前后端分离</font></li>
 </ol>
-<a href="https://img-blog.csdnimg.cn/20191222143555756.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222143555756.png"></a>
-<h2 id="二部分是嵌入式"><a href="#二部分是嵌入式" class="headerlink" title="二部分是嵌入式"></a><font color="ff9933">二部分是嵌入式</font></h2><ol>
-<li><font color="ff9933">Linux</font></li>
-<li><font color="ff9933">RaspberryPi</font></li>
+<a href="https://img-blog.csdnimg.cn/20191222143555756.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222143555756.png" /></a>
+<h2 id="二部分是嵌入式"><a href="#二部分是嵌入式" class="headerlink" title="二部分是嵌入式"></a><font color=ff9933>二部分是嵌入式</font></h2><ol>
+<li><font color=ff9933>Linux</font></li>
+<li><font color=ff9933>RaspberryPi</font></li>
 </ol>
-<a href="https://img-blog.csdnimg.cn/20191222143941994.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222143941994.png"></a>
+<a href="https://img-blog.csdnimg.cn/20191222143941994.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222143941994.png" /></a>
 
-<h2 id="三部分是杂类"><a href="#三部分是杂类" class="headerlink" title="三部分是杂类"></a><font color="ff9933">三部分是杂类</font></h2><ol>
-<li><font color="ff9933">云服务器搭建</font></li>
-<li><font color="ff9933">python爬虫</font></li>
-<li><font color="ff9933">微信小程序（不太精）</font></li>
+<h2 id="三部分是杂类"><a href="#三部分是杂类" class="headerlink" title="三部分是杂类"></a><font color=ff9933>三部分是杂类</font></h2><ol>
+<li><font color=ff9933>云服务器搭建</font></li>
+<li><font color=ff9933>python爬虫</font></li>
+<li><font color=ff9933>微信小程序（不太精）</font></li>
 </ol>
-<a href="https://img-blog.csdnimg.cn/20191222144059168.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222144059168.png"></a>
-<h1 id="面试经验"><a href="#面试经验" class="headerlink" title="面试经验"></a><font color="ff9966">面试经验</font></h1><p><font color="ff9966" size="4">优先级：</font></p>
-<table><tbody><tr><td bgcolor="ffcccc"> <font color="996633" size="4">竞赛经验 &gt; 项目经验 &gt; 基础知识
+<a href="https://img-blog.csdnimg.cn/20191222144059168.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222144059168.png" /></a>
+<h1 id="面试经验"><a href="#面试经验" class="headerlink" title="面试经验"></a><font color=ff9966>面试经验</font></h1><p><font color=ff9966 size=4>优先级：</font></p>
+<table><tr><td bgcolor=ffcccc> <font color=996633 size=4>竞赛经验 > 项目经验 > 基础知识
 <br>
-国家级证书 &gt; github开源项目pr &gt; 有深度的博客
-</font></td></tr></tbody></table>
+国家级证书 > github开源项目pr > 有深度的博客
+</font></td></tr></table>
 
-<p><font color="ff9966" size="4">时间线安排：</font><br><font color="cc99cc"><br><strong>1、竞赛 </strong><br>（计算机相关竞赛证书的含金量是很高的哦，软考也是的呢<del>）<br>从大一到大三都要积极报名参与，见见世面、丰富知识、明确自己的发展方向<br>大四就来不及竞赛咯</del><br><br><br><strong>2、项目经验 </strong><br>重视学校的课程设计、工程实践、实习内容，不要马马虎虎哦，甚至参与github上的开源项目等，如果你能提交过相应代码是更好的；<br><br><br>这些都是大量时间磨出来的，是提升自身的技能的关键的因素；写程序这件事儿就好比打王者荣耀，只知道清兵推塔原理是不行的，要在很多次练习后才知道——铭文（软硬件环境），出装（哪一门语言），走位（语法知识），探草丛（打断点），预判（抛异常）。<br><br><br>如果能把一段时间的项目进行总结是最好不过的啦，这里舔一手<a href="https://www.csdn.net/" target="_blank" rel="noopener">CSDN</a>啦，在这里写博客记录能被推流，很nice~<br><br><br><strong>3、基础知识 </strong><br><font color="ff1234" size="4">计算机网络原理、算法与数据结构、数据库技术..重中之重！</font><br>不用说也知道，基础这件事儿，重要重要！！！面试必考<br>千万不能等到面试前一个月再刷哦，重在日积月累，还要温故知新，<br>有很多课堂没有细讲、作业中没有涉及到，但又是面试常见，必须理解的基础知识。<br></font><br><font color="ff9999" size="3"><br>目前，小王签订了 <strong>物联网及智能家居方向 </strong>的offer，2020年7月将去上有天堂下有苏杭的<code>杭州</code>打拼，一路上可能会很难，好在还可以认识很多有趣的人。<br></font></p>
+<p><font color=ff9966 size=4>时间线安排：</font><br><font color=cc99cc><br><strong>1、竞赛 </strong><br>（计算机相关竞赛证书的含金量是很高的哦，软考也是的呢<del>）<br>从大一到大三都要积极报名参与，见见世面、丰富知识、明确自己的发展方向<br>大四就来不及竞赛咯</del><br><br><br><strong>2、项目经验 </strong><br>重视学校的课程设计、工程实践、实习内容，不要马马虎虎哦，甚至参与github上的开源项目等，如果你能提交过相应代码是更好的；<br><br><br>这些都是大量时间磨出来的，是提升自身的技能的关键的因素；写程序这件事儿就好比打王者荣耀，只知道清兵推塔原理是不行的，要在很多次练习后才知道——铭文（软硬件环境），出装（哪一门语言），走位（语法知识），探草丛（打断点），预判（抛异常）。<br><br><br>如果能把一段时间的项目进行总结是最好不过的啦，这里舔一手<a href="https://www.csdn.net/" target="_blank" rel="noopener">CSDN</a>啦，在这里写博客记录能被推流，很nice~<br><br><br><strong>3、基础知识 </strong><br><font color=ff1234 size=4>计算机网络原理、算法与数据结构、数据库技术..重中之重！</font><br>不用说也知道，基础这件事儿，重要重要！！！面试必考<br>千万不能等到面试前一个月再刷哦，重在日积月累，还要温故知新，<br>有很多课堂没有细讲、作业中没有涉及到，但又是面试常见，必须理解的基础知识。<br></font><br><font color=ff9999 size=3><br>目前，小王签订了 <strong>物联网及智能家居方向 </strong>的offer，2020年7月将去上有天堂下有苏杭的<code>杭州</code>打拼，一路上可能会很难，好在还可以认识很多有趣的人。<br></font></p>
 <p></p>
-<table><tbody><tr><td bgcolor="ccffff"> <font color="red" size="5">！！！建议考研！！！</font></td></tr></tbody></table>
+<table><tr><td bgcolor=ccffff> <font color=red size=5>！！！建议考研！！！</font></td></tr></table>
 
 
-<a href="https://img-blog.csdnimg.cn/20191222143019926.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222143019926.png"></a>
+<a href="https://img-blog.csdnimg.cn/20191222143019926.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222143019926.png" /></a>
 
-<p><font color="99ccff">考研很难的，考上了就很香的，虽然我没有选择这条路，但我以后某一天，也许会后悔吧~<br>致敬考研过的每一个人！你们都是棒棒哒~</font></p>
-<h1 id="目前阶段"><a href="#目前阶段" class="headerlink" title="目前阶段"></a><font color="ff9966">目前阶段</font></h1><p> <font color="ff9999" size="4">1、补知识（算法题看心情刷）</font></p>
+<p><font color=99ccff>考研很难的，考上了就很香的，虽然我没有选择这条路，但我以后某一天，也许会后悔吧~<br>致敬考研过的每一个人！你们都是棒棒哒~</font></p>
+<h1 id="目前阶段"><a href="#目前阶段" class="headerlink" title="目前阶段"></a><font color=ff9966>目前阶段</font></h1><p> <font color=ff9999 size=4>1、补知识（算法题看心情刷）</font></p>
 <p>📃基础知识，温故而知新！！要当做刷微博一样来看啊~</p>
-<p> <font color="ff9999" size="4">2、博客会发一些好玩有趣的东西⊙▽⊙</font></p>
+<p> <font color=ff9999 size=4>2、博客会发一些好玩有趣的东西⊙▽⊙</font></p>
 <ol>
 <li>嗯，目前<a href="https://blog.csdn.net/cungudafa/article/details/103163313" target="_blank" rel="noopener">程序员女朋友的相册是这样的</a>这篇文章的阅读数最高，看来大家日常感兴趣的点也在这吧，预览</li>
 </ol>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=92451140&amp;page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=92451140&page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
 
 <ol start="2">
 <li><a href="https://blog.csdn.net/cungudafa/category_9714183.html" target="_blank" rel="noopener">hexo-sakura搭建博客专栏</a>已经写的差不多啦，爱鼓捣认证了~</li>
 </ol>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=92268056&amp;page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=92268056&page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
 
-<p><font color="ff9999" size="4">3、大四毕设准备中（ ==人体动作识别==  手语 相关~）</font><br>大致思路是openpose和CNN相关</p>
-<a href="https://img-blog.csdnimg.cn/20191222144631483.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222144631483.png"></a>
+<p><font color=ff9999 size=4>3、大四毕设准备中（ ==人体动作识别==  手语 相关~）</font><br>大致思路是openpose和CNN相关</p>
+<a href="https://img-blog.csdnimg.cn/20191222144631483.png" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20191222144631483.png" /></a>
 <p>图源：电影《芳华》片段</p>
-<p><font color="ff6666">如果对之前的文章有异议，或优化，都可以<strong>留言私信</strong>，看见一定回。<br><strong>共同进步，加油！！</strong></font></p>
+<p><font color=ff6666>如果对之前的文章有异议，或优化，都可以<strong>留言私信</strong>，看见一定回。<br><strong>共同进步，加油！！</strong></font></p>
 <hr>
-<h1 id="文末彩蛋"><a href="#文末彩蛋" class="headerlink" title="文末彩蛋"></a><font color="ff9966">文末彩蛋</font></h1><p><font color="#FFcccc">很多人问过，头像是不是本人；这里安利：<br>我的女神：</font>  :) <font color="#FF6666">韩孝周</font>  :)</p>
-<a href="https://img-blog.csdnimg.cn/2019080916014295.gif" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/2019080916014295.gif"></a>
+<h1 id="文末彩蛋"><a href="#文末彩蛋" class="headerlink" title="文末彩蛋"></a><font color=ff9966>文末彩蛋</font></h1><p><font color="#FFcccc">很多人问过，头像是不是本人；这里安利：<br>我的女神：</font>  :) <font color="#FF6666">韩孝周</font>  :)</p>
+<a href="https://img-blog.csdnimg.cn/2019080916014295.gif" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/2019080916014295.gif" /></a>
 <p> :) <font color="#FF6666">小王</font>  :)<br><font color="#66cccc">有人说我头大? 我第一个不服(ง •̀_•́)ง</font></p>
-<a href="https://img-blog.csdnimg.cn/20190809161139811.gif" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20190809161139811.gif"></a>
-<p><font color="ff6666"><strong>共同进步！！</strong></font></p>
+<a href="https://img-blog.csdnimg.cn/20190809161139811.gif" target="_blank" rel="noopener" data-fancybox="images" data-caption="sakura"><img src="https://img-blog.csdnimg.cn/20190809161139811.gif" /></a>
+<p><font color=ff6666><strong>共同进步！！</strong></font></p>
 <div id="wpac-rating"></div>
 <!-- <div id="wpac-comment"></div> -->
 <script type="text/javascript">
@@ -236,25 +218,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </script>
 <a href="https://widgetpack.com" target="_blank" rel="noopener" class="wpac-cr">Comments System WIDGET PACK</a>
 
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -273,25 +237,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 
 <p><a data-fancybox="gallery" data-caption="hyoJoo" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/1.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/1.png" alt="hyoJoo"></a><br><a data-fancybox="gallery" data-caption="hyoJoo" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/2.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/2.jpg" alt="hyoJoo"></a><br><a data-fancybox="gallery" data-caption="hyoJoo" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/3.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/3.jpg" alt="hyoJoo"></a><br><a data-fancybox="gallery" data-caption="hyoJoo" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/7.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/7.jpg" alt="hyoJoo"></a><br><a data-fancybox="gallery" data-caption="hyoJoo" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/5.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/5.jpg" alt="hyoJoo"></a><br><a data-fancybox="gallery" data-caption="hyoJoo" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/6.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/6.jpg" alt="hyoJoo"></a></p>
 <p><a data-fancybox="gallery" data-caption="仙女" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/9.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/9.png" alt="仙女"></a><br><a data-fancybox="gallery" data-caption="仙女" href="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/4.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/4.png" alt="仙女"></a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
   </entry>
   <entry>
     <title>动图</title>
@@ -311,25 +257,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <h2> 其他 </h2>
 
 <p><a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/CrayonShin-chan.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/CrayonShin-chan.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/getout.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/getout.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/kunfucalf.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/kunfucalf.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/pinkcoolpig.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/pinkcoolpig.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Totoro2.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Totoro2.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Frog.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Frog.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Totoro.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Totoro.gif" alt="sitich"></a>  <a data-fancybox="gallery" data-caption="sitich" href="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Totoro3.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://gitee.com/cungudafa/source/raw/master/img/gif/katon/Totoro3.gif" alt="sitich"></a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <tags>
         <tag>gif</tag>
       </tags>
@@ -367,25 +295,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </li>
 </ol>
 <p>嘻嘻嘻嘻~  喜欢就抱走，请点赞。</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -419,7 +329,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </ul>
 <p>主页：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200423103327641.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200423103327641.gif" alt="在这里插入图片描述"></a><br>如何开始你的hexo-theme-butterfly呢？</p>
 <ol>
-<li><p>官方教程：<a href="https://jerryc.me/posts/21cfbf15/" target="_blank" rel="noopener">快速开始</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200423111040302.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200423111040302.png" alt="在这里插入图片描述"></a><br><font color="#ff6699" size="5">1. 第一次使用，一定要仔细阅读参考文档，配置好你的config和source。<br></font><br><font color="#ff6699" size="5">2.其次，还有很多功能是需要安装插件的，申请app_id的都要按照规范做。<br></font><br><font color="#ff6699" size="5">3.最后，注意细节是否有空格，名称路径是否出错。</font></p>
+<li><p>官方教程：<a href="https://jerryc.me/posts/21cfbf15/" target="_blank" rel="noopener">快速开始</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200423111040302.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200423111040302.png" alt="在这里插入图片描述"></a><br><font color=#ff6699 size=5>1. 第一次使用，一定要仔细阅读参考文档，配置好你的config和source。<br></font><br><font color=#ff6699 size=5>2.其次，还有很多功能是需要安装插件的，申请app_id的都要按照规范做。<br></font><br><font color=#ff6699 size=5>3.最后，注意细节是否有空格，名称路径是否出错。</font></p>
 </li>
 <li><p><a href="https://www.jianshu.com/p/a1a4ebf0e5fc" target="_blank" rel="noopener">Hexo+Butterfly+Github+Coding搭建个人博客</a><br>这篇文章指出需要安装：</p>
 <pre class=" language-bash"><code class="language-bash"> <span class="token function">npm</span> <span class="token function">install</span> cheerio --save</code></pre>
@@ -543,8 +453,8 @@ date: 2020-03-06 16:54:10
     <p>
     </p>
     </center>
-    <bot-ui>
-  </bot-ui></div>
+    <bot-ui></botui>
+  </div>
 </div>
 <!--<script src="https://cungudafa.gitee.io/js/botui.js></script>-->
 <script src="/js/third-party/botui.js"></script>
@@ -562,39 +472,39 @@ bot_ui_ini()
 ---
 title: shuoshuo
 type: shuoshuo
-noDate: 'true'
-comments: 'false'
+noDate: &#39;true&#39;
+comments: &#39;false&#39;
 top_img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 ---
-&lt;link rel="stylesheet" href="https://gitee.com/cungudafa/source/raw/master/css/shuoshuo.css"&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://gitee.com/cungudafa/source/raw/master/css/shuoshuo.css&quot;&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;div class="photos-btn-wrap"&gt;
-    &lt;!-- &lt;a class="photos-btn" href="http://cungudafa.top/photos/"&gt;Photos&lt;/a&gt; --&gt;
-    &lt;a class="photos-btn active" href=""&gt;说说&lt;/a&gt;
-    &lt;a class="photos-btn" href="https://space.bilibili.com/430247358"&gt;视频&lt;/a&gt;
+&lt;div class=&quot;photos-btn-wrap&quot;&gt;
+    &lt;!-- &lt;a class=&quot;photos-btn&quot; href=&quot;http://cungudafa.top/photos/&quot;&gt;Photos&lt;/a&gt; --&gt;
+    &lt;a class=&quot;photos-btn active&quot; href=&quot;&quot;&gt;说说&lt;/a&gt;
+    &lt;a class=&quot;photos-btn&quot; href=&quot;https://space.bilibili.com/430247358&quot;&gt;视频&lt;/a&gt;
 &lt;/div&gt;
 
-&lt;div id="primary" class="content-area" style=""&gt;
-    &lt;main id="main" class="site-main" role="main"&gt;
-        &lt;div id="shuoshuo_content"&gt;
-            &lt;ul class="cbp_tmtimeline"&gt;
-                &lt;li&gt; &lt;span class="shuoshuo_author_img"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" class="avatar avatar-48" width="48" height="48"&gt;&lt;/span&gt;
-                    &lt;div class="cbp_tmlabel" href=""&gt;
+&lt;div id=&quot;primary&quot; class=&quot;content-area&quot; style=&quot;&quot;&gt;
+    &lt;main id=&quot;main&quot; class=&quot;site-main&quot; role=&quot;main&quot;&gt;
+        &lt;div id=&quot;shuoshuo_content&quot;&gt;
+            &lt;ul class=&quot;cbp_tmtimeline&quot;&gt;
+                &lt;li&gt; &lt;span class=&quot;shuoshuo_author_img&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg&quot; class=&quot;avatar avatar-48&quot; width=&quot;48&quot; height=&quot;48&quot;&gt;&lt;/span&gt;
+                    &lt;div class=&quot;cbp_tmlabel&quot; href=&quot;&quot;&gt;
                         &lt;p&gt;&lt;/p&gt;
                         &lt;p&gt;&lt;strong&gt;sakura主题改为butterfly主题&lt;/strong&gt;&lt;/p&gt;
                         &lt;p&gt;强肝了一天，我累了&lt;p&gt;
                         &lt;p&gt;&lt;/p&gt;
-                        &lt;p class="shuoshuo_time"&gt;&lt;i class="fa fa-clock-o"&gt;&lt;/i&gt;
+                        &lt;p class=&quot;shuoshuo_time&quot;&gt;&lt;i class=&quot;fa fa-clock-o&quot;&gt;&lt;/i&gt;
                             2020年4月21日
                         &lt;/p&gt;
                     &lt;/div&gt;
                 &lt;/li&gt;
-                &lt;li&gt; &lt;span class="shuoshuo_author_img"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" class="avatar avatar-48" width="48" height="48"&gt;&lt;/span&gt;
-                    &lt;div class="cbp_tmlabel" href=""&gt;
+                &lt;li&gt; &lt;span class=&quot;shuoshuo_author_img&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg&quot; class=&quot;avatar avatar-48&quot; width=&quot;48&quot; height=&quot;48&quot;&gt;&lt;/span&gt;
+                    &lt;div class=&quot;cbp_tmlabel&quot; href=&quot;&quot;&gt;
                         &lt;p&gt;&lt;/p&gt;
                         &lt;p&gt;第一个说说&lt;/p&gt;
                         &lt;p&gt;&lt;/p&gt;
-                        &lt;p class="shuoshuo_time"&gt;&lt;i class="fa fa-clock-o"&gt;&lt;/i&gt;
+                        &lt;p class=&quot;shuoshuo_time&quot;&gt;&lt;i class=&quot;fa fa-clock-o&quot;&gt;&lt;/i&gt;
                             2020年2月25日
                         &lt;/p&gt;
                     &lt;/div&gt;
@@ -669,25 +579,7 @@ top_img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 <p>篇幅蛮大的了，作为一次换主题的笔记吧，方便我以后查看，嘿嘿~</p>
 <p>欢迎大家<a href="https://cungudafa.top">多多指教</a>！</p>
 <p>如果这篇文章不见了，那去csdn看看，<a href="https://blog.csdn.net/cungudafa/article/details/105699384" target="_blank" rel="noopener">https://blog.csdn.net/cungudafa/article/details/105699384</a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -701,7 +593,7 @@ top_img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
     <title>Valine-1.4.4新版本尝鲜+个性制定（表情包、qq头像、UI样式）</title>
     <url>/post/8202.html</url>
     <content><![CDATA[<h1 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h1><p>大晚上又魔改评论系统了，<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200416015422242.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200416015422242.png" alt="在这里插入图片描述"></a><br>2020年4月16日01:56:39把新版本的自定义图片改出来了，2333，valine的新版本变化蛮大的。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200416015523273.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200416015523273.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-<h1 id="二、尝鲜"><a href="#二、尝鲜" class="headerlink" title="二、尝鲜"></a>二、尝鲜</h1><p><font color="#ff9999" size="5">1.4.4 强势来袭，尝鲜加体验。</font><br><font color="#3366cc" size="4">文末给出个性定制的方法，skr~~</font><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200416021719960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200416021719960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>官方更新文档：</p>
+<h1 id="二、尝鲜"><a href="#二、尝鲜" class="headerlink" title="二、尝鲜"></a>二、尝鲜</h1><p><font color=#ff9999 size=5>1.4.4 强势来袭，尝鲜加体验。</font><br><font color=#3366cc size=4>文末给出个性定制的方法，skr~~</font><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200416021719960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200416021719960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>官方更新文档：</p>
 <blockquote>
 <p><a href="https://valine.js.org/changelog.html" target="_blank" rel="noopener">v1.4.0~1.4.4, 2020-04-11</a><br>A 新的SDK加载逻辑<br>A<code>新增图片表情</code> –》<strong>算是优化了1.3.10中的表情，个性表情需自改，我在后文中给出方法</strong><br>A <code>新增截图粘贴上传</code> –》<strong>点赞 , 直接截屏就可以ctrl+v上传</strong><br>A 新增图片拖拽至评论框上传<br>A 新增对MathJax的支持<br>A 新增对KaTex的支持<br>A 新增评论框楼内回复  –》<strong>我怀疑作者大大看了<a href="https://blog.csdn.net/cungudafa/article/details/104652633" target="_blank" rel="noopener">我这篇文章《Valine–修复评论者昵称跳转外链出错》</a></strong><br>A 新增对夜间模式的支持 #221<br>A 全新的评论区UI界面 –》<strong>修改了提交框的位置，emmm，diy样式的话需要重新修改哦</strong><br>A 新增对zh-CN/zh-TW/en/jp等多国语言的支持<br>F 修复回复评论时评论数据需要刷新才会显示的Bug #257 –》<strong>点赞</strong><br>F 修复表情和预览只能点开不能收回的Bug #254 –》<strong>点赞</strong><br>F 修复Edge浏览器识别为Chrome的Bug #250<br>F 修复Storage is not defined的Bug #242<br>F 修复可能存在的xss漏洞 #218<br>F 修复分页Bug #196<br>F 修复点击展开更多击穿Bug #180<br>F 修复个别UA识别失败的Bug<br>F 修复回复评论后评论数变为1的Bug #264<br>U 表情图片懒加载 #261<br>U <code>删除验证码</code> #207 –》<strong>撤销了数学计算验证（惋惜）</strong><br>U <code>删除自带的邮件提醒</code> #20  –》<strong>撤销了leacloud自带邮箱提示（不过我们都用的zhaojun云引擎吧，不影响）</strong><br>U 代码逻辑优化</p>
 <blockquote>
@@ -727,8 +619,8 @@ top_img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 <blockquote>
 <p><a href="https://cungudafa.top/comment/">我的样式参考模板</a><br>cungudafa版：<a href="https://cungudafa.top/js/Valine144.min.js">https://cungudafa.top/js/Valine144.min.js</a></p>
 </blockquote>
-<p>如果感觉还ok，请直接引用我的样式，不用客气哦~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200416130305951.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200416130305951.png" alt="在这里插入图片描述"></a><br><font color="#ff1234" size="5">不要白嫖了，要记得留言点赞，哈哈哈，让我知道我们有共同的欣赏水平~</font></p>
-<p><font color="#1266cc">如果你有更多的想法，可以看看后面一版，我魔改的记录。</font></p>
+<p>如果感觉还ok，请直接引用我的样式，不用客气哦~<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200416130305951.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200416130305951.png" alt="在这里插入图片描述"></a><br><font color=#ff1234 size=5>不要白嫖了，要记得留言点赞，哈哈哈，让我知道我们有共同的欣赏水平~</font></p>
+<p><font color=#1266cc>如果你有更多的想法，可以看看后面一版，我魔改的记录。</font></p>
 <h2 id="3-平民版"><a href="#3-平民版" class="headerlink" title="3.平民版"></a>3.平民版</h2><ol>
 <li><p>下载<code>Valine1.4.4.min.js</code> 到本地<br>我的主题目录：<code>themes\sakura\source\js\Valine.min.js</code></p>
 <blockquote>
@@ -928,25 +820,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 })();
 </script>
 <a href="https://widgetpack.com" target="_blank" rel="noopener" class="wpac-cr">Comments System WIDGET PACK</a>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -964,25 +838,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <p><a href="https://blog.csdn.net/cungudafa" target="_blank" rel="noopener" class="LinkCard">csdn-cungudafa</a></p>
 <p>生活记录转公众号【IOT姑】</p>
 <p><a data-fancybox="gallery" data-caption="cungudafa的公众号" href="https://img-blog.csdnimg.cn/20200305183253238.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200305183253238.gif" alt="cungudafa的公众号"></a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1012,7 +868,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </li>
 <li><p>傅里叶描述子算法</p>
 <p>傅立叶描述子是分析和识别物体形状的重要方法之一。利用基于曲线多边形近似的连续傅立叶变换方法 计算傅立叶描述子，并通过形状的主方向消除边界起始点相位影响的方法，定义了新的具有旋转、平移和尺度不变 性的归一化傅立叶描述子。与使用离散傅立叶变换和模归一化的传统傅立叶描述子相比，新的归一化傅立叶描述 子同时保留了模与相位特性，因此能够更好地识别物体的形状。</p>
-<img src="https://img-blog.csdnimg.cn/20200205144102378.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" style="zoom:50%;">
+<img src="https://img-blog.csdnimg.cn/20200205144102378.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" style="zoom:50%;" />
 
 <blockquote>
 <p>图片源文链接:<a href="https://blog.csdn.net/cungudafa/article/details/104182392" target="_blank" rel="noopener">OpenCV-python提取特征（批量处理数据）</a></p>
@@ -1020,7 +876,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </li>
 <li><p>Sobe边缘检测</p>
 <p>索贝尔算子（Sobel operator）是图像处理中的算子之一，主要用于边缘检测。在技术上，它是一离散型差分算子，用来运算图像亮度函数的梯度之近似值 。在图像的任何一点使用此算子，将会产生对应的梯度矢量或是其法矢量。 </p>
-<img src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/20200307164212.png" style="zoom:67%;">
+<img src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/20200307164212.png" style="zoom:67%;" />
 
 <blockquote>
 <p><a href="https://blog.csdn.net/luoganttcc/article/details/88639530" target="_blank" rel="noopener">opencv sobe 边缘检测算子</a></p>
@@ -1057,25 +913,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <p>[3] 孙丽娟. 基于边缘梯度方向直方图的中国静态手语识别[D]. 2009. </p>
 <p>[4] 武红娇. 复杂背景下的静态手语识别技术研究[D]. </p>
 <p>[5] 韩宁江. 基于深度学习的手语识别方法研究[D]. </p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -1094,7 +932,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <ol>
 <li><p>打开手机支付宝，搜索并关注公众号“<code>浙江图书馆</code>”， 免费申请读书证；</p>
 <blockquote>
-<p>具体教程参考链接：<a href="https://baijiahao.baidu.com/s?id=1614272758350284209&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">如何免费下载中国知网文献</a></p>
+<p>具体教程参考链接：<a href="https://baijiahao.baidu.com/s?id=1614272758350284209&wfr=spider&for=pc" target="_blank" rel="noopener">如何免费下载中国知网文献</a></p>
 </blockquote>
 <p> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115500595.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200113115500595.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115600605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200113115600605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200113115428958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200113115428958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
@@ -1107,25 +945,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </blockquote>
 </li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -1175,25 +995,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </li>
 </ol>
 <p>最后第一张图补充完整图片：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200306165204207.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200306165204207.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1205,7 +1007,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
     <title>微信公众号（一）基本功能实现</title>
     <url>/post/98ec.html</url>
     <content><![CDATA[<h1 id="一、注册"><a href="#一、注册" class="headerlink" title="一、注册"></a>一、注册</h1><ol>
-<li><p>在<a href="https://mp.weixin.qq.com/cgi-bin/registermidpage?action=index&amp;lang=zh_CN" target="_blank" rel="noopener">微信公众号平台</a>申请注册<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
+<li><p>在<a href="https://mp.weixin.qq.com/cgi-bin/registermidpage?action=index&lang=zh_CN" target="_blank" rel="noopener">微信公众号平台</a>申请注册<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200305085239840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 <li><p>信息填写（邮箱和密码对应一个账号）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200305085510943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200305085510943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
@@ -1259,25 +1061,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <li>长网址转短网址：<a href="http://sina.lt/" target="_blank" rel="noopener">新浪短网址</a></li>
 <li>彩色二维码制作：<a href="https://cli.im/" target="_blank" rel="noopener">草料二维码生成器</a></li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1288,9 +1072,31 @@ wpac_init.push({widget: 'Comment', id: 23889});
   <entry>
     <title>（阿里云Ubantu16）nginx配置https安全访问</title>
     <url>/post/ccbf.html</url>
-    <content><![CDATA[<h1 id="一、获取证书"><a href="#一、获取证书" class="headerlink" title="一、获取证书"></a>一、获取证书</h1><p>【SSL证书作用】：允许https安全访问</p>
+    <content><![CDATA[<!-- ---
+title: （阿里云Ubantu16）nginx配置https安全访问
+date: 2020-03-02 13:59:10
+tags:
+  - nginx
+  - https
+  - SSL
+categories: 技术
+keywords:
+description:
+img: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png
+comments: true
+coverImg:  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583135881220&di=3fb5330fca1d9015070534bfe5204952&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181107%2Fc15076ddea1847398e568dab2a10f188.png
+toc:  true
+toc_number: true
+copyright: false
+mathjax:
+katex:
+hide:
+abbrlink: ccbf
+--- -->
+
+<h1 id="一、获取证书"><a href="#一、获取证书" class="headerlink" title="一、获取证书"></a>一、获取证书</h1><p>【SSL证书作用】：允许https安全访问</p>
 <ol>
-<li>第一步：到官网申请免费SSL证书：<a href="https://common-buy.aliyun.com/?spm=5176.2020520163.cas.3.2401IbGDIbGDka&amp;commodityCode=cas#/buy" target="_blank" rel="noopener">阿里云免费SSL证书申请</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></li>
+<li>第一步：到官网申请免费SSL证书：<a href="https://common-buy.aliyun.com/?spm=5176.2020520163.cas.3.2401IbGDIbGDka&commodityCode=cas#/buy" target="_blank" rel="noopener">阿里云免费SSL证书申请</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20190901160557580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></li>
 <li>第二步：回到控制台<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20190901162156413.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>这里选择自助验证！<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20190901161143923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>自助验证会在域名下添加如下解析：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20190901172727877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br>点击验证后，即成功！（验证后可删除）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20190901161225766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></li>
 </ol>
 <ol start="3">
@@ -1315,25 +1121,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <pre><code> /usr/local/nginx/sbin/nginx -s reload</code></pre><p>再访问域名或公网ip，就是安全地址https开头的啦~~</p>
 </li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1346,7 +1134,23 @@ wpac_init.push({widget: 'Comment', id: 23889});
   <entry>
     <title>【TensorFlow&amp;Keras】入门猫狗数据集实验--理解卷积神经网络CNN</title>
     <url>/post/1d90.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p> <strong>1、TensorFlow&amp;Keras环境配置</strong></p>
+    <content><![CDATA[<!-- ---
+title: 【TensorFlow&Keras】入门猫狗数据集实验--理解卷积神经网络CNN
+author: cungudafa
+authorLink: 'https://cungudafa.gitee.io'
+avatar: 'https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg'
+authorAbout: 姑，一个学习记录者
+tags:
+  - tensorflow
+  - keras
+  - CNN
+categories: 技术
+photos: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4190080762,256915529&fm=26&gp=0.jpg'
+description: TensorFlow&Keras环境配置、入门猫狗数据集实验、理解卷积神经网络CNN
+abbrlink: 1d90
+date: 2020-03-01 22:59:10
+--- -->
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p> <strong>1、TensorFlow&amp;Keras环境配置</strong></p>
 <p> 这里选择<code>Jupyter Notebook</code>，好处不言而喻，可上网查看，这里不赘述；<br> 在windows10下安装Anaconda3并配置好环境，启动Anaconda Navigator，在其面板里下载配置TensorFlow、Keras、Jupyter Notebook、Vscode等库；</p>
 <p><strong>2、入门猫狗数据集实验</strong></p>
 <p>下载Kaggle狗猫数据集（mnist数据集略），按照 <a href="https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/5.2-using-convnets-with-small-datasets.ipynb" target="_blank" rel="noopener">参考教程</a>,完成狗猫数据集的分类实验；解释什么是overfit（过拟合），什么是数据增强？</p>
@@ -1528,11 +1332,11 @@ datagen = ImageDataGenerator(
       shear_range=0.2,
       zoom_range=0.2,
       horizontal_flip=True,
-      fill_mode='nearest')
+      fill_mode=&#39;nearest&#39;)
 # This is module with image preprocessing utilities
 from keras.preprocessing import image
 fnames = [os.path.join(train_cats_dir, fname) for fname in os.listdir(train_cats_dir)]
-# We pick one image to "augment"
+# We pick one image to &quot;augment&quot;
 img_path = fnames[3]
 # Read the image and resize it
 img = image.load_img(img_path, target_size=(150, 150))
@@ -1621,25 +1425,7 @@ plt.show()</code></pre><h3 id="3-2-模型调整"><a href="#3-2-模型调整" cla
 <li>权值共享：一组连接可以共享同一个权重，而不是每个连接有一个不同的权重，这样又减少了很多参数。</li>
 <li>下采样：可以使用Pooling来减少每层的样本数，进一步减少参数数量，同时还可以提升模型的鲁棒性。</li>
 </ul>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1682,25 +1468,7 @@ plt.show()</code></pre><h3 id="3-2-模型调整"><a href="#3-2-模型调整" cla
 <p><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200304135000622.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200304135000622.png" alt="在这里插入图片描述"></a></p>
 <pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://你的域名/hitokoto/?format<span class="token punctuation">=</span>js&amp;charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>hitokoto<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script language-javascript"><span class="token function">hitokoto</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1755,8 +1523,8 @@ plt.show()</code></pre><h3 id="3-2-模型调整"><a href="#3-2-模型调整" cla
 <li><p>把data.json复制到<code>\photos</code>下，为了方便，也可以修改tools.py的大约135行位置处，以后在运行脚本时，直接保存到此处：</p>
 <pre><code> ```
      # 这里可以直接修改到你的hexo资源目录
-     #with open("data.json","w") as fp:
-     with open("D:/myworkspace/1GitHub_cungudafa/MyWeb/source/photos/data.json","w") as fp:
+     #with open(&quot;data.json&quot;,&quot;w&quot;) as fp:
+     with open(&quot;D:/myworkspace/1GitHub_cungudafa/MyWeb/source/photos/data.json&quot;,&quot;w&quot;) as fp:
      json.dump(final_dict, fp)
          json.dump(final_dict, fp)
  ```</code></pre></li>
@@ -1767,8 +1535,8 @@ plt.show()</code></pre><h3 id="3-2-模型调整"><a href="#3-2-模型调整" cla
 </li>
 <li><p>因为相册渲染用不到sakura主题，所以还需要额外添加css文件和js文件，<a href="https://github.com/cungudafa/img/tree/master/js_css" target="_blank" rel="noopener">我的样式链接js_css</a>，将js和css中的内容也复制到<code>MyWeb\source\photos</code>下；<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/202002182045087.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/202002182045087.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> <strong>说明：</strong> （1）assets目录下放的是一张empty.png图片，原作者在ins.js中引用了此图片也没有特别说明，<a href="https://github.com/cungudafa/img/tree/master/js_css/assets" target="_blank" rel="noopener">我的链接</a>里给出来了，补坑；<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218220626748.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218220626748.png" alt="在这里插入图片描述"></a><br> （其次，原作者的assets和photos同级目录，我放在photos目录里，特别修改了这两个位置，下载我的js已经修改过了。）<br> <a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218220210548.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218220210548.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> <strong>特别修改：</strong> （2）自己动手，修改<code>ins.js</code>里大约在119行左右的链接修改为你的GitHub的仓库地址：（我的示例：<code>cungudafa/img</code>修改为<code>你的github名/你的github仓库名</code>）</p>
 <pre><code> // 需要修改https://raw.githubusercontent.com/你的github名/你的github仓库名/master/min_photos/即可
- var minSrc = 'https://raw.githubusercontent.com/cungudafa/img/master/min_photos/' + data.link[i];
- var src = 'https://raw.githubusercontent.com/cungudafa/img/master/photos/' + data.link[i];       </code></pre><blockquote>
+ var minSrc = &#39;https://raw.githubusercontent.com/cungudafa/img/master/min_photos/&#39; + data.link[i];
+ var src = &#39;https://raw.githubusercontent.com/cungudafa/img/master/photos/&#39; + data.link[i];       </code></pre><blockquote>
 <p><code>注意点：</code>确保你的图片地址是正确的，否则加载不出来，检测方法可以将选择一个图片地址看能不能再浏览器中打开。<br>如图是点击<code>download</code>下载后的链接，是<a href="https://raw.githubusercontent.com" target="_blank" rel="noopener">https://raw.githubusercontent.com</a> 开头的，不是图片的存储地址，否则加载不出。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200218211835624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200218211835624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </blockquote>
 </li>
@@ -1779,12 +1547,12 @@ plt.show()</code></pre><h3 id="3-2-模型调整"><a href="#3-2-模型调整" cla
 </li>
 </ol>
 <h1 id="三、其他配置"><a href="#三、其他配置" class="headerlink" title="三、其他配置"></a>三、其他配置</h1><ol>
-<li><p>下载<a href="https://github.com/cungudafa/img/tree/master/js_css" target="_blank" rel="noopener">样式文件</a>（我的img图库已经很大了，不方便下载，这里给一个<a href="https://github.com/malizhigithub/HexoAlbumData/tree/master/JS&amp;CSS" target="_blank" rel="noopener">前人的下载链接</a>）<br> 1.1 <code>photos</code>目录下添加<code>photoswipe.css</code>、<code>photoswipe-ui-default.min.js</code>、<code>photoswipe.min.js</code>，<br> 1.2 photos目录下新建<code>default-skin</code>目录，添加如下文件：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 1.3 在<code>source\photos\index.md</code>相册文件前加上样式：</p>
-<pre><code> &lt;link rel="stylesheet" href="./ins.css"&gt;
- &lt;link rel="stylesheet" href="./photoswipe.css"&gt; 
- &lt;link rel="stylesheet" href="./default-skin/default-skin.css"&gt; 
- &lt;script src="./photoswipe.min.js"&gt;&lt;/script&gt;
- &lt;script src="./photoswipe-ui-default.min.js"&gt;&lt;/script&gt;</code></pre><p> 查看大图：（手机端也适应哦！）<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
+<li><p>下载<a href="https://github.com/cungudafa/img/tree/master/js_css" target="_blank" rel="noopener">样式文件</a>（我的img图库已经很大了，不方便下载，这里给一个<a href="https://github.com/malizhigithub/HexoAlbumData/tree/master/JS&CSS" target="_blank" rel="noopener">前人的下载链接</a>）<br> 1.1 <code>photos</code>目录下添加<code>photoswipe.css</code>、<code>photoswipe-ui-default.min.js</code>、<code>photoswipe.min.js</code>，<br> 1.2 photos目录下新建<code>default-skin</code>目录，添加如下文件：<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219183819109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><br> 1.3 在<code>source\photos\index.md</code>相册文件前加上样式：</p>
+<pre><code> &lt;link rel=&quot;stylesheet&quot; href=&quot;./ins.css&quot;&gt;
+ &lt;link rel=&quot;stylesheet&quot; href=&quot;./photoswipe.css&quot;&gt; 
+ &lt;link rel=&quot;stylesheet&quot; href=&quot;./default-skin/default-skin.css&quot;&gt; 
+ &lt;script src=&quot;./photoswipe.min.js&quot;&gt;&lt;/script&gt;
+ &lt;script src=&quot;./photoswipe-ui-default.min.js&quot;&gt;&lt;/script&gt;</code></pre><p> 查看大图：（手机端也适应哦！）<a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200219181405489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 <li><p>如果想要全局都使用photoswipe效果的话，可以把js和css配置在theme主题中，在head、footer分别加上相应引入，额外还要添加一些配置哦：<a href="https://blog.csdn.net/lunsunhuan1825/article/details/96474155" target="_blank" rel="noopener">photoswipe 移动端PC端兼容图片相册预览</a> 。</p>
 </li>
@@ -1794,25 +1562,7 @@ plt.show()</code></pre><h3 id="3-2-模型调整"><a href="#3-2-模型调整" cla
 </blockquote>
 <pre><code>现在项目相册部分完美！接下来是视频部分~~ 踩坑、填坑、学习记录 走起
 ending~
-更多小王的技术博客:[cungudafa-csdn](https://blog.csdn.net/cungudafa/article/details/104378416)</code></pre><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+更多小王的技术博客:[cungudafa-csdn](https://blog.csdn.net/cungudafa/article/details/104378416)</code></pre>]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1838,7 +1588,7 @@ ending~
 <ol>
 <li>最后点击Generate token即可看到显示的token页面，==它只会显示一次，关闭页面后再打开这个页面就不会显示了。== <code>复制token值粘贴到文本文档</code>中，先保存下来，后面配置PicGo要用到。<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020021419470158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><h2 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h2></li>
 <li>首先下载PicGo，图片上传工具PicGo下载地址:<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo/releases</a><blockquote>
-<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&amp;url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
+<p>如果下载速度非常慢的话，备用地址：<a href="https://yq.aliyun.com/go/articleRenderRedirect?spm=a2c4e.11153940.0.0.6d71d9b9zm7UVD&url=https://pan.baidu.com/s/1bWkImn3pBKZpx9lnMhkRRA" target="_blank" rel="noopener">传送门</a> 密钥：n5wu</p>
 </blockquote>
 </li>
 <li>安装配置PicGo<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200214200729651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a><ul>
@@ -1875,25 +1625,7 @@ ending~
 </li>
 </ul>
 <p>这里再也不担心Typora写文发布时，图片无法显示的问题了。</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -1911,7 +1643,7 @@ ending~
 <p>当然，不建议出门聚会哦！</p>
 <p> <code>划重点：</code>  你会如何选择在家度过美好的一天呢？</p>
 <ol>
-<li><p>美食party<br>（自制火锅，家庭烤肉)<br><a data-fancybox="gallery" data-caption="1" href="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581615245028&amp;di=51788c02e4ae35098a7f8eafa1a7c0ac&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg" target="_blank" rel="noopener"><img data-action="zoom" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581615245028&amp;di=51788c02e4ae35098a7f8eafa1a7c0ac&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg" alt="1"></a><br>(烘焙蛋糕，布丁甜点…）<br><a data-fancybox="gallery" data-caption="2" href="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581615176879&amp;di=64efe5d959b73df9995031cec6e1a42f&amp;imgtype=0&amp;src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1581615176879&amp;di=64efe5d959b73df9995031cec6e1a42f&amp;imgtype=0&amp;src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif" alt="2"></a></p>
+<li><p>美食party<br>（自制火锅，家庭烤肉)<br><a data-fancybox="gallery" data-caption="1" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615245028&di=51788c02e4ae35098a7f8eafa1a7c0ac&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg" target="_blank" rel="noopener"><img data-action="zoom" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615245028&di=51788c02e4ae35098a7f8eafa1a7c0ac&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F28704985.jpeg" alt="1"></a><br>(烘焙蛋糕，布丁甜点…）<br><a data-fancybox="gallery" data-caption="2" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615176879&di=64efe5d959b73df9995031cec6e1a42f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif" target="_blank" rel="noopener"><img data-action="zoom" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581615176879&di=64efe5d959b73df9995031cec6e1a42f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F23%2F20171223181436_aKVzE.thumb.700_0.gif" alt="2"></a></p>
 </li>
 <li><p>甜甜的韩剧/美剧<br>《爱的迫降》–蝉联电视剧话题性冠军一个月！<br><a data-fancybox="gallery" data-caption="3" href="https://www.hanjutv.com/api/thumb/7dd3ed2e12d7967b656d156d50308263/800-419-1-0.jpg" target="_blank" rel="noopener"><img data-action="zoom" src="https://www.hanjutv.com/api/thumb/7dd3ed2e12d7967b656d156d50308263/800-419-1-0.jpg" alt="3"></a></p>
 </li>
@@ -1924,25 +1656,7 @@ ending~
 <p>2020年2月13日 22:55:30 <code>姑</code> 对你说:</p>
 <p>晚安海绵宝宝，晚安小蜗，晚安派大星，晚安章鱼哥，晚安珊迪，晚安蟹老板，晚安皮老板，晚安泡芙老师，晚安唔西迪西，晚安玛卡巴卡，晚安依古比古，晚安汤姆布利波，晚安小点点，晚安叮叮车，晚安哈呼呼，晚安小仙女。 ​​​</p>
 </blockquote>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -1961,7 +1675,7 @@ ending~
 <ol>
 <li><p>在<code>主目录\source\</code>下新建目录<code>about</code>，新建<code>index.md</code><br>（sakura特点是将index.md文件直接转换成about\index.html）<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200213100829183.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200213100829183.png" alt="在这里插入图片描述"></a><br>index.md<br>关键代码是：</p>
 <pre><code> &lt;bot-ui&gt;&lt;/botui&gt;
- &lt;script src="/js/botui.js"&gt;&lt;/script&gt;
+ &lt;script src=&quot;/js/botui.js&quot;&gt;&lt;/script&gt;
  &lt;script&gt;
  bot_ui_ini()
  &lt;/script&gt;</code></pre><p>完整代码：</p>
@@ -1994,8 +1708,8 @@ photos: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/banner/about.jpg
       <p>
       </p>
       </center>
-      <bot-ui>
-    </bot-ui></div>
+      <bot-ui></botui>
+    </div>
   </div>
   <script src="/js/botui.js"></script>
   <script>
@@ -2027,25 +1741,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </script>
 <a href="https://widgetpack.com" target="_blank" rel="noopener" class="wpac-cr">Comments System WIDGET PACK</a>
 
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -2175,25 +1871,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <li><p>hexo博客模板样式很多，需要一次详细的修改，能为博文锦上添花！</p>
 </li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -2246,25 +1924,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 </li>
 </ol>
 <p>最终效果，棒棒哒！(～￣▽￣)～<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200222151705401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200222151705401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -2288,7 +1948,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <li><p>在本地git仓库目录下右键 Git Bash Here，执行以下命令：</p>
 <pre><code> git status                    //查看状态
  git add .                     //添加所有文件到暂存区
- git commit -m '第一次提交'      //把文件提交到仓库
+ git commit -m &#39;第一次提交&#39;      //把文件提交到仓库
  git push                      //推送至远程仓库</code></pre><p> 也可以用Git Gui上传，上传成功后在浏览器可查看<a href="https://github.com/cungudafa/cdn" target="_blank" rel="noopener">https://github.com/cungudafa/cdn</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113116661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200212113116661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 <h2 id="4-发布资源"><a href="#4-发布资源" class="headerlink" title="4. 发布资源"></a>4. 发布资源</h2></li>
 <li><p>点击release自定义发布的版本号<br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/20200212113312274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/20200212113312274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
@@ -2308,25 +1968,7 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <li><p>目录<br><code>// 在末尾添加 / 以获取资源目录列表</code><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file/</code><br><a href="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.1/img/custom/</a><br><a data-fancybox="gallery" data-caption="在这里插入图片描述" href="https://img-blog.csdnimg.cn/2020021212103323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener"><img data-action="zoom" src="https://img-blog.csdnimg.cn/2020021212103323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2N1bmd1ZGFmYQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></a></p>
 </li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -2347,24 +1989,6 @@ wpac_init.push({widget: 'Comment', id: 23889});
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+]]></content>
   </entry>
 </search>
