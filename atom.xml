@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.top/"/>
-  <updated>2020-05-20T07:32:42.782Z</updated>
+  <updated>2020-05-24T08:26:13.423Z</updated>
   <id>https://cungudafa.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-theme-SakuraPlus</title>
+    <link href="https://cungudafa.top/post/sakuraplus.html"/>
+    <id>https://cungudafa.top/post/sakuraplus.html</id>
+    <published>2020-05-24T05:59:10.000Z</published>
+    <updated>2020-05-24T08:26:13.423Z</updated>
+    
+    <summary type="html">
+    
+      一款唯美hexo主题
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="theme" scheme="https://cungudafa.top/tags/theme/"/>
+    
+      <category term="SakuraPlus" scheme="https://cungudafa.top/tags/SakuraPlus/"/>
+    
+  </entry>
   
   <entry>
     <title>背景图片</title>
@@ -73,7 +96,7 @@
     <link href="https://cungudafa.top/post/96c.html"/>
     <id>https://cungudafa.top/post/96c.html</id>
     <published>2020-05-05T16:30:10.000Z</published>
-    <updated>2020-05-23T04:17:36.715Z</updated>
+    <updated>2020-05-24T08:16:50.238Z</updated>
     
     <summary type="html">
     
@@ -465,27 +488,6 @@
     
     
       <category term="自动回复机器人" scheme="https://cungudafa.top/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Gitee+Hexo搭建个人博客</title>
-    <link href="https://cungudafa.top/post/e27b.html"/>
-    <id>https://cungudafa.top/post/e27b.html</id>
-    <published>2020-02-13T09:14:10.000Z</published>
-    <updated>2020-05-23T04:17:49.995Z</updated>
-    
-    <summary type="html">
-    
-      Gitee+Hexo（sakura）免费搭建开源个人博客，小白试水记录
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="经验分享" scheme="https://cungudafa.top/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   

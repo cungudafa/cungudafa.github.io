@@ -484,27 +484,27 @@ i.iconfont.js-toggle-search.iconsearch:hover,
         <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
   <div class="post-entry">
     <div class="feature">
-      <a href="/post/96c.html">
+      <a href="/post/sakuraplus.html">
         <div class="overlay">
           <i class="iconfont icon-text">
           </i>
         </div>
-        <img width="150" height="150" src="https://img-blog.csdnimg.cn/2020050600085346.gif" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/startdash/sakura.md.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
       </a>
     </div>
     <h1 class="entry-title">
-    <a href="/post/96c.html">
-    hexo（butterfly）添加说说页面（Artitalk可在线发布）</a>
+    <a href="/post/sakuraplus.html">
+    hexo-theme-SakuraPlus</a>
     </h1>
     <div class="p-time">
       <i class="iconfont icon-time">
       </i>
-    2020-5-6</div>
+    2020-5-24</div>
     <p>
-    Artitalk推荐</p>
+    一款唯美hexo主题</p>
     <footer class="entry-footer">
       <div class="post-more">
-        <a href="/post/96c.html">
+        <a href="/post/sakuraplus.html">
           <i class="iconfont icon-caidan">
           </i>
         </a>
@@ -536,6 +536,42 @@ i.iconfont.js-toggle-search.iconsearch:hover,
     <!-- 首页默认取最最新文章集 -->
     
       <!-- 其余文章 -->
+       
+    
+      <!-- 其余文章 -->
+      
+        <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div class="post-entry">
+    <div class="feature">
+      <a href="/post/96c.html">
+        <div class="overlay">
+          <i class="iconfont icon-text">
+          </i>
+        </div>
+        <img width="150" height="150" src="https://img-blog.csdnimg.cn/2020050600085346.gif" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+      </a>
+    </div>
+    <h1 class="entry-title">
+    <a href="/post/96c.html">
+    hexo（butterfly）添加说说页面（Artitalk可在线发布）</a>
+    </h1>
+    <div class="p-time">
+      <i class="iconfont icon-time">
+      </i>
+    2020-5-6</div>
+    <p>
+    Artitalk推荐</p>
+    <footer class="entry-footer">
+      <div class="post-more">
+        <a href="/post/96c.html">
+          <i class="iconfont icon-caidan">
+          </i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <hr>
+</article>
        
     
       <!-- 其余文章 -->
@@ -826,42 +862,6 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 </article>
        
     
-      <!-- 其余文章 -->
-      
-        <article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/post/3af9.html">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/cungudafa/img/images/md/手写诗词.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/post/3af9.html">
-    为你的博客引入——今日诗词、每日一言（js插件分享）</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-2-23</div>
-    <p>
-    今日诗词 API 根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐，返回一句古诗词名句的接口。一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/post/3af9.html">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-       
-    
 
 
 
@@ -878,7 +878,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -890,10 +890,10 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -938,7 +938,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">23.6k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">28.8k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>

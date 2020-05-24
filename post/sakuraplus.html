@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!-- cungudafa百度收录验证编号 -->
+  <!-- <meta name="baidu-site-verification" content="LukfTcyXmC" /> -->
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">hexo-theme-SakuraPlus | cungudafa</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/style.css" type="text/css" media="all" id="saukra_css-css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/jquery.fancybox.min.css" media="all">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/tags.css" media="all">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/sharejs.css">
+  
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/logo.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/fonts/LOGO/logo.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+
+  <!-- 分析 -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b05d6287bdeab72f3886bffe3cff054a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+  
+  <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+  " type="text/css" media="all"> -->
+  <script>
+    /*Initial Variables*/
+    var mashiro_option = new Object();
+    var mashiro_global = new Object();
+    mashiro_option.NProgressON = true;
+    /* 
+    * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+    * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+    */
+    mashiro_option.email_domain = "";
+    mashiro_option.email_name = "";
+    mashiro_option.cookie_version_control = "";
+    mashiro_option.qzone_autocomplete = false;
+    mashiro_option.site_name = "cungudafa姑";
+    mashiro_option.author_name = "姑";
+    mashiro_option.site_url = "https://cungudafa.top/";
+    mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
+    mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";//
+    mashiro_option.mathjax = "0";
+    mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+    mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+    // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+    // mashiro_option.float_player_on = true;
+
+    /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+    var bg = "https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(0).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(1).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(2).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(3).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(4).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(5).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(6).jpg.webp,https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.0.9/img/cover/(7).jpg.webp".split(",");
+    var bgindex = Math.floor(Math.random()*bg.length);
+    if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+      alert('朋友，IE浏览器未适配哦~');
+    }
+  </script>
+  <style>
+    
+.site-top .lower nav {
+    display: block !important;
+}
+
+.author-profile i,
+.post-like a,
+.post-share .show-share,
+.sub-text,
+.we-info a,
+span.sitename,
+.post-more i:hover,
+#pagination a:hover,
+.post-content a:hover,
+.float-content i:hover {
+    color: #FE9600
+}
+
+.feature i,
+.download,
+.navigator i:hover,
+.links ul li:before,
+.ar-time i,
+span.ar-circle,
+.object,
+.comment .comment-reply-link,
+.siren-checkbox-radio:checked+.siren-checkbox-radioInput:after {
+    background: #FE9600
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FE9600
+}
+
+.download,
+.navigator i:hover,
+.link-title,
+.links ul li:hover,
+#pagination a:hover,
+.comment-respond input[type='submit']:hover {
+    border-color: #FE9600
+}
+
+.entry-content a:hover,
+.site-info a:hover,
+.comment h4 a,
+#comments-navi a.prev,
+#comments-navi a.next,
+.comment h4 a:hover,
+.site-top ul li a:hover,
+.entry-title a:hover,
+#archives-temp h3,
+span.page-numbers.current,
+.sorry li a:hover,
+.site-title a:hover,
+i.iconfont.js-toggle-search.iconsearch:hover,
+.comment-respond input[type='submit']:hover {
+    color: #FE9600
+}
+
+.comments .comments-main {
+    display: block !important;
+}
+
+.comments .comments-hidden {
+    display: none !important;
+    background-position: center;
+    background-attachment: inherit;
+}
+  </style>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="cungudafa" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head> 
+
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <a href="https://cungudafa.top/">
+          <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+        </a>
+      </div>
+      <div class="header-info">
+        <p>莫三天打鱼两天晒网</p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="https://gitee.com/cungudafa" target="_blank" class="social-github" title="gitee">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/gitee.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="http://github.com/cungudafa" target="_blank" class="social-github" title="github">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/github.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://blog.csdn.net/cungudafa" target="_blank" class="social-github" title="csdn">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/csdn.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://www.zhihu.com/people/cungudafa" target="_blank" class="social-github" title="zhihu">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/zhihu.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://space.bilibili.com/430247358" target="_blank" class="social-github" title="bilibili">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/bilibili.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li class="wechat">
+                  <a href="/#">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/social/wechat.png">
+                  </a>
+                  <div class="wechatInner">
+                    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.png">
+                  </div>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  
+  <div id="video-container">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+    <div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+        <span class="site-title">
+            <span class="logolink logo">
+                <a href="/">
+                    <ruby>
+                    <span class="sakuraso">姑</span>
+                    <span class="no">の</span>
+                    <span class="shironeko">小屋</span>
+                    <rp></rp>
+                    <rt class="logo">cungudafa</rt>
+                    <rp></rp>
+                    </ruby>
+                  </a>
+            </span>
+          </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/tags">
+                          <i class="fa fa-tags" aria-hidden="true"></i>
+                          标签
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E7%94%9F%E6%B4%BB/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          生活
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/artitalk/">
+                          <i class="fa fa-commenting-o fa-commenting" aria-hidden="true"></i>
+                          说说
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/photos/">
+                          <i class="fa fa-photo" aria-hidden="true"></i>
+                          相册
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/books/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          悦读
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/movies/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          追剧
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-meetup" aria-hidden="true"></i>
+                          我？
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                          主题
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/client/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+                    项目
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/startdash/sakura.md.png);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/startdash/sakura.md.png">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">hexo-theme-SakuraPlus</h1>
+      <p class="entry-census">
+        
+          <span class="post-meta-item">
+            <a href="https://cungudafa.top">
+              <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+            </a>
+          </span>
+        
+        
+          <span class="post-meta-item">
+            <a href="https://cungudafa.top"> cungudafa </a>
+          </span>
+          <span class="bull">
+            ·</span>
+        
+          <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text"> 2020-5-24 </span>
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 浏览数显示 -->
+          <span class="post-meta-item" >
+              <span class="post-meta-item-icon">
+                <i class="iconfont icon-attention"></i>
+              </span>
+              <span class="post-meta-item-text">本文共<span id="busuanzi_value_page_pv"> </span>次阅读
+              </span>
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 字数统计-->
+          <span class="post-meta-item" >
+          
+          
+            <!-- 阅读时长统计 -->
+<span class="post-time">
+  <span class="post-meta-item-icon">
+    <i class="fa fa-book"></i>
+    <span class="post-meta-item-text">字数统计: </span>
+    <!-- 安装插件npm install hexo-wordcount --save -->
+    <span class="post-count">5.2k字</span>
+  </span>
+</span>
+<span class="bull">
+·</span>
+<span class="post-time">
+  <span class="post-meta-item-icon">
+    <i class="fa fa-coffee"></i>
+    <span class="post-meta-item-text">阅读时长≈</span>
+    <span class="post-count">22分钟</span>
+  </span>
+</span>
+          
+          </span>
+          <span class="bull">
+            ·</span>
+          <!-- 评论数显示 -->
+          <!-- <span class="post-meta-item" >
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              </span class="post-meta-item-text">
+                <span class="valine-comment-count" data-xid="/sakuraplus"> </span>
+              </span>
+          </span> -->
+        </p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content">  -->
+          <!--套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h1 id="hexo-theme-SakuraPlus"><a href="#hexo-theme-SakuraPlus" class="headerlink" title="hexo-theme-SakuraPlus"></a>hexo-theme-SakuraPlus</h1><blockquote>
+<p>Hexo主题Sakura由<a href="https://www.hojun.cn/" target="_blank" rel="noopener">Hojun大佬</a>修改自WordPress主题<a href="https://github.com/mashirozx/Sakura/" target="_blank" rel="noopener">Sakura</a>，感谢原作者<a href="https://2heng.xin/" target="_blank" rel="noopener">Mashiro</a></p>
+</blockquote>
+<p>由于sakura最近没有再更新了，我对之前的<a href="https://blog.csdn.net/cungudafa/category_9714183.html" target="_blank" rel="noopener">魔改笔记</a>进行了调整和整理，开源<a href="https://gitee.com/cungudafa/hexo-theme-sakuraplus" target="_blank" rel="noopener">hexo-theme-sakuraplus</a>版本。</p>
+<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
+<li>简单漂亮，文章内容美观易读</li>
+<li>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现</li>
+<li>首页轮播文章及自动切换 <code>Banner</code> 图片</li>
+<li>背景壁纸切换（增加）</li>
+<li>时间轴式的归档页</li>
+<li>支持pjax刷新</li>
+<li>友情链接页面 （增加了config可选设置提示语和本网站信息）</li>
+<li>支持在首页的音乐播放和视频播放功能</li>
+<li>支持文章置顶和文章打赏（增加了提示语）</li>
+<li>支持 <code>MathJax</code></li>
+<li><code>TOC</code> 目录</li>
+<li>缓加载动画</li>
+<li>增加了相册页面（一个快速查找文章的接口，后面可能会美化）</li>
+<li>增加了豆瓣读书、豆瓣电影页面</li>
+<li>增加了<a href="https://artitalk.js.org" target="_blank" rel="noopener">个性说说在线发布</a>页面（增加了）</li>
+<li>优化了文章底部作者信息不填写时显示为空的问题</li>
+<li>优化了<a href="https://valine.js.org/" target="_blank" rel="noopener">Valine</a>评论模块（最新可定制表情等）</li>
+<li>可设置复制文章内容时追加版权信息（可设置是否追加版权信息）</li>
+<li>增加了 <a href="http://www.daovoice.io/" target="_blank" rel="noopener">DaoVoice</a>在线聊天功能</li>
+<li>增加了可设置代码块相关（是否显示名称、是否可复制，是否可收缩，是否可折行）</li>
+<li>增加了ICP备案信息显示（可选）</li>
+<li>增加了标签云页面（如果需要更多功能，后面可补充）</li>
+<li>增加了看板娘动画</li>
+<li>增加了可设置首页音乐提示</li>
+<li>增加了<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener">不蒜子统计</a>、谷歌分析（<code>Google Analytics</code>）和文章字数统计等功能</li>
+<li>优化了<a href="https://www.bootcdn.cn/botui/" target="_blank" rel="noopener">自我介绍</a>页面</li>
+<li>增加了自定义logo的接口</li>
+<li>增加了fancybox查看大图功能（可选）</li>
+<li>增加了外链转知乎卡片形式</li>
+<li>增加了谷歌分析和<a href="https://tongji.baidu.com/" target="_blank" rel="noopener">百度分析</a></li>
+<li>增加了<a href="https://widgetpack.com" target="_blank" rel="noopener">widgetpack星星评分</a></li>
+<li>多种背景和点击动画（可选设置）</li>
+<li>优化css和js在config可配置</li>
+<li>优化文章图片阴影显示和引用样式（阅读butter）</li>
+<li>增加播放器隐藏选项</li>
+</ul>
+<h2 id="贡献者"><a href="#贡献者" class="headerlink" title="贡献者"></a>贡献者</h2><p>感谢下面列出的贡献者，没有他们，hexo-theme-sakuraplus 不会这么完美。</p>
+<ul>
+<li><a href="https://github.com/Drew233/" target="_blank" rel="noopener">@Uncle_Drew</a></li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>当你看到这里的时候，应该已经有一个自己的 <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a> 博客了。如果还没有的话，不妨使用 Hexo 和 <a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">Markdown</a> 来写博客和文章。</p>
+<p>点击 <a href="https://gitee.com/cungudafa/hexo-theme-sakuraplus/repository/archive/master.zip" target="_blank" rel="noopener">这里</a> 下载 <code>master</code> 分支的最新稳定版的代码，解压缩后，将 <code>hexo-theme-sakuraplus</code> 的文件夹复制到你 Hexo 的 <code>themes</code> 文件夹中即可。</p>
+<p>当然你也可以在你的 <code>themes</code> 文件夹下使用 <code>Git clone</code> 命令来下载:</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone https://gitee.com/cungudafa/hexo-theme-sakuraplus.git</code></pre>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h3 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h3><p>修改 Hexo 根目录下的 <code>_config.yml</code> 的  <code>theme</code> 的值：<code>theme: hexo-theme-sakruaplus</code></p>
+<h4 id="config-yml-文件的其它修改建议"><a href="#config-yml-文件的其它修改建议" class="headerlink" title="_config.yml 文件的其它修改建议:"></a><code>_config.yml</code> 文件的其它修改建议:</h4><ul>
+<li><p>请修改 <code>_config.yml</code> 的 <code>url</code> 的值为你的网站主 <code>URL</code>（如：<code>http://xxx.github.io</code>）。</p>
+</li>
+<li><p>如果你是中文用户，则建议修改 <code>language</code> 的值为 <code>zh-CN</code>。</p>
+</li>
+<li><p>建议修改permalink，可修改为<a href="https://blog.csdn.net/cungudafa/article/details/104312892" target="_blank" rel="noopener">短链接</a>。<br>安装插件：</p>
+<pre class=" language-bash"><code class="language-bash">  <span class="token function">npm</span> <span class="token function">install</span> hexo-abbrlink --save</code></pre>
+<p>  主配置文件修改和添加：</p>
+<pre class=" language-bash"><code class="language-bash">  <span class="token comment" spellcheck="true">#permalink: :year/:month/:day/:title/ #主题默认文章链接配置</span>
+  permalink: post/:abbrlink.html <span class="token comment" spellcheck="true">#修改</span>
+
+  <span class="token comment" spellcheck="true">## 启用算法生成不重复文件编号，添加</span>
+  abbrlink:
+        alg: crc16   <span class="token comment" spellcheck="true">#算法： crc16(default) and crc32</span>
+        rep: hex   <span class="token comment" spellcheck="true">#进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制</span>
+</code></pre>
+</li>
+</ul>
+<h3 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h3><p><code>categories</code> 页是用来展示所有分类的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>categories/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"categories"</span></code></pre>
+<p>编辑你刚刚新建的页面文件 <code>/source/categories/index.md</code>，至少需要以下内容：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> 分类
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-04-21 00:00:00</span>
+<span class="token key atrule">type</span><span class="token punctuation">:</span> <span class="token string">"categories"</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/banner/donate.jpg
+<span class="token key atrule">comments</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> <span class="token string">"categories"</span>
+<span class="token punctuation">---</span></code></pre>
+<h3 id="新建标签-tags-页"><a href="#新建标签-tags-页" class="headerlink" title="新建标签 tags 页"></a>新建标签 tags 页</h3><p><code>tags</code> 页是用来展示所有标签的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>tags/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"tags"</span></code></pre>
+<p>编辑你刚刚新建的页面文件 <code>/source/tags/index.md</code>，至少需要以下内容：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> tags
+<span class="token key atrule">type</span><span class="token punctuation">:</span> tags
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-02-13 20:24:16</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/banner/donate.jpg
+<span class="token key atrule">comments</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> <span class="token string">"tags"</span>
+<span class="token punctuation">---</span></code></pre>
+<h3 id="新建关于我-about-页"><a href="#新建关于我-about-页" class="headerlink" title="新建关于我 about 页"></a>新建关于我 about 页</h3><p><code>about</code> 页是用来展示<strong>关于我和我的博客</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>about/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"about"</span></code></pre>
+<p>编辑你刚刚新建的页面文件 <code>/source/about/index.md</code>，至少需要以下内容：</p>
+<blockquote>
+<p><code>Tips:</code> 这里用了<a href="https://www.bootcdn.cn/botui/" target="_blank" rel="noopener">botui</a>，还需要单独配置（/js/third-party/botui.js）</p>
+</blockquote>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> about
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-2-12 22:14:36</span>
+<span class="token key atrule">keywords</span><span class="token punctuation">:</span> 关于
+<span class="token key atrule">description</span><span class="token punctuation">:</span> 
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> <span class="token string">"about"</span>
+<span class="token key atrule">comments</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/banner/about.jpg
+<span class="token punctuation">---</span>
+&lt;<span class="token tag">!--</span> https<span class="token punctuation">:</span>//www.bootcdn.cn/botui/ <span class="token punctuation">-</span><span class="token punctuation">-</span><span class="token punctuation">></span>
+&lt;link href="https<span class="token punctuation">:</span>//cdn.bootcss.com/botui/0.3.9/botui<span class="token punctuation">-</span>theme<span class="token punctuation">-</span>default.css" rel="stylesheet"<span class="token punctuation">></span>
+&lt;link href="https<span class="token punctuation">:</span>//cdn.bootcss.com/botui/0.3.9/botui.min.css" rel="stylesheet"<span class="token punctuation">></span>
+
+<span class="token punctuation">{</span>% raw %<span class="token punctuation">}</span>
+&lt;<span class="token tag">!--</span> 因为vue和botui更新导至bug<span class="token punctuation">,</span>现将对话移至js下的botui中配置 <span class="token punctuation">-</span><span class="token punctuation">-</span><span class="token punctuation">></span>
+&lt;div class="entry<span class="token punctuation">-</span>content"<span class="token punctuation">></span>
+  &lt;div class="moe<span class="token punctuation">-</span>cungudafa" style="text<span class="token punctuation">-</span>align<span class="token punctuation">:</span>center; font<span class="token punctuation">-</span><span class="token key atrule">size</span><span class="token punctuation">:</span> 50px; margin<span class="token punctuation">-</span><span class="token key atrule">bottom</span><span class="token punctuation">:</span> 20px;"<span class="token punctuation">></span>姑的小屋&lt;/div<span class="token punctuation">></span>
+  &lt;div id="hello<span class="token punctuation">-</span>cungudafa" class="popcontainer" style="min<span class="token punctuation">-</span><span class="token key atrule">height</span><span class="token punctuation">:</span> 300px; padding<span class="token punctuation">:</span> 2px 6px 4px; background<span class="token punctuation">-</span><span class="token key atrule">color</span><span class="token punctuation">:</span> rgb(36<span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">,</span> 255); border<span class="token punctuation">-</span><span class="token key atrule">radius</span><span class="token punctuation">:</span> 10px;"<span class="token punctuation">></span>
+    &lt;center<span class="token punctuation">></span>
+    &lt;p<span class="token punctuation">></span>
+    &lt;/p<span class="token punctuation">></span>
+    &lt;h4<span class="token punctuation">></span>
+    与<span class="token important">&amp;nbsp</span>;&lt;ruby<span class="token punctuation">></span>
+    cungduafa<span class="token important">&amp;nbsp</span>;&lt;rp<span class="token punctuation">></span>
+    （&lt;/rp<span class="token punctuation">></span>
+    &lt;rt<span class="token punctuation">></span>
+    真（ま）白（しろ）&lt;/rt<span class="token punctuation">></span>
+    &lt;rp<span class="token punctuation">></span>
+    ）&lt;/rp<span class="token punctuation">></span>
+    &lt;/ruby<span class="token punctuation">></span>
+    对话中<span class="token punctuation">...</span>&lt;/h4<span class="token punctuation">></span>
+    &lt;p<span class="token punctuation">></span>
+    &lt;/p<span class="token punctuation">></span>
+    &lt;/center<span class="token punctuation">></span>
+    &lt;bot<span class="token punctuation">-</span>ui<span class="token punctuation">></span>
+  &lt;/bot<span class="token punctuation">-</span>ui<span class="token punctuation">></span>&lt;/div<span class="token punctuation">></span>
+&lt;/div<span class="token punctuation">></span>
+&lt;script src="/js/botui.js"<span class="token punctuation">></span>&lt;/script<span class="token punctuation">></span>
+&lt;script<span class="token punctuation">></span>
+ bot_ui_ini()
+&lt;/script<span class="token punctuation">></span>
+<span class="token punctuation">{</span>% endraw %<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="新建留言板-comment-页（可选的）"><a href="#新建留言板-comment-页（可选的）" class="headerlink" title="新建留言板 comment 页（可选的）"></a>新建留言板 comment 页（可选的）</h3><p><code>conmment</code> 页是用来展示<strong>留言板</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>conmment/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"conmment"</span></code></pre>
+<p>编辑你刚刚新建的页面文件 <code>/source/contact/index.md</code>，至少需要以下内容：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> 留言板
+<span class="token key atrule">type</span><span class="token punctuation">:</span> comment
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> <span class="token string">"contact"</span>
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-04-21 20:17:58</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//gitee.com/cungudafa/source/raw/master/img/bg/hyo/3.jpg
+<span class="token punctuation">---</span>
+
+&lt;h2 align="center"<span class="token punctuation">></span>有什么想说的<span class="token punctuation">?</span>&lt;/h2<span class="token punctuation">></span>
+
+&lt;h2 align="center"<span class="token punctuation">></span>有什么想问的<span class="token punctuation">?</span>&lt;/h2<span class="token punctuation">></span>
+</code></pre>
+<blockquote>
+<p><strong>注</strong>：本留言板功能依赖于第三方评论系统，请<strong>激活</strong>你的评论系统才有效果。</p>
+</blockquote>
+<h3 id="新建友情链接-links-页（可选的）"><a href="#新建友情链接-links-页（可选的）" class="headerlink" title="新建友情链接 links 页（可选的）"></a>新建友情链接 links 页（可选的）</h3><p><code>links</code> 页是用来展示<strong>友情链接</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>links/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"links"</span></code></pre>
+<p>编辑你刚刚新建的页面文件 <code>/source/links/index.md</code>，至少需要以下内容：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> links
+<span class="token key atrule">title</span><span class="token punctuation">:</span> links
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-02-13 23:11:06</span>
+<span class="token key atrule">keywords</span><span class="token punctuation">:</span> 友人帐
+<span class="token key atrule">description</span><span class="token punctuation">:</span> 
+<span class="token key atrule">comments</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/img/images/pic01.jpg
+<span class="token key atrule">links</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">group</span><span class="token punctuation">:</span> 多站快速门
+    <span class="token key atrule">desc</span><span class="token punctuation">:</span> 
+    <span class="token key atrule">items</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//blog.csdn.net/cungudafa
+      <span class="token key atrule">img</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg
+      <span class="token key atrule">name</span><span class="token punctuation">:</span> CSDN
+      <span class="token key atrule">desc</span><span class="token punctuation">:</span> 我的技术栈
+  <span class="token punctuation">-</span> <span class="token key atrule">group</span><span class="token punctuation">:</span> 友情链接
+    <span class="token key atrule">desc</span><span class="token punctuation">:</span> 
+    <span class="token key atrule">items</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//blog.csdn.net/cungudafa
+      <span class="token key atrule">img</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg
+      <span class="token key atrule">name</span><span class="token punctuation">:</span> CSDN
+      <span class="token key atrule">desc</span><span class="token punctuation">:</span> 我的技术栈
+    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 总站导航
+      <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cungudafa.js.org/
+      <span class="token key atrule">img</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cungudafa.top/img/avatar.png
+      <span class="token key atrule">desc</span><span class="token punctuation">:</span> cungudafa.js.org
+<span class="token punctuation">---</span></code></pre>
+<blockquote>
+<p><code>Tips：</code>注意前面的空格哦，很重要！</p>
+</blockquote>
+<p>增加了提示接口语句，在主题配置文件，可以直接写入你的网站信息。</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># 友链页信息,tips支持html语言</span>
+<span class="token key atrule">mylinkinfo</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">tips</span><span class="token punctuation">:</span> '&lt;p<span class="token punctuation">></span>&lt;strong<span class="token punctuation">></span>Tips<span class="token punctuation">:</span>&lt;/strong<span class="token punctuation">></span>网站不要求https强制加锁，但头像图片尽量用安全链接哦！&lt;/p<span class="token punctuation">></span> &lt;p style="font<span class="token punctuation">-</span><span class="token key atrule">size</span><span class="token punctuation">:</span> <span class="token key atrule">13px;color</span><span class="token punctuation">:</span> <span class="token comment" spellcheck="true">#ff9999;"> 1. 请先 &lt;font color=#ff1234 size=5>添加本站链接&lt;/font>，在本站留言，待站长审核通过即添加友链。&lt;br>2. 拒绝广告站，技术博客优先~&lt;br>3. 对于取消本站链接或死链，站长会定期移除。&lt;/p>'</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> cungudafa
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> 一个学习记录者
+  <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cungudafa.top
+  <span class="token key atrule">img</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg</code></pre>
+<h3 id="菜单导航配置"><a href="#菜单导航配置" class="headerlink" title="菜单导航配置"></a>菜单导航配置</h3><h4 id="配置基本菜单导航的名称、路径url和图标icon"><a href="#配置基本菜单导航的名称、路径url和图标icon" class="headerlink" title="配置基本菜单导航的名称、路径url和图标icon."></a>配置基本菜单导航的名称、路径url和图标icon.</h4><p>1.菜单导航名称可以是中文也可以是英文(如：<code>Index</code>或<code>主页</code>)<br>2.图标icon 可以在<a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">Font Awesome v4</a> 中查找   </p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">menus</span><span class="token punctuation">:</span>
+  <span class="token key atrule">首页</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>fort<span class="token punctuation">-</span>awesome faa<span class="token punctuation">-</span>shake <span class="token punctuation">}</span>
+  <span class="token key atrule">归档</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /archives<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>archive faa<span class="token punctuation">-</span>shake<span class="token punctuation">,</span> <span class="token key atrule">submenus</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> 
+    <span class="token key atrule">标签</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /tags<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>tags <span class="token punctuation">}</span><span class="token punctuation">,</span> 
+    <span class="token key atrule">技术</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /categories/技术/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>code <span class="token punctuation">}</span><span class="token punctuation">,</span> 
+    <span class="token key atrule">生活</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /categories/生活/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>file<span class="token punctuation">-</span>text<span class="token punctuation">-</span>o <span class="token punctuation">}</span> <span class="token comment" spellcheck="true">#, </span>
+    <span class="token comment" spellcheck="true">#资源: {path: /categories/资源/, fa: fa-cloud-download }, </span>
+    <span class="token comment" spellcheck="true">#随想: {path: /categories/随想/, fa: fa-commenting-o },</span>
+    <span class="token comment" spellcheck="true">#转载: {path: /categories/转载/, fa: fa-book }</span>
+  <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+  <span class="token key atrule">清单</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> javascript<span class="token punctuation">:</span>;<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>list<span class="token punctuation">-</span>ul faa<span class="token punctuation">-</span>vertical<span class="token punctuation">,</span> <span class="token key atrule">submenus</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> 
+    <span class="token key atrule">说说</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /artitalk/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>commenting<span class="token punctuation">-</span>o fa<span class="token punctuation">-</span>commenting <span class="token punctuation">}</span><span class="token punctuation">,</span> 
+    <span class="token key atrule">相册</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /photos/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>photo <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token key atrule">悦读</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /books/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>book <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token key atrule">追剧</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /movies/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>film faa<span class="token punctuation">-</span>vertical <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+  <span class="token key atrule">留言板</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /comment/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>pencil<span class="token punctuation">-</span>square<span class="token punctuation">-</span>o faa<span class="token punctuation">-</span>tada <span class="token punctuation">}</span>
+  <span class="token key atrule">友人帐</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /links/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>link faa<span class="token punctuation">-</span>shake <span class="token punctuation">}</span>
+  <span class="token key atrule">赞赏</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /donate/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>heart faa<span class="token punctuation">-</span>pulse <span class="token punctuation">}</span>
+  <span class="token key atrule">关于</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>leaf faa<span class="token punctuation">-</span>wrench <span class="token punctuation">,</span> <span class="token key atrule">submenus</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> 
+    <span class="token key atrule">我？</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /about/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>meetup<span class="token punctuation">}</span><span class="token punctuation">,</span> 
+    <span class="token key atrule">主题</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">path</span><span class="token punctuation">:</span> /theme<span class="token punctuation">-</span>sakura/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> iconfont icon<span class="token punctuation">-</span>sakura <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true"># Lab: {path: /lab/, fa: fa-cogs },</span>
+    <span class="token comment" spellcheck="true"># valine: {path: /valine/, fa: fa-cogs }</span>
+  <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+  <span class="token key atrule">项目</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /client/<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>android faa<span class="token punctuation">-</span>vertical <span class="token punctuation">}</span>
+  <span class="token key atrule">RSS</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /atom.xml<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>rss faa<span class="token punctuation">-</span>pulse <span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">#social  url, img PC端配置</span>
+<span class="token key atrule">social</span><span class="token punctuation">:</span>
+  <span class="token key atrule">gitee</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//gitee.com/cungudafa<span class="token punctuation">,</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/social/gitee.png<span class="token punctuation">}</span>
+  <span class="token key atrule">github</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//github.com/cungudafa<span class="token punctuation">,</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/social/github.png<span class="token punctuation">}</span>
+  <span class="token key atrule">csdn</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//blog.csdn.net/cungudafa<span class="token punctuation">,</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/social/csdn.png<span class="token punctuation">}</span>
+  <span class="token key atrule">zhihu</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//www.zhihu.com/people/cungudafa<span class="token punctuation">,</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/social/zhihu.png<span class="token punctuation">}</span>
+  <span class="token comment" spellcheck="true">#jianshu: {url: /https://www.jianshu.com/u/9b726a534140, img: /img/social/jianshu.png}</span>
+  <span class="token comment" spellcheck="true"># sina: {url: http://weibo.com/3829198906/info, img: /img/social/sina.png}</span>
+  <span class="token key atrule">bilibili</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//space.bilibili.com/430247358<span class="token punctuation">,</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/social/bilibili.png<span class="token punctuation">}</span>
+  <span class="token comment" spellcheck="true">#wangyiyun: {url: https://music.163.com/#/user/home?id=337394988, img: /img/social/wangyiyun.png}</span>
+  <span class="token key atrule">wechat</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> /<span class="token comment" spellcheck="true">#, qrcode: /img/custom/cungudafa.png, img: /img/social/wechat.png}</span>
+
+<span class="token comment" spellcheck="true">#social  url, img 移动端配置</span>
+<span class="token key atrule">msocial</span><span class="token punctuation">:</span>
+  <span class="token key atrule">github</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//github.com/cungudafa<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>github<span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token number">333</span><span class="token punctuation">}</span>
+  <span class="token key atrule">weibo</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//weibo.com/3829198906/info<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>weibo<span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> dd4b39<span class="token punctuation">}</span>
+  <span class="token comment" spellcheck="true">#qq: {url: https://wpa.qq.com/msgrd?v=3&amp;uin=2627039020&amp;site=qq&amp;menu=yes, fa: fa-qq, color: 25c6fe}</span>
+  <span class="token key atrule">csdn</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//blog.csdn.net/cungudafa<span class="token punctuation">,</span> <span class="token key atrule">fa</span><span class="token punctuation">:</span> fa<span class="token punctuation">-</span>star<span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> ff9900<span class="token punctuation">}</span>
+</code></pre>
+<blockquote>
+<p><code>Tips:</code>注意二级菜单和图标的写法</p>
+</blockquote>
+<h3 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h3><p>由于 Hexo 自带的代码高亮主题显示不好看，所以主题中使用到了 <a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="noopener">hexo-prism-plugin</a> 的 Hexo 插件来做代码高亮，安装命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i -S hexo-prism-plugin</code></pre>
+<p>然后，修改 Hexo 根目录下 <code>_config.yml</code> 文件中 <code>highlight.enable</code> 的值为 <code>false</code>，并新增 <code>prism</code> 插件相关的配置，主要配置如下：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">highlight</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+
+<span class="token key atrule">prism_plugin</span><span class="token punctuation">:</span>
+  <span class="token key atrule">mode</span><span class="token punctuation">:</span> <span class="token string">'preprocess'</span>    <span class="token comment" spellcheck="true"># realtime/preprocess</span>
+  <span class="token key atrule">theme</span><span class="token punctuation">:</span> <span class="token string">'tomorrow'</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">false    </span><span class="token comment" spellcheck="true"># default false</span>
+  custom_css<span class="token punctuation">:</span></code></pre>
+<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><p>本主题中还使用到了 <a href="https://www.npmjs.com/package/hexo-generator-json-content" target="_blank" rel="noopener">hexo-generator-json-content</a> 的 Hexo 插件来做内容搜索，安装命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-json-content --save</code></pre>
+<h3 id="文章字数统计插件（建议安装）"><a href="#文章字数统计插件（建议安装）" class="headerlink" title="文章字数统计插件（建议安装）"></a>文章字数统计插件（建议安装）</h3><p>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 <a href="https://github.com/willin/hexo-wordcount" target="_blank" rel="noopener">hexo-wordcount</a>插件。</p>
+<p>安装命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i --save hexo-wordcount</code></pre>
+<h3 id="添加emoji表情支持（可选的）"><a href="#添加emoji表情支持（可选的）" class="headerlink" title="添加emoji表情支持（可选的）"></a>添加emoji表情支持（可选的）</h3><p>本主题新增了对<code>emoji</code>表情的支持，使用到了 <a href="https://npm.taobao.org/package/hexo-filter-github-emojis" target="_blank" rel="noopener">hexo-filter-github-emojis</a> 的 Hexo 插件来支持 <code>emoji</code>表情的生成，把对应的<code>markdown emoji</code>语法（<code>::</code>,例如：<code>:smile:</code>）转变成会跳跃的<code>emoji</code>表情，安装命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-filter-github-emojis --save</code></pre>
+<p>在 Hexo <strong>根目录</strong>下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">githubEmojis</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">className</span><span class="token punctuation">:</span> github<span class="token punctuation">-</span>emoji
+  <span class="token key atrule">inject</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">styles</span><span class="token punctuation">:</span>
+  customEmojis<span class="token punctuation">:</span></code></pre>
+<h3 id="添加-RSS-订阅支持（可选的）"><a href="#添加-RSS-订阅支持（可选的）" class="headerlink" title="添加 RSS 订阅支持（可选的）"></a>添加 RSS 订阅支持（可选的）</h3><p>本主题中还使用到了 <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="noopener">hexo-generator-feed</a> 的 Hexo 插件来做 <code>RSS</code>，安装命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-feed --save</code></pre>
+<p>在 Hexo <strong>根目录</strong>下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">feed</span><span class="token punctuation">:</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> atom
+  <span class="token key atrule">path</span><span class="token punctuation">:</span> atom.xml
+  <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">20</span>
+  <span class="token key atrule">hub</span><span class="token punctuation">:</span>
+  <span class="token key atrule">content</span><span class="token punctuation">:</span>
+  <span class="token key atrule">content_limit</span><span class="token punctuation">:</span> <span class="token number">140</span>
+  <span class="token key atrule">content_limit_delim</span><span class="token punctuation">:</span> <span class="token string">' '</span>
+  <span class="token key atrule">order_by</span><span class="token punctuation">:</span> <span class="token punctuation">-</span>date</code></pre>
+<p>执行 <code>hexo clean &amp;&amp; hexo g</code> 重新生成博客文件，然后在 <code>public</code> 文件夹中即可看到 <code>atom.xml</code> 文件，说明你已经安装成功了。</p>
+<h3 id="添加-DaoVoice-在线聊天功能（可选的）"><a href="#添加-DaoVoice-在线聊天功能（可选的）" class="headerlink" title="添加 DaoVoice 在线聊天功能（可选的）"></a>添加 <a href="http://www.daovoice.io/" target="_blank" rel="noopener">DaoVoice</a> 在线聊天功能（可选的）</h3><p>前往 <a href="http://www.daovoice.io/" target="_blank" rel="noopener">DaoVoice</a> 官网注册并且获取 <code>app_id</code>，并将 <code>app_id</code> 填入主题的 <code>_config.yml</code> 文件中。</p>
+<h3 id="在线发布说说页面"><a href="#在线发布说说页面" class="headerlink" title="在线发布说说页面"></a>在线发布说说页面</h3><p>根据官网教程配置<a href="https://artitalk.js.org" target="_blank" rel="noopener">artitalk.js.org</a>，本主题融合了自定义配置背景的功能，具体可以参考<a href="https://cungudafa.blog.csdn.net/article/details/106224223" target="_blank" rel="noopener">个性定制教程</a>。</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># 动态说说页面</span>
+<span class="token key atrule">artitalk</span><span class="token punctuation">:</span>
+  <span class="token key atrule">appID</span><span class="token punctuation">:</span> CiSXX5nyVSt0RIztkC1oLL9P<span class="token punctuation">-</span>MdYXbMMI
+  <span class="token key atrule">appKEY</span><span class="token punctuation">:</span> vrfkqkuHou88MuRKfF3OeExc
+  <span class="token key atrule">per</span><span class="token punctuation">:</span> <span class="token number">7 </span><span class="token comment" spellcheck="true">#每页显示说说的数量</span>
+  <span class="token key atrule">username</span><span class="token punctuation">:</span> cungudafa <span class="token comment" spellcheck="true"># Leancloud中设置的用户名</span>
+  <span class="token key atrule">placeholder1</span><span class="token punctuation">:</span> 没有密码，不能评论！ <span class="token comment" spellcheck="true"># 密码框提示语</span>
+  <span class="token key atrule">lazy</span><span class="token punctuation">:</span> <span class="token number">1 </span><span class="token comment" spellcheck="true"># 加载动画1:加载,0:取消加载</span>
+  <span class="token key atrule">img</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg <span class="token comment" spellcheck="true">#用户默认头像</span>
+  <span class="token key atrule">bgimg</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif <span class="token comment" spellcheck="true"># 输入框小动画</span>
+  <span class="token comment" spellcheck="true"># 极简黑白主题minimalist、渐变主题gradient、壁纸wallpaper </span>
+  <span class="token comment" spellcheck="true"># 参考 https://blog.csdn.net/cungudafa/article/details/106224223</span>
+  <span class="token key atrule">style</span><span class="token punctuation">:</span> 
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">#个性定制</span>
+    <span class="token key atrule">wallpaper</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//bing.rthe.net/wallpaper  <span class="token comment" spellcheck="true"># 壁纸</span>
+    <span class="token key atrule">color</span><span class="token punctuation">:</span> white   <span class="token comment" spellcheck="true">#字体颜色</span>
+    <span class="token key atrule">linear_gradient</span><span class="token punctuation">:</span> rgb(127<span class="token punctuation">,</span> <span class="token number">149</span><span class="token punctuation">,</span> <span class="token number">209</span><span class="token punctuation">,</span>0.5)<span class="token punctuation">,</span> rgb(255<span class="token punctuation">,</span> <span class="token number">130</span><span class="token punctuation">,</span> <span class="token number">169</span><span class="token punctuation">,</span>0.5)<span class="token punctuation">,</span> rgb(255<span class="token punctuation">,</span> <span class="token number">192</span><span class="token punctuation">,</span> <span class="token number">190</span><span class="token punctuation">,</span>0.5)<span class="token punctuation">,</span> rgb(255<span class="token punctuation">,</span> <span class="token number">192</span><span class="token punctuation">,</span> <span class="token number">190</span><span class="token punctuation">,</span>0.3)
+    <span class="token key atrule">border_right_color</span><span class="token punctuation">:</span> '<span class="token comment" spellcheck="true">#FFC0BE' #三角颜色</span>
+    <span class="token key atrule">animation</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">#true打开动画渐变渲染</span></code></pre>
+<blockquote>
+<p>根据你的爱好修改字体颜色，背景，动画等。</p>
+</blockquote>
+<h3 id="修改页脚"><a href="#修改页脚" class="headerlink" title="修改页脚"></a>修改页脚</h3><p>页脚信息可能需要做定制化修改，而且它不便于做成配置信息，所以可能需要你自己去再修改和加工。修改的地方在主题文件的 <code>/layout/_partial/footer.ejs</code> 文件中，包括站点、使用的主题、访问量等。</p>
+<h3 id="修改打赏的二维码图片"><a href="#修改打赏的二维码图片" class="headerlink" title="修改打赏的二维码图片"></a>修改打赏的二维码图片</h3><p>在主题config里面可以修改路径，你可以替换成你的的微信和支付宝的打赏二维码图片。</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">donate</span><span class="token punctuation">:</span>
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> 谢谢饲主了喵~
+  <span class="token key atrule">message</span><span class="token punctuation">:</span> 我能想到最浪漫的事，就是我喝奶茶你付钱~
+  <span class="token key atrule">paypal</span><span class="token punctuation">:</span> <span class="token comment" spellcheck="true">#https://www.paypal.me/hojuncn</span>
+  <span class="token key atrule">alipay</span><span class="token punctuation">:</span> /img/custom/donate/AliPay.jpg <span class="token comment" spellcheck="true">#大图</span>
+  <span class="token key atrule">alipayQR</span><span class="token punctuation">:</span> /img/custom/donate/AliPayQR.jpg
+  <span class="token key atrule">wechat</span><span class="token punctuation">:</span> /img/custom/donate/WeChatPay.png <span class="token comment" spellcheck="true">#大图</span>
+  <span class="token key atrule">wechatQR</span><span class="token punctuation">:</span> /img/custom/donate/WeChanQR.jpg
+  <span class="token key atrule">wechatSQ</span><span class="token punctuation">:</span> /img/custom/donate/WeChanSQ.jpg</code></pre>
+<p><code>donates</code> 页是单独的打赏页面（可选），如果在你的博客 <code>source</code> 目录下还没有 <code>donate/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"donate"</span></code></pre>
+<p>编辑你刚刚新建的页面文件 <code>/source/donate/index.md</code>，至少需要以下内容：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> donate
+<span class="token key atrule">title</span><span class="token punctuation">:</span> donate
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-02-13 23:13:05</span>
+<span class="token key atrule">keywords</span><span class="token punctuation">:</span> 谢谢饲主了喵~
+<span class="token key atrule">description</span><span class="token punctuation">:</span> 
+<span class="token key atrule">comments</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/cungudafa/cdn/img/banner/donate.jpg
+<span class="token punctuation">---</span></code></pre>
+<p>在主题文件的 <code>themes\sakura\layout\donate.ejs</code> 文件中，可以增加更多的打赏方式。</p>
+<h3 id="配置视频、音乐播放器（可选的）"><a href="#配置视频、音乐播放器（可选的）" class="headerlink" title="配置视频、音乐播放器（可选的）"></a>配置视频、音乐播放器（可选的）</h3><p>要支持音乐播放，在主题的 <code>_config.yml</code> 配置文件中激活music配置即可：</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下</span>
+<span class="token key atrule">movies</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  <span class="token comment" spellcheck="true"># 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> Unbroken.mp4
+
+<span class="token key atrule">aplayer</span><span class="token punctuation">:</span>  <span class="token comment" spellcheck="true">##媒体播放引擎，移动端会禁止自动播放</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">id</span><span class="token punctuation">:</span> <span class="token number">2660651585</span>
+  <span class="token key atrule">server</span><span class="token punctuation">:</span> netease
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> playlist
+  <span class="token key atrule">fixed</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">##开启吸底模式，固定到底部</span>
+  <span class="token key atrule">autoplay</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">##音频自动播放</span>
+  <span class="token key atrule">loop</span><span class="token punctuation">:</span> all  <span class="token comment" spellcheck="true">##音频循环播放, 可选值: 'all', 'one', 'none'</span>
+  <span class="token key atrule">order</span><span class="token punctuation">:</span> random <span class="token comment" spellcheck="true">##音频循环顺序, 可选值: 'list', 'random'</span>
+  <span class="token key atrule">preload</span><span class="token punctuation">:</span> auto <span class="token comment" spellcheck="true">##预加载，可选值: 'none', 'metadata', 'auto'</span>
+  <span class="token key atrule">volume</span><span class="token punctuation">:</span> <span class="token number">0.7 </span><span class="token comment" spellcheck="true">##默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效</span>
+  <span class="token key atrule">mutex</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">##互斥，阻止多个播放器同时播放</span></code></pre>
+<h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h3><p>根据官网的配置教程，严格配置：<a href="https://valine.js.org" target="_blank" rel="noopener">valine.js.org</a></p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># Valine ##极简留言功能</span>
+<span class="token comment" spellcheck="true"># You can get your appid and appkey from https://leancloud.cn</span>
+<span class="token comment" spellcheck="true"># more info please open https://valine.js.org</span>
+<span class="token key atrule">valine</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">##打开valine评论功能true</span>
+  <span class="token key atrule">appId</span><span class="token punctuation">:</span> cBzr9TtJ0xY0s6f3H8bpmB3M<span class="token punctuation">-</span>gzGzoHsz
+  <span class="token key atrule">appKey</span><span class="token punctuation">:</span> 3opMyv2Vyx3mHa0IWitRGSoi
+  <span class="token key atrule">notify</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#true自带评论mail回复提醒，第三方邮件提醒就设置为false</span>
+  <span class="token key atrule">verify</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">#验证码</span>
+  <span class="token key atrule">visitor</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#统计阅读量</span>
+  <span class="token key atrule">comment_count</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">#统计评论数</span>
+  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> monsterid <span class="token comment" spellcheck="true"># Gravatar style : mp/identicon/monsterid/wavatar/retro/hide</span>
+  <span class="token key atrule">guest_info</span><span class="token punctuation">:</span> nick <span class="token comment" spellcheck="true">#,mail,link # custom comment header</span>
+  <span class="token key atrule">pageSize</span><span class="token punctuation">:</span> <span class="token number">10</span>
+  <span class="token key atrule">palaceholder</span><span class="token punctuation">:</span> 你是我一生只会遇见一次的惊喜 <span class="token comment" spellcheck="true"># Comment Box placeholder</span>
+  <span class="token key atrule">requiredFields</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'nick'</span><span class="token punctuation">,</span><span class="token string">'mail'</span><span class="token punctuation">]</span> <span class="token comment" spellcheck="true">#设置必填项</span>
+  <span class="token key atrule">background</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif</code></pre>
+<h3 id="说说"><a href="#说说" class="headerlink" title="说说"></a>说说</h3><h2 id="文章-Front-matter-介绍"><a href="#文章-Front-matter-介绍" class="headerlink" title="文章 Front-matter 介绍"></a>文章 Front-matter 介绍</h2><h3 id="Front-matter-选项详解"><a href="#Front-matter-选项详解" class="headerlink" title="Front-matter 选项详解"></a>Front-matter 选项详解</h3><p><code>Front-matter</code> 选项中的所有内容均为<strong>非必填</strong>的。但我仍然建议至少填写 <code>title</code> 和 <code>date</code> 的值。</p>
+<table>
+<thead>
+<tr>
+<th>配置选项</th>
+<th>默认值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>title</td>
+<td><code>Markdown</code> 的文件标题</td>
+<td>文章标题，强烈建议填写此选项</td>
+</tr>
+<tr>
+<td>date</td>
+<td>文件创建时的日期时间</td>
+<td>发布时间，强烈建议填写此选项，且最好保证全局唯一</td>
+</tr>
+<tr>
+<td>author</td>
+<td>根 <code>_config.yml</code> 中的 <code>author</code></td>
+<td>文章作者 ，也可以修改</td>
+</tr>
+<tr>
+<td>authorLink</td>
+<td>无</td>
+<td>链接</td>
+</tr>
+<tr>
+<td>avatar</td>
+<td>无</td>
+<td>头像</td>
+</tr>
+<tr>
+<td>authorAbout</td>
+<td>无</td>
+<td>简介（非文章页设置为一言）</td>
+</tr>
+<tr>
+<td>photos</td>
+<td><code>featureImages</code> 中的某个值</td>
+<td>文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: <code>http://xxx.com/xxx.jpg</code></td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>true</code></td>
+<td>推荐文章（文章是否置顶），如果 <code>top</code> 值为 <code>true</code>，则会作为首页推荐文章</td>
+</tr>
+<tr>
+<td>mathjax</td>
+<td><code>false</code></td>
+<td>是否开启数学公式支持 ，本文章是否开启 <code>mathjax</code>，且需要在主题的 <code>_config.yml</code> 文件中也需要开启才行</td>
+</tr>
+<tr>
+<td>categories</td>
+<td>无</td>
+<td>文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>无</td>
+<td>文章标签，一篇文章可以多个标签</td>
+</tr>
+<tr>
+<td>description</td>
+<td>无</td>
+<td>一句话描述摘要</td>
+</tr>
+<tr>
+<td>keywords</td>
+<td>文章标题</td>
+<td>文章关键字，SEO 时需要</td>
+</tr>
+<tr>
+<td>reprintPolicy</td>
+<td>cc_by</td>
+<td>文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>注意</strong>:</p>
+<ol>
+<li>如果 <code>photos</code> 属性不填写的话，首页会显示404图像，文章内部不显示图像。</li>
+<li><code>date</code> 的值尽量保证每篇文章是唯一的。</li>
+<li>建议文章标签和文章分类填写上。</li>
+<li>您可以在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则</li>
+</ol>
+</blockquote>
+<p>以下为文章的 <code>Front-matter</code> 示例。</p>
+<h3 id="最简示例"><a href="#最简示例" class="headerlink" title="最简示例"></a>最简示例</h3><pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> 主题介绍
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-05-20 09:25:00</span>
+<span class="token punctuation">---</span></code></pre>
+<h3 id="最全示例"><a href="#最全示例" class="headerlink" title="最全示例"></a>最全示例</h3><pre class=" language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> 阿里云部署hexo完整教程
+<span class="token key atrule">author</span><span class="token punctuation">:</span> cungudafa
+<span class="token key atrule">authorLink</span><span class="token punctuation">:</span> <span class="token string">'https://cungudafa.top'</span>
+<span class="token key atrule">avatar</span><span class="token punctuation">:</span> <span class="token string">'https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg'</span>
+<span class="token key atrule">authorAbout</span><span class="token punctuation">:</span> 姑，一个学习记录者
+<span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> nginx
+  <span class="token punctuation">-</span> https
+  <span class="token punctuation">-</span> SSL
+<span class="token key atrule">categories</span><span class="token punctuation">:</span> 技术
+<span class="token key atrule">comment</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">photos</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//test.png
+<span class="token key atrule">description</span><span class="token punctuation">:</span> 描述一句话摘要
+<span class="token key atrule">abbrlink</span><span class="token punctuation">:</span> ccbf
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2020-03-02 13:59:10</span>
+<span class="token punctuation">---</span></code></pre>
+<h3 id="文章统计"><a href="#文章统计" class="headerlink" title="文章统计"></a>文章统计</h3><p>在本主题的 <code>_config.yml</code> 中可以修改部分自定义信息，有以下几个部分：</p>
+<p>代码块是否可复制、图片大图查看功能、知乎外链样式、文章字数统计等。</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># Whether to activate the copyright information of the blog and author when copying the post content.</span>
+<span class="token comment" spellcheck="true"># minCharNumber: Approve copyright information by copying at least how many characters.</span>
+<span class="token comment" spellcheck="true"># 是否激活复制文章时追加博客和作者的版权信息.</span>
+<span class="token key atrule">copyright</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">minCharNumber</span><span class="token punctuation">:</span> <span class="token number">120 </span><span class="token comment" spellcheck="true"># 至少复制多少个字符就追加版权信息.</span>
+  <span class="token key atrule">description</span><span class="token punctuation">:</span> 本文章著作权归作者所有，任何形式的转载都请注明出处。
+
+<span class="token comment" spellcheck="true"># 代码块相关</span>
+<span class="token key atrule">code</span><span class="token punctuation">:</span>
+  <span class="token key atrule">lang</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 代码块是否显示名称</span>
+  <span class="token key atrule">copy</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 代码块是否可复制</span>
+  <span class="token key atrule">shrink</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 代码块是否可以收缩</span>
+  <span class="token key atrule">break</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true"># 代码是否折行</span>
+
+<span class="token comment" spellcheck="true"># 查看大图</span>
+<span class="token key atrule">fancybox</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+
+<span class="token comment" spellcheck="true"># 外链转知乎卡片形式 </span>
+<span class="token key atrule">linkcard</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true </span>
+
+<span class="token comment" spellcheck="true"># 是否开启字数统计 (可以在formatton设置no_word_count: true)</span>
+<span class="token comment" spellcheck="true">#不需要使用，直接设置值为false，或注释掉</span>
+<span class="token key atrule">word_count</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+
+<span class="token comment" spellcheck="true"># busuanzi(http://busuanzi.ibruce.info/) website statistics</span>
+<span class="token comment" spellcheck="true"># 不蒜子(http://busuanzi.ibruce.info/) 网站统计</span>
+<span class="token key atrule">busuanziStatistics</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">totalTraffic</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 总访问量</span>
+  <span class="token key atrule">totalNumberOfvisitors</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 总人次</span></code></pre>
+<h3 id="五星评分"><a href="#五星评分" class="headerlink" title="五星评分"></a>五星评分</h3><p>需要在 <a href="https://widgetpack.com" target="_blank" rel="noopener">widgetpack.com</a>注册申请，</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># widgetpack 星星评分</span>
+<span class="token comment" spellcheck="true"># To get your ID visit https://widgetpack.com</span>
+<span class="token key atrule">widgetpack</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true">#false</span>
+  <span class="token key atrule">id</span><span class="token punctuation">:</span> <span class="token number">23889 </span><span class="token comment" spellcheck="true">#&lt;app_id></span>
+  <span class="token key atrule">color</span><span class="token punctuation">:</span> fc6423</code></pre>
+<h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>需要在官网<a href="http://weatherdt.com/" target="_blank" rel="noopener">weatherdt.com</a>注册配置，具体<a href="https://blog.csdn.net/cungudafa/article/details/104312892" target="_blank" rel="noopener">天气教程</a>。</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># 天气显示 http://weatherdt.com/</span>
+<span class="token key atrule">weather</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">app_id</span><span class="token punctuation">:</span> yqRrzxwtvs <span class="token comment" spellcheck="true">##这里替换成你的appid</span></code></pre>
+<blockquote>
+<p>更多：</p>
+<ol>
+<li>豆瓣页面：<a href="https://cungudafa.blog.csdn.net/article/details/105773983" target="_blank" rel="noopener">豆瓣读书和电影</a></li>
+<li>访问者地图：<a href="https://cungudafa.blog.csdn.net/article/details/105925710" target="_blank" rel="noopener">访问者地图</a></li>
+</ol>
+</blockquote>
+<h3 id="文章分析"><a href="#文章分析" class="headerlink" title="文章分析"></a>文章分析</h3><p>包括<a href="https://tongji.baidu.com/" target="_blank" rel="noopener">百度分析</a>和谷歌分析，都需要去注册申请。（可选操作）</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># Add google analytics configuration</span>
+<span class="token comment" spellcheck="true"># 添加 Google Analytics 配置</span>
+<span class="token key atrule">googleAnalytics</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">id</span><span class="token punctuation">:</span>
+
+<span class="token comment" spellcheck="true"># Add baidu analytics configuration</span>
+<span class="token comment" spellcheck="true"># 添加 baidu Analytics 配置 https://tongji.baidu.com/</span>
+<span class="token key atrule">baiduAnalytics</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 百度分析</span>
+  <span class="token key atrule">id</span><span class="token punctuation">:</span> b05d6287bdeab72f3886bffe3cff054a</code></pre>
+<h3 id="插入bilibili视频"><a href="#插入bilibili视频" class="headerlink" title="插入bilibili视频"></a>插入bilibili视频</h3><p>安装插件</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i hexo-tag-bili --save</code></pre>
+<p>markdown语法：在Hexo博客的文章或者单页面中使用以下标签语法插入视频</p>
+<pre><code>{% bili video_id %} 或 {% bili video_id page %}</code></pre><blockquote>
+<p>注意是：视频id和页数,例如<code>https://www.bilibili.com/video/av24897960/?p=2</code><br>video_id是av24897960 、page是2</p>
+</blockquote>
+<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=BV1C7411N762&amp;page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+
+
+<h2 id="自定制修改"><a href="#自定制修改" class="headerlink" title="自定制修改"></a>自定制修改</h2><p>背景和一些常用的优化，在主题配置文件中都以可选配置了（防止动画冲突，建议背景和点击效果只打开一个），<br>如果更多有新的样式，可以留言或者pr，酌情添加。</p>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># 建议一项只开一个</span>
+<span class="token key atrule">js</span><span class="token punctuation">:</span>
+  <span class="token key atrule">hititle</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#浏览器搞笑标题</span>
+  <span class="token key atrule">KeyBlock</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#按键屏蔽,不能F12调试和查看源代码</span>
+  <span class="token key atrule">bg</span><span class="token punctuation">:</span>
+    <span class="token key atrule">sakura_petals</span><span class="token punctuation">:</span> <span class="token boolean important">false  </span><span class="token comment" spellcheck="true">#仅在首页花瓣飘落（大内存）</span>
+    <span class="token key atrule">snow_petals</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true"># 雪花飘落（大内存）</span>
+    <span class="token key atrule">piao</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#飘动彩带</span>
+    <span class="token key atrule">live2d_widget</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#看板娘 需jq（大内存）</span>
+    <span class="token key atrule">bgchange</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 是否开启壁纸切换</span>
+  <span class="token key atrule">clink</span><span class="token punctuation">:</span>
+    <span class="token key atrule">word</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#点击出现字效</span>
+    <span class="token key atrule">love</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true">#点击出现爱心</span>
+    <span class="token key atrule">cursor</span><span class="token punctuation">:</span> <span class="token boolean important">false </span><span class="token comment" spellcheck="true"># 星星跟随坠落(大内存)</span></code></pre>
+<blockquote>
+<p>给出一系列魔改的笔记：</p>
+<ol>
+<li><a href="https://blog.csdn.net/cungudafa/article/details/104330959" target="_blank" rel="noopener">logo</a></li>
+<li><a href="https://blog.csdn.net/cungudafa/article/details/104295156" target="_blank" rel="noopener">花里胡哨教程</a></li>
+<li><a href="https://blog.csdn.net/cungudafa/article/details/104651901" target="_blank" rel="noopener">今日诗词、一言接口</a></li>
+</ol>
+</blockquote>
+<h2 id="参与贡献"><a href="#参与贡献" class="headerlink" title="参与贡献"></a>参与贡献</h2><ul>
+<li>@<a href="https://gitee.com/cungudafa" target="_blank" rel="noopener">cungudafa</a></li>
+</ul>
+<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul>
+<li>5.23 计划修改文章页面展现效果（对代码块和表格图片展现更加优化）</li>
+<li>5.22 重铸</li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+        </div>
+        
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/AliPay.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/donate/WeChatPay.png"></li>
+              </ul>
+            </div>
+          </div>          
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <!-- 评分 -->
+        <div class="single-reward">
+            
+              <!-- 五星评分 -->
+<div id="wpac-rating"></div>
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Rating', id: 23889});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+<!-- <a href="https://widgetpack.com" target="_blank" rel="noopener" class="wpac-cr">Star Rating WIDGET PACK</a> -->
+            
+        </div>
+        <!-- 自定义署名方式 -->
+        <footer class="post-footer">
+          <div class="post-lincenses" style="color: #ff9966;">
+            欢迎转载，转载时请注明来源哦！
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" style="color: #ff9966;" target="_blank" rel="nofollow">
+            <i class="fa fa-creative-commons" aria-hidden="true"></i>ncsa4.0</a>
+          </div>
+          <div class="post-tags" style="color: #a39391">
+                <span><i class="fa fa-tags"></i>
+                  
+                      <a href="/tags/theme/" style="color: #716e77;">theme<em>·</em></a>
+                    
+                      <a href="/tags/SakuraPlus/" style="color: #716e77;">SakuraPlus<em>·</em></a>
+                    
+                  </span>
+                  <span>
+                    <i class="iconfont icon-file"></i>
+                    
+                      <a href="/categories/%E6%8A%80%E6%9C%AF/" style="color: #716e77;">技术</a>
+                    
+                  </span>
+          </div>
+          <div class="post-share"  >
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+        <div class="tag-cloud">
+            <div class="tag-cloud-title">
+            </div>
+            <div class="tag-cloud-tags">
+            <a href="/tags/Artitalk/" style="font-size: 10px; color: #f06966">Artitalk</a> <a href="/tags/CNN/" style="font-size: 10px; color: #f06966">CNN</a> <a href="/tags/Ps/" style="font-size: 10px; color: #f06966">Ps</a> <a href="/tags/SSL/" style="font-size: 10px; color: #f06966">SSL</a> <a href="/tags/SakuraPlus/" style="font-size: 10px; color: #f06966">SakuraPlus</a> <a href="/tags/butterfly/" style="font-size: 10px; color: #f06966">butterfly</a> <a href="/tags/cdn/" style="font-size: 10px; color: #f06966">cdn</a> <a href="/tags/clustrmaps/" style="font-size: 10px; color: #f06966">clustrmaps</a> <a href="/tags/gif/" style="font-size: 10px; color: #f06966">gif</a> <a href="/tags/hexo/" style="font-size: 10px; color: #f06966">hexo</a> <a href="/tags/https/" style="font-size: 10px; color: #f06966">https</a> <a href="/tags/js%E6%8F%92%E4%BB%B6/" style="font-size: 10px; color: #f06966">js插件</a> <a href="/tags/keras/" style="font-size: 10px; color: #f06966">keras</a> <a href="/tags/maps/" style="font-size: 10px; color: #f06966">maps</a> <a href="/tags/nginx/" style="font-size: 10px; color: #f06966">nginx</a> <a href="/tags/tensorflow/" style="font-size: 10px; color: #f06966">tensorflow</a> <a href="/tags/theme/" style="font-size: 10px; color: #f06966">theme</a> <a href="/tags/valine/" style="font-size: 10px; color: #f06966">valine</a> <a href="/tags/%E4%B8%AA%E6%80%A7%E7%BE%8E%E5%8C%96/" style="font-size: 10px; color: #f06966">个性美化</a> <a href="/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/" style="font-size: 10px; color: #f06966">今日诗词</a> <a href="/tags/%E5%85%8D%E8%B4%B9/" style="font-size: 10px; color: #f06966">免费</a> <a href="/tags/%E5%9B%BE%E9%9B%86/" style="font-size: 10px; color: #f06966">图集</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/" style="font-size: 20px; color: #39bae8">微信公众号</a> <a href="/tags/%E6%82%A6%E8%AF%BB/" style="font-size: 10px; color: #f06966">悦读</a> <a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 10px; color: #f06966">文章</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/" style="font-size: 10px; color: #f06966">机器视觉</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/" style="font-size: 10px; color: #f06966">每日一言</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px; color: #f06966">生活</a> <a href="/tags/%E7%9F%A5%E7%BD%91%E8%AE%BA%E6%96%87/" style="font-size: 20px; color: #39bae8">知网论文</a> <a href="/tags/%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/" style="font-size: 10px; color: #f06966">私人图床</a> <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" style="font-size: 10px; color: #f06966">经验分享</a> <a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px; color: #f06966">美化</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 10px; color: #f06966">自动回复机器人</a> <a href="/tags/%E8%A1%A8%E6%83%85%E5%8C%85/" style="font-size: 10px; color: #f06966">表情包</a> <a href="/tags/%E8%AF%B4%E8%AF%B4/" style="font-size: 10px; color: #f06966">说说</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px; color: #f06966">随笔</a>
+            </div>
+        </div>
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/post/1cb6.html" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">Next Post</span>
+              <div class="info">
+                <h3>背景图片</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      <!-- 加密文章隐藏评论 -->
+      <section class="comment"  >
+        
+    <div id="vcomments"></div>
+    <script src="https://unpkg.com/valine/dist/Valine.min.js"></script><!-- 最新版 -->
+    <style>
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            enableQQ: true,
+            boolean: true,
+            appId: 'cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz',
+            appKey: '3opMyv2Vyx3mHa0IWitRGSoi',
+            //notify: 'false' === 'true',
+            //verify: 'true' === 'true',
+            visitor: 'false' === 'true',
+            avatar: 'monsterid',
+            pageSize: '10',
+            lang: 'zh-cn',
+            placeholder: '',
+            requiredFields: ['nick','mail'], //设置必填项
+            // 设置Bilibili表情包地址
+            emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+            // 表情title和图片映射
+            emojiMaps: {
+            "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+            "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+            "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+            "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+            "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+            "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+            "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+            "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+            "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+            "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+            "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+            "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+            "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+            "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+            "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+            "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+            "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+            "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+            "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+            "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+            "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+            "tv_打脸": "56ab10b624063e966bfcb76ea5dc4794d87dfd47.png",
+            "tv_抓狂": "fe31c08edad661d63762b04e17b8d5ae3c71a757.png",
+            "tv_抠鼻": "c666f55e88d471e51bbd9fab9bb308110824a6eb.png",
+            "tv_斜眼笑": "911f987aa8bc1bee12d52aafe62bc41ef4474e6c.png",
+            "tv_无奈": "ea8ed89ee9878f2fece2dda0ea8a5dbfe21b5751.png",
+            "tv_晕": "5443c22b4d07fb1907ccc610c8e6db254f2461b7.png",
+            "tv_流汗": "cead1c351ab8d79e9f369605beb90148db0fbed3.png",
+            "tv_流泪": "7e71cde7858f0cd50d74b0264aa26db612a8a167.png",
+            "tv_流鼻血": "c32d39db2737f89b904ca32700d140a9241b0767.png",
+            "tv_点赞": "f85c354995bd99e28fc76c869bfe42ba6438eff4.png",
+            "tv_生气": "26702dcafdab5e8225b43ffd23c94ac1ff932654.png",
+            "tv_生病": "8b0ec90e6b86771092a498c54f09fc94621c1900.png",
+            "tv_疑问": "0793d949b18d7be716078349c202c15ff166f314.png",
+            "tv_白眼": "c1d59f439e379ee50eef488bcb5e5378e5044ea4.png",
+            "tv_皱眉": "72ccad6679fea0d14cce648b4d818e09b8ffea2d.png",
+            "tv_目瞪口呆": "0b8cb81a68de5d5365212c99375e7ace3e7891b7.png",
+            "tv_睡着": "8b196675b53af58264f383c50ad0945048290b33.png",
+            "tv_笑哭": "1abc628f6d4f4caf9d0e7800878f4697abbc8273.png",
+            "tv_腼腆": "89712c0d4af73e67f89e35cbc518420380a7f6f4.png",
+            "tv_色": "61822c7e9aae5da76475e7892534545336b23a6f.png",
+            "tv_调侃": "4bc022533ef31544ca0d72c12c808cf4a1cce3e3.png",
+            "tv_调皮": "b9c41de8e82dd7a8515ae5e3cb63e898bf245186.png",
+            "tv_鄙视": "6e72339f346a692a495b123174b49e4e8e781303.png",
+            "tv_闭嘴": "c9e990da7f6e93975e25fd8b70e2e290aa4086ef.png",
+            "tv_难过": "87f46748d3f142ebc6586ff58860d0e2fc8263ba.png",
+            "tv_馋": "fc7e829b845c43c623c8b490ee3602b7f0e76a31.png",
+            "tv_鬼脸": "0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png",
+            "tv_黑人问号": "45821a01f51bc867da9edbaa2e070410819a95b2.png",
+            "tv_鼓掌": "1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png"
+                // ... 更多表情
+            }
+        });
+    </script>
+
+    <!--  -->
+
+
+
+      </section>
+      <!-- 加密文章隐藏作者信息 -->
+      
+      <section class="author-profile"  >
+        <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <a href="https://cungudafa.top" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg" itemprop="image" alt="cungudafa" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="https://cungudafa.top" itemprop="url" rel="author">cungudafa</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>姑，一个学习记录者</p>
+      </section>
+      
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+
+<!--评论配置-->
+
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+        <div class="footertext">
+          <div class="img-preload">
+              <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+              <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+          </div>
+        </div>
+        <!-- 网站数据统计 -->
+        <div class="footer-device">
+          <p style="font-family: 'Ubuntu', sans-serif;">
+            <span style="color: #ff9999;padding-left: 20px;">
+                <!-- 网站运行时间统计 -->
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <span id="time" align="center">载入时间中...</span>
+                <script>
+                var now = new Date(); 
+                function createtime() { 
+                      var grt= new Date("Wed Feb 12 2020 01:20:00 GMT+0800 (GMT+08:00)");//在此处修改你的建站时间
+                      now.setTime(now.getTime()+250); 
+                      days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+                      hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+                      if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+                      mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+                      seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+                      snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+                      document.getElementById("time").innerHTML = "小破站在各种灾难中苟活了 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
+                  } 
+                  setInterval("createtime()",250);
+                </script>
+            </span> 
+          </p>
+        </div>
+        <div class="footer-device">
+          <p style="font-family: 'Ubuntu', sans-serif;">
+            <span style="color: #b9b9b9;padding-left: 20px;">
+              <!-- 全网站字数统计wordcount -->
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">28.8k</span>字</span>
+              <!-- 不蒜子网页计数器 -->
+              
+              <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
+              </span>
+              
+              
+              <span style="padding-left: 20px;"><i class="fa fa-user" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_uv">总访问人数： <span id="busuanzi_value_site_uv" style="color:#ff9999;"></span>人</span>
+              </span>
+              
+            </span>
+          </p>
+        </div>
+        <!-- 作者注明 -->
+        <div class="footer-device">
+          <p style="font-family: 'Ubuntu', sans-serif;">
+              <span style="color: #b9b9b9;">
+                Copyright &copy; 2020
+                &nbsp;<a style="color: #ff9999;display:inline-block"> cungudafa </a>
+                &nbsp;<i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> 
+                &nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank" style="color: #ff9999;display:inline-block">Hexo</a>
+                |&nbsp;Theme&nbsp;<a href="https://gitee.com/cungudafa/hexo-theme-sakuraplus" target="_blank" style="color: #ff9999;display:inline-block">SakuraPlus</a>
+              </span>
+          </p>
+        </div>
+         <!-- 网站作者版权注明 -->
+         
+          <div id="footer-info" class="inner">
+            <p style="font-family: 'Ubuntu', sans-serif;">
+              <span style="color: #ff9999;">
+                渝ICP备19001829号
+              </span>
+            </p>
+          </div>
+        
+    </div><!-- .site-info -->
+    <!-- pages壁纸切换 -->
+    
+      <div class="skin-menu no-select" id="mainskin"  style="position: fixed">
+          <div class="theme-controls row-container">
+              <ul class="menu-list">
+                  <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+                  <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+                  <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+                  <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+                  <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+                  <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+                  <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+                  <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+              </ul>
+          </div>
+          <div class="font-family-controls row-container">
+              <button type="button" class="control-btn-serif selected" data-mode="serif" onclick="mashiro_global.font_control.change_font()">Serif</button>
+              <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>
+          </div>
+      </div>   
+      <canvas id="night-mode-cover"></canvas> 
+          <div class="changeSkin-gear no-select">
+          <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
+              &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
+      </div><!-- skin.end -->
+    
+</footer>
+
+
+<script type="text/javascript" src="/js/linkcard.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/InsightSearch.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/sakura-app.js"></script>
+
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- fancybox大图查看 需jq -->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/jquery.fancybox.min.js"></script>
+  <script>
+    $('[data-fancybox="images"]').fancybox({
+      thumbs : {
+        autoStart : true //缩略图
+      }
+    });
+    $('[data-fancybox]').fancybox({
+      protect: true,//图片右键不能下载
+      youtube : {
+          controls : 0,
+          showinfo : 0
+      },
+      vimeo : {
+          color : 'f00'
+      }
+    });
+  </script>
+
+
+<!-- 自适应浏览器 -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+    var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  } else {
+    var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  }
+  /* ]]> */
+  
+  </script>
+  <script>
+  $(document).ready(function() {
+    if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+      if ($(".pattern-center").length > 0) { //有图的情况
+        tocbot.init({
+            // Where to render the table of contents.
+            tocSelector: '.toc', // 放置目录的容器
+            // Where to grab the headings to build the table of contents.
+            contentSelector: '.entry-content', // 正文内容所在
+            // Which headings to grab inside of the contentSelector element.
+            scrollSmooth: true,
+            headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+            headingsOffset: -400,
+            scrollSmoothOffset: -85
+        });
+      } else {
+        tocbot.init({
+            // Where to render the table of contents.
+            tocSelector: '.toc', // 放置目录的容器
+            // Where to grab the headings to build the table of contents.
+            contentSelector: '.entry-content', // 正文内容所在
+            // Which headings to grab inside of the contentSelector element.
+            scrollSmooth: true,
+            headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+            headingsOffset: -85,
+            scrollSmoothOffset: -85
+        });
+      }
+      var offsetTop = $('.toc').offset().top - 95;
+      window.onscroll = function() {
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop >= offsetTop) {
+          $('.toc').addClass('toc-fixed');
+        } else {
+          $('.toc').removeClass('toc-fixed');
+        }
+      }
+    }
+  });
+  </script>
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">cungudafa姑</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/cungudafa" class="fa fa-github" target="_blank" style="color: #333; margin-left: 20px"></a>
+      
+        <a href="http://weibo.com/3829198906/info" class="fa fa-weibo" target="_blank" style="color: #dd4b39; margin-left: 20px"></a>
+      
+        <a href="https://blog.csdn.net/cungudafa" class="fa fa-star" target="_blank" style="color: #ff9900; margin-left: 20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/tags">
+                  <i class="fa fa-tags" aria-hidden="true"></i>
+                  标签
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E7%94%9F%E6%B4%BB/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  生活
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/artitalk/">
+                  <i class="fa fa-commenting-o fa-commenting" aria-hidden="true"></i>
+                  说说
+                </a>
+              </li>
+            
+              <li>
+                <a href="/photos/">
+                  <i class="fa fa-photo" aria-hidden="true"></i>
+                  相册
+                </a>
+              </li>
+            
+              <li>
+                <a href="/books/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  悦读
+                </a>
+              </li>
+            
+              <li>
+                <a href="/movies/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  追剧
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-meetup" aria-hidden="true"></i>
+                  我？
+                </a>
+              </li>
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                  主题
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/client/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+            项目
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2020 hexo-sakuraplus</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  
+ </body>
+</html>
