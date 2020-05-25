@@ -543,7 +543,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
         },
         xAxis: {
             type: 'category',
-            data: < % -monthArr % >
+            data: ["2019-05","2019-06","2019-07","2019-08","2019-09","2019-10","2019-11","2019-12","2020-01","2020-02","2020-03","2020-04","2020-05"]
         },
         yAxis: {
             type: 'value',
@@ -552,7 +552,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             name: 'postsNumberName',
             type: 'line',
             color: ['#6772e5'],
-            data: < % -monthValueArr % > ,
+            data: [0,0,0,0,0,0,0,0,0,10,7,2,5] ,
             markPoint: {
                 symbolSize: 45,
                 color: ['#fa755a', '#3ecf8e', '#82d3f4'],
@@ -582,19 +582,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
         }]
     };
 
-    <
-    %
-    /* calculate categoriesOption data. */
-    var categoryArr = [];
-    site.categories.map(function (category) {
-        categoryArr.push({
-            'name': category.name,
-            'value': category.length
-        })
-    });
-
-    var categoryArrJson = JSON.stringify(categoryArr); %
-    >
+    
 
     let categoriesOption = {
         title: {
@@ -607,13 +595,13 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             formatter: "{a} <br/>{b} : {c} ({d}%)"
         },
         series: [{
-            name: '分类',
+            name: 'Categories',
             type: 'pie',
             radius: '50%',
             color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47',
                 '#26A69A'
             ],
-            data: < % -categoryArrJson % > ,
+            data: [{"name":"生活","value":4},{"name":"技术","value":17}] ,
             itemStyle: {
                 emphasis: {
                     shadowBlur: 10,
@@ -624,32 +612,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
         }]
     };
 
-    <
-    %
-    /* calculate tagsOption data. */
-    // get all tags name and count,then order by length desc.
-    var tagArr = [];
-    site.tags.map(function (tag) {
-        tagArr.push({
-            'name': tag.name,
-            'value': tag.length
-        });
-    });
-    tagArr.sort((a, b) => {
-        return b.value - a.value
-    });
-
-    // get Top 10 tags name and count.
-    var tagNameArr = [];
-    var tagCountArr = [];
-    for (var i = 0, len = Math.min(tagArr.length, 10); i < len; i++) {
-        tagNameArr.push(tagArr[i].name);
-        tagCountArr.push(tagArr[i].value);
-    }
-
-    var tagNameArrJson = JSON.stringify(tagNameArr);
-    var tagCountArrJson = JSON.stringify(tagCountArr); %
-    >
+    
 
     let tagsOption = {
         title: {
@@ -660,7 +623,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
         tooltip: {},
         xAxis: [{
             type: 'category',
-            data: < % -tagNameArrJson % >
+            data: ["知网论文","微信公众号","随笔","自动回复机器人","cdn","私人图床","图集","valine","美化","表情包"]
         }],
         yAxis: [{
             type: 'value'
@@ -669,7 +632,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             type: 'bar',
             color: ['#82d3f4'],
             barWidth: 18,
-            data: < % -tagCountArrJson % > ,
+            data: [2,2,1,1,1,1,1,1,1,1] ,
             markPoint: {
                 symbolSize: 45,
                 data: [{
@@ -709,7 +672,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -721,10 +684,10 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
