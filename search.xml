@@ -3,7 +3,9 @@
   <entry>
     <title>hexo-theme-SakuraPlus</title>
     <url>/post/sakuraplus.html</url>
-    <content><![CDATA[<h1 id="hexo-theme-SakuraPlus"><a href="#hexo-theme-SakuraPlus" class="headerlink" title="hexo-theme-SakuraPlus"></a>hexo-theme-SakuraPlus</h1><blockquote>
+    <content><![CDATA[<p>Hexo主题Sakura由<a href="https://www.hojun.cn/" target="_blank" rel="noopener">Hojun大佬</a>修改自WordPress主题<a href="https://github.com/mashirozx/Sakura/" target="_blank" rel="noopener">Sakura</a>，感谢原作者<a href="https://2heng.xin/" target="_blank" rel="noopener">Mashiro</a></p>
+<p>由于sakura最近没有再维护了，这里我讲之前的调整和修改做了整理，开源sakuraplus（hexo）版本。</p>
+<h1 id="hexo-theme-sakuraplus"><a href="#hexo-theme-sakuraplus" class="headerlink" title="hexo-theme-sakuraplus"></a>hexo-theme-sakuraplus</h1><blockquote>
 <p>Hexo主题Sakura由<a href="https://www.hojun.cn/" target="_blank" rel="noopener">Hojun大佬</a>修改自WordPress主题<a href="https://github.com/mashirozx/Sakura/" target="_blank" rel="noopener">Sakura</a>，感谢原作者<a href="https://2heng.xin/" target="_blank" rel="noopener">Mashiro</a></p>
 </blockquote>
 <p>由于sakura最近没有再更新了，我对之前的<a href="https://blog.csdn.net/cungudafa/category_9714183.html" target="_blank" rel="noopener">魔改笔记</a>进行了调整和整理，开源<a href="https://gitee.com/cungudafa/hexo-theme-sakuraplus" target="_blank" rel="noopener">hexo-theme-sakuraplus</a>版本。</p>
@@ -43,6 +45,8 @@
 <li>优化css和js在config可配置</li>
 <li>优化文章图片阴影显示和引用样式（阅读butter）</li>
 <li>增加播放器隐藏选项</li>
+<li>新增了分析页面（echarts图）</li>
+<li>归档页新增<a href="https://echarts.apache.org/zh/option.html#calendar" target="_blank" rel="noopener">文章日历</a>（echarts图）</li>
 </ul>
 <h2 id="贡献者"><a href="#贡献者" class="headerlink" title="贡献者"></a>贡献者</h2><p>感谢下面列出的贡献者，没有他们，hexo-theme-sakuraplus 不会这么完美。</p>
 <ul>
@@ -555,15 +559,7 @@
 <span class="token key atrule">baiduAnalytics</span><span class="token punctuation">:</span>
   <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># 百度分析</span>
   <span class="token key atrule">id</span><span class="token punctuation">:</span> b05d6287bdeab72f3886bffe3cff054a</code></pre>
-<h3 id="插入bilibili视频"><a href="#插入bilibili视频" class="headerlink" title="插入bilibili视频"></a>插入bilibili视频</h3><p>安装插件</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i hexo-tag-bili --save</code></pre>
-<p>markdown语法：在Hexo博客的文章或者单页面中使用以下标签语法插入视频</p>
-<pre><code>{% bili video_id %} 或 {% bili video_id page %}</code></pre><blockquote>
-<p>注意是：视频id和页数,例如<code>https://www.bilibili.com/video/av24897960/?p=2</code><br>video_id是av24897960 、page是2</p>
-</blockquote>
-<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=BV1C7411N762&amp;page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
-
-
+<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p>[video(video-P1VLsXuu-1590244004436)(type-bilibili)(url-<a href="https://player.bilibili.com/player.html?aid=92268056)(image-https://ss.csdn.net/p?http://i0.hdslb.com/bfs/archive/5c7bf39463d26d7a906b0c63f16d59afdddbc5f3.jpg)(title-Hexo(sakura)主题博客预览)]" target="_blank" rel="noopener">https://player.bilibili.com/player.html?aid=92268056)(image-https://ss.csdn.net/p?http://i0.hdslb.com/bfs/archive/5c7bf39463d26d7a906b0c63f16d59afdddbc5f3.jpg)(title-Hexo(sakura)主题博客预览)]</a></p>
 <h2 id="自定制修改"><a href="#自定制修改" class="headerlink" title="自定制修改"></a>自定制修改</h2><p>背景和一些常用的优化，在主题配置文件中都以可选配置了（防止动画冲突，建议背景和点击效果只打开一个），<br>如果更多有新的样式，可以留言或者pr，酌情添加。</p>
 <pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># 建议一项只开一个</span>
 <span class="token key atrule">js</span><span class="token punctuation">:</span>
@@ -591,8 +587,12 @@
 <li>@<a href="https://gitee.com/cungudafa" target="_blank" rel="noopener">cungudafa</a></li>
 </ul>
 <h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul>
-<li>5.23 计划修改文章页面展现效果（对代码块和表格图片展现更加优化）</li>
-<li>5.22 重铸</li>
+<li><p>5.25<br>修复了没有设置文章时首页显示404图片，（bg中随机选择）<br>新增了分析页面（echarts图），来源于drew整理matery主题的效果<br>归档页新增文章日历（echarts图）<br>新增标题下显示浏览数</p>
+</li>
+<li><p>5.23<br>计划修改文章页面展现效果（对代码块和表格图片展现更加优化）</p>
+</li>
+<li><p>5.22 重铸</p>
+</li>
 </ul>
 <script>
         document.querySelectorAll('.github-emoji')
