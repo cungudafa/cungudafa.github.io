@@ -530,33 +530,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
     let categoriesChart = echarts.init(document.getElementById('categories-chart'));
     let tagsChart = echarts.init(document.getElementById('tags-chart'));
 
-    <
-    %
-    /* calculate postsOption data. */
-    var startDate = moment().subtract(1, 'years').startOf('month');
-    var endDate = moment().endOf('month');
-
-    var monthMap = new Map();
-    var dayTime = 3600 * 24 * 1000;
-    for (var time = startDate; time <= endDate; time += dayTime) {
-        var month = moment(time).format('YYYY-MM');
-        if (!monthMap.has(month)) {
-            monthMap.set(month, 0);
-        }
-    }
-
-    // post and count map.
-    site.posts.forEach(function (post) {
-        var month = post.date.format('YYYY-MM');
-        if (monthMap.has(month)) {
-            monthMap.set(month, monthMap.get(month) + 1);
-        }
-    });
-
-    // xAxis data and yAxis data.
-    var monthArr = JSON.stringify([...monthMap.keys()]);
-    var monthValueArr = JSON.stringify([...monthMap.values()]); %
-    >
+    
 
     let postsOption = {
         title: {
