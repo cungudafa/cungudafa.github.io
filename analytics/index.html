@@ -595,13 +595,13 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             formatter: "{a} <br/>{b} : {c} ({d}%)"
         },
         series: [{
-            name: 'Categories',
+            name: '分类',
             type: 'pie',
             radius: '50%',
             color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47',
                 '#26A69A'
             ],
-            data: [{"name":"技术","value":17},{"name":"生活","value":4}] ,
+            data: [{"name":"生活","value":4},{"name":"技术","value":17}] ,
             itemStyle: {
                 emphasis: {
                     shadowBlur: 10,
@@ -623,7 +623,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
         tooltip: {},
         xAxis: [{
             type: 'category',
-            data: ["知网论文","微信公众号","私人图床","自动回复机器人","随笔","Ps","valine","美化","表情包","cdn"]
+            data: ["知网论文","微信公众号","随笔","自动回复机器人","cdn","私人图床","图集","valine","美化","表情包"]
         }],
         yAxis: [{
             type: 'value'
@@ -672,7 +672,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -684,10 +684,10 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            // PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -732,7 +732,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">28.9k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">29k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>

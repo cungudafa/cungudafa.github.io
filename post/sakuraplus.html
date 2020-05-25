@@ -521,7 +521,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
     <i class="fa fa-book"></i>
     <span class="post-meta-item-text">字数统计: </span>
     <!-- 安装插件npm install hexo-wordcount --save -->
-    <span class="post-count">5.3k字</span>
+    <span class="post-count">5.4k字</span>
   </span>
 </span>
 <span class="bull">
@@ -530,7 +530,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
   <span class="post-meta-item-icon">
     <i class="fa fa-coffee"></i>
     <span class="post-meta-item-text">阅读时长≈</span>
-    <span class="post-count">22分钟</span>
+    <span class="post-count">23分钟</span>
   </span>
 </span>
         
@@ -604,6 +604,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 <li>增加播放器隐藏选项</li>
 <li>新增了分析页面（echarts图）</li>
 <li>归档页新增<a href="https://echarts.apache.org/zh/option.html#calendar" target="_blank" rel="noopener">文章日历</a>（echarts图）</li>
+<li>新增文章描述为空时，自动获取文章前40字</li>
 </ul>
 <h2 id="贡献者"><a href="#贡献者" class="headerlink" title="贡献者"></a>贡献者</h2><p>感谢下面列出的贡献者，没有他们，hexo-theme-sakuraplus 不会这么完美。</p>
 <ul>
@@ -1144,7 +1145,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 <li>@<a href="https://gitee.com/cungudafa" target="_blank" rel="noopener">cungudafa</a></li>
 </ul>
 <h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul>
-<li><p>5.25<br>修复了没有设置文章时首页显示404图片，（bg中随机选择）<br>新增了分析页面（echarts图），来源于drew整理matery主题的效果<br>归档页新增文章日历（echarts图）<br>新增标题下显示浏览数</p>
+<li><p>5.25<br>修复了没有设置文章时首页显示404图片，（bg中随机选择）<br>新增了分析页面（echarts图），来源于drew整理matery主题的效果<br>归档页新增文章日历（echarts图）<br>新增标题下显示浏览数<br>新增自动获取前50字为文章描述</p>
 </li>
 <li><p>5.23<br>计划修改文章页面展现效果（对代码块和表格图片展现更加优化）</p>
 </li>
@@ -1384,7 +1385,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -1396,10 +1397,10 @@ wpac_init.push({widget: 'Rating', id: 23889});
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            // PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -1444,7 +1445,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">28.9k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">29k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
