@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/style.css" type="text/css" media="all" id="saukra_css-css">
@@ -587,17 +588,9 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             <a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
           
         </span>
-        <!-- 添加浏览数和评论数   未实现
-        <div class="post-meta">
-            
-            <span><i class="iconfont icon-attention"></i>
-              <span id="busuanzi_value_page_pv">热度</span> 
-              <span class="post-meta-divider"> · </span>
-            </span>
-            <span><i class="iconfont icon-mark"></i>
-              <a href="/post/e27b.html#comments"><span class="valine-comment-count" data-xid="pathname"></span> 条评论</a>
-            </span>
-        </div> -->
+        <!-- <span><i class="iconfont icon-attention"></i>
+          本页共<span id="busuanzi_value_page_pv"> </span>次阅读
+        </span> -->
       </div>
       <div class="float-content">
         <p>
@@ -650,17 +643,9 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             <a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
           
         </span>
-        <!-- 添加浏览数和评论数   未实现
-        <div class="post-meta">
-            
-            <span><i class="iconfont icon-attention"></i>
-              <span id="busuanzi_value_page_pv">热度</span> 
-              <span class="post-meta-divider"> · </span>
-            </span>
-            <span><i class="iconfont icon-mark"></i>
-              <a href="/post/2f1b.html#comments"><span class="valine-comment-count" data-xid="pathname"></span> 条评论</a>
-            </span>
-        </div> -->
+        <!-- <span><i class="iconfont icon-attention"></i>
+          本页共<span id="busuanzi_value_page_pv"> </span>次阅读
+        </span> -->
       </div>
       <div class="float-content">
         <p>
@@ -713,17 +698,9 @@ i.iconfont.js-toggle-search.iconsearch:hover,
             <a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
           
         </span>
-        <!-- 添加浏览数和评论数   未实现
-        <div class="post-meta">
-            
-            <span><i class="iconfont icon-attention"></i>
-              <span id="busuanzi_value_page_pv">热度</span> 
-              <span class="post-meta-divider"> · </span>
-            </span>
-            <span><i class="iconfont icon-mark"></i>
-              <a href="/post/2a9.html#comments"><span class="valine-comment-count" data-xid="pathname"></span> 条评论</a>
-            </span>
-        </div> -->
+        <!-- <span><i class="iconfont icon-attention"></i>
+          本页共<span id="busuanzi_value_page_pv"> </span>次阅读
+        </span> -->
       </div>
       <div class="float-content">
         <p>
@@ -772,17 +749,9 @@ i.iconfont.js-toggle-search.iconsearch:hover,
           <i class="iconfont icon-file"></i>
           
         </span>
-        <!-- 添加浏览数和评论数   未实现
-        <div class="post-meta">
-            
-            <span><i class="iconfont icon-attention"></i>
-              <span id="busuanzi_value_page_pv">热度</span> 
-              <span class="post-meta-divider"> · </span>
-            </span>
-            <span><i class="iconfont icon-mark"></i>
-              <a href="/post/3eeb.html#comments"><span class="valine-comment-count" data-xid="pathname"></span> 条评论</a>
-            </span>
-        </div> -->
+        <!-- <span><i class="iconfont icon-attention"></i>
+          本页共<span id="busuanzi_value_page_pv"> </span>次阅读
+        </span> -->
       </div>
       <div class="float-content">
         <p>
@@ -835,7 +804,7 @@ Welcome to Hexo! This
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -847,10 +816,10 @@ Welcome to Hexo! This
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -895,7 +864,7 @@ Welcome to Hexo! This
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">29k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">29.1k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
