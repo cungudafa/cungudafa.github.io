@@ -1,3 +1,7 @@
+/**
+ * Failed to minify the file using clean-css v4.2.1. Serving the original version.
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
 .aplayer-container {
     position: absolute;
     bottom: 0;
@@ -5,14 +9,14 @@
     width: 400px;
 }
 
-/* #veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/girls.png);
+#veditor {
+    background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
     resize: vertical;
-} */
+}
 
 .post-meta em {
     margin: 0 5px;
@@ -747,7 +751,6 @@
     }
 }
 
-/*# sourceMappingURL=APlayer.min.css.map*/
 #wpadminbar #wp-admin-bar-wp-statistic-menu .ab-icon:before {
     content: '\f184';
     top: 2px
@@ -858,7 +861,7 @@ body {
 }
 
 input:-webkit-autofill {
-    box-shadow: 0 0 0 1000px white inset
+    -webkit-box-shadow: 0 0 0 1000px white inset
 }
 
 ::selection {
@@ -1079,14 +1082,6 @@ table {
 td,
 th {
     padding: 0
-        /* font-size: inherit;
-    overflow: visible;
-    padding: .5em 1em;
-    border-width: 1px 1px 1px 1px;
-    border-bottom: 1px solid #cbcbcb;
-    border-left: 1px solid #cbcbcb;
-    border-right: 1px solid #cbcbcb;
-    border-top: 1px solid #cbcbcb; */
 }
 
 body,
@@ -1123,7 +1118,7 @@ i {
 
 blockquote {
     display: block;
-    background: (255,255,255,1);
+    background: #fff;
     padding: 15px 20px 15px 45px;
     margin: 0 0 20px;
     position: relative;
@@ -1140,31 +1135,8 @@ blockquote {
     box-shadow: 2px 2px 15px #ccc;
 }
 
-/* blockquote:before {
-    content: "\f10d" !important;
-    font-size: 1rem;
-    position: absolute;
-    top: -15px;
-    left: 12px;
-    color: orange;
-    font-family: FontAwesome
-}
-
-blockquote:after {
-    content: '\f10e' !important;
-    font-size: 1rem;
-    position: absolute;
-    bottom: -15px;
-    right: 5px;
-    color: orange;
-    font-family: FontAwesome
-}
-blockquote p {
-    margin: 5px 0
-}
-*/
 blockquote::before {
-    content: "\f10d";
+    content: "\201C";
     /*左双引号的Unicode编码*/
 
     /*字体*/
@@ -1306,12 +1278,17 @@ dd {
 
 img {
     height: auto;
-    max-width: 100%
+    max-width: 100%;
 }
 
-#post-1 img {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+.img-margin {
+    margin: 25px auto 10px auto;
 }
+
+.img-shadow {
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .2), 0 10px 30px -11px rgba(0, 0, 0, .6);
+}
+
 
 table {
     margin: 0 0 1.5em;
@@ -2727,14 +2704,8 @@ i.iconfont.hotpost {
     color: #737373
 }
 
-.entry-content h3,
-.entry-content h4,
-.entry-content h5 {
-    padding-left: 20px
-}
-
 .entry-content h2:after {
-    content: "Ⅰ";/*\00B6*/
+    content: "\00B6";
     position: absolute;
     color: #ff6d6d;
     font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
@@ -2743,7 +2714,7 @@ i.iconfont.hotpost {
 }
 
 .serif .entry-content h2:after {
-    content: "Ⅱ";
+    content: "\00B6";
     position: absolute;
     color: #ff6d6d;
     font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
@@ -2752,44 +2723,39 @@ i.iconfont.hotpost {
 }
 
 .entry-content h3:after {
-    content: "Ⅲ";
     left: 0;
     position: absolute;
     color: #ff6d6d
 }
 
 .entry-content h4:after {
-    content: "IV";
+    content: "\00B6";
     left: 0;
     position: absolute;
     color: #ff6d6d
 }
 
 .entry-content h5:after {
-    content: "V";
+    content: "\00B6";
     left: 0;
     position: absolute;
     color: #ff6d6d
 }
 
 .entry-content code {
-    background: rgba(254, 250, 199, 1);
-    color: #e67474;
+    background: rgb(227, 230, 229);
+    color: #000000;
     word-break: break-word;
-    font-family: 'Source Code Pro', monospace, Helvetica, Tahoma, Arial, STXihei, "STHeiti Light", "Microsoft YaHei", sans-serif;
     padding: 2px;
-    text-shadow: none;
-    border-radius: 5px
 }
 
 .entry-content a {
     color: #e67474;
-    text-decoration: underline dotted rgba(0, 0, 0, .1)
+    text-decoration: none
 }
 
 .entry-content a:hover {
-    color: orange;
-    text-decoration: underline orange
+    text-decoration: none
 }
 
 h1.entry-title {
@@ -2805,28 +2771,31 @@ h1.entry-title {
 }
 
 .entry-header h1.entry-title:before {
-    content:" {";
-    color: #f8ba0b;
+    content:" {
+";
+color: #f8ba0b;
     font-size: 1.5em;
     margin-right: 6px;
     vertical-align: sub
 }
 
 .entry-header h1.entry-title:after {
-    content: "}";
-    color: #f8ba0b;
-    font-size: 1.5em;
-    margin-left: 6px;
-    vertical-align: sub
+    content: "
+
+}
+
+";
+color:#f8ba0b;
+font-size:1.5em;
+margin-left:6px;
+vertical-align:sub
 }
 
 .entry-content p {
     color: #797979
 }
 
-.entry-content p {
-    line-height: 30px
-}
+.entry-content p {}
 
 .entry-content hr {
     margin-top: 40px;
@@ -3646,7 +3615,7 @@ h3#comments-list-title {
 }
 
 .butterBar-message {
-    background: #fe9600;
+    background: #0bf1f1;
     color: #fff;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -4985,7 +4954,6 @@ li.feature-2 {
 
     .focusinfo .header-tou img {
         width: 100px !important;
-        height: 100px !important;
     }
 
     .header-info {
@@ -5000,16 +4968,17 @@ li.feature-2 {
         margin-right: 0px !important;
         cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur), auto !important;
     }
+}
 
-    #bgvideo {
-        position: absolute;
-        top: 0px !important;
-        left: 0;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        z-index: 0;
-    }
+#bgvideo {
+    position: absolute;
+    top: 0px !important;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 0;
+}
 }
 
 .blank {
@@ -5041,8 +5010,6 @@ li.feature-2 {
 }
 
 .focusinfo .header-tou img {
-    width: 130px;
-    height: 130px;
     box-shadow: inset 0 0 10px #000;
     padding: 5px;
     opacity: 1;
@@ -5419,7 +5386,7 @@ i.iconfont.js-toggle-search.iconsearch {
 
 .s-search input {
     font-size: 1rem;
-    background: #ddd;
+    background: #none;
     padding: 12px 24px 12px 64px;
     width: 100%;
     outline: 0;
@@ -6805,7 +6772,7 @@ i.iconfont.down {
 
 .no-logged a {
     display: initial;
-    color: orange;
+    color: #69d2e7;
     font-size: 14px;
     padding: 0 5px;
     text-decoration: underline
@@ -6917,7 +6884,7 @@ i.iconfont.down {
 }
 
 .wechat-code:after {
-    content: "微信"
+    content: "微信支付"
 }
 
 .sm {
@@ -7352,7 +7319,7 @@ button.botui-actions-buttons-button {
 }
 
 .forgetmenot input[type=checkbox]:checked:before {
-    content: "✔";
+    content: "âœ”";
     margin: -3px 0 0 -4px;
     color: #1e8cbe
 }
@@ -7370,7 +7337,7 @@ input[type=radio]:checked:before {
 }
 
 .forgetmenot input[type=checkbox]:checked:before {
-    content: "✔";
+    content: "âœ”";
     margin: -3px 0 0 -4px;
     color: #1e8cbe
 }
@@ -7692,7 +7659,7 @@ input[type=radio]:checked:before {
         z-index: 99;
         visibility: visible;
         writing-mode: vertical-rl;
-        transition-property: left, bottom;
+        transiton-property: left, bottom;
         transition-duration: .5s, .5s
     }
 
@@ -7734,7 +7701,7 @@ input[type=radio]:checked:before {
             font-weight: bold;
             z-index: 99;
             writing-mode: vertical-rl;
-            transition-property: margin-left, bottom;
+            transiton-property: margin-left, bottom;
             transition-duration: .5s, .5s
         }
 
@@ -7748,7 +7715,7 @@ input[type=radio]:checked:before {
     .live2d-tool {
         margin-left: 0;
         left: -17px;
-        transition-property: left, bottom
+        transiton-property: left, bottom
     }
 
     .live2d-tool:hover {
@@ -7856,7 +7823,7 @@ input[type=radio]:checked:before {
     z-index: 99;
     font-family: 'Ubuntu';
     padding: 10px 20px;
-    transition-property: right;
+    transiton-property: right;
     transition-duration: .3s, .3s
 }
 
@@ -7923,7 +7890,7 @@ cursor:pointer
 }
 
 .changeSkin-gear span:before {
-    content: "切换主题 | Change Skin "
+    content: "åˆ‡æ¢ä¸»é¢˜ | Change Skin "
 }
 
 @media(max-width:800px) {
@@ -8717,7 +8684,7 @@ a.toc-link {
     top: 0;
     height: 3px;
     background: #bebebe;
-    transition-property: width, background;
+    transiton-property: width, background;
     transition-duration: 1s, 1s;
     z-index: 99999
 }
@@ -9142,14 +9109,14 @@ a.toc-link {
 }
 
 .highlight-wrap code::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3) !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3) !important;
     border-radius: 10px !important;
     background-color: #21252b !important
 }
 
 .highlight-wrap code::-webkit-scrollbar-thumb {
     border-radius: 10px !important;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, .5) !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .5) !important;
     background-color: #21252b !important
 }
 
@@ -9329,11 +9296,11 @@ a.toc-link {
 }
 
 .chinese-tranditional-font {
-    font-family: Helvetica, Tahoma, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif
+    font-family: Helvetica, Tahoma, Arial, "æ–‡æ³‰é©›æ­£é»‘", "WenQuanYi Zen Hei", "å„·é»‘ Pro", "LiHei Pro", "å¾®è»Ÿæ­£é»‘é«”", "Microsoft JhengHei", "æ¨™æ¥·é«”", DFKai-SB, sans-serif
 }
 
 .japanese-font {
-    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif
+    font-family: æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, 'Yu Gothic', YuGothic, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ã‚·ãƒƒã‚¯ Pro', 'Hiragino Kaku Gothic Pro', ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, Osaka, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'MS PGothic', sans-serif
 }
 
 .english-serif {
@@ -9374,7 +9341,7 @@ a.toc-link {
     z-index: 99;
     font-family: 'Ubuntu', sans-serif;
     transform: scaleX(0);
-    transition-property: transform, background;
+    transiton-property: transform, background;
     transition-duration: .3s, .3s
 }
 
@@ -9776,7 +9743,6 @@ td.hljs-ln-numbers {
     padding-right: 2px;
     z-index: 2;
     font-size: 16px;
-    outline: 0;
 }
 
 .toc {
@@ -9802,6 +9768,10 @@ td.hljs-ln-numbers {
         display: none;
     }
 }
+
+
+
+
 
 .github-badge {
     display: inline-block;
@@ -10054,84 +10024,334 @@ details[open]>summary {
     margin-bottom: 0;
 }
 
-
-.site-top .lower nav {
-    display: block !important;
+details[open]>summary:hover:after {
+    content: '-';
 }
 
-.author-profile i,
-.post-like a,
-.post-share .show-share,
-.sub-text,
-.we-info a,
-span.sitename,
-.post-more i:hover,
-#pagination a:hover,
-.post-content a:hover,
-.float-content i:hover {
-    color: #FE9600
+details[open]>div.content {
+    padding: 16px;
+    margin: -16px;
+    margin-top: 0;
 }
 
-.feature i,
-.download,
-.navigator i:hover,
-.links ul li:before,
-.ar-time i,
-span.ar-circle,
-.object,
-.comment .comment-reply-link,
-.siren-checkbox-radio:checked+.siren-checkbox-radioInput:after {
-    background: #FE9600
+span.p.red,
+p.p.red {
+    color: #fe5f58;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #FE9600
+span.p.yellow,
+p.p.yellow {
+    color: #ffbd2b;
 }
 
-.download,
-.navigator i:hover,
-.link-title,
-.links ul li:hover,
-#pagination a:hover,
-.comment-respond input[type='submit']:hover {
-    border-color: #FE9600
+span.p.green,
+p.p.green {
+    color: #3dc550;
 }
 
-.entry-content a:hover,
-.site-info a:hover,
-.comment h4 a,
-#comments-navi a.prev,
-#comments-navi a.next,
-.comment h4 a:hover,
-.site-top ul li a:hover,
-.entry-title a:hover,
-#archives-temp h3,
-span.page-numbers.current,
-.sorry li a:hover,
-.site-title a:hover,
-i.iconfont.js-toggle-search.iconsearch:hover,
-.comment-respond input[type='submit']:hover {
-    color: #FE9600
+span.p.cyan,
+p.p.cyan {
+    color: #1bcdfc;
 }
 
-.comments .comments-main {
-    display: block !important;
+span.p.blue,
+p.p.blue {
+    color: #2196f3;
 }
 
-.comments .comments-hidden {
-    display: none !important;
-    background-position: center;
-    background-attachment: inherit;
+span.p.gray,
+p.p.gray {
+    color: #666;
 }
 
-.hljs-ln {
-    border-collapse: collapse
+span.p.logo,
+p.p.logo {
+    font-family: "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
 }
 
-.hljs-ln td {
+span.p.code,
+p.p.code {
+    font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
+}
+
+span.p.left,
+p.p.left {
+    display: block;
+    text-align: left;
+}
+
+span.p.center,
+p.p.center {
+    display: block;
+    text-align: center;
+}
+
+span.p.right,
+p.p.right {
+    display: block;
+    text-align: right;
+}
+
+span.p.small,
+p.p.small {
+    font-size: 0.875rem;
+}
+
+span.p.large,
+p.p.large {
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+span.p.huge,
+p.p.huge {
+    font-size: 4rem;
+    line-height: 1.4;
+}
+
+span.p.ultra,
+p.p.ultra {
+    font-size: 6rem;
+    line-height: 1.4;
+}
+
+span.p.small,
+p.p.small,
+span.p.large,
+p.p.large,
+span.p.huge,
+p.p.huge,
+span.p.ultra,
+p.p.ultra {
+    margin: 0;
     padding: 0;
 }
 
-.hljs-ln-n:before {
-    content: attr(data-line-number)
+span.p.bold,
+p.p.bold {
+    font-weight: bold;
+}
+
+div.note {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.58rem 16px 0.5rem 16px;
+    padding-left: calc(16px + 16px);
+    border-radius: 4px;
+    background: #f6f6f6;
+    border-left: 4px solid #767676;
+}
+
+div.note h2,
+div.note h3,
+div.note h4,
+div.note h5,
+div.note h6 {
+    margin-top: 3px;
+    margin-bottom: 0;
+    padding-top: 0 !important;
+    border-bottom: initial;
+}
+
+div.note p,
+div.note ul,
+div.note ol,
+div.note blockquote,
+div.note img {
+    font-size: 0.9375rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+div.note::before {
+    position: absolute;
+    top: calc(50% - 24px * 0.5);
+    left: 4px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: 'Font Awesome 5 Free';
+}
+
+div.note::before {
+    color: #767676;
+    content: '\f054';
+}
+
+div.note::before {
+    content: '\f054';
+}
+
+div.note.quote {
+    background: #e8f4fd;
+    border-color: #2196f3;
+}
+
+div.note.quote::before {
+    color: #2196f3;
+    content: '\f10d';
+}
+
+div.note.info {
+    background: #e8f4fd;
+    border-color: #2196f3;
+}
+
+div.note.info::before {
+    color: #2196f3;
+    content: '\f129';
+}
+
+div.note.success,
+div.note.done {
+    background: #ebf9ed;
+    border-color: #3dc550;
+}
+
+div.note.success::before,
+div.note.done::before {
+    color: #3dc550;
+    content: '\f00c';
+}
+
+div.note.warning {
+    background: #fff8e9;
+    border-color: #ffbd2b;
+}
+
+div.note.warning::before {
+    color: #ffbd2b;
+    content: '\f12a';
+}
+
+div.note.danger,
+div.note.error {
+    background: #feefee;
+    border-color: #fe5f58;
+}
+
+div.note.danger::before,
+div.note.error::before {
+    color: #fe5f58;
+    content: '\f00d';
+}
+
+div.note.radiation::before {
+    content: '\f7b9';
+}
+
+div.note.bug::before {
+    content: '\f188';
+}
+
+div.note.idea::before {
+    content: '\f0eb';
+}
+
+div.note.link::before {
+    content: '\f0c1';
+}
+
+div.note.paperclip::before {
+    content: '\f0c6';
+}
+
+div.note.todo::before {
+    content: '\f0ae';
+}
+
+div.note.message::before {
+    content: '\f4ad';
+}
+
+div.note.guide::before {
+    content: '\f277';
+}
+
+div.note.download::before {
+    content: '\f019';
+}
+
+div.note.up::before {
+    content: '\f102';
+}
+
+div.note.undo::before {
+    content: '\f2ea';
+}
+
+div.note.play::before {
+    content: '\f144';
+}
+
+div.note.clear {
+    background: none;
+    border-color: none;
+}
+
+div.note.light {
+    background: #f6f6f6;
+    border-color: #aaa;
+}
+
+div.note.light::before {
+    color: #aaa;
+}
+
+div.note.gray {
+    background: #f6f6f6;
+    border-color: #767676;
+}
+
+div.note.gray::before {
+    color: #767676;
+}
+
+div.note.red {
+    background: #feefee;
+    border-color: #fe5f58;
+}
+
+div.note.red::before {
+    color: #fe5f58;
+}
+
+div.note.yellow {
+    background: #fff8e9;
+    border-color: #ffbd2b;
+}
+
+div.note.yellow::before {
+    color: #ffbd2b;
+}
+
+div.note.green {
+    background: #ebf9ed;
+    border-color: #3dc550;
+}
+
+div.note.green::before {
+    color: #3dc550;
+}
+
+div.note.cyan {
+    background: #e8fafe;
+    border-color: #1bcdfc;
+}
+
+div.note.cyan::before {
+    color: #1bcdfc;
+}
+
+div.note.blue {
+    background: #e8f4fd;
+    border-color: #2196f3;
+}
+
+div.note.blue::before {
+    color: #2196f3;
 }
