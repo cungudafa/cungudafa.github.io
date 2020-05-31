@@ -14,7 +14,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" id="saukra_css-css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/style.css" type="text/css" media="all" id="saukra_css-css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/jquery.fancybox.min.css" media="all">  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/lib.min.css" media="all">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/font.css" media="all">
@@ -544,57 +544,12 @@
   </style>
   
 
-  <!-- 仿volantis主题小标签 -->
-  <!-- 代码块收缩 -->
-  
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.1.4/js/tags/btns.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.1.4/js/tags/checkbox.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.1.4/js/tags/folding.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.1.4/js/tags/tabs.js"></script>
-  <script>
-    /* eslint-disable */
-    (function ($) {"use strict";
-
-      function setTabs() {
-        const $tabs = $(".tabs");
-        if ($tabs.length === 0) return;
-        let $navs = $tabs.find(".nav-tabs .tab");
-        for (var i = 0; i < $navs.length; i++) {
-          let $a = $tabs.find($navs[i].children[0]);
-          $a.addClass($a.attr("href"));
-          $a.removeAttr("href");
-        }
-        $(".tabs .nav-tabs").on("click", "a", (e) => {
-          e.preventDefault();
-          e.stopPropagation();
-          let $tab = $(e.target.parentElement.parentElement.parentElement);
-          $tab.find(".nav-tabs .active").removeClass("active");
-          $tab.find(e.target.parentElement).addClass("active");
-          $tab.find(".tab-content .active").removeClass("active");
-          $tab.find($(e.target).attr("class")).addClass("active");
-          return false;
-        });
-      }
-
-      $(function () {
-        setTabs();
-        // $(".article .video-container").fitVids();
-        $(".scroll-down").on("click", function () {
-          scrolltoElement(".l_body");
-        });
-        setTimeout(function () {
-          $("#loading-bar-wrapper").fadeOut(500);
-        }, 300);
-      });
-    })(jQuery);
-  </script>
-
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -606,10 +561,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            // PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
