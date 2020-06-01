@@ -35,7 +35,7 @@ ul.cbp_tmtimeline {
 }
 /* The date/time */
 
-.cbp_tmtimeline &gt; li .cbp_tmtime {
+.cbp_tmtimeline > li .cbp_tmtime {
     display: block;
     /* width: 29%; */
     /* padding-right: 110px; */
@@ -43,33 +43,33 @@ ul.cbp_tmtimeline {
     position: absolute;
 }
 
-.cbp_tmtimeline &gt; li .cbp_tmtime span {
+.cbp_tmtimeline > li .cbp_tmtime span {
     display: block;
     text-align: right;
 }
 
-.cbp_tmtimeline &gt; li .cbp_tmtime span:first-child {
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
     font-size: 0.9em;
     color: #bdd0db;
 }
 
-.cbp_tmtimeline &gt; li .cbp_tmtime span:last-child {
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
     font-size: 1.2em;
     color: #9BCD9B;
 }
 
-.cbp_tmtimeline &gt; li:nth-child(odd) .cbp_tmtime span:last-child {
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
     color: RGBA(255, 125, 73, 0.75);
 }
 
-div.cbp_tmlabel &gt; p {
+div.cbp_tmlabel > p {
     margin-bottom: 0;
 }
 /* Right content */
-div class.cdp_tmlabel &gt; li .cbp_tmlabel {
+div class.cdp_tmlabel > li .cbp_tmlabel {
     margin-bottom: 0;
 }
-.cbp_tmtimeline &gt; li .cbp_tmlabel {
+.cbp_tmtimeline > li .cbp_tmlabel {
     margin: 0 0 45px 65px;
     background: #9BCD9B;
     color: #fff;
@@ -92,12 +92,12 @@ div class.cdp_tmlabel &gt; li .cbp_tmlabel {
     box-shadow: 0 15px 32px rgba(0, 0, 0, 0.15) !important
 }
 
-.cbp_tmtimeline &gt; li:nth-child(odd) .cbp_tmlabel {
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
     background: RGBA(255, 125, 73, 0.75);
 }
 /* The triangle */
 
-.cbp_tmtimeline &gt; li .cbp_tmlabel:after {
+.cbp_tmtimeline > li .cbp_tmlabel:after {
     right: 100%;
     border: solid transparent;
     content: " ";
@@ -110,7 +110,7 @@ div class.cdp_tmlabel &gt; li .cbp_tmlabel {
     top: 4px;
 }
 
-.cbp_tmtimeline &gt; li:nth-child(odd) .cbp_tmlabel:after {
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
     border-right-color: RGBA(255, 125, 73, 0.75);
 }
 
@@ -122,7 +122,7 @@ p.shuoshuo_time {
 /* Media */
 
 @media screen and (max-width: 65.375em) {
-    .cbp_tmtimeline &gt; li .cbp_tmtime span:last-child {
+    .cbp_tmtimeline > li .cbp_tmtime span:last-child {
         font-size: 1.2em;
     }
 }
@@ -168,22 +168,4 @@ p.shuoshuo_time {
 	color: #08c;
 	border: 1px solid #e5e5e5;
 	border-bottom: 5px solid #fff;
-}<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+}
