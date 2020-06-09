@@ -64,6 +64,9 @@
     mashiro_option.v_appId = "cBzr9TtJ0xY0s6f3H8bpmB3M-gzGzoHsz";//
     mashiro_option.v_appKey = "3opMyv2Vyx3mHa0IWitRGSoi";//
     mashiro_option.mathjax = "0";
+    mashiro_option.copyright_enable = "false" ;
+    mashiro_option.copyright_minCharNumber = parseInt("120") ;
+    mashiro_option.copyright_description = "本文章著作权归作者所有，任何形式的转载都请注明出处。" ;
     mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
     mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
 
@@ -822,76 +825,6 @@
   </div><!-- #primary -->
   </div>
 
-  
-  <script>
-    $('#content').on('copy', function (e) {
-      // IE8 or earlier browser is 'undefined'
-      if (typeof window.getSelection === 'undefined') return;
-
-      var selection = window.getSelection();
-      // if the selection is short let's not annoy our users.
-      if (('' + selection).length < Number.parseInt('120')) {
-        return;
-      }
-
-      // create a div outside of the visible area and fill it with the selected text.
-      var bodyElement = document.getElementsByTagName('body')[0];
-      var newdiv = document.createElement('div');
-      newdiv.style.position = 'absolute';
-      newdiv.style.left = '-99999px';
-      bodyElement.appendChild(newdiv);
-      newdiv.appendChild(selection.getRangeAt(0).cloneContents());
-
-      // we need a <pre> tag workaround.
-      // otherwise the text inside "pre" loses all the line breaks!
-      if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
-        newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
-      }
-
-      var url = document.location.href;
-      newdiv.innerHTML += '<br />' +
-        'from: cungudafa<br />' +
-        'author: cungudafa<br />' +
-        'link: <a href="' + url + '">' + url + '</a><br />' +
-        '本文章著作权归作者所有，任何形式的转载都请注明出处。';
-
-      selection.selectAllChildren(newdiv);
-      window.setTimeout(function () {
-        bodyElement.removeChild(newdiv);
-      }, 200);
-    });
-  </script>
-  
-
-  <!-- 代码块功能依赖 -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/codeBlock/codeBlockFuction.js">
-  </script>
-
-  <!-- 代码语言 -->
-  
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/codeBlock/codeLang.js"></script>
-  
-
-  <!-- 代码块复制 -->
-  
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/codeBlock/codeCopy.js"></script>
-  
-
-  <!-- 代码块收缩 -->
-  
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/codeBlock/codeShrink.js"></script>
-  
-
-  <!-- 代码块折行 -->
-  
-  <style type="text/css">
-    code[class*="language-"],
-    pre[class*="language-"] {
-      white-space: pre !important;
-    }
-  </style>
-  
-
       <!-- body.end -->
     </div>
     <!-- search -->    
@@ -960,7 +893,7 @@
           <p style="font-family: 'Ubuntu', sans-serif;">
             <span style="color: #b9b9b9;padding-left: 20px;">
               <!-- 全网站字数统计wordcount -->
-              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">28.7k</span>字</span>
+              <i class="fa fa-line-chart"  aria-hidden="true" style="color: #ff9999;display:inline-block"></i> 博客全站共: <span class="post-count" style="color:#ff9999;">28.8k</span>字</span>
               <!-- 不蒜子网页计数器 -->
               
               <span style="padding-left: 20px;"><i class="fa fa-fire" aria-hidden="true" style="color: #ff9999;display:inline-block"></i><span id="busuanzi_container_site_pv">总访问量： <span id="busuanzi_value_site_pv" style="color:#ff9999;"></span>次</span>
