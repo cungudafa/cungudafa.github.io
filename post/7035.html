@@ -682,7 +682,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
             avatar: 'monsterid',
             pageSize: '10',
             lang: 'zh-cn',
-            placeholder: '',
+            placeholder: '之前评论被恶意刷了，现在重新开一个评论，大家文明留言哈~',
             requiredFields: ['nick','mail'], //设置必填项
             // 设置Bilibili表情包地址
             emojiCDN: '//i0.hdslb.com/bfs/emote/', 
@@ -743,7 +743,15 @@ wpac_init.push({widget: 'Rating', id: 23889});
         });
     </script>
 
-    <!--  -->
+    <!-- 
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        jinrishici.load(function(result) {
+            var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+            document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+        })
+    </script>
+     -->
 
 
 
