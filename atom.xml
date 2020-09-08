@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cungudafa.top/"/>
-  <updated>2020-06-09T10:11:44.844Z</updated>
+  <updated>2020-09-08T09:33:54.368Z</updated>
   <id>https://cungudafa.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小王从毕业到工作</title>
+    <link href="https://cungudafa.top/post/4791.html"/>
+    <id>https://cungudafa.top/post/4791.html</id>
+    <published>2020-09-08T10:05:10.000Z</published>
+    <updated>2020-09-08T09:33:54.368Z</updated>
+    
+    <summary type="html">
+    
+      毕业项目也开源啦，小白入职历险记
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://cungudafa.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="https://cungudafa.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="技术" scheme="https://cungudafa.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo-theme-SakuraPlus</title>
@@ -470,27 +493,6 @@ avatar:
     
     
       <category term="随笔" scheme="https://cungudafa.top/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Botui搭建js聊天机器人</title>
-    <link href="https://cungudafa.top/post/81c1.html"/>
-    <id>https://cungudafa.top/post/81c1.html</id>
-    <published>2020-02-13T10:14:10.000Z</published>
-    <updated>2020-05-23T04:17:43.293Z</updated>
-    
-    <summary type="html">
-    
-      一款自动回复文字、图片、视频的JS聊天机器人框架BotUI，可以自由设置多种选项、触发关键词、输入框等内容，聊天内容或范围也可以自由设置，回复内容可以是文字、图片（GIF亦可）、视频，我在博客中引用了此框架。
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://cungudafa.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="自动回复机器人" scheme="https://cungudafa.top/tags/%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
   </entry>
   
