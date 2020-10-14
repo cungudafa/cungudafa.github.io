@@ -590,6 +590,25 @@ wpac_init.push({widget: 'Rating', id: 23889});
 
 <!--评论配置-->
 
+
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<div id="gitalk-container"></div> 
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/js/md5.min.js"></script>
+<script type="text/javascript">
+	var gitalk = new Gitalk({
+  	clientID: '0ef89257a5aaf8e30d52',
+  	clientSecret: 'fcc38e5edb5ca701d67e470fb489d9b3a2ff26dd',
+  	repo: 'cungudafa.top',
+  	owner: 'cungudafa',
+  	admin: ['cungudafa'],
+    id: window.location.pathname
+})
+gitalk.render('gitalk-container') 
+</script>
+
+
       <!-- body.end -->
     </div>
     <!-- search -->    
