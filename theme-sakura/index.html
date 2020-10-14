@@ -434,7 +434,7 @@
   	repo: 'cungudafa.github.io',
   	owner: 'cungudafa',
   	admin: ['cungudafa'],
-    id: window.location.pathname
+    id: md5(location.pathname)
 })
 gitalk.render('gitalk-container') 
 </script>
